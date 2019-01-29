@@ -8,7 +8,7 @@ This page is a work in progress.  Register and mode names are unofficial, I trie
 Format is RBGRBGRBGRBGRBG.  Each Aura controller supports up to 5 outputs.
 
 # **AURA_REG_DIRECT** 0x8020
-Set this register to 0 for Aura controller effects, set to 1 to directly set colors using AURA_REG_COLORS
+Set this register to 0 for Aura controller internally generated effects, set to 1 to directly set colors.  The two modes use different color banks - AURA_REG_COLORS_EFFECT if set 0 and AURA_REG_COLORS_DIRECT if set 1.
 
 # **AURA_REG_MODE** 0x8021
 This register selects the Aura controller effect.  It is ignored if AURA_REG_DIRECT is set to 1.  It accepts the following values:
