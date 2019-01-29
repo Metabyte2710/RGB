@@ -36,8 +36,11 @@ Lights chase across the 5 channels with a fade out effect.
 ### 8 **AURA_MODE_SPECTRUM_CYCLE_CHASE_FADE**
 Same as Chase Fade effect, but every pulse increments slightly through the color spectrum.
 
-### 9 **AURA_MODE_SPECTRUM_CYCLE_CHASE**
-Lights flash across the 5 channels with no fade out effect, but every pulse increments slightly through the color spectrum.
+### 9 **AURA_MODE_CHASE**
+Lights flash across the 5 channels with no fade out effect.
+
+### 10 **AURA_MODE_SPECTRUM_CYCLE_CHASE**
+Same as Chase effect, but every pulse increments slightly through the color spectrum.
 
 ### 11 **AURA_MODE_SPECTRUM_CYCLE_WAVE**
 A slower, wider version of the chase fade effect, with increments slightly through the color spectrum.
