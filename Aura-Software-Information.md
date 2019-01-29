@@ -31,3 +31,7 @@ Smart and Music definitely do, as they are reactive to external inputs
 Effects may be implemented in software for synchronization purposes?
 
 Is there a speed register for built-in effects?
+
+The off switch simply sets direct mode and clears all the direct color registers:
+
+![Capture](uploads/99078ea404c27c0bde7052e5b3088a43/Capture.PNG)
