@@ -8,6 +8,8 @@ Some chipsets (such as the AMD X370) have multiple SMBus interfaces.  During our
 
 Aura controllers appear to use an internal register layout.  There are internal addresses.  They appear to use a reversed byte ordering from the Linux i2c-tools.
 
+For 8-bit I<sup>2</sup>C device ID **dev** and 16-bit register address **reg**:
+
 Write:
 
 ```
