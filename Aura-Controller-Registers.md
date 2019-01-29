@@ -1,10 +1,13 @@
 This page is a work in progress.  Register and mode names are unofficial, I tried to name them based on what I think they do.  They're subject to change as well, though the values should be good.
 
 # **AURA_REG_COLORS_DIRECT** 0x8000
-15 bytes of color data to this address for direct color control (AURA_REG_DIRECT = 1).  Format is RBGRBGRBGRBGRBG.  Each Aura controller supports up to 5 outputs.
+15 bytes of color data beginning at this address for direct color control (AURA_REG_DIRECT = 1).
+
+Format is RBGRBGRBGRBGRBG.  Each Aura controller supports up to 5 outputs.
 
 # **AURA_REG_COLORS_EFFECT** 0x8010
 15 bytes of color data beginning at this address for internal effects color control (AURA_REG_DIRECT = 0).
+
 Format is RBGRBGRBGRBGRBG.  Each Aura controller supports up to 5 outputs.
 
 # **AURA_REG_DIRECT** 0x8020
