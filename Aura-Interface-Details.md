@@ -5,3 +5,35 @@ On motherboards, the SMBus master is usually part of the chipset.  Windows does 
 Since Windows does not provide useful SMBus drivers, we need to provide our own user-mode drivers for all the SMBus controllers we intend to support.  Luckily, the Linux source code has I<sup>2</sup>C/SMBus drivers for a wide variety of chipsets we can borrow.  The [inpout32 library](http://www.highrez.co.uk/downloads/inpout32/) allows Windows programs to access "I/O port" memory regions on x86/x64 processors.  This memory region is where the memory-mapped control registers for most SMBus controllers reside.  Combining the Linux i2c source code with inpout32 to set the registers we can port SMBus controller drivers to Windows.  I have already done so for the i2c_smbus_piix4 driver as that's what my AMD X370 chipset uses.
 
 Some chipsets (such as the AMD X370) have multiple SMBus interfaces.  During our reverse engineering efforts, we discovered that there were two identical register sets at 0xB000 and 0xB020 on the X370, with the RAM SMBus on 0xB000 and the onboard Aura controller SMBus on 0xB020.  The Linux driver didn't see this second bus but a quick kernel hack later and it was working.  Luckily on our user-space Windows driver we can just edit the base register address to talk to both buses.
+
+Aura controllers appear to use an internal register layout.  There are internal addresses.  They appear to use a reversed byte ordering from the Linux i2c-tools.
+
+Write:
+
+```
+    //Write Aura register
+    bus->i2c_smbus_write_word_data(dev, 0x00, ((reg << 8) & 0xFF00) | ((reg >> 8) & 0x00FF));
+
+    //Write Aura value
+    bus->i2c_smbus_write_byte_data(dev, 0x01, val);
+```
+
+Read:
+
+```
+    //Write Aura register
+    bus->i2c_smbus_write_word_data(dev, 0x00, ((reg << 8) & 0xFF00) | ((reg >> 8) & 0x00FF));
+
+    //Read Aura value
+    return(bus->i2c_smbus_read_byte_data(dev, 0x81));
+```
+
+Write colors block:
+
+```
+    //Write Aura register (0x8000 for colors)
+    bus->i2c_smbus_write_word_data(dev, 0x00, ((AURA_REG_COLORS << 8) & 0xFF00) | ((AURA_REG_COLORS >> 8) & 0x00FF));
+
+    //Write Aura color array
+    bus->i2c_smbus_write_block_data(dev, 0x03, 15, colors);
+```
