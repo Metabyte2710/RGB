@@ -61,8 +61,8 @@ Seemingly random flickers of light across the 5 channels, with increments slight
 # **AURA_REG_APPLY** 0x80A0
 Write a 1 to this register to apply the settings in the other registers.  Changes do not apply immediately.
 
-# **AURA_REG_SLOT_NUM** 0x80F8
+# **AURA_REG_SLOT_INDEX** 0x80F8
 This register is the index of the RAM slot for Aura enabled RAM sticks
 
-# **AURA_REG_I2C_ADDR** 0x80F9
+# **AURA_REG_I2C_ADDRESS** 0x80F9
 This register contains the I2C address of the Aura controller for Aura enabled RAM sticks.  The value is shifted to the left by 1.  Default value is 0xEE, which means that when powered on from a cold boot, all the Aura RAM controllers will be on I2C address 0x77 (0x77 << 1 == 0xEE).  You can then remap the sticks by first writing the slot index to 0x80F8 and then the I2C address to 0x80F9.  Repeat for all slots.
