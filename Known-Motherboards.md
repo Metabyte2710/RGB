@@ -47,3 +47,9 @@ I2C Driver: i2c_smbus_piix4, at 0x0B00 and 0x0B20
 I2C Addresses: 0x4E (motherboard Aura)
 
 LED EC Version: AUMA0-E6K5-0105
+
+## ASUS ROG RAMPAGE VI Extreme
+
+LED EC Version: AUMA0-E6K5-0105
+
+LED EC Version 2: AULA-S072-0201
