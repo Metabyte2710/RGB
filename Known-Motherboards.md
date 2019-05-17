@@ -53,3 +53,9 @@ LED EC Version: AUMA0-E6K5-0105
 LED EC Version: AUMA0-E6K5-0105
 
 LED EC Version 2: AULA-S072-0201
+
+## ASUS PRIME Z270-A
+
+Chipset:  Intel Z270
+
+LED EC Version:
