@@ -56,6 +56,10 @@ LED EC Version 2: AULA-S072-0201
 
 ## ASUS PRIME Z270-A
 
-Chipset:  Intel Z270
+Chipset:  Intel Z270, Nuvoton NCT6793D
 
-LED EC Version:
+I2C Driver: i2c_smbus_i810, i2c_smbus_nuvoton_nct6793d (at 0x2C0)
+
+I2C Addresses: 0x4E (motherboard Aura)
+
+LED EC Version: LED-0116
