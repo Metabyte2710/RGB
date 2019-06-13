@@ -63,3 +63,13 @@ I2C Driver: i2c_smbus_i810, i2c_smbus_nuvoton_nct6793d (at 0x2C0)
 I2C Addresses: 0x4E (motherboard Aura)
 
 LED EC Version: LED-0116
+
+## ASUS ROG Strix Z370-E
+
+Chipset:  Intel Z370, Nuvoton NCT6798D
+
+I2C Addresses: 0x4E (motherboard Aura)
+
+LED EC Version: AUMA0-E6K5-0106
+
+LED EC Version 2: AULA2-S072-0101
