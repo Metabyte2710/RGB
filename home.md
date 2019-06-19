@@ -1,5 +1,17 @@
 The goal of this project is to create an easy-to-use open source software program and library for accessing and controlling ASUS Aura RGB devices on motherboards and RAM modules. The ASUS Aura controller appears to be used on RAM products such as G.Skill's Trident Z RGB. Ideally we would be able to get AURA working on both Windows and Linux. This project has been spun off of Keyboard Visualizer's AsusAuraWindows branch.
 
+Tested Motherboards:
+
+* ASUS PRIME X370-Pro
+* ASUS PRIME Z270-A
+
+Tested RAM:
+
+* G.Skill Trident Z RGB
+* Geil Super Luce
+* Team T-Force Delta RGB
+* Corsair Vengeance RGB (experimental support)
+
 ## [Aura Interface Details](Aura-Interface-Details)
 
 The Aura controllers use the SMBus interface.  It also appears that some boards use a USB interface, particularly those with an addressable RGB header.  Those controllers are not covered by this project yet.
