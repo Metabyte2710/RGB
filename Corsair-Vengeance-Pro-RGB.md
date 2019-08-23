@@ -1,3 +1,5 @@
+![20190630_122720](/uploads/c45540b398b97d3e89bbb61d984426cd/20190630_122720.jpg)
+
 The Corsair Vengeance Pro RGB memory enumerates an SMBus device in the address range 0x58-0x5D.  This device uses a command based communication protocol, where a defined command packet is issued to a single SMBus address.  The device also has a completion flag that must be polled after issuing a command.  The device will not accept another command until the flag has cleared.
 
 To start a command, two bytes are written before writing to the command register.  This start frame indicates which command format will be sent.
