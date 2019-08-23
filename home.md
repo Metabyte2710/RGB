@@ -11,6 +11,7 @@ Tested RAM:
 * Geil Super Luce
 * Team T-Force Delta RGB
 * Corsair Vengeance RGB (experimental support)
+* Corsair Vengeance Pro RGB (experimental support)
 * HyperX Predator RGB (experimental support)
 
 ## [Aura Interface Details](Aura-Interface-Details)
