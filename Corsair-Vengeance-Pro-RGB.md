@@ -61,3 +61,50 @@ Modes
 | 0x07 | Marquee | S/M/F | Single | None |
 | 0x08 | Rainbow | S/M/F | None | None |
 | 0x09 | Sequential | S/M/F | Random/Single | Up/Down |
+
+** Set Colors Packet **
+
+The Set Colors packet sets the individual colors for each of the module's 10 RGB LEDs.
+
+| Byte | Function |
+| ------ | ------ |
+| 0x00 | LED 1 Red |
+| 0x01 | LED 1 Green |
+| 0x02 | LED 1 Blue |
+| 0x03 | Fixed 0xFF |
+| 0x04 | LED 2 Red |
+| 0x05 | LED 2 Green |
+| 0x06 | LED 2 Blue |
+| 0x07 | Fixed 0xFF |
+| 0x08 | LED 3 Red |
+| 0x09 | LED 3 Green |
+| 0x0A | LED 3 Blue |
+| 0x0B | Fixed 0xFF |
+| 0x0C | LED 4 Red |
+| 0x0D | LED 4 Green |
+| 0x0E | LED 4 Blue |
+| 0x0F | Fixed 0xFF |
+| 0x10 | LED 5 Red |
+| 0x11 | LED 5 Green |
+| 0x12 | LED 5 Blue |
+| 0x13 | Fixed 0xFF |
+| 0x14 | LED 6 Red |
+| 0x15 | LED 6 Green |
+| 0x16 | LED 6 Blue |
+| 0x17 | Fixed 0xFF |
+| 0x18 | LED 7 Red |
+| 0x19 | LED 7 Green |
+| 0x1A | LED 7 Blue |
+| 0x1B | Fixed 0xFF |
+| 0x1C | LED 8 Red |
+| 0x1D | LED 8 Green |
+| 0x1E | LED 8 Blue |
+| 0x1F | Fixed 0xFF |
+| 0x20 | LED 9 Red |
+| 0x21 | LED 9 Green |
+| 0x22 | LED 9 Blue |
+| 0x23 | Fixed 0xFF |
+| 0x24 | LED 10 Red |
+| 0x25 | LED 10 Green |
+| 0x26 | LED 10 Blue |
+| 0x27 | Fixed 0xFF |
