@@ -18,3 +18,29 @@ The complete send sequence looks like this:
 
 Finally, the software reads the register 0x41 and waits until it returns 0x00.  This indicates the controller has accepted the command and is ready for the next command.
 
+**Set Mode Packet**
+
+The Set Mode packet sets the controller's effect, speed, direction, and effect colors.
+
+| Byte | Function |
+| ------ | ------ |
+| 0x00 | Mode |
+| 0x01 | Speed | 
+| 0x02 | Custom color |
+| 0x03 | Direction |
+| 0x04 | Custom color 1 Red |
+| 0x05 | Custom color 1 Green |
+| 0x06 | Custom color 1 Blue |
+| 0x07 | 0xFF |
+| 0x08 | Custom color 2 Red |
+| 0x09 | Custom color 2 Green |
+| 0x0A | Custom color 2 Blue |
+| 0x0B | 0xFF |
+| 0x0C | 0x00 |
+| 0x0D | 0x00 |
+| 0x0E | 0x00 |
+| 0x0F | 0x00 |
+| 0x10 | 0x00 |
+| 0x11 | 0x00 |
+| 0x12 | 0x00 |
+| 0x13 | 0x00 |
