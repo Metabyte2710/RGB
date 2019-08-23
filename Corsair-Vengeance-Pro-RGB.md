@@ -61,10 +61,11 @@ Modes
 | 0x07 | Marquee | S/M/F | Single | None |
 | 0x08 | Rainbow | S/M/F | None | None |
 | 0x09 | Sequential | S/M/F | Random/Single | Up/Down |
+| 0x10 | Static | N/A | N/A | N/A |
 
-** Set Colors Packet **
+**Set Colors Packet**
 
-The Set Colors packet sets the individual colors for each of the module's 10 RGB LEDs.
+The Set Colors packet sets the individual colors for each of the module's 10 RGB LEDs.  These colors are used when the controller is set to Static mode (0x10).  In the other effect modes, these colors are ignored.  They appear to be stored in a separate bank, as switching from Static mode to an effect mode and back to Static mode displays the original colors.
 
 | Byte | Function |
 | ------ | ------ |
