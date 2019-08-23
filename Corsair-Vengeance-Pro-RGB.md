@@ -22,28 +22,28 @@ Finally, the software reads the register 0x41 and waits until it returns 0x00.  
 
 The Set Mode packet sets the controller's effect, speed, direction, and effect colors.
 
-| Byte | Function |
-| ------ | ------ |
-| 0x00 | Mode |
-| 0x01 | Speed | 
-| 0x02 | Custom color |
-| 0x03 | Direction |
-| 0x04 | Custom color 1 Red |
-| 0x05 | Custom color 1 Green |
-| 0x06 | Custom color 1 Blue |
-| 0x07 | 0xFF |
-| 0x08 | Custom color 2 Red |
-| 0x09 | Custom color 2 Green |
-| 0x0A | Custom color 2 Blue |
-| 0x0B | 0xFF |
-| 0x0C | 0x00 |
-| 0x0D | 0x00 |
-| 0x0E | 0x00 |
-| 0x0F | 0x00 |
-| 0x10 | 0x00 |
-| 0x11 | 0x00 |
-| 0x12 | 0x00 |
-| 0x13 | 0x00 |
+| Byte | Function | Value |
+| ------ | ------ | ------ |
+| 0x00 | Mode | See Modes table |
+| 0x01 | Speed | 0: Slow, 1: Medium, 2: Fast |
+| 0x02 | Custom color | 0: Random colors, 1: Custom colors |
+| 0x03 | Direction | 0: Up, 1: Down, 2: Left, 3: Right, 1: Vertical, 3: Horizontal |
+| 0x04 | Custom color 1 Red | Used if Custom color is 1 |
+| 0x05 | Custom color 1 Green | Used if Custom color is 1 |
+| 0x06 | Custom color 1 Blue | Used if Custom color is 1 |
+| 0x07 | Fixed | 0xFF |
+| 0x08 | Custom color 2 Red | Used if Custom color is 1 |
+| 0x09 | Custom color 2 Green | Used if Custom color is 1 |
+| 0x0A | Custom color 2 Blue | Used if Custom color is 1 |
+| 0x0B | Fixed | 0xFF |
+| 0x0C | Fixed | 0x00 |
+| 0x0D | Fixed | 0x00 |
+| 0x0E | Fixed | 0x00 |
+| 0x0F | Fixed | 0x00 |
+| 0x10 | Fixed | 0x00 |
+| 0x11 | Fixed | 0x00 |
+| 0x12 | Fixed | 0x00 |
+| 0x13 | Fixed | 0x00 |
 
 Modes
 
