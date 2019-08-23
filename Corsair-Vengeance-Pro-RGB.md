@@ -13,10 +13,10 @@ There are two known command formats:
 
 The complete send sequence looks like this:
 
-1. Write <Command Format> to 0x26
+1. Write \<Command Format\> to 0x26
 2. Write 0x00 to 0x21
 3. Send command packet to 0x20
-4. Write <Command Format> to 0x82
+4. Write \<Command Format\> to 0x82
 
 Finally, the software reads the register 0x41 and waits until it returns 0x00.  This indicates the controller has accepted the command and is ready for the next command.
 
