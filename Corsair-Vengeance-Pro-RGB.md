@@ -44,3 +44,18 @@ The Set Mode packet sets the controller's effect, speed, direction, and effect c
 | 0x11 | 0x00 |
 | 0x12 | 0x00 |
 | 0x13 | 0x00 |
+
+Modes
+
+| Value | Name | Speeds | Custom Colors | Directions |
+| ------ | ------ | ------ | ------ | ------ |
+| 0x00 | Color Shift | S/M/F | Random/Alternating | None |
+| 0x01 | Color Pulse | S/M/F | Random/Alternating | None |
+| 0x02 | ? | ? | ? | ? |
+| 0x03 | Rainbow Wave | S/M/F | None | Up/Down/Left/Right |
+| 0x04 | Color Wave | S/M/F | Random/Alternating | Up/Down/Left/Right |
+| 0x05 | Visor | S/M/F | Random/Alternating | Horizontal/Vertical |
+| 0x06 | Rain | S/M/F | Random/Alternating | Up/Down |
+| 0x07 | Marquee | S/M/F | Single | None |
+| 0x08 | Rainbow | S/M/F | None | None |
+| 0x09 | Sequential | S/M/F | Random/Single | Up/Down |
