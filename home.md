@@ -12,7 +12,7 @@ Tested RAM:
 * Team T-Force Delta RGB
 * Corsair Vengeance RGB ([experimental support](Corsair-Vengeance-RGB))
 * Corsair Vengeance Pro RGB ([experimental support](Corsair-Vengeance-Pro-RGB))
-* HyperX Predator RGB (experimental support)
+* HyperX Predator RGB ([experimental support](HyperX-Predator-RGB))
 
 ## [Aura Interface Details](Aura-Interface-Details)
 
