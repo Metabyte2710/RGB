@@ -10,3 +10,15 @@ The HyperX Predator RGB memory enumerates an SMBus device at the address 0x27.  
 | 0xXX | 0xXX | Message contents |
 | 0xE1 | 0x02 | End of message byte 1 |
 | 0xE1 | 0x03 | End of message byte 2 |
+
+**Commands**
+
+| Write Command | Function |
+| ------ | ------ |
+| 0x0D | Brightness (0-100) |
+| 0xE1 | Message framing (see above) |
+| 0xE3 | Mode Control 1 |
+| 0xE4 | Mode Control 2 |
+| 0xEC | Red |
+| 0xED | Green |
+| 0xEE | Blue |
