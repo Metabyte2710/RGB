@@ -3,7 +3,11 @@ The goal of this project is to create an easy-to-use open source software progra
 Tested Motherboards:
 
 * ASUS PRIME X370-Pro
+* ASUS PRIME X470-Pro
+* ASUS PRIME B450M-Gaming
 * ASUS PRIME Z270-A
+* ASUS PRIME Z370-A
+* ASUS ROG Strix Z370-E
 
 Tested RAM:
 
