@@ -15,6 +15,7 @@ Tested RAM:
 * G.Skill Trident Z RGB
 * Geil Super Luce
 * Team T-Force Delta RGB
+* OLOy WarHawk RGB
 * Corsair Vengeance RGB ([experimental support](Corsair-Vengeance-RGB))
 * Corsair Vengeance Pro RGB ([experimental support](Corsair-Vengeance-Pro-RGB))
 * HyperX Predator RGB ([experimental support](HyperX-Predator-RGB))
