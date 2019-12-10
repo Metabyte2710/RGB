@@ -8,6 +8,7 @@ Tested Motherboards:
 * ASUS PRIME B450M-Gaming
 * ASUS PRIME Z270-A
 * ASUS PRIME Z370-A
+* ASUS ROG Strix B450-F Gaming
 * ASUS ROG Strix Z370-E
 
 Tested RAM:
