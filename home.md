@@ -22,6 +22,20 @@ Tested RAM:
 * Corsair Vengeance Pro RGB ([experimental support](Corsair-Vengeance-Pro-RGB))
 * HyperX Predator RGB ([experimental support](HyperX-Predator-RGB))
 
+Other projects integrated in generic RGB interface branch:
+
+* Razer Chroma SDK (Windows)
+* OpenRazer (Linux)
+* E1.31 (Linux)
+* KeyboardVisualizer Arduino LED strips
+
+Under investigation, not yet working:
+
+* Gigabyte Aorus X370 Gaming 5 (RGB Fusion 1.0)
+* AMD Wraith Prism
+* Gigabyte Aorus Xtreme GTX1080Ti Waterforce
+* TTEsports Poseidon Z RGB
+
 ## [Aura Interface Details](Aura-Interface-Details)
 
 The Aura controllers use the SMBus interface.  It also appears that some boards use a USB interface, particularly those with an addressable RGB header.  Those controllers are not covered by this project yet.
