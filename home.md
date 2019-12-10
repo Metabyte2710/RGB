@@ -1,4 +1,4 @@
-The goal of this project is to create an easy-to-use open source software program and library for accessing and controlling ASUS Aura RGB devices on motherboards and RAM modules. The ASUS Aura controller appears to be used on RAM products such as G.Skill's Trident Z RGB. Ideally we would be able to get AURA working on both Windows and Linux. This project has been spun off of Keyboard Visualizer's AsusAuraWindows branch.
+The goal of this project is to create an easy-to-use open source software program and library for accessing and controlling RGB lights on various PC hardware including ASUS Aura RGB devices on motherboards and RAM modules. The ASUS Aura controller appears to be used on RAM products such as G.Skill's Trident Z RGB. Ideally we would be able to get AURA working on both Windows and Linux. This project has been spun off of Keyboard Visualizer's AsusAuraWindows branch.  While this project initially focused only on Asus Aura, it has grown to cover many other devices which also use the SMBus interface.  This Wiki is a place to document the reverse engineering efforts and protocols for various devices.
 
 Tested Motherboards:
 
