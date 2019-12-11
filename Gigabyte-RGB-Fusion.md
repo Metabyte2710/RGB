@@ -26,3 +26,4 @@ Gigabyte's first generation RGB Fusion enabled motherboards use an ITE IT7236AFN
 | ----- | ------ |
 | 0x10 | Static |
 | 0x11 | Pulsing |
+| 0x12 | Flashing |
