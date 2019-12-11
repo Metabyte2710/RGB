@@ -6,6 +6,8 @@ https://github.com/EUA/AsrLed
 Reading three bytes from address 0x00 gets the firmware version.  The first byte read should be 0x02, then the second and third bytes are the major and minor version numbers, respectively.
 
 ## Modes
+Address 0x30 is the mode setting address.  The current mode can be read by reading two bytes from this address.  The second byte contains the mode.  A new mode is set by writing a new mode value to it.
+
 | Mode | Description |
 | ------ | ------ |
 | 0x10 | Off |
