@@ -1,0 +1,2 @@
+Gigabyte's first generation RGB Fusion enabled motherboards use an ITE IT7236AFN microcontroller to control their two-zone RGB lighting system.  This microcontroller attaches to the system via SMBus and enumerates at address 0x28.  The protocol appears to be register mapped with a bank selection register (0xF0) to expand the I/O address space.  Banks 0 and 1 are used in the commands to set modes.
+
