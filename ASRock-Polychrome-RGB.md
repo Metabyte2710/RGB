@@ -2,6 +2,9 @@ ASRock's Polychrome RGB motherboard lighting system uses a Nuvoton N76E885AT20 c
 
 https://github.com/EUA/AsrLed
 
+## Firmware Version
+Reading three bytes from address 0x00 gets the firmware version.  The first byte read should be 0x02, then the second and third bytes are the major and minor version numbers, respectively.
+
 ## Modes
 | Mode | Description |
 | ------ | ------ |
