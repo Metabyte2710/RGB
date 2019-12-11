@@ -2,11 +2,15 @@ ASRock's Polychrome RGB motherboard lighting system uses a Nuvoton N76E885AT20 c
 
 https://github.com/EUA/AsrLed
 
-## Firmware Version
-Reading three bytes from address 0x00 gets the firmware version.  The first byte read should be 0x02, then the second and third bytes are the major and minor version numbers, respectively.
+Register addresses appear to operate as multi-byte values.  Reading one byte from a register address indicates the size, in bytes, of the value it stores.  Reading additional bytes retrieves the data.  To write to a register address, a block transfer of the given size is used.
+
+## Register Addresses
+| Address | Size | Function |
+| ------ | ------ | ------ |
+| 0x00 | 2 | Firmware Version <Major>.<Minor> |
+| 0x30 | 1 | Mode |
 
 ## Modes
-Address 0x30 is the mode setting address.  The current mode can be read by reading two bytes from this address.  The second byte contains the mode.  A new mode is set by writing a new mode value to it.
 
 | Mode | Description |
 | ------ | ------ |
