@@ -1,6 +1,6 @@
-## [Aura Interface Details](Aura-Interface-Details)
+## Aura Interface
 
-The Aura controllers use the SMBus interface.  It also appears that some boards use a USB interface, particularly those with an addressable RGB header and X570 generation boards.  These USB controllers are not covered by this project yet.
+The Aura controllers use the [SMBus](SMBus-Interface-Details) interface.  It also appears that some boards use a USB interface, particularly those with an addressable RGB header and X570 generation boards.  These USB controllers are not covered by this project yet.
 
 ## [Aura Controller Registers](Aura-Controller-Registers)
 
