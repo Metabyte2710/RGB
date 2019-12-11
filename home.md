@@ -1,4 +1,4 @@
-## OpenRGB (formerly OpenAuraSDK)
+## ![OpenRGB](uploads/5b7e633ac9f63b00c8a4c72686206c3f/OpenRGB.png) (formerly OpenAuraSDK)
 
 The goal of this project is to create an easy-to-use open source software program and library for accessing and controlling RGB lights on various PC hardware including motherboards, RAM modules, graphics cards, cooling devices, and peripherals.
 
