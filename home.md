@@ -42,7 +42,7 @@ Aura RAM:
 
 ## Under investigation, not yet working:
 
-* Gigabyte Aorus X370 Gaming 5 (RGB Fusion 1.0)
+* Gigabyte Aorus X370 Gaming 5 [RGB Fusion 1.0](Gigabyte-RGB-Fusion)
 * AMD Wraith Prism
 * Gigabyte Aorus Xtreme GTX1080Ti Waterforce
 * TTEsports Poseidon Z RGB
