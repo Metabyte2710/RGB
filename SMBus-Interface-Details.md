@@ -7,37 +7,3 @@ Since Windows does not provide useful SMBus drivers, we need to provide our own 
 Some chipsets (such as the AMD X370) have multiple SMBus interfaces.  During our reverse engineering efforts, we discovered that there were two identical register sets at 0x0B00 and 0x0B20 on the X370, with the RAM SMBus on 0x0B00 and the motherboard RGB controller attached to the secondary SMBus on 0x0B20.  The Linux driver didn't see this second bus but a quick kernel change later and it was working.  Luckily on our user-space Windows driver we can just edit the base register address to talk to both buses.
 
 Intel chipsets appear to only have a single SMBus interface.  This interface is used to communicate with the RAM on all motherboards.  In Asus' case, they decided to use the SMBus controller built into the Nuvoton Super I/O chip for the motherboard Aura controller.  Unfortunately, Linux does not provide drivers for the SMBus interface on the Super IO controller, so I wrote a new driver from scratch using information from the datasheet.  This driver works on Windows and is provided as a kernel patch for Linux.
-
-Aura controllers appear to use an internal register layout.  There are internal addresses.  They appear to use a reversed byte ordering from the Linux i2c-tools.
-
-For 8-bit I<sup>2</sup>C device ID **dev** and 16-bit register address **reg**:
-
-Write:
-
-```
-    //Write Aura register
-    bus->i2c_smbus_write_word_data(dev, 0x00, ((reg << 8) & 0xFF00) | ((reg >> 8) & 0x00FF));
-
-    //Write Aura value
-    bus->i2c_smbus_write_byte_data(dev, 0x01, val);
-```
-
-Read:
-
-```
-    //Write Aura register
-    bus->i2c_smbus_write_word_data(dev, 0x00, ((reg << 8) & 0xFF00) | ((reg >> 8) & 0x00FF));
-
-    //Read Aura value
-    return(bus->i2c_smbus_read_byte_data(dev, 0x81));
-```
-
-Write colors block:
-
-```
-    //Write Aura register (0x8000 for colors)
-    bus->i2c_smbus_write_word_data(dev, 0x00, ((AURA_REG_COLORS << 8) & 0xFF00) | ((AURA_REG_COLORS >> 8) & 0x00FF));
-
-    //Write Aura color array
-    bus->i2c_smbus_write_block_data(dev, 0x03, 15, colors);
-```
