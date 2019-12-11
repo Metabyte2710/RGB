@@ -7,7 +7,7 @@ Register addresses appear to operate as multi-byte values.  Reading one byte fro
 ## Register Addresses
 | Address | Size | Function |
 | ------ | ------ | ------ |
-| 0x00 | 2 | Firmware Version <Major>.<Minor> |
+| 0x00 | 2 | Firmware Version Major.Minor |
 | 0x30 | 1 | Mode |
 
 ## Modes
