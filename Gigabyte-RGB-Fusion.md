@@ -29,6 +29,7 @@ Registers can be read from using the standard SMBus read functionality.  You can
 
 ## Modes
 The modes are read out of the mode register as the values below, but to write the modes to the mode register you must add the offset 0x10.  This is shown in the Write Value column.
+
 | Value | Description | Write Value |
 | ----- | ------ | ----- |
 | 0x00 | Static | 0x10 |
