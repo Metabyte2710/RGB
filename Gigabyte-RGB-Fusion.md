@@ -28,8 +28,9 @@ Registers can be read from using the standard SMBus read functionality.  You can
 | 0x13 | Channel 1 Mode Selection |
 
 ## Modes
-| Value | Description |
-| ----- | ------ |
-| 0x10 | Static |
-| 0x11 | Pulsing |
-| 0x12 | Flashing |
+The modes are read out of the mode register as the values below, but to write the modes to the mode register you must add the offset 0x10.  This is shown in the Write Value column.
+| Value | Description | Write Value |
+| ----- | ------ | ----- |
+| 0x00 | Static | 0x10 |
+| 0x01 | Pulsing | 0x11 |
+| 0x02 | Flashing | 0x12 |
