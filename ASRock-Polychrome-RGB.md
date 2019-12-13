@@ -11,14 +11,15 @@ Register addresses appear to operate as multi-byte values.  Reading one byte fro
 | 0x30 | 1 | Mode |
 
 ## Modes
+To enable a mode, write the mode value to the mode register (0x30).  To set the colors and/or speed for the mode, block write 1-4 bytes to the mode's value (for instance to 0x11 for static).  The number of bytes and format of block is shown in the table below.
 
-| Mode | Description |
-| ------ | ------ |
-| 0x10 | Off |
-| 0x11 | Static |
-| 0x12 | Breathing |
-| 0x13 | Strobe |
-| 0x14 | Cycling |
-| 0x15 | Random |
-| 0x17 | Music |
-| 0x18 | Wave |
+| Mode | Description | Bytes | Data |
+| ------ | ------ | ------ | ------ |
+| 0x10 | Off | 0 | No data |
+| 0x11 | Static | 3 | Red, Green, Blue |
+| 0x12 | Breathing | 4 | Red, Green, Blue, Speed |
+| 0x13 | Strobe | 4 | Red, Green, Blue, Speed |
+| 0x14 | Cycling | 4 | Red, Green, Blue, Speed |
+| 0x15 | Random | 1 | Speed |
+| 0x17 | Music | 3 | Red, Green, Blue |
+| 0x18 | Wave | 1 | Speed |
