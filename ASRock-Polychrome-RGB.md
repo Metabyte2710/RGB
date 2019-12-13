@@ -2,9 +2,9 @@ ASRock's Polychrome RGB motherboard lighting system uses a Nuvoton N76E885AT20 c
 
 https://github.com/EUA/AsrLed
 
+## Register Addresses
 Register addresses appear to operate as multi-byte values.  Reading one byte from a register address indicates the size, in bytes, of the value it stores.  Reading additional bytes retrieves the data.  To write to a register address, a block transfer of the given size is used.
 
-## Register Addresses
 | Address | Size | Function |
 | ------ | ------ | ------ |
 | 0x00 | 2 | Firmware Version Major.Minor |
