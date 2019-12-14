@@ -48,3 +48,4 @@ Aura RAM:
 * TTEsports Poseidon Z RGB
 * ASRock Fatal1ty B350 Gaming-ITX/ac ([ASRock Polychrome RGB](ASRock-Polychrome-RGB))
 * Look into MSI support: https://github.com/nagisa/msi-rgb
+* NZXT Hue+ - Code merged in from KeyboardVisualizer but untested
