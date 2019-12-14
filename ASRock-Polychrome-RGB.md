@@ -2,6 +2,10 @@ ASRock's Polychrome RGB motherboard lighting system uses a Nuvoton N76E885AT20 c
 
 https://github.com/EUA/AsrLed
 
+Based on this comment: https://gitlab.com/CalcProgrammer1/OpenAuraSDK/issues/35#note_260299163, it looks like ASRock's first boards didn't actually use the Polychrome RGB branding and instead were called ASR LED.  The protocol changed slightly in the later firmware revisions, which were used on boards with the Polychrome branding.  More information can be found here:
+
+https://github.com/RattyDAVE/asrock-leds/blob/master/NOTES.md
+
 ## Register Addresses
 Register addresses appear to operate as multi-byte values.  Reading one byte from a register address indicates the size, in bytes, of the value it stores.  Reading additional bytes retrieves the data.  To write to a register address, a block transfer of the given size is used.
 
