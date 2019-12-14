@@ -1,6 +1,6 @@
-## Aura Interface
+![AsusZ270Prime-A](uploads/7e85b9c03aaec294a2e38b9f5c4886f0/AsusZ270Prime-A.jpg)
 
-The Aura controllers use the [SMBus](SMBus-Interface-Details) interface.  It also appears that some boards use a USB interface, particularly those with an addressable RGB header and X570 generation boards.  These USB controllers are not covered by this project yet.
+ASUS's Aura lighting system uses one or more custom AURA controllers on [SMBus](SMBus-Interface-Details).  Most boards have the controller enumerate at address 0x4E, though some boards use other addresses.  It also appears that some boards use a USB interface, particularly those with an addressable RGB header and X570 generation boards.  These USB controllers are not covered by this project yet.
 
 Aura controllers appear to use an internal register layout.  There are internal addresses.  They appear to use a reversed byte ordering from the Linux i2c-tools.
 
