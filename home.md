@@ -6,7 +6,7 @@ This project originally focused only on ASUS Aura.  It was spun off of Keyboard 
 
 After getting a solid Aura implementation, the project branched out into other manufacturers and categories of RGB devices.  A major focus was to develop a software API that could reliably represent as many RGB devices as possible, exposing their various modes and describing their LED layouts via zones, that was generic enough to write a user application without specifically targeting any one manufacturer.  To this extent, the generic_rgb_interface_test branch was created which became the foundation of OpenRGB.  The goal of OpenRGB is to both develop new drivers for unsupported devices and integrate existing open source drivers for devices that do have some sort of open support.  The goal is to be the one-stop solution to open source RGB lighting control!
 
-## [ASUS Aura Devices](ASUS-Aura-Overview):
+## [ASUS Aura](ASUS-Aura-Overview):
 
 Motherboards:
 
@@ -27,7 +27,7 @@ Aura RAM:
 * OLOy WarHawk RGB
 * ADATA SPECTRIX RGB
 
-## Gigabyte Aorus RGB Fusion 1.0 Devices ([experimental support](Gigabyte-RGB-Fusion-1.0)):
+## Gigabyte Aorus RGB Fusion 1.0 ([experimental support](Gigabyte-RGB-Fusion-1.0)):
 
 Motherboards:
 * Gigabyte Aorus X370 Gaming 5
