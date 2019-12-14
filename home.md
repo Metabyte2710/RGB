@@ -27,6 +27,11 @@ Aura RAM:
 * OLOy WarHawk RGB
 * ADATA SPECTRIX RGB
 
+## Gigabyte Aorus RGB Fusion 1.0 Devices [experimental support](Gigabyte-RGB-Fusion-1.0):
+
+Motherboards:
+* Gigabyte Aorus X370 Gaming 5
+
 ## Non-Aura RAM
 
 * Corsair Vengeance RGB ([experimental support](Corsair-Vengeance-RGB))
@@ -42,7 +47,6 @@ Aura RAM:
 
 ## Under investigation, not yet working:
 
-* Gigabyte Aorus X370 Gaming 5 ([RGB Fusion 1.0](Gigabyte-RGB-Fusion-1.0))
 * AMD Wraith Prism
 * Gigabyte Aorus Xtreme GTX1080Ti Waterforce
 * TTEsports Poseidon Z RGB
