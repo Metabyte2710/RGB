@@ -27,7 +27,7 @@ Aura RAM:
 * OLOy WarHawk RGB
 * ADATA SPECTRIX RGB
 
-## Gigabyte Aorus RGB Fusion 1.0 Devices [experimental support](Gigabyte-RGB-Fusion-1.0):
+## Gigabyte Aorus RGB Fusion 1.0 Devices ([experimental support](Gigabyte-RGB-Fusion-1.0)):
 
 Motherboards:
 * Gigabyte Aorus X370 Gaming 5
