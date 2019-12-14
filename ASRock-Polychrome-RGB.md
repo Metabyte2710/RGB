@@ -44,7 +44,7 @@ Register addresses appear to multi-byte values.  Reading one byte from a registe
 | 0x34 | 3 | Color (Red, Green, Blue) |
 
 ## Modes
-To enable a mode, write the mode value to the mode register (0x30).  To set the speed for the mode, block write 1 byte to the mode's value (for instance to 0x11 for static).  To set the colors for the mode, block write 3 bytes (Red, Green, Blue) to the color register (0x34).
+To enable a mode, write the mode value to the mode register (0x30).  To set the speed for the mode, block write 1 byte to the mode's value (for instance to 0x11 for static).  To set the colors for the mode, block write 3 bytes (Red, Green, Blue) to the color register (0x34).  Cycling, random, and rainbow modes do not use the color register.
 
 | Mode | Description | Bytes | Data |
 | ------ | ------ | ------ | ------ |
