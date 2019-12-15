@@ -2,39 +2,17 @@
 
 ASUS's Aura lighting system uses one or more custom AURA controllers on [SMBus](SMBus-Interface-Details).  Most boards have the controller enumerate at address 0x4E, though some boards use other addresses.  It also appears that some boards use a USB interface, particularly those with an addressable RGB header and X570 generation boards.  These USB controllers are not covered by this project yet.
 
-Aura controllers appear to use an internal register layout.  There are internal addresses.  They appear to use a reversed byte ordering from the Linux i2c-tools.
+Aura controllers use a modified memory-mapped control scheme where the standard 8-bit SMBus controller registers are used to write to an expanded 16-bit Aura controller address space.  The control registers for the Aura system are mapped in this 16-bit address space.
 
-For 8-bit I<sup>2</sup>C device ID **dev** and 16-bit register address **reg**:
+## Aura SMBus Registers
+The Aura SMBus registers are used to communicate with the Aura controller's expanded 16-bit address space.
 
-Write:
-
-```
-    //Write Aura register
-    bus->i2c_smbus_write_word_data(dev, 0x00, ((reg << 8) & 0xFF00) | ((reg >> 8) & 0x00FF));
-
-    //Write Aura value
-    bus->i2c_smbus_write_byte_data(dev, 0x01, val);
-```
-
-Read:
-
-```
-    //Write Aura register
-    bus->i2c_smbus_write_word_data(dev, 0x00, ((reg << 8) & 0xFF00) | ((reg >> 8) & 0x00FF));
-
-    //Read Aura value
-    return(bus->i2c_smbus_read_byte_data(dev, 0x81));
-```
-
-Write colors block:
-
-```
-    //Write Aura register (0x8000 for colors)
-    bus->i2c_smbus_write_word_data(dev, 0x00, ((AURA_REG_COLORS << 8) & 0xFF00) | ((AURA_REG_COLORS >> 8) & 0x00FF));
-
-    //Write Aura color array
-    bus->i2c_smbus_write_block_data(dev, 0x03, 15, colors);
-```
+| Address | Function | Description |
+| ------ | ------ | ------ |
+| 0x00 | 16-bit Address | Write a 16-bit word containing the Aura address to access into this SMBus register before performing reads or writes.  Bytes are written in least significant byte first format, 0xLLHH where LL is low byte and HH is high byte of 16-bit Aura address. |
+| 0x01 | Write Byte | Perform byte writes to 16-bit Aura address space to this register |
+| 0x03 | Write Block | Perform block writes to 16-bit Aura address space to this register |
+| 0x01 | Read Byte | Perform byte reads from 16-bit Aura address space from this register |
 
 ## [Aura Controller Registers](Aura-Controller-Registers)
 
