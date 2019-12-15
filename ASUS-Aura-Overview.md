@@ -9,10 +9,16 @@ The Aura SMBus registers are used to communicate with the Aura controller's expa
 
 | Address | Function | Description |
 | ------ | ------ | ------ |
-| 0x00 | 16-bit Address | Write a 16-bit word containing the Aura address to access into this SMBus register before performing reads or writes.  Bytes are written in least significant byte first format, 0xLLHH where LL is low byte and HH is high byte of 16-bit Aura address. |
+| 0x00 | Write 16-bit Address Pointer | Write a 16-bit word containing the Aura address to access into this SMBus register before performing reads or writes.  Bytes are written in least significant byte first format, 0xLLHH where LL is low byte and HH is high byte of 16-bit Aura address. |
 | 0x01 | Write Byte | Perform byte writes to 16-bit Aura address space to this register |
-| 0x03 | Write Block | Perform block writes to 16-bit Aura address space to this register |
-| 0x01 | Read Byte | Perform byte reads from 16-bit Aura address space from this register |
+| 0x02 | Write Word | Perform word writes to 16-bit Aura address space to this register |
+| 0x03 | Write Block | Perform block writes to 16-bit Aura address space to this register.  The 16-bit Aura address pointer is incremented after each byte |
+| 0x05 | Write Block | Perform block writes to 16-bit Aura address space to this register.  The 16-bit Aura address pointer is NOT incremented after each byte |
+| 0x01 | Read Byte | Perform byte reads from 16-bit Aura address space from this register.  The 16-bit Aura address pointer is incremented after each byte |
+| 0x06 | Read Byte | Perform byte reads from 16-bit Aura address space from this register.  The 16-bit Aura address pointer is NOT incremented after each byte |
+| 0x82 | Read Word | Perform word reads from 16-bit Aura address space from this register |
+| 0x11 | Read 16-bit Address Pointer | Read a 16-bit word containing the Aura address to access from this register.  Bytes are read in least significant byte first format, 0xLLHH where LL is low byte and HH is high byte of 16-bit Aura address. |
+| 0xA0 to 0xBF | Fixed Values | This set of registers returns 0x10 to 0x1F.  This pattern repeats at 0xC0 and 0xE0.  Useful for detecting the presence of an Aura controller |
 
 ## [Aura Controller Registers](Aura-Controller-Registers)
 
