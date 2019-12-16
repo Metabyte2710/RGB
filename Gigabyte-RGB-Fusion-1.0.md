@@ -16,18 +16,18 @@ Registers can be read from using the standard SMBus read functionality.  You can
 ## Bank 0 Registers
 | Address | Function |
 | ------ | ------ |
+| 0x03 | Channel 0 Mode Selection |
+| 0x13 | Channel 1 Mode Selection |
+
+## Bank 1 Registers
+| Address | Function |
+| ------ | ------ |
 | 0x00 | Channel 0 Red |
 | 0x01 | Channel 0 Green |
 | 0x02 | Channel 0 Blue |
 | 0x08 | Channel 1 Red |
 | 0x09 | Channel 1 Green |
 | 0x0A | Channel 1 Blue |
-
-## Bank 1 Registers
-| Address | Function |
-| ------ | ------ |
-| 0x03 | Channel 0 Mode Selection |
-| 0x13 | Channel 1 Mode Selection |
 
 ## Modes
 The modes are read out of the mode register as the values below, but to write the modes to the mode register you must add the offset 0x10.  This is shown in the Write Value column.
