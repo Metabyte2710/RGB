@@ -22,3 +22,16 @@ The HyperX Predator RGB memory enumerates an SMBus device at the address 0x27.  
 | 0xEC | Red |
 | 0xED | Green |
 | 0xEE | Blue |
+
+## Modes
+
+| Value | Mode Selection | Description |
+| ----- | -------------- | ----------- |
+| 0x02  | 0xE4           | Bounce      |
+| 0x03  | 0xE4           | Breathing   |
+| 0x04  | 0xE3           | Cycle       |
+| 0x05  | 0xE3           | Rainbow     |
+| 0x06  | 0xE4           | Blink       |
+| 0x07  | 0xE4           | Heartbeat   |
+| 0x08  | 0xE4           | Comet       |
+| 0x09  | 0xE4           | Static      |
