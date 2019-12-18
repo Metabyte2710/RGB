@@ -27,18 +27,18 @@ Aura RAM:
 * OLOy WarHawk RGB
 * ADATA SPECTRIX RGB
 
-## Gigabyte Aorus RGB Fusion 1.0 ([experimental support](Gigabyte-RGB-Fusion-1.0))
+## [Gigabyte Aorus RGB Fusion 1.0](Gigabyte-RGB-Fusion-1.0)
 
 Motherboards:
 * Gigabyte Aorus X370 Gaming 5
 
 ## Non-Aura RAM
 
-* Corsair Vengeance RGB ([experimental support](Corsair-Vengeance-RGB))
-* Corsair Vengeance Pro RGB ([experimental support](Corsair-Vengeance-Pro-RGB))
-* HyperX Predator RGB ([experimental support](HyperX-Predator-RGB))
+* [Corsair Vengeance RGB](Corsair-Vengeance-RGB)
+* [Corsair Vengeance Pro RGB](Corsair-Vengeance-Pro-RGB)
+* [HyperX Predator RGB](HyperX-Predator-RGB)
 
-## Other projects integrated in generic RGB interface branch
+## Other projects integrated
 
 * Razer Chroma SDK (Windows)
 * OpenRazer (Linux)
