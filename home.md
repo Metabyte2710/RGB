@@ -38,6 +38,10 @@ Motherboards:
 * [Corsair Vengeance Pro RGB](Corsair-Vengeance-Pro-RGB)
 * [HyperX Predator RGB](HyperX-Predator-RGB)
 
+## [NZXT Hue+](NZXT-Hue-Plus)
+
+* Requires specifying "hueplus=COMx" or "hueplus=/dev/ttyACMx" in settings.txt for now.  Autodetection is under investigation.
+
 ## Other projects integrated
 
 * Razer Chroma SDK (Windows)
@@ -52,4 +56,3 @@ Motherboards:
 * TTEsports Poseidon Z RGB
 * ASRock Fatal1ty B350 Gaming-ITX/ac ([ASRock Polychrome RGB](ASRock-Polychrome-RGB))
 * Look into MSI support: https://github.com/nagisa/msi-rgb
-* NZXT Hue+ - Code merged in from KeyboardVisualizer but untested
