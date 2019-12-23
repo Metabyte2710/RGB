@@ -1,6 +1,6 @@
 The NZXT Hue+ is an LED strip controller for PC case lighting.  It connects to the motherboard using USB.  It enumerates a USB serial interface with VID 04D8, PID 00DF (Microchip MCP2200).  The commands are sent to the corresponding serial port.
 
-# Packet Structure
+# Main Packet Structure - 125 Bytes
 
 | Byte index | Function   | Description                         |
 | ---------- | ---------- | ----------------------------------- |
@@ -30,3 +30,20 @@ The NZXT Hue+ is an LED strip controller for PC case lighting.  It connects to t
 | 0x0C       | Wings            |
 | 0x0D       | Wave             |
 | 0x0E       | Direct           |
+
+# Get Number of Strips
+
+## Request - 2 Bytes
+| Byte index | Function   | Description |
+| ---------- | ---------- | ----------- |
+| 0x00       | Fixed 0x8D |             |
+| 0x01       | Channel    | 1 or 2      |
+
+## Response - 5 Bytes
+| Byte index | Function   | Description                       |
+| ---------- | ---------- | --------------------------------- |
+| 0x00       | Fixed 0xC0 |                                   |
+| 0x01       | Fixed 0x36 |                                   |
+| 0x02       | Fixed 0x5F |                                   |
+| 0x03       | Fixed 0x00 |                                   |
+| 0x04       | Strips     | Number of Strips on given Channel |
