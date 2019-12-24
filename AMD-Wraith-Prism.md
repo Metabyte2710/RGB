@@ -70,7 +70,7 @@ This packet edits the settings of an effect channel including mode, speed, brigh
 
 Brightness setting goes from 0x00-0xFF (0x4C, 0x99, 0xFF) in Static and Breathing, 0x00-0x7F (0x10, 0x40, 0x7F) in Color Cycle.
 
-Speed settings (0x3C, 0x37, )
+Speed settings from slow to fast (0x3C, 0x37, 0x31, 0x2C, 0x26)
 
 ## Fan and Logo Modes
 
