@@ -56,7 +56,7 @@ This packet edits the settings of an effect channel including mode, speed, brigh
 | 0x03       | 0x00   |                         |
 | 0x04       | 0x05   | Effect channel to edit  |
 | 0x05       | 0xFF   | Speed (0xFF for static) |
-| 0x06       | 0x00   |                         |
+| 0x06       | 0x00   | Direction (0:CW, 1:CCW) |
 | 0x07       | 0x01   | Mode (Fan and Logo)     |
 | 0x08       | 0xFF   |                         |
 | 0x09       | 0xFF   | Brightness              |
@@ -68,27 +68,32 @@ This packet edits the settings of an effect channel including mode, speed, brigh
 | 0x0F       | 0x00   |                         |
 | 0x10 - end | 0xFF   |                         |
 
-Brightness setting goes from 0x00-0xFF (0x4C, 0x99, 0xFF) in Static and Breathing, 0x00-0x7F (0x10, 0x40, 0x7F) in Color Cycle.
+Brightness setting goes from 0x00-0xFF (0x4C, 0x99, 0xFF) in Static, Breathing, and Rainbow, 0x00-0x7F (0x10, 0x40, 0x7F) in Color Cycle.
 
 Breathing speed settings from slow to fast: 0x3C, 0x37, 0x31, 0x2C, 0x26
 
-Color cycle speed settings from slow to fast: 0x96, 0x8C, 0x80, 6E, 0x68
+Color cycle speed settings from slow to fast: 0x96, 0x8C, 0x80, 0x6E, 0x68
 
 Rainbow speed settings from slow to fast: 0x72, 0x68, 0x64, 0x62, 0x61
+
+Swirl speed settings from slow to fast: 0x77, 0x74, 0x6E, 0x6B, 0x67
 
 ## Effect channels
 These different effect channels are mapped to the LEDs.  Effect channels 0x05 and 0x06 are special, as these are used for the fan and logo zones.
 
 | Channel ID | Effect Description | Mode Byte |
 | ---------- | ------------------ | --------- |
-| 0x00       | Static             |           |
-| 0x01       |                    |           |
-| 0x02       |                    |           |
+| 0x00       | Static             | 0xFF      |
+| 0x01       | Breathing          | 0x03      |
+| 0x02       | Color Cycle        | 0xFF      |
 | 0x03       |                    |           |
 | 0x04       |                    |           |
-| 0x05       | Logo Effect        |           |
-| 0x06       | Fan Effect         |           |
+| 0x05       | Logo Effect        | 0xXX      |
+| 0x06       | Fan Effect         | 0xXX      |
 | 0x07       | Rainbow            | 0x05      |
+| 0x08       |                    |           |
+| 0x09       |                    |           |
+| 0x0A       | Swirl              | 0x4A      |
 
 ## Fan and Logo Modes
 
