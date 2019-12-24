@@ -117,7 +117,7 @@ This packet requests the channel name string for a given effect channel.  The da
 | 0x00       | 0x40   |                         |
 | 0x01       | 0x21   |                         |
 | 0x02       | 0x0A   | Effect Channel ID       |
-| 0x0 - end  | 0x00   |                         |
+| 0x03 - end | 0x00   |                         |
 
 ## Response
 
@@ -137,3 +137,52 @@ This packet requests the channel name string for a given effect channel.  The da
 | 0x0B       | 0x72   | 'r'                     |
 | 0x0C       | 0x6C   | 'l'                     |
 | 0x0D - end | 0x00   |                         |
+
+# Request Firmware Revision
+This packet requests the firmware revision string.  The string seems to be in wide char format (16 bits per char).  The firmware version matches what is shown in the Cooler Master software - V1.01.00
+
+| Byte index | Value  | Description             |
+| ---------- | ------ | ----------------------- |
+| 0x00       | 0x12   |                         |
+| 0x01       | 0x20   |                         |
+| 0x02 - end | 0x00   |                         |
+
+## Response
+
+| Byte index | Value  | Description             |
+| ---------- | ------ | ----------------------- |
+| 0x00       | 0x12   |                         |
+| 0x01       | 0x20   |                         |
+| 0x02       | 0x00   |                         |
+| 0x03       | 0x00   |                         |
+| 0x04       | 0x1A   |                         |
+| 0x05       | 0x00   |                         |
+| 0x06       | 0x00   |                         |
+| 0x07       | 0x00   |                         |
+| 0x08       | 0x56   | 'V'                     |
+| 0x09       | 0x00   |                         |
+| 0x0A       | 0x31   | '1'                     |
+| 0x0B       | 0x00   |                         |
+| 0x0C       | 0x2E   | '.'                     |
+| 0x0D       | 0x00   |                         |
+| 0x0E       | 0x30   | '0'                     |
+| 0x0F       | 0x00   |                         |
+| 0x10       | 0x31   | '1'                     |
+| 0x11       | 0x00   |                         |
+| 0x12       | 0x2E   | '.'                     |
+| 0x13       | 0x00   |                         |
+| 0x14       | 0x30   | '0'                     |
+| 0x15       | 0x00   |                         |
+| 0x16       | 0x30   | '0'                     |
+| 0x17       | 0x00   |                         |
+| 0x18       | 0x00   |                         |
+| 0x19       | 0x00   |                         |
+| 0x1A       | 0x00   |                         |
+| 0x1B       | 0x00   |                         |
+| 0x1C       | 0x00   |                         |
+| 0x1D       | 0x00   |                         |
+| 0x1E       | 0x00   |                         |
+| 0x1F       | 0x00   |                         |
+| 0x20       | 0x00   |                         |
+| 0x21       | 0x00   |                         |
+| 0x22 - end | 0xFF   |                         |
