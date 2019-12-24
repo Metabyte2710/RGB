@@ -108,3 +108,32 @@ These different effect channels are mapped to the LEDs.  Effect channels 0x05 an
 | 0x01      | Static           |
 | 0x02      | Color Cycle      |
 | 0x03      | Breathing        |
+
+# Request Channel Name
+This packet requests the channel name string for a given effect channel.  The data below is for the Swirl effect channel.
+
+| Byte index | Value  | Description             |
+| ---------- | ------ | ----------------------- |
+| 0x00       | 0x40   |                         |
+| 0x01       | 0x21   |                         |
+| 0x02       | 0x0A   | Effect Channel ID       |
+| 0x0 - end  | 0x00   |                         |
+
+## Response
+
+| Byte index | Value  | Description             |
+| ---------- | ------ | ----------------------- |
+| 0x00       | 0x40   |                         |
+| 0x01       | 0x21   |                         |
+| 0x02       | 0x0A   | Effect Channel ID       |
+| 0x03       | 0x00   |                         |
+| 0x04       | 0x21   |                         |
+| 0x05       | 0x02   |                         |
+| 0x06       | 0x00   |                         |
+| 0x07       | 0x00   |                         |
+| 0x08       | 0x53   | First char of string 'S'|
+| 0x09       | 0x77   | 'w'                     |
+| 0x0A       | 0x69   | 'i'                     |
+| 0x0B       | 0x72   | 'r'                     |
+| 0x0C       | 0x6C   | 'l'                     |
+| 0x0D - end | 0x00   |                         |
