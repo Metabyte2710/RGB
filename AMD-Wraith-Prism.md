@@ -78,6 +78,8 @@ Rainbow speed settings from slow to fast: 0x72, 0x68, 0x64, 0x62, 0x61
 
 Swirl and Chase speed settings from slow to fast: 0x77, 0x74, 0x6E, 0x6B, 0x67
 
+Morse Code speed setting is fixed at 0x6B
+
 The 0x80 bit in the Direction register sets random color mode.  Bounce mode always sets this bit.
 
 ## Effect channels
@@ -96,6 +98,7 @@ These different effect channels are mapped to the LEDs.  Effect channels 0x05 an
 | 0x08       | Bounce             | 0xFF      |
 | 0x09       | Chase              | 0xC3      |
 | 0x0A       | Swirl              | 0x4A      |
+| 0x0B       | Morse Code         | 0x05      |
 
 ## Fan and Logo Modes
 
