@@ -15,7 +15,7 @@ Send this packet to initialize the device after a power cycle or reconnect.  Sho
 This packet maps the individual LEDs to effect channels.  There seems to be some limitation on which LEDs map to which channels.  This is not fully understood.
 
 | Byte index | Value  | Description             |
-| ---------- | ------ |                         |
+| ---------- | ------ | ----------------------- |
 | 0x00       | 0x51   |                         |
 | 0x01       | 0xA0   |                         |
 | 0x02       | 0x01   |                         |
