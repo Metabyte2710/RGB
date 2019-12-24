@@ -67,3 +67,12 @@ This packet edits the settings of an effect channel including mode, speed, brigh
 | 0x0E       | 0x00   |                         |
 | 0x0F       | 0x00   |                         |
 | 0x10 - end | 0xFF   |                         |
+
+## Fan and Logo Modes
+
+| Mode Byte | Mode Description |
+| --------- | ---------------- |
+| 0x00      |                  |
+| 0x01      | Static           |
+| 0x02      | Color Cycle      |
+| 0x03      | Breathing        |
