@@ -57,7 +57,7 @@ This packet edits the settings of an effect channel including mode, speed, brigh
 | 0x04       | 0x05   | Effect channel to edit  |
 | 0x05       | 0xFF   |                         |
 | 0x06       | 0x00   |                         |
-| 0x07       | 0x01   |                         |
+| 0x07       | 0x01   | Mode (Fan and Logo)     |
 | 0x08       | 0xFF   |                         |
 | 0x09       | 0xFF   |                         |
 | 0x0A       | 0x00   | Red                     |
