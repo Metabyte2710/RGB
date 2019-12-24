@@ -78,7 +78,7 @@ Rainbow speed settings from slow to fast: 0x72, 0x68, 0x64, 0x62, 0x61
 
 Swirl and Chase speed settings from slow to fast: 0x77, 0x74, 0x6E, 0x6B, 0x67
 
-Chase mode sets the 0x80 bit in the Direction register regardless of direction
+The 0x80 bit in the Direction register sets random color mode
 
 ## Effect channels
 These different effect channels are mapped to the LEDs.  Effect channels 0x05 and 0x06 are special, as these are used for the fan and logo zones.
