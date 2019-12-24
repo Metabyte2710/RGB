@@ -59,7 +59,7 @@ This packet edits the settings of an effect channel including mode, speed, brigh
 | 0x06       | 0x00   |                         |
 | 0x07       | 0x01   | Mode (Fan and Logo)     |
 | 0x08       | 0xFF   |                         |
-| 0x09       | 0xFF   |                         |
+| 0x09       | 0xFF   | Brightness              |
 | 0x0A       | 0x00   | Red                     |
 | 0x0B       | 0xFF   | Green                   |
 | 0x0C       | 0x00   | Blue                    |
@@ -67,6 +67,8 @@ This packet edits the settings of an effect channel including mode, speed, brigh
 | 0x0E       | 0x00   |                         |
 | 0x0F       | 0x00   |                         |
 | 0x10 - end | 0xFF   |                         |
+
+Brightness setting goes from 0x00-0xFF in Static and Breathing, 0x00-0x7F (0x10, 0x40, 0x7F) in Color Cycle.
 
 ## Fan and Logo Modes
 
