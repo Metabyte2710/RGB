@@ -12,7 +12,7 @@ Send this packet to initialize the device after a power cycle or reconnect.  Sho
 | 0x02 - end | 0x00   |
 
 # Remap LEDs
-This packet maps the individual LEDs to effect channels.  There seems to be some limitation on which LEDs map to which channels.  This is not fully understood.
+This packet maps the individual LEDs to effect channels.  There seems to be some limitation on which LEDs map to which channels.  This is not fully understood.  The default values are shown for the channel map in the packet table below.
 
 | Byte index | Value  | Description             |
 | ---------- | ------ | ----------------------- |
@@ -42,3 +42,26 @@ This packet maps the individual LEDs to effect channels.  There seems to be some
 | 0x17       | 0x07   | Channel for Ring LED 13 |
 | 0x18       | 0x07   | Channel for Ring LED 14 |
 | 0x19 - end | 0x00   |                         |
+
+# Edit Effect Channel Settings
+This packet edits the settings of an effect channel including mode, speed, brightness, and color.
+
+| Byte index | Value  | Description             |
+| ---------- | ------ | ----------------------- |
+| 0x00       | 0x51   |                         |
+| 0x01       | 0x2C   |                         |
+| 0x02       | 0x01   |                         |
+| 0x03       | 0x00   |                         |
+| 0x04       | 0x05   | Effect channel to edit  |
+| 0x05       | 0xFF   |                         |
+| 0x06       | 0x00   |                         |
+| 0x07       | 0x01   |                         |
+| 0x08       | 0xFF   |                         |
+| 0x09       | 0xFF   |                         |
+| 0x0A       | 0x00   | Red                     |
+| 0x0B       | 0xFF   | Green                   |
+| 0x0C       | 0x00   | Blue                    |
+| 0x0D       | 0x00   |                         |
+| 0x0E       | 0x00   |                         |
+| 0x0F       | 0x00   |                         |
+| 0x10 - end | 0xFF   |                         |
