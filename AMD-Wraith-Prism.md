@@ -74,6 +74,22 @@ Breathing speed settings from slow to fast: 0x3C, 0x37, 0x31, 0x2C, 0x26
 
 Color cycle speed settings from slow to fast: 0x96, 0x8C, 0x80, 6E, 0x68
 
+Rainbow speed settings from slow to fast: 0x72, 0x68, 0x64, 0x62, 0x61
+
+## Effect channels
+These different effect channels are mapped to the LEDs.  Effect channels 0x05 and 0x06 are special, as these are used for the fan and logo zones.
+
+| Channel ID | Effect Description | Mode Byte |
+| ---------- | ------------------ | --------- |
+| 0x00       | Static             |           |
+| 0x01       |                    |           |
+| 0x02       |                    |           |
+| 0x03       |                    |           |
+| 0x04       |                    |           |
+| 0x05       | Logo Effect        |           |
+| 0x06       | Fan Effect         |           |
+| 0x07       | Rainbow            | 0x05      |
+
 ## Fan and Logo Modes
 
 | Mode Byte | Mode Description |
