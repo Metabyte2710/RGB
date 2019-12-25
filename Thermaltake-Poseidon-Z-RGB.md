@@ -1,0 +1,1 @@
+The Thermaltake Poseidon Z RGB keyboard connects via USB at 264A:3006.  It uses the HID protocol.  Packets are 264 bytes long.
