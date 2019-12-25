@@ -42,6 +42,8 @@ Motherboards:
 
 * Requires specifying "hueplus=COMx" or "hueplus=/dev/ttyACMx" in settings.txt for now.  Autodetection is under investigation.
 
+## [AMD Wraith Prism](AMD-Wraith-Prism)
+
 ## Other projects integrated
 
 * Razer Chroma SDK (Windows)
@@ -51,7 +53,7 @@ Motherboards:
 
 ## Under investigation, not yet working:
 
-* [AMD Wraith Prism](AMD-Wraith-Prism)
+* [MSI Steelseries 3-Zone Keyboard](MSI-3-Zone-Keyboard)
 * Gigabyte Aorus Xtreme GTX1080Ti Waterforce
 * TTEsports Poseidon Z RGB
 * ASRock Fatal1ty B350 Gaming-ITX/ac ([ASRock Polychrome RGB](ASRock-Polychrome-RGB))
