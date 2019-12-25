@@ -13,6 +13,15 @@ Send this packet to initialize the device after a power cycle or reconnect.  Sho
 | 0x01       | 0x80   |
 | 0x02 - end | 0x00   |
 
+# Disable control
+Send this packet to disable control of the device after it has been enabled.
+
+| Byte index | Value  |
+| ---------- | ------ |
+| 0x00       | 0x41   |
+| 0x01       | 0x00   |
+| 0x02 - end | 0x00   |
+
 # Remap LEDs
 This packet maps the individual LEDs to effect channels.  There seems to be some limitation on which LEDs map to which channels.  This is not fully understood.  The default values are shown for the channel map in the packet table below.
 
