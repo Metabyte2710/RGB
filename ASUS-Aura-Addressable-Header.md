@@ -6,7 +6,7 @@ https://github.com/purpl3F0x/hid_rgb_devices/blob/master/aura_hid.hpp
 
 | Byte index | Function                                  |
 | ---------- | ----------------------------------------- |
-| 0x00       | 0x3C                                      |
+| 0x00       | 0xEC                                      |
 | 0x01       | Control Mode (Direct: 0x40, Effect: 0x3B) |
 | 0x02       | Device                                    |
 | 0x03       | Start LED                                 |
