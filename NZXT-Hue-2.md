@@ -1,6 +1,6 @@
 The NZXT Hue 2 is an LED strip controller for PC case lighting. It connects to the motherboard using USB. It enumerates a USB device with VID 1E71, PID 2001. The commands are sent to using USB interrupt transfers.
 
-Direct Packet Structure - 64 Bytes
+# Direct Packet Structure - 64 Bytes
 
 | Byte index | Function   | Description                           |
 | ---------- | ---------- | ------------------------------------- |
@@ -10,7 +10,7 @@ Direct Packet Structure - 64 Bytes
 | 0x03       | 0x00       |                                       |
 | 0x04+      | Color Data | 20x (G, R, B) for 60 bytes total      |
 
-Effect Packet Structure - 64 Bytes
+# Effect Packet Structure - 64 Bytes
 
 | Byte index | Function    | Description                           |
 | ---------- | ----------- | ------------------------------------- |
@@ -25,3 +25,16 @@ Effect Packet Structure - 64 Bytes
 | 0x08       | Color Count |                                       |
 | 0x09       | ?           |                                       |
 | 0x0A+      | Color Data  | G, R, B color data                    |
+
+# Modes
+
+| Mode Value | Mode Description |
+| ---------- | ---------------- |
+| 0x00       | Fixed            |
+| 0x01       | Fading           |
+| 0x02       | Spectrum Cycle   |
+| 0x03       | Marquee          |
+| 0x04       | Cover Marquee    |
+| 0x05       | Alternating      |
+| 0x06       | Pulsing          |
+| 0x07       | Breathing        |
