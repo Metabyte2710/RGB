@@ -53,6 +53,7 @@ Motherboards:
 
 ## Under investigation, not yet working:
 
+* [NZXT Hue 2](NZXT-Hue-2)
 * [MSI Steelseries 3-Zone Keyboard](MSI-3-Zone-Keyboard)
 * Gigabyte Aorus Xtreme GTX1080Ti Waterforce
 * TTEsports Poseidon Z RGB
