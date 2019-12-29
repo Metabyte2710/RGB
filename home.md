@@ -42,6 +42,8 @@ Motherboards:
 
 * Requires specifying "hueplus=COMx" or "hueplus=/dev/ttyACMx" in settings.txt for now.  Autodetection is under investigation.
 
+## [NZXT Hue 2](NZXT-Hue-2)
+
 ## [AMD Wraith Prism](AMD-Wraith-Prism)
 
 ## Other projects integrated
@@ -53,7 +55,6 @@ Motherboards:
 
 ## Under investigation, not yet working:
 
-* [NZXT Hue 2](NZXT-Hue-2)
 * [MSI Steelseries 3-Zone Keyboard](MSI-3-Zone-Keyboard)
 * Gigabyte Aorus Xtreme GTX1080Ti Waterforce
 * TTEsports Poseidon Z RGB
