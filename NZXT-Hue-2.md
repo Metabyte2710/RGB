@@ -10,6 +10,28 @@ The NZXT Hue 2 is an LED strip controller for PC case lighting. It connects to t
 | 0x03       | 0x00       |                                       |
 | 0x04+      | Color Data | 20x (G, R, B) for 60 bytes total      |
 
+# Apply Direct Packet
+
+| Byte index | Function    | Description                           |
+| ---------- | ----------- | ------------------------------------- |
+| 0x00       | 0x22        |                                       |
+| 0x01       | 0xA0        |                                       |
+| 0x02       | Channel     | 1, 2, 3, or 4                         |
+| 0x03       | 0x00        |                                       |
+| 0x04       | 0x01        |                                       |
+| 0x05       | 0x00        |                                       |
+| 0x06       | 0x00        |                                       |
+| 0x07       | 0x28        |                                       |
+| 0x08       | 0x00        |                                       |
+| 0x09       | 0x00        |                                       |
+| 0x0A       | 0x80        |                                       |
+| 0x0B       | 0x00        |                                       |
+| 0x0C       | 0x32        |                                       |
+| 0x0D       | 0x00        |                                       |
+| 0x0E       | 0x00        |                                       |
+| 0x0F       | 0x01        |                                       |
+| 0x10 - end | 0x00        |                                       |
+
 # Effect Packet Structure - 64 Bytes
 
 | Byte index | Function    | Description                           |
@@ -38,25 +60,3 @@ The NZXT Hue 2 is an LED strip controller for PC case lighting. It connects to t
 | 0x05       | Alternating      |
 | 0x06       | Pulsing          |
 | 0x07       | Breathing        |
-
-# Apply packet?
-
-| Byte index | Function    | Description                           |
-| ---------- | ----------- | ------------------------------------- |
-| 0x00       | 0x22        |                                       |
-| 0x01       | 0xA0        |                                       |
-| 0x02       | Channel     | 1, 2, 3, or 4                         |
-| 0x03       | 0x00        |                                       |
-| 0x04       | 0x01        |                                       |
-| 0x05       | 0x00        |                                       |
-| 0x06       | 0x00        |                                       |
-| 0x07       | 0x28        |                                       |
-| 0x08       | 0x00        |                                       |
-| 0x09       | 0x00        |                                       |
-| 0x0A       | 0x80        |                                       |
-| 0x0B       | 0x00        |                                       |
-| 0x0C       | 0x32        |                                       |
-| 0x0D       | 0x00        |                                       |
-| 0x0E       | 0x00        |                                       |
-| 0x0F       | 0x01        |                                       |
-| 0x10 - end | 0x00        |                                       |
