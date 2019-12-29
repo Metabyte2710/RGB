@@ -61,9 +61,17 @@ The NZXT Hue 2 is an LED strip controller for PC case lighting. It connects to t
 | 0x06       | Pulsing          |
 | 0x07       | Breathing        |
 
-# Attached Device Response
+# Get Attached Devices
 Device type 0x04 is 10-LED Hue 2 strip.
 
+## Request
+| Byte index | Function            | Description                           |
+| ---------- | ------------------- | ------------------------------------- |
+| 0x00       | 0x20                |                                       |
+| 0x01       | 0x03                |                                       |
+| 0x02 - end | 0x00                |                                       |
+
+## Response
 | Byte index | Function            | Description                           |
 | ---------- | ------------------- | ------------------------------------- |
 | 0x00       | 0x21                |                                       |
