@@ -1,3 +1,5 @@
+![20200101_181654](uploads/e7d3b08c861d83bac5304b945d59c6c4/20200101_181654.jpg)
+
 The Patriot Viper RGB memory enumerates an SMBus device at 0x77.  It uses an SMBus protocol that uses two SMBus byte writes for writing 3 bytes to an address.  The protocol works as follows:
 
 Write \<Value 1\> to \<Address\>
