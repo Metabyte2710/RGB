@@ -37,6 +37,7 @@ Motherboards:
 * [Corsair Vengeance RGB](Corsair-Vengeance-RGB)
 * [Corsair Vengeance Pro RGB](Corsair-Vengeance-Pro-RGB)
 * [HyperX Predator RGB](HyperX-Predator-RGB)
+* [Patriot Viper RGB](Patriot-Viper-RGB)
 
 ## [NZXT Hue+](NZXT-Hue-Plus)
 
