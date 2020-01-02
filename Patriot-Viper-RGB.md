@@ -33,4 +33,4 @@ To initiate a write sequence, you have to write 0xFF to address 0xFF twice.
 | 0x04       | Marquee          |
 | 0x05       | Raindrop         |
 | 0x06       | Aurora           |
-| 0x07       | Neon             |
+| 0x08       | Neon             |
