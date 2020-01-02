@@ -10,12 +10,12 @@ To initiate a write sequence, you have to write 0xFF to address 0xFF twice.
 
 # Addresses
 
-| Address | Value 1   | Value 2    | Value 3     | Description |
-| ------- | --------- | ---------- | ----------- | ----------- |
-| 0x01    | 0x04      | 0x00       | 0x00        | Static Mode |
-| 0x30    | LED 0 Red | LED 0 Blue | LED 0 Green |             |
-| 0x31    | LED 1 Red | LED 1 Blue | LED 1 Green |             |
-| 0x32    | LED 2 Red | LED 2 Blue | LED 2 Green |             |
-| 0x33    | LED 3 Red | LED 3 Blue | LED 3 Green |             |
-| 0x34    | LED 4 Red | LED 4 Blue | LED 4 Green |             |
-| 0x35    | 0x01      | 0x00       | 0x00        | ?           |
+| Address | Value 1   | Value 2    | Value 3     | Description   |
+| ------- | --------- | ---------- | ----------- | ------------- |
+| 0x01    | 0x04      | 0x00       | 0x00        | Static Mode   |
+| 0x30    | LED 0 Red | LED 0 Blue | LED 0 Green |               |
+| 0x31    | LED 1 Red | LED 1 Blue | LED 1 Green |               |
+| 0x32    | LED 2 Red | LED 2 Blue | LED 2 Green |               |
+| 0x33    | LED 3 Red | LED 3 Blue | LED 3 Green |               |
+| 0x34    | LED 4 Red | LED 4 Blue | LED 4 Green |               |
+| 0x35    | 0x01      | 0x00       | 0x00        | Apply Changes |
