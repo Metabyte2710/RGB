@@ -12,8 +12,8 @@ To initiate a write sequence, you have to write 0xFF to address 0xFF twice.
 
 | Address | Value 1   | Value 2    | Value 3     | Description     |
 | ------- | --------- | ---------- | ----------- | --------------- |
-| 0x01    | 0x04      | 0x00       | 0x00        | Static Mode     |
-| 0x03    | ?         | ?          | ?           | Synchronization |
+| 0x01    | 0x04      | 0x00       | 0x00        | Start (?)       |
+| 0x03    | Mode      | ?          | ?           | Mode            |
 | 0x30    | LED 0 Red | LED 0 Blue | LED 0 Green |                 |
 | 0x31    | LED 1 Red | LED 1 Blue | LED 1 Green |                 |
 | 0x32    | LED 2 Red | LED 2 Blue | LED 2 Green |                 |
@@ -21,3 +21,6 @@ To initiate a write sequence, you have to write 0xFF to address 0xFF twice.
 | 0x34    | LED 4 Red | LED 4 Blue | LED 4 Green |                 |
 | 0x35    | 0x01      | 0x00       | 0x00        | Apply Changes   |
 | 0xFF    | 0xFF      | 0xFF       | 0xFF        | Start Frame (?) |
+
+# Modes
+
