@@ -51,7 +51,7 @@ Motherboards:
 
 * Razer Chroma SDK (Windows)
 * OpenRazer (Linux)
-* E1.31 (Linux)
+* E1.31
 * KeyboardVisualizer Arduino LED strips
 
 ## Under investigation, not yet working:
