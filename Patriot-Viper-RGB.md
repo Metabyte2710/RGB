@@ -32,7 +32,7 @@ To initiate a write sequence, you have to write 0xFF to address 0xFF twice.
 | Mode Value | Mode Description | Slow Speed | Default Speed | Fast Speed |
 | ---------- | ---------------- | ---------- | ------------- | ---------- |
 | 0x00       | Dark             |            |               |            |
-| 0x01       | Breathing        |            |               |            |
+| 0x01       | Breathing        |            | 0x0C          |            |
 | 0x02       | Viper            | 0xC8       | 0x64          | 0x14       |
 | 0x03       | Heartbeat        |            |               |            |
 | 0x04       | Marquee          |            |               |            |
