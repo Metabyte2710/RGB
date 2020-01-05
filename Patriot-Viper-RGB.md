@@ -35,7 +35,7 @@ To initiate a write sequence, you have to write 0xFF to address 0xFF twice.
 | 0x01       | Breathing        |            | 0x0C          |            |
 | 0x02       | Viper            | 0xC8       | 0x64          | 0x14       |
 | 0x03       | Heartbeat        |            | 0x64          |            |
-| 0x04       | Marquee          |            |               |            |
+| 0x04       | Marquee          |            | 0x64          |            |
 | 0x05       | Raindrop         |            |               |            |
 | 0x06       | Aurora           |            |               |            |
 | 0x08       | Neon             |            |               |            |
