@@ -54,6 +54,17 @@ This packet maps the individual LEDs to effect channels.  There seems to be some
 | 0x18       | 0x07   | Channel for Ring LED 14 |
 | 0x19 - end | 0x00   |                         |
 
+# Apply Changes
+
+| Byte index | Value |
+| ---------- | ----- |
+| 0x00       | 0x51  |
+| 0x01       | 0x28  |
+| 0x02       | 0x00  |
+| 0x03       | 0x00  |
+| 0x04       | 0xE0  |
+| 0x05 - end | 0x00  |
+
 # Edit Effect Channel Settings
 This packet edits the settings of an effect channel including mode, speed, brightness, and color.
 
