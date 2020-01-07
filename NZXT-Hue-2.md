@@ -6,7 +6,7 @@ The NZXT Hue 2 is an LED strip controller for PC case lighting. It connects to t
 | ---------- | ---------- | ------------------------------------- |
 | 0x00       | 0x22       |                                       |
 | 0x01       | LED group  | 0x10 for first 20, 0x11 for second 20 |
-| 0x02       | Channel    | 1, 2, 3, or 4                         |
+| 0x02       | Channel    | Bitfield, 1, 2, 4, or 8               |
 | 0x03       | 0x00       |                                       |
 | 0x04+      | Color Data | 20x (G, R, B) for 60 bytes total      |
 
@@ -16,7 +16,7 @@ The NZXT Hue 2 is an LED strip controller for PC case lighting. It connects to t
 | ---------- | ----------- | ------------------------------------- |
 | 0x00       | 0x22        |                                       |
 | 0x01       | 0xA0        |                                       |
-| 0x02       | Channel     | 1, 2, 3, or 4                         |
+| 0x02       | Channel     | Bitfield, 1, 2, 4, or 8               |
 | 0x03       | 0x00        |                                       |
 | 0x04       | 0x01        |                                       |
 | 0x05       | 0x00        |                                       |
@@ -38,7 +38,7 @@ The NZXT Hue 2 is an LED strip controller for PC case lighting. It connects to t
 | ---------- | ----------- | ------------------------------------- |
 | 0x00       | 0x28        |                                       |
 | 0x01       | 0x03        |                                       |
-| 0x02       | Channel     | 1, 2, 3, or 4                         |
+| 0x02       | Channel     | Bitfield, 1, 2, 4, or 8               |
 | 0x03       | 0x28        |                                       |
 | 0x04       | Mode        |                                       |
 | 0x05       | ?           |                                       |
