@@ -19,14 +19,11 @@ Sets the mode of the device.  The mode should be the index in the Modes vector o
 ## `void SetCustomMode()`
 When called, the device should be put into its software-controlled mode.  This differs between devices, but generally devices have a direct control or static effect mode.  Ideally, this mode should not save to the device's internal Flash.  This function sets up a device for software effect control.
 
-## `void SetAllLEDs(RGBColor color)`
-Set all LEDs in a device to the given color
-
-## `void SetAllZoneLEDs(int zone, RGBColor color)`
-Set all LEDs in the given zone (index of Zones vector) to the given color.
-
-## `void SetLED(int led, RGBColor color)`
-Set a single LED (index of LEDs vector) to the given color.
-
 ## `void UpdateLEDs()`
 Update all LEDs based on the device's `colors` vector.
+
+## `void UpdateZoneLEDs(int zone)`
+Update all LEDs in the given zone based on the device's `colors` vector.
+
+## `void UpdateSingleLED(int led)`
+Update a single LED based on the device's `colors` vector.
