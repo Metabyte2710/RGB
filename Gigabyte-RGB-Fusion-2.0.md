@@ -1,4 +1,4 @@
-Gigabyte's second generation of RGB Fusion enabled motherboards use an ITE controller that enumerates a USB device at 048D:8297.  This device is controlled using the HID protocol.
+Gigabyte's second generation of RGB Fusion enabled motherboards use an ITE8297 controller that enumerates a USB device at 048D:8297.  This device is controlled using the HID protocol.
 
 Report ID is 0xCC.  Packet size is 23 bytes.
 
