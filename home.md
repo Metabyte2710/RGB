@@ -45,6 +45,8 @@ Motherboards:
 
 ## [AMD Wraith Prism](AMD-Wraith-Prism)
 
+## [MSI Steelseries 3-Zone Keyboard](MSI-3-Zone-Keyboard)
+
 ## Other projects integrated
 
 * Razer Chroma SDK (Windows)
@@ -54,7 +56,6 @@ Motherboards:
 
 ## Under investigation, not yet working:
 
-* [MSI Steelseries 3-Zone Keyboard](MSI-3-Zone-Keyboard)
 * Gigabyte Aorus Xtreme GTX1080Ti Waterforce
 * TTEsports Poseidon Z RGB
 * ASRock Fatal1ty B350 Gaming-ITX/ac ([ASRock Polychrome RGB](ASRock-Polychrome-RGB))
