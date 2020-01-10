@@ -15,3 +15,11 @@ Report ID is 0xCC.  Packet size is 23 bytes.
 | 0x0D       | Red         |
 | 0x0E       | Green       |
 | 0x0F       | Blue        |
+
+## Apply Packet
+
+| Byte Index | Value |
+| ---------- | ----- |
+| 0x00       | 0x28  |
+| 0x01       | 0xFF  |
+|
