@@ -2,14 +2,14 @@ The Corsair Lighting Node Pro is an addressable LED strip controller with two ch
 
 # Color Data Packet
 
-| Byte Index | Description                               |
-| ---------- | ----------------------------------------- |
-| 0x00       | 0x32                                      |
-| 0x01       | Channel (0 or 1)                          |
-| 0x02       | 0x00                                      |
-| 0x03       | 0x0A                                      |
-| 0x04       | Color Channel (0: Red, 1: Green, 2: Blue) |
-| 0x05       | LED 0                                     |
+| Byte Index | Description                                 |
+| ---------- | ------------------------------------------- |
+| 0x00       | 0x32                                        |
+| 0x01       | Channel (0 or 1)                            |
+| 0x02       | Start index                                 |
+| 0x03       | Count                                       |
+| 0x04       | Color Channel (0: Red, 1: Green, 2: Blue)   |
+| 0x05-end   | LED channel values equal to Count           |
 
 # Apply Packet
 
