@@ -1,5 +1,16 @@
 The Corsair Lighting Node Pro is an addressable LED strip controller with two channels, each supporting up to 60 LEDs.  It interfaces using USB and enumerates at 1B1C:0C0B.  Packets are 64 bytes long.
 
+The Lighting Node Pro appears to reset itself after 20 seconds of inactivity.  I haven't implemented periodic refreshing in OpenRGB, so when you set the colors it will default back to rainbow after 20 seconds.  To fix this, I'll need to add some sort of keep-alive thread to either send the full color data or find some other packet that keeps it from resetting.
+
+# Start Packet
+
+| Byte Index | Description |
+| ---------- | ----------- |
+| 0x00       | 0x38        |
+| 0x01       | 0x00        |
+| 0x02       | 0x02        |
+| 0x03 - end | 0x00        |
+
 # Color Data Packet
 
 | Byte Index | Description                                 |
