@@ -47,6 +47,8 @@ Motherboards:
 
 ## [MSI Steelseries 3-Zone Keyboard](MSI-3-Zone-Keyboard)
 
+## [Corsair Lighting Node Pro](Corsair-Lighting-Node-Pro)
+
 ## Other projects integrated
 
 * Razer Chroma SDK (Windows)
