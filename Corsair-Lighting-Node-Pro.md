@@ -2,6 +2,8 @@ The Corsair Lighting Node Pro is an addressable LED strip controller with two ch
 
 The Lighting Node Pro appears to reset itself after 20 seconds of inactivity.  I haven't implemented periodic refreshing in OpenRGB, so when you set the colors it will default back to rainbow after 20 seconds.  To fix this, I'll need to add some sort of keep-alive thread to either send the full color data or find some other packet that keeps it from resetting.
 
+It looks like sending the apply packet every few seconds is enough to keep it from reverting to rainbow mode.
+
 # Start Packet
 
 | Byte Index | Description |
