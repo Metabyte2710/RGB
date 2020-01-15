@@ -121,20 +121,20 @@ The HyperX Predator and Fury RGB memory modules enumerate an SMBus device at the
 
 ## Modes
 
-| Value | Mode Selection | Description                          |
-| ----- | -------------- | ------------------------------------ |
-| 0x01  | 0xE3           | Off                                  |
-| 0x02  | 0xE4           | Bounce                               |
-| 0x03  | 0xE4           | Breathing                            |
-| 0x04  | 0xE3           | Cycle                                |
-| 0x05  | 0xE3           | Rainbow                              |
-| 0x06  | 0xE4           | Blink                                |
-| 0x07  | 0xE4           | Heartbeat                            |
-| 0x08  | 0xE4           | Comet                                |
-| 0x09  | 0xE4           | Static                               |
-| 0x21  | 0xE5           | Individually Addressable Static      |
-| 0x22  | 0xE5           | Individually Addressable Chase Left  |
-| 0x23  | 0xE5           | Individually Addressable Chase Right |
-| 0x24  | 0xE5           | Individually Addressable Breathing   |
-| 0x25  | 0xE5           | Individually Addressable Blink       |
-| 0x26  | 0xE5           | Individually Addressable Heartbeat   |
+| Value | Mode Selection | Description                          | Time registers | Slow Time Setting | Fast Time Setting |
+| ----- | -------------- | ------------------------------------ | -------------- | ----------------- | ----------------- |
+| 0x01  | 0xE3           | Off                                  |                |                   |                   |
+| 0x02  | 0xE4           | Bounce                               | Timer          | 0x07D0            | 0x0064            |
+| 0x03  | 0xE4           | Breathing                            |                |                   |                   |
+| 0x04  | 0xE3           | Cycle                                |                |                   |                   |
+| 0x05  | 0xE3           | Rainbow                              |                |                   |                   |
+| 0x06  | 0xE4           | Blink                                | Off, On        | 0x07D0, 0x07D0    | 0x01F4, 0x07D0    |
+| 0x07  | 0xE4           | Heartbeat                            |                |                   |                   |
+| 0x08  | 0xE4           | Comet                                |                |                   |                   |
+| 0x09  | 0xE4           | Static                               |                |                   |                   |
+| 0x21  | 0xE5           | Individually Addressable Static      |                |                   |                   |
+| 0x22  | 0xE5           | Individually Addressable Chase Left  |                |                   |                   |
+| 0x23  | 0xE5           | Individually Addressable Chase Right |                |                   |                   |
+| 0x24  | 0xE5           | Individually Addressable Breathing   |                |                   |                   |
+| 0x25  | 0xE5           | Individually Addressable Blink       |                |                   |                   |
+| 0x26  | 0xE5           | Individually Addressable Heartbeat   |                |                   |                   |
