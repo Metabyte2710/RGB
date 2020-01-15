@@ -34,7 +34,9 @@ After getting a solid Aura implementation, the project branched out into other m
 
 * [Corsair Vengeance Pro RGB](Corsair-Vengeance-Pro-RGB)
 
-* [HyperX Predator RGB](HyperX-Predator-RGB)
+* [HyperX RGB Memory](HyperX-Predator-RGB)
+    * HyperX Predator RGB
+    * HyperX Fury RGB
 
 * [Patriot Viper RGB](Patriot-Viper-RGB)
 
