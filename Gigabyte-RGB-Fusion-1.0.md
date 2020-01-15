@@ -14,18 +14,19 @@ Registers can be read from using the standard SMBus read functionality.  You can
 | 0xF0 | Bank Selection |
 
 ## Bank 0 Registers
-| Address | Function                 |
-| ------- | ------------------------ |
-| 0x03    | Channel 0 Mode Selection |
-| 0x06    | Channel 0 Time 0 MSB     |
-| 0x07    | Channel 0 Time 0 LSB     |
-| 0x08    | Channel 0 Time 1 MSB     |
-| 0x09    | Channel 0 Time 1 LSB     |
-| 0x13    | Channel 1 Mode Selection |
-| 0x16    | Channel 1 Time 0 MSB     |
-| 0x17    | Channel 1 Time 0 LSB     |
-| 0x18    | Channel 1 Time 1 MSB     |
-| 0x19    | Channel 1 Time 1 LSB     |
+| Address | Function                              |
+| ------- | ------------------------------------- |
+| 0x03    | Channel 0 Mode Selection              |
+| 0x05    | Brightness, 0:100%, 1:75% 2:50% 3:25% |
+| 0x06    | Channel 0 Time 0 MSB                  |
+| 0x07    | Channel 0 Time 0 LSB                  |
+| 0x08    | Channel 0 Time 1 MSB                  |
+| 0x09    | Channel 0 Time 1 LSB                  |
+| 0x13    | Channel 1 Mode Selection              |
+| 0x16    | Channel 1 Time 0 MSB                  |
+| 0x17    | Channel 1 Time 0 LSB                  |
+| 0x18    | Channel 1 Time 1 MSB                  |
+| 0x19    | Channel 1 Time 1 LSB                  |
 
 ## Timer values for speed settings in Pulsing and Flashing modes
 | Timer | Low Speed | Medium Speed | High Speed |
