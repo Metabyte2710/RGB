@@ -1,6 +1,6 @@
 ![20190630_121851](/uploads/fbac6826ce8063346cb73e30f6f5528e/20190630_121851.jpg)
 
-The HyperX Predator RGB memory enumerates an SMBus device at the address 0x27.  It uses an SMBus message format with a fixed start and end format.
+The HyperX Predator and Fury RGB memory modules enumerate an SMBus device at the address 0x27.  It uses an SMBus message format with a fixed start and end format.
 
 **Message Format**
 
