@@ -17,15 +17,22 @@ Registers can be read from using the standard SMBus read functionality.  You can
 | Address | Function                 |
 | ------- | ------------------------ |
 | 0x03    | Channel 0 Mode Selection |
-| 0x06    | Timer MSB                |
-| 0x07    | Timer LSB                |
-| 0x08    | Timer MSB                |
-| 0x09    | Timer LSB                |
+| 0x06    | Channel 0 Time 0 MSB     |
+| 0x07    | Channel 0 Time 0 LSB     |
+| 0x08    | Channel 0 Time 1 MSB     |
+| 0x09    | Channel 0 Time 1 LSB     |
 | 0x13    | Channel 1 Mode Selection |
-| 0x16    | Timer MSB                |
-| 0x17    | Timer LSB                |
-| 0x18    | Timer MSB                |
-| 0x19    | Timer LSB                |
+| 0x16    | Channel 1 Time 0 MSB     |
+| 0x17    | Channel 1 Time 0 LSB     |
+| 0x18    | Channel 1 Time 1 MSB     |
+| 0x19    | Channel 1 Time 1 LSB     |
+
+## Timer values for speed settings in Pulsing and Flashing modes
+| Timer | Low Speed | Medium Speed | High Speed |
+| ----- | --------- | ------------ | ---------- |
+| 0     | 0x01E0    | 0x00F0       | 0x0078     |
+| 1     | 0x4000    | 0x2000       | 0x1000     |
+
 
 ## Bank 1 Registers
 | Address | Function |
@@ -41,7 +48,7 @@ Registers can be read from using the standard SMBus read functionality.  You can
 The modes are read out of the mode register as the values below, but to write the modes to the mode register you must add the offset 0x10.  This is shown in the Write Value column.
 
 | Value | Description | Write Value |
-| ----- | ------ | ----- |
-| 0x00 | Static | 0x10 |
-| 0x01 | Pulsing | 0x11 |
-| 0x02 | Flashing | 0x12 |
+| ----- | ----------- | ----------- |
+| 0x00  | Static      | 0x10        |
+| 0x01  | Pulsing     | 0x11        |
+| 0x02  | Flashing    | 0x12        |
