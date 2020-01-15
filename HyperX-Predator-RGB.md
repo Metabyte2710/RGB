@@ -4,12 +4,12 @@ The HyperX Predator and Fury RGB memory modules enumerate an SMBus device at the
 
 **Message Format**
 
-| Write Command | Write Value | Function |
-| ------ | ------ | ------ |
-| 0xE1 | 0x01 | Start of message |
-| 0xXX | 0xXX | Message contents |
-| 0xE1 | 0x02 | End of message byte 1 |
-| 0xE1 | 0x03 | End of message byte 2 |
+| Write Command | Write Value | Function         |
+| ------------- | ----------- | ---------------- |
+| 0xE1          | 0x01        | Start of message |
+| 0xXX          | 0xXX        | Message contents |
+| 0xE1          | 0x02        | Message done     |
+| 0xE1          | 0x03        | Apply changes    |
 
 **Commands**
 
