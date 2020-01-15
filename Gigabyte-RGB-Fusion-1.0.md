@@ -14,10 +14,18 @@ Registers can be read from using the standard SMBus read functionality.  You can
 | 0xF0 | Bank Selection |
 
 ## Bank 0 Registers
-| Address | Function |
-| ------ | ------ |
-| 0x03 | Channel 0 Mode Selection |
-| 0x13 | Channel 1 Mode Selection |
+| Address | Function                 |
+| ------- | ------------------------ |
+| 0x03    | Channel 0 Mode Selection |
+| 0x06    | Timer MSB                |
+| 0x07    | Timer LSB                |
+| 0x08    | Timer MSB                |
+| 0x09    | Timer LSB                |
+| 0x13    | Channel 1 Mode Selection |
+| 0x16    | Timer MSB                |
+| 0x17    | Timer LSB                |
+| 0x18    | Timer MSB                |
+| 0x19    | Timer LSB                |
 
 ## Bank 1 Registers
 | Address | Function |
