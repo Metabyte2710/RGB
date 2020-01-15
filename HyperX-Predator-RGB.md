@@ -127,9 +127,9 @@ The HyperX Predator and Fury RGB memory modules enumerate an SMBus device at the
 | 0x02  | 0xE4           | Bounce                               | Timer                | 07D0              | 0064              |
 | 0x03  | 0xE4           | Breathing                            | FadeIn, FadeOut, Off | 07D0, 07D0, 0000  | 01F4, 01F4, 0000  |
 | 0x04  | 0xE3           | Cycle                                | On, Change           | 05DC, 05DC        | 00FA, 00FA        |
-| 0x05  | 0xE3           | Rainbow                              |                      |                   |                   |
+| 0x05  | 0xE3           | Rainbow                              | Timer                | 07D0              | 0064              |
 | 0x06  | 0xE4           | Blink                                | Off, On              | 07D0, 07D0        | 01F4, 07D0        |
-| 0x07  | 0xE4           | Heartbeat                            |                      |                   |                   |
+| 0x07  | 0xE4           | Heartbeat                            | Off, On, Delay       | 07D0, 07D0, 03E8  | 01F4, 01F4, 03E8  |
 | 0x08  | 0xE4           | Comet                                |                      |                   |                   |
 | 0x09  | 0xE4           | Static                               |                      |                   |                   |
 | 0x21  | 0xE5           | Individually Addressable Static      |                      |                   |                   |
