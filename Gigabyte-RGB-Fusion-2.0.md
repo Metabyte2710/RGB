@@ -42,10 +42,20 @@ Information gathered from https://github.com/jackun/IT8297-rgb-controller and ht
 | 0x21       | ?                      |
 | 0x22 - end | 0x00                   |
 
+## Effect Modes
+
+| Mode Value | Mode Description |
+| ---------- | ---------------- |
+| 0x00       | None             |
+| 0x01       | Static           |
+| 0x02       | Pulse            |
+| 0x03       | Flash            |
+| 0x04       | Color Cycle      |
+
 ## Apply Packet
 
 | Byte Index | Value |
 | ---------- | ----- |
 | 0x00       | 0x28  |
 | 0x01       | 0xFF  |
-|
+| 0x02 - end | 0x00  |
