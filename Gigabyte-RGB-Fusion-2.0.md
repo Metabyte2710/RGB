@@ -14,6 +14,13 @@ Information gathered from https://github.com/jackun/IT8297-rgb-controller and ht
 | 0x3E       |                        |
 | 0x3F       | 0x00                   |
 
+Direct control header values
+
+| Value | Header Zone  |
+| ----- | ------------ |
+| 0x58  | RGB Header 1 |
+| 0x59  | RGB Header 2 |
+
 ## Effect Packet
 
 | Byte Index | Value                  |
@@ -58,14 +65,14 @@ Header Index Values
 
 | Value | Header Zone  |
 | ----- | ------------ |
-| 0x00  | I/O Zone     |
-| 0x01  | CPU Zone     |
-| 0x02  | Not Used?    |
-| 0x03  | Audio Zone   |
-| 0x04  | Chipset Zone |
-| 0x05  | RGB Header 1 |
-| 0x06  | RGB Header 2 |
-| 0x07  | Not Used?    |
+| 0x20  | I/O Zone     |
+| 0x21  | CPU Zone     |
+| 0x22  | Not Used?    |
+| 0x23  | Audio Zone   |
+| 0x24  | Chipset Zone |
+| 0x25  | RGB Header 1 |
+| 0x26  | RGB Header 2 |
+| 0x27  | Not Used?    |
 
 ## Effect Modes
 
