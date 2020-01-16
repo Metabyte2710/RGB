@@ -2,6 +2,18 @@ Gigabyte's second generation of RGB Fusion enabled motherboards use an ITE8297 c
 
 Information gathered from https://github.com/jackun/IT8297-rgb-controller and https://github.com/summerblind/aorusx570-rgb
 
+## Direct Control Packet
+| Byte Index | Value                  |
+| ---------- | ---------------------- |
+| 0x00       | Report ID: 0xCC        |
+| 0x01       | Header                 |
+| 0x02       | Byte Offset (16-bit)   |
+| 0x03       |                        |
+| 0x04       | Byte Count             |
+| 0x05 - 0x3D| LED Data (19x G, R, B) |
+| 0x3E       |                        |
+| 0x3F       | 0x00                   |
+
 ## Effect Packet
 
 | Byte Index | Value                  |
