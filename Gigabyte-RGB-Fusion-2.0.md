@@ -54,6 +54,19 @@ Information gathered from https://github.com/jackun/IT8297-rgb-controller and ht
 | 0x21       | ?                      |
 | 0x22 - end | 0x00                   |
 
+Header Index Values
+
+| Value | Header Zone  |
+| ----- | ------------ |
+| 0x00  | I/O Zone     |
+| 0x01  | CPU Zone     |
+| 0x02  | Not Used?    |
+| 0x03  | Audio Zone   |
+| 0x04  | Chipset Zone |
+| 0x05  | RGB Header 1 |
+| 0x06  | RGB Header 2 |
+| 0x07  | Not Used?    |
+
 ## Effect Modes
 
 | Mode Value | Mode Description |
@@ -63,6 +76,7 @@ Information gathered from https://github.com/jackun/IT8297-rgb-controller and ht
 | 0x02       | Pulse            |
 | 0x03       | Flash            |
 | 0x04       | Color Cycle      |
+
 
 ## Apply Packet
 
