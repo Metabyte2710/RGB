@@ -44,3 +44,19 @@ It looks like sending the apply packet every few seconds is enough to keep it fr
 | 0x06       | Direction          |
 | 0x07       | Fixed/Random Color |
 | 0x08       | 0xFF               |
+| 0x09       | Color 0 Red        |
+| 0x0A       | Color 0 Green      |
+| 0x0B       | Color 0 Blue       |
+| 0x0C       | Color 1 Red        |
+| 0x0D       | Color 1 Green      |
+| 0x0E       | Color 1 Blue       |
+| 0x0F       | Color 2 Red        |
+| 0x10       | Color 2 Green      |
+| 0x11       | Color 2 Blue       |
+| 0x12       | Temperature 0      |
+| 0x13       |                    |
+| 0x14       | Temperature 1      |
+| 0x15       |                    |
+| 0x16       | Temperature 2      |
+| 0x17       |                    |
+| 0x18 - end | 0x00               |
