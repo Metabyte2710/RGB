@@ -4,7 +4,7 @@ The Lighting Node Pro appears to reset itself after 20 seconds of inactivity.  I
 
 It looks like sending the apply packet every few seconds is enough to keep it from reverting to rainbow mode.
 
-# Set Direct Mode Packet
+# Set Control Mode Packet
 
 | Byte Index | Description                   |
 | ---------- | ----------------------------- |
