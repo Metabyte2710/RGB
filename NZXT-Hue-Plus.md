@@ -8,7 +8,7 @@ The NZXT Hue+ is an LED strip controller for PC case lighting.  It connects to t
 | 0x01       | Channel    | 0: Both, 1: Channel 1, 2: Channel 2 |
 | 0x02       | Mode       | See Modes section below             |
 | 0x03       |            |                                     |
-| 0x04       |            |                                     |
+| 0x04       | Speed      | 0: Slowest, 4: Fastest              |
 | 0x05+      | Color Data | 40x (G, R, B) for 120 bytes total   |
 
 # Modes
