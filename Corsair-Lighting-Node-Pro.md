@@ -76,3 +76,9 @@ All packets are 64 bytes long and are zero-filled.
 | 0x00       | 0x38                                    |
 | 0x01       | Channel                                 |
 | 0x02       | 1: Hardware Control 2: Software Control |
+
+# Brightness (0x39)
+
+# LED Count (0x3A)
+
+# Protocol (0x3B)
