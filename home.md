@@ -69,6 +69,7 @@ After getting a solid Aura implementation, the project branched out into other m
 
 ## Under investigation, not yet working:
 
+* [Corsair Commander Pro](Corsair-Lighting-Node-Pro)
 * Gigabyte Aorus Xtreme GTX1080Ti Waterforce
 * ASRock Fatal1ty B350 Gaming-ITX/ac ([ASRock Polychrome RGB](ASRock-Polychrome-RGB))
 * Look into MSI support: https://github.com/nagisa/msi-rgb
