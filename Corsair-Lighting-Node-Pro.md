@@ -4,16 +4,9 @@ The Lighting Node Pro appears to reset itself after 20 seconds of inactivity.  I
 
 It looks like sending the apply packet every few seconds is enough to keep it from reverting to rainbow mode.
 
-# Set Control Mode Packet
+All packets are 64 bytes long and are zero-filled.
 
-| Byte Index | Description                   |
-| ---------- | ----------------------------- |
-| 0x00       | 0x38                          |
-| 0x01       | Channel                       |
-| 0x02       | 1: Effect Mode 2: Direct Mode |
-| 0x03 - end | 0x00                          |
-
-# Color Data Packet
+# Direct Control (0x32)
 
 | Byte Index | Description                                 |
 | ---------- | ------------------------------------------- |
@@ -24,15 +17,17 @@ It looks like sending the apply packet every few seconds is enough to keep it fr
 | 0x04       | Color Channel (0: Red, 1: Green, 2: Blue)   |
 | 0x05-end   | LED channel values equal to Count           |
 
-# Apply Packet
+# Commit (0x33)
 
 | Byte Index | Description |
 | ---------- | ----------- |
 | 0x00       | 0x33        |
 | 0x01       | 0xFF        |
-| 0x02 - end | 0x00        |
 
-# Effect Packet
+# Begin (0x34)
+
+# Effect Configuration (0x35)
+
 | Byte Index | Description        |
 | ---------- | ------------------ |
 | 0x00       | 0x35               |
@@ -59,4 +54,15 @@ It looks like sending the apply packet every few seconds is enough to keep it fr
 | 0x15       |                    |
 | 0x16       | Temperature 2      |
 | 0x17       |                    |
-| 0x18 - end | 0x00               |
+
+# Temperature (0x36)
+
+# Reset (0x37)
+
+# Port State (0x38)
+
+| Byte Index | Description                             |
+| ---------- | --------------------------------------- |
+| 0x00       | 0x38                                    |
+| 0x01       | Channel                                 |
+| 0x02       | 1: Hardware Control 2: Software Control |
