@@ -26,6 +26,11 @@ All packets are 64 bytes long and are zero-filled.
 
 # Begin (0x34)
 
+| Byte Index | Description |
+| ---------- | ----------- |
+| 0x00       | 0x34        |
+| 0x01       | Channel     |
+
 # Effect Configuration (0x35)
 
 | Byte Index | Description        |
@@ -58,6 +63,11 @@ All packets are 64 bytes long and are zero-filled.
 # Temperature (0x36)
 
 # Reset (0x37)
+
+| Byte Index | Description |
+| ---------- | ----------- |
+| 0x00       | 0x37        |
+| 0x01       | Channel     |
 
 # Port State (0x38)
 
