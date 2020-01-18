@@ -37,7 +37,7 @@ All packets are 64 bytes long and are zero-filled.
 | ---------- | ------------------ |
 | 0x00       | 0x35               |
 | 0x01       | Channel (0 or 1)   |
-| 0x02       | Strip/Fan Number   |
+| 0x02       | Device index       |
 | 0x03       | Type of device     |
 | 0x04       | Effect Mode        |
 | 0x05       | Effect Speed       |
@@ -59,6 +59,39 @@ All packets are 64 bytes long and are zero-filled.
 | 0x15       |                    |
 | 0x16       | Temperature 2      |
 | 0x17       |                    |
+
+### Device Types
+
+| Device Type Value | Device Type Description |
+| ----------------- | ----------------------- |
+| 0x0A              | Corsair LED Strip       |
+| 0x0C              | Corsair HD-series Fan   |
+| 0x01              | Corsair SP-series Fan   |
+| 0x02              | Corsair ML-series Fan   |
+
+### Effect Modes
+
+| Mode Value | Mode Description |
+| ---------- | ---------------- |
+| 0x00       | Rainbow Wave     |
+| 0x01       | Color Shift      |
+| 0x02       | Color Pulse      |
+| 0x03       | Color Wave       |
+| 0x04       | Static           |
+| 0x05       | Temperature      |
+| 0x06       | Visor            |
+| 0x07       | Marquee          |
+| 0x08       | Blink            |
+| 0x09       | Sequential       |
+| 0x0A       | Rainbow          |
+
+### Speeds
+
+| Speed Value | Speed Description |
+| ----------- | ----------------- |
+| 0x00        | Fast              |
+| 0x01        | Medium            |
+| 0x02        | Slow              |
 
 # Temperature (0x36)
 
