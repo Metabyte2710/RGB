@@ -30,7 +30,7 @@ The controller appears to use a message packet interface.  There are multiple pa
 | Address | Function               |
 | ------- | ---------------------- |
 | 0x82EE  | 0xFF                   |
-| 0x82FF  | Brightness (0x00-0xFF) |
+| 0x82EF  | Brightness (0x00-0xFF) |
 | 0x82F0  | 0x83                   |
 
 # Effect Mode / Speed (0x84)
