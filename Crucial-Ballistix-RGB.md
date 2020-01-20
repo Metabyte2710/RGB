@@ -7,7 +7,7 @@ The controller appears to use a message packet interface.  There are multiple pa
 | Address | Function                            |
 | ------- | ----------------------------------- |
 | 0x820F  | 0x08                                |
-| 0x82E9  | Channel (0x01-0x08 or 0xFF for all) |
+| 0x82E9  | LEDs to update bitfield             |
 | 0x82EA  | 0x00                                |
 | 0x82EB  | 0x00                                |
 | 0x82EC  | 0x00                                |
