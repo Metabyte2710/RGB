@@ -14,11 +14,11 @@ The Crucial Ballistix RGB RAM enumerates an SMBus device at address 0x21.  It ap
 
 0x82EC
 
-0x82ED
+0x82ED - Effect Red
 
-0x82EE
+0x82EE - Effect Green
 
-0x82EF - Effect? 
+0x82EF - Effect Blue
 
 0x15 - Gradient Shift
 
@@ -40,9 +40,9 @@ The Crucial Ballistix RGB RAM enumerates an SMBus device at address 0x21.  It ap
 
 0x1E - Flashing, Static, Water Wave
 
-0x82F0 - 0x84
+0x82F0 - Apply Changes, 0x01 or 0x84 (possibly saving?)
 
-0x8300 seems to be the base register for red.  8 red bytes are written into 0x01 after writing 0x8300 to 0x00.
+0x8300 seems to be the base register for red.  8 red bytes are written into 0x01 after writing 0x8300 to 0x00.  Gets automatically updated when effect modes are applied.
 
 0x8340 seems to be the base register for green.  8 green bytes are written into 0x01 after writing 0x8340 to 0x00.
 
