@@ -25,6 +25,14 @@ The controller appears to use a message packet interface.  There are multiple pa
 | 0x82EF  | Speed |
 | 0x82F0  | 0x05  |
 
+# Unknown Packet (0x08)
+
+Sent by Asus Aura when in a software-controlled mode.
+
+# Unknown Packet (0x0E)
+
+Sent by Asus Aura when in a software-controlled mode.
+
 # Brightness (0x83)
 
 | Address | Function               |
