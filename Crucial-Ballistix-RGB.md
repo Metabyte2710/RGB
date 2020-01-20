@@ -35,7 +35,12 @@ The controller appears to use a message packet interface.  There are multiple pa
 
 # Effect Mode / Speed (0x84)
 
-0x820F - Effect 2?
+| Address | Value |
+| ------- | ----- |
+| 0x820F  | Mode  |
+| 0x82EE  |       |
+| 0x82EF  | Speed |
+| 0x82F0  | 0x84  |
 
 0xAF - Water Wave
 
