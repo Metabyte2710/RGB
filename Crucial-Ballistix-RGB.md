@@ -16,7 +16,7 @@ The controller appears to use a message packet interface.  There are multiple pa
 | 0x82EF  | Blue     |
 | 0x82F0  | 0x01     |
 
-# Effect Speed (0x05) (Flashing Period?)
+# Flashing Period (0x05)
 
 | Address | Value |
 | ------- | ----- |
