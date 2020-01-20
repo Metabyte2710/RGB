@@ -4,6 +4,17 @@ The controller appears to use a message packet interface.  There are multiple pa
 
 # Effect Color (0x01)
 
+| Address | Function |
+| ------- | -------- |
+| 0x82E9  | 0xFF     |
+| 0x82EA  | 0x00     |
+| 0x82EB  | 0x00     |
+| 0x82EC  | 0x00     |
+| 0x82ED  | Red      |
+| 0x82EE  | Green    |
+| 0x82EF  | Blue     |
+| 0x82F0  | 0x01     |
+
 # Brightness (0x83)
 
 | Address | Function               |
