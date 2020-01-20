@@ -42,9 +42,22 @@ The controller appears to use a message packet interface.  There are multiple pa
 | 0x82EF  | Speed |
 | 0x82F0  | 0x84  |
 
-0xAF - Water Wave
+## Modes
 
-0xCF - Static
+| Mode Value | Mode Description            |
+| ---------- | --------------------------- |
+| 0x1F       | Shift                       |
+| 0x2F       | Gradient Shift              |
+| 0x3F       | Fill                        |
+| 0x4F       | Stack                       |
+| 0x5F       | Double Stack                |
+| 0x6F       | Breathing                   |
+| 0x7F       | Motion Point                |
+| 0x8F       | Inside Out                  |
+| 0x9F       | Color Step                  |
+| 0xAF       | Water Wave (Color Blending) |
+| 0xBF       | Flashing                    |
+| 0xCF       | Static                      |
 
 0x82E9
 
