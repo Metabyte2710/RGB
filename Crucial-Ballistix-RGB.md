@@ -59,42 +59,6 @@ The controller appears to use a message packet interface.  There are multiple pa
 | 0xBF       | Flashing                    |
 | 0xCF       | Static                      |
 
-0x82E9
-
-0x82EA 
-
-0x82EB
-
-0x82EC
-
-0x82ED - Effect Red
-
-0x82EE - Effect Green
-
-0x82EF - Effect Blue
-
-0x15 - Gradient Shift
-
-0x16 - Shift
-
-0x17 - Fill
-
-0x18 - Stack
-
-0x19 - Double Stack
-
-0x1A - Breathing
-
-0x1B - Motion Point
-
-0x1C - Inside Out
-
-0x1D - Color Step
-
-0x1E - Flashing, Static, Water Wave
-
-0x82F0 - Apply Changes, 0x01 or 0x84 (possibly saving?)
-
 0x8300 seems to be the base register for red.  8 red bytes are written into 0x01 after writing 0x8300 to 0x00.  Gets automatically updated when effect modes are applied.
 
 0x8340 seems to be the base register for green.  8 green bytes are written into 0x01 after writing 0x8340 to 0x00.
