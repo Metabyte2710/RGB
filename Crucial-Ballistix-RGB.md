@@ -18,6 +18,8 @@ The controller appears to use a message packet interface.  There are multiple pa
 
 # Flashing Period (0x05)
 
+Range from 0x05 (fastest) to 0x96 (slowest)
+
 | Address | Value |
 | ------- | ----- |
 | 0x82ED  | 0xFF  |
