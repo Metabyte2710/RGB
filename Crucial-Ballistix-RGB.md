@@ -1,4 +1,4 @@
-The Crucial Ballistix RGB RAM enumerates an SMBus device at address 0x21, 0x23.  It appears to use a 16-bit register scheme similar to Aura, but not exactly the same.  16-bit address values are written to 0x00 followed by byte value writes to 0x01.  Bytes are read from 0x81.  The modules have 8 LEDs each.
+The Crucial Ballistix RGB RAM enumerates an SMBus device at address 0x21, 0x22, 0x23.  It appears to use a 16-bit register scheme similar to Aura, but not exactly the same.  16-bit address values are written to 0x00 followed by byte value writes to 0x01.  Bytes are read from 0x81.  The modules have 8 LEDs each.
 
 The controller appears to use a message packet interface.  There are multiple packet types and the type is indicated by the final write in the sequence, always to register 0x82F0.
 
