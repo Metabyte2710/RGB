@@ -71,6 +71,7 @@ After getting a solid Aura implementation, the project branched out into other m
 
 * [Crucial Ballistix RGB](Crucial-Ballistix-RGB)
 * [Corsair Commander Pro](Corsair-Lighting-Node-Pro)
+* [OpenRazer on Windows](https://github.com/rsandoz/razer-drivers-win32)
 * Gigabyte Aorus Xtreme GTX1080Ti Waterforce
 * ASRock Fatal1ty B350 Gaming-ITX/ac ([ASRock Polychrome RGB](ASRock-Polychrome-RGB))
 * Look into MSI support: https://github.com/nagisa/msi-rgb
