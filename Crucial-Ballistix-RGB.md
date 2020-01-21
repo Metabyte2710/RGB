@@ -54,6 +54,8 @@ Sent by Asus Aura when in a software-controlled mode.
 
 ## Modes
 
+Speed ranges from 0x80 (slowest) to 0x00 (fastest)
+
 | Mode Value | Mode Description            |
 | ---------- | --------------------------- |
 | 0x1F       | Shift                       |
