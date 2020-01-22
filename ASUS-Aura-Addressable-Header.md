@@ -10,7 +10,7 @@ https://github.com/purpl3F0x/hid_rgb_devices/blob/master/aura_hid.hpp
 | 0x01       | Control Mode (Direct: 0x40, Effect: 0x3B) |
 | 0x02       | Device                                    |
 | 0x03       | Start LED                                 |
-| 0x04       | Effect Mode                               |
+| 0x04       | Effect Mode / Number of LEDs              |
 | 0x05 - end | 20 LEDs of color data in RGB order        |
 
 # Effect Modes
