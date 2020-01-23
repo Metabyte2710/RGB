@@ -42,7 +42,7 @@ The NZXT Hue 2 is an LED strip controller for PC case lighting. It connects to t
 | 0x03       | 0x28        |                                       |
 | 0x04       | Mode        |                                       |
 | 0x05       | Speed       | 0: Slowest, 4: Fastest                |
-| 0x06       | ?           |                                       |
+| 0x06       | Direction   | 0 or 1                                |
 | 0x07       | ?           |                                       |
 | 0x08       | Color Count |                                       |
 | 0x09       | ?           |                                       |
