@@ -4,23 +4,25 @@
 
 The Corsair Vengeance RGB memory enumerates an SMBus device in the address range 0x58-0x5D.  This device uses SMBus byte commands to control its single RGB zone.
 
+In iCue, it has four modes - Rainbow, Static Color, Color Pulse, and Color Shift.  It has a Number of Colors selector from 2 to 7 colors along with a Speed (1 to 63) and Group Delay (None, Short, Medium, Long) selector.  Direction can be set to Forwards or Backwards.
+
 **Commands**
 
-| Command | Function |
-| ------ | ------ |
-| 0xA4 | Fade time (0 for static/no fading) |
-| 0xA5 | Hold time | 
-| 0xA6 | Mode |
-| 0xB0 | Red |
-| 0xB1 | Green |
-| 0xB2 | Blue |
+| Command | Function                           |
+| ------- | ---------------------------------- |
+| 0xA4    | Fade time (0 for static/no fading) |
+| 0xA5    | Hold time                          |
+| 0xA6    | Mode                               |
+| 0xB0    | Red                                |
+| 0xB1    | Green                              |
+| 0xB2    | Blue                               |
 
 **Modes**
 
-| Mode Value | Mode |
-| ------ | ------ |
-| 0x00 | Single color (static or pulsing) |
-| 0x01 | Fade through colors |
-| 0x02 | Pulse through colors |
+| Mode Value | Mode                             |
+| ---------- | -------------------------------- |
+| 0x00       | Single color (static or pulsing) |
+| 0x01       | Fade through colors              |
+| 0x02       | Pulse through colors             |
 
 There may be additional color commands for the fade/pulse sequences.  I have not discovered these, but my guess is the Asus Aura support for Corsair RGB doesn't change these colors.  I used the Asus Aura app to reverse engineer this controller.
