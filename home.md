@@ -48,6 +48,8 @@ After getting a solid Aura implementation, the project branched out into other m
 
 * [Corsair Lighting Node Pro](Corsair-Lighting-Node-Pro)
 
+* [Corsair Commander Pro](Corsair-Lighting-Node-Pro)
+
 * [Keyboard Visualizer Arduino LED strips](Keyboard-Visualizer-LED-Strips)
 
 * [E1.31 Streaming ACN Protocol](E1.31)
@@ -70,7 +72,6 @@ After getting a solid Aura implementation, the project branched out into other m
 ## Under investigation, not yet working:
 
 * [Crucial Ballistix RGB](Crucial-Ballistix-RGB)
-* [Corsair Commander Pro](Corsair-Lighting-Node-Pro)
 * [OpenRazer on Windows](https://github.com/rsandoz/razer-drivers-win32)
 * Gigabyte Aorus Xtreme GTX1080Ti Waterforce
 * ASRock Fatal1ty B350 Gaming-ITX/ac ([ASRock Polychrome RGB](ASRock-Polychrome-RGB))
