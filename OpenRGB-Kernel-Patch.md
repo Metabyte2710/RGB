@@ -38,9 +38,3 @@ cd
 sudo dpkg -i *.deb
 
 At several points along the way it may error out from missing dependencies.  You may need to track down some packages to install with apt.  Install packages and repeat each step until successful before moving to next step.
-
-I have a newer version of the patch in the generic RGB branch here:
-
-https://gitlab.com/CalcProgrammer1/OpenAuraSDK/blob/generic_rgb_interface_test/OpenAuraSDK.patch
-
-Use this instead of that v2 patch.
