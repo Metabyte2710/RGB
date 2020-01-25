@@ -14,7 +14,7 @@ git checkout v5.1
 
 4.  Apply patch
 
-patch -p1 < /home/user/Downloads/patch_file.patch
+patch -p1 < /home/user/OpenRGB/OpenRGB.patch
 
 5.  Copy your existing configuration.  I don't remember the exact filename of the existing config but it's in /boot.  Use tab-complete or a file browser to get the file name and replace "config-file" with this name below.
 
