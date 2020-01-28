@@ -68,6 +68,7 @@ After getting a solid Aura implementation, the project branched out into other m
 
 * Razer Chroma SDK (Windows)
 * OpenRazer (Linux)
+* Faustus (ASUS TUF Laptop Keyboards) (Linux)
 
 ## Under investigation, not yet working:
 
