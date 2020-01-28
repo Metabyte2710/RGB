@@ -1,0 +1,1 @@
+The HyperX Alloy Elite keyboard enumerates on USB at 0951:16BE and has three interfaces.
