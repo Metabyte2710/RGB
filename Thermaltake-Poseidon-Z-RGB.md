@@ -8,13 +8,13 @@ Early reverse engineering can be seen in this document: [Poseidon.Z.RGB.Reverse.
 | ---------- | --------------------------------------- |
 | 0x00       | 0x07                                    |
 | 0x01       | 0x02                                    |
-| 0x02       | 0x01                                    |
+| 0x02       | Profile to activate                     |
 | 0x03       | 0x00                                    |
 | 0x04       | 0x00                                    |
 | 0x05       | 0x00                                    |
 | 0x06       | 0x00                                    |
 | 0x07       | 0x00                                    |
-| 0x08       | Profile to activate                     |
+| 0x08       | Profile to edit (0 if not editing)      |
 | 0x09       | 0x00                                    |
 | 0x0A       | Direction (0: From Left, 1: From Right) |
 | 0x0B       | 0x00                                    |
