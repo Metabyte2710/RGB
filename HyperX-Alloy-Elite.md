@@ -28,3 +28,5 @@ The HyperX Alloy Elite keyboard enumerates on USB at 0951:16BE and has three int
 | 0x15       |                                           |
 | 0x16       |                                           |
 | 0x17       | Key: Left Arrow                           |
+| 0x18       | Key: F1                                   |
+| 0x19       | Key: 1                                    |
