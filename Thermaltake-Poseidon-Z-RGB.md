@@ -4,25 +4,25 @@ Early reverse engineering can be seen in this document: [Poseidon.Z.RGB.Reverse.
 
 # Control Packet (0x02)
 
-| Byte Index | Description         |
-| ---------- | ------------------- |
-| 0x00       | 0x07                |
-| 0x01       | 0x02                |
-| 0x02       | 0x01                |
-| 0x03       | 0x00                |
-| 0x04       | 0x00                |
-| 0x05       | 0x00                |
-| 0x06       | 0x00                |
-| 0x07       | 0x00                |
-| 0x08       | Profile to activate |
-| 0x09       | 0x00                |
-| 0x0A       | ?                   |
-| 0x0B       | 0x00                |
-| 0x0C       | ?                   |
-| 0x0D       | Brightness (0-4)    |
-| 0x0E       | 0x00                |
-| 0x0F       | 0x00                |
-| 0x10       | 0x08                |
-| 0x11       | 0x00                |
-| 0x12       | 0x05                |
-| 0x13       | 0x50                |
+| Byte Index | Description                             |
+| ---------- | --------------------------------------- |
+| 0x00       | 0x07                                    |
+| 0x01       | 0x02                                    |
+| 0x02       | 0x01                                    |
+| 0x03       | 0x00                                    |
+| 0x04       | 0x00                                    |
+| 0x05       | 0x00                                    |
+| 0x06       | 0x00                                    |
+| 0x07       | 0x00                                    |
+| 0x08       | Profile to activate                     |
+| 0x09       | 0x00                                    |
+| 0x0A       | Direction (0: From Left, 1: From Right) |
+| 0x0B       | 0x00                                    |
+| 0x0C       | ?                                       |
+| 0x0D       | Brightness (0-4)                        |
+| 0x0E       | 0x00                                    |
+| 0x0F       | 0x00                                    |
+| 0x10       | 0x08                                    |
+| 0x11       | 0x00                                    |
+| 0x12       | 0x05                                    |
+| 0x13       | 0x50                                    |
