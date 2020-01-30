@@ -69,11 +69,11 @@ The HyperX Alloy Elite keyboard enumerates on USB at 0951:16BE and has three int
 | 0x3E       | Key: Pause/Break                          |
 | 0x3F       | Key: Delete                               |
 | 0x40       |                                           |
-| 0x41       |                                           |
+| 0x41       | Key: Number Pad 7                         |
 | 0x42       |                                           |
 | 0x43       |                                           |
 | 0x44       | Key: Num Lock                             |
-| 0x45       |                                           |
+| 0x45       | Key: Number Pad 6                         |
 | 0x46       |                                           |
 | 0x47       |                                           |
 | 0x48       | Key: F4                                   |
@@ -85,11 +85,11 @@ The HyperX Alloy Elite keyboard enumerates on USB at 0951:16BE and has three int
 | 0x4E       | Key: Insert                               |
 | 0x4F       | Key: End                                  |
 | 0x50       |                                           |
-| 0x51       |                                           |
+| 0x51       | Key: Number Pad 8                         |
 | 0x52       |                                           |
 | 0x53       |                                           |
 | 0x54       | Key: Number Pad /                         |
-| 0x55       |                                           |
+| 0x55       | Key: Number Pad 1                         |
 | 0x56       |                                           |
 | 0x57       |                                           |
 | 0x58       | Key: F5                                   |
@@ -101,11 +101,11 @@ The HyperX Alloy Elite keyboard enumerates on USB at 0951:16BE and has three int
 | 0x5E       | Key: Home                                 |
 | 0x5F       | Key: Page Down                            |
 | 0x60       |                                           |
-| 0x61       |                                           |
+| 0x61       | Key: Number Pad 9                         |
 | 0x62       |                                           |
 | 0x63       |                                           |
 | 0x64       | Key: Number Pad *                         |
-| 0x65       |                                           |
+| 0x65       | Key: Number Pad 2                         |
 | 0x66       |                                           |
 | 0x67       |                                           |
 | 0x68       | Key: F6                                   |
@@ -121,7 +121,7 @@ The HyperX Alloy Elite keyboard enumerates on USB at 0951:16BE and has three int
 | 0x72       |                                           |
 | 0x73       |                                           |
 | 0x74       | Key: Number Pad -                         |
-| 0x75       |                                           |
+| 0x75       | Key: Number Pad 3                         |
 | 0x76       |                                           |
 | 0x77       |                                           |
 | 0x78       | Key: F7                                   |
@@ -133,10 +133,10 @@ The HyperX Alloy Elite keyboard enumerates on USB at 0951:16BE and has three int
 | 0x7E       | Key: ]/}                                  |
 | 0x7F       | Key: Right Control                        |
 | 0x80       |                                           |
-| 0x81       |                                           |
+| 0x81       | Key: Number Pad 4                         |
 | 0x82       |                                           |
 | 0x83       |                                           |
-| 0x84       |                                           |
+| 0x84       | Key: Number Pad +                         |
 | 0x85       |                                           |
 | 0x86       |                                           |
 | 0x87       |                                           |
@@ -148,3 +148,8 @@ The HyperX Alloy Elite keyboard enumerates on USB at 0951:16BE and has three int
 | 0x8D       | Key: Right Windows                        |
 | 0x8E       | Key: \\/\|                                |
 | 0x8F       | Key: Up Arrow                             |
+| 0x90       |                                           |
+| 0x91       | Key: Number Pad 5                         |
+| 0x92       |                                           |
+| 0x93       |                                           |
+| 0x94       | Key: Number Pad Enter                     |
