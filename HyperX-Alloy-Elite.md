@@ -65,7 +65,21 @@ This packet is incomplete
 | 0x3B       | 24 bytes of green gradient |
 | 0x53       | 24 bytes of blue gradient |
 | 0x6B       |                   |
+| 0x6C       |                   |
+| 0x6D       |                   |
+| 0x6E       |                   |
+| 0x6F       |                   |
+| 0x70       |                   |
 | 0x71       | Speed (1: Fastest - 9: Slowest) |
+| 0x72       |                   |
+| 0x73       | Color Mode - 0: Single Color 1: Dual Color, 2: Spectrum |
+| 0x74       | Color Mode        |
+| 0x75       | Color Mode        |
+| 0x76       | Color Mode        |
+| 0x77       | Color Mode        |
+| 0x78       | Color Mode        |
+| 0x79       | Color Mode        |
+| 0x7A       | Color Mode        |
 
 # Color packet (Main keyboard block)
 
