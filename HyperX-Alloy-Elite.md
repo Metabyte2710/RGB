@@ -39,7 +39,7 @@ This packet is incomplete
 | 0x0A       |                   |
 | 0x0B       |                   |
 | 0x0C       |                   |
-| 0x0D       | Direction (0: 1: Left)      |
+| 0x0D       | Direction (0: Right 1: Left 2: Up 3: Down 4: In 5: Out )      |
 | 0x0E       | Direction         |
 | 0x0F       |                   |
 
