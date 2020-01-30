@@ -42,6 +42,30 @@ This packet is incomplete
 | 0x0D       | Direction (0: Right 1: Left 2: Up 3: Down 4: In 5: Out )      |
 | 0x0E       | Direction         |
 | 0x0F       |                   |
+| 0x10       |                   |
+| 0x11       |                   |
+| 0x12       |                   |
+| 0x13       |                   |
+| 0x14       |                   |
+| 0x15       |                   |
+| 0x16       |                   |
+| 0x17       |                   |
+| 0x18       |                   |
+| 0x19       |                   |
+| 0x1A       |                   |
+| 0x1B       | 0xFF              |
+| 0x1C       | 0xFF              |
+| 0x1D       | 0xFF              |
+| 0x1E       | 0xFF              |
+| 0x1F       | 0xFF              |
+| 0x20       | 0xFF              |
+| 0x21       | 0xFF              |
+| 0x22       | 0xFF              |
+| 0x23       | 24 bytes of red gradient |
+| 0x3B       | 24 bytes of green gradient |
+| 0x53       | 24 bytes of blue gradient |
+| 0x6B       |                   |
+| 0x71       | Speed (1: Fastest - 9: Slowest) |
 
 # Color packet (Main keyboard block)
 
