@@ -120,6 +120,7 @@ Device type 0x04 is 10-LED Hue 2 strip.
 | Device type value | Device                | Number of LEDs |
 | ----------------- | --------------------- | -------------- |
 | 0x01              | Hue Plus LED Strip    | 10             |
+| 0x02              | Aer 1 RGB Fan         | 8              |
 | 0x04              | Hue 2 LED Strip       | 10             |
 | 0x0B              | Aer 2 RGB Fan (120mm) | 8              |
 | 0x0C              | Aer 2 RGB Fan (140mm) | 8              |
