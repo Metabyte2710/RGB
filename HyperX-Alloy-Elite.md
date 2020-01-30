@@ -1,5 +1,13 @@
 The HyperX Alloy Elite keyboard enumerates on USB at 0951:16BE and has three interfaces.  The keyboard uses HID packets that are 264 bytes long.  The protocol looks similar to the Poseidon Z RGB though not identical.
 
+# Switch profile
+
+| Byte Index | Description       |
+| ---------- | ----------------- |
+| 0x00       | 0x07              |
+| 0x01       | 0x81              |
+| 0x02       | Profile to select |
+
 # Color packet (Main keyboard block)
 
 The color channels 1-3 provide color data for the main keyboard block.  The RGB strip and media keys are not covered in these packets.
