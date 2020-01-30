@@ -53,14 +53,14 @@ This packet is incomplete
 | 0x18       |                   |
 | 0x19       |                   |
 | 0x1A       |                   |
-| 0x1B       | 0xFF              |
-| 0x1C       | 0xFF              |
-| 0x1D       | 0xFF              |
-| 0x1E       | 0xFF              |
-| 0x1F       | 0xFF              |
-| 0x20       | 0xFF              |
-| 0x21       | 0xFF              |
-| 0x22       | 0xFF              |
+| 0x1B       | Reactive Mode - 0xFF: None, 0x03: Trigger, 0x04: Explosion, 0x05: HyperX Flame |
+| 0x1C       | Reactive Mode     |
+| 0x1D       | Reactive Mode     |
+| 0x1E       | Reactive Mode     |
+| 0x1F       | Reactive Mode     |
+| 0x20       | Reactive Mode     |
+| 0x21       | Reactive Mode     |
+| 0x22       | Reactive Mode     |
 | 0x23       | 24 bytes of red gradient |
 | 0x3B       | 24 bytes of green gradient |
 | 0x53       | 24 bytes of blue gradient |
