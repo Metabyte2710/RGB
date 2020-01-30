@@ -21,6 +21,28 @@ NGENUITY sends both of these packets:
 | 0x06       | Brightness (0-3)  |
 | 0x07       | 0x01              |
 
+# Set effect
+This packet is incomplete
+
+| Byte Index | Description       |
+| ---------- | ----------------- |
+| 0x00       | 0x07              |
+| 0x01       | 0x02              |
+| 0x02       | Profile to select |
+| 0x03       | 0x00              |
+| 0x04       |                   |
+| 0x05       |                   |
+| 0x06       |                   |
+| 0x07       |                   |
+| 0x08       |                   |
+| 0x09       | 0x01              |
+| 0x0A       |                   |
+| 0x0B       |                   |
+| 0x0C       |                   |
+| 0x0D       | Direction (0: 1: Left)      |
+| 0x0E       | Direction         |
+| 0x0F       |                   |
+
 # Color packet (Main keyboard block)
 
 The color channels 1-3 provide color data for the main keyboard block.  The RGB strip and media keys are not covered in these packets.
