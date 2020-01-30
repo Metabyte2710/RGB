@@ -2,11 +2,24 @@ The HyperX Alloy Elite keyboard enumerates on USB at 0951:16BE and has three int
 
 # Switch profile
 
+NGENUITY sends both of these packets:
+
 | Byte Index | Description       |
 | ---------- | ----------------- |
 | 0x00       | 0x07              |
 | 0x01       | 0x81              |
 | 0x02       | Profile to select |
+
+| Byte Index | Description       |
+| ---------- | ----------------- |
+| 0x00       | 0x07              |
+| 0x01       | 0x01              |
+| 0x02       | Profile to select |
+| 0x03       | 0x00              |
+| 0x04       | 0x00              |
+| 0x05       | 0x00              |
+| 0x06       | Brightness (0-3)  |
+| 0x07       | 0x01              |
 
 # Color packet (Main keyboard block)
 
