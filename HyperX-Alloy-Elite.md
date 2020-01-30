@@ -59,7 +59,7 @@ The HyperX Alloy Elite keyboard enumerates on USB at 0951:16BE and has three int
 | 0x34       | Key: //?                                  |
 | 0x35       |                                           |
 | 0x36       |                                           |
-| 0x37       |                                           |
+| 0x37       | Key: Right Arrow                          |
 | 0x38       | Key: F3                                   |
 | 0x39       | Key: 3                                    |
 | 0x3A       | Key: E                                    |
@@ -72,7 +72,7 @@ The HyperX Alloy Elite keyboard enumerates on USB at 0951:16BE and has three int
 | 0x41       |                                           |
 | 0x42       |                                           |
 | 0x43       |                                           |
-| 0x44       |                                           |
+| 0x44       | Key: Num Lock                             |
 | 0x45       |                                           |
 | 0x46       |                                           |
 | 0x47       |                                           |
@@ -88,7 +88,7 @@ The HyperX Alloy Elite keyboard enumerates on USB at 0951:16BE and has three int
 | 0x51       |                                           |
 | 0x52       |                                           |
 | 0x53       |                                           |
-| 0x54       |                                           |
+| 0x54       | Key: Number Pad /                         |
 | 0x55       |                                           |
 | 0x56       |                                           |
 | 0x57       |                                           |
@@ -104,7 +104,7 @@ The HyperX Alloy Elite keyboard enumerates on USB at 0951:16BE and has three int
 | 0x61       |                                           |
 | 0x62       |                                           |
 | 0x63       |                                           |
-| 0x64       |                                           |
+| 0x64       | Key: Number Pad *                         |
 | 0x65       |                                           |
 | 0x66       |                                           |
 | 0x67       |                                           |
@@ -120,7 +120,7 @@ The HyperX Alloy Elite keyboard enumerates on USB at 0951:16BE and has three int
 | 0x71       |                                           |
 | 0x72       |                                           |
 | 0x73       |                                           |
-| 0x74       |                                           |
+| 0x74       | Key: Number Pad -                         |
 | 0x75       |                                           |
 | 0x76       |                                           |
 | 0x77       |                                           |
