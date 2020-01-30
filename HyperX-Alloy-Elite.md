@@ -1,6 +1,8 @@
 The HyperX Alloy Elite keyboard enumerates on USB at 0951:16BE and has three interfaces.  The keyboard uses HID packets that are 264 bytes long.  The protocol looks similar to the Poseidon Z RGB though not identical.
 
-# Color packet
+# Color packet (Main keyboard block)
+
+The color channels 1-3 provide color data for the main keyboard block.  The RGB strip and media keys are not covered in these packets.
 
 | Byte Index | Description                               |
 | ---------- | ----------------------------------------- |
@@ -154,3 +156,30 @@ The HyperX Alloy Elite keyboard enumerates on USB at 0951:16BE and has three int
 | 0x93       |                                           |
 | 0x94       | Key: Number Pad Enter                     |
 | 0x95       | Key: Number Pad .                         |
+
+# Color packet (RGB strip and media keys)
+
+The RGB strip and media keys are covered by a fourth color packet with color channel 4.  Different bytes in this packet provide the red, green, and blue channels for the RGB strip and media key LEDs.
+
+| Byte Index | Description                               |
+| ---------- | ----------------------------------------- |
+| 0x00       | 0x07                                      |
+| 0x01       | 0x06                                      |
+| 0x02       | Profile to edit                           |
+| 0x03       | Color channel (4: RGB Strip, Media Keys)  |
+| 0x04       | 0x00                                      |
+| 0x05       | 0x00                                      |
+| 0x06       | 0x00                                      |
+| 0x07       | 0x00                                      |
+| 0x12       | Key: Media Mute (Red)                     |
+| 0x13       | Key: Media Play Pause (Red)               |
+| 0x22       | Key: Media Mute (Green)                   |
+| 0x23       | Key: Media Play Pause (Green)             |
+| 0x32       | Key: Media Mute (Blue)                    |
+| 0x33       | Key: Media Play Pause (Blue)              |
+| 0x72       | Key: Media Back (Blue)                    |
+| 0x73       | Key: Media Forward (Blue)                 |
+| 0x82       | Key: Media Back (Green)                   |
+| 0x83       | Key: Media Forward (Green)                |
+| 0x92       | Key: Media Back (Red)                     |
+| 0x93       | Key: Media Forward (Red)                  |
