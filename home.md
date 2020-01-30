@@ -74,6 +74,7 @@ After getting a solid Aura implementation, the project branched out into other m
 
 * [Crucial Ballistix RGB](Crucial-Ballistix-RGB)
 * [OpenRazer on Windows](https://github.com/rsandoz/razer-drivers-win32)
+* [HyperX Alloy Elite](HyperX-Alloy-Elite)
 * Gigabyte Aorus Xtreme GTX1080Ti Waterforce
 * ASRock Fatal1ty B350 Gaming-ITX/ac ([ASRock Polychrome RGB](ASRock-Polychrome-RGB))
 * Look into MSI support: https://github.com/nagisa/msi-rgb
