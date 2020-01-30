@@ -34,7 +34,7 @@ The HyperX Alloy Elite keyboard enumerates on USB at 0951:16BE and has three int
 | 0x1B       | Key: A                                    |
 | 0x1C       |                                           |
 | 0x1D       | Key: Left Windows                         |
-| 0x1E       |                                           |
+| 0x1E       | Key: Print Screen                         |
 | 0x1F       |                                           |
 | 0x20       | Key: F10                                  |
 | 0x21       | Key: 0                                    |
@@ -50,7 +50,7 @@ The HyperX Alloy Elite keyboard enumerates on USB at 0951:16BE and has three int
 | 0x2B       | Key: S                                    |
 | 0x2C       | Key: Z                                    |
 | 0x2D       | Key: Left Alt                             |
-| 0x2E       |                                           |
+| 0x2E       | Key: Scroll Lock                          |
 | 0x2F       | Key: Backspace                            |
 | 0x30       | Key: F11                                  |
 | 0x31       | Key: -/_                                  |
@@ -66,8 +66,8 @@ The HyperX Alloy Elite keyboard enumerates on USB at 0951:16BE and has three int
 | 0x3B       | Key: D                                    |
 | 0x3C       | Key: X                                    |
 | 0x3D       |                                           |
-| 0x3E       |                                           |
-| 0x3F       |                                           |
+| 0x3E       | Key: Pause/Break                          |
+| 0x3F       | Key: Delete                               |
 | 0x40       |                                           |
 | 0x41       |                                           |
 | 0x42       |                                           |
@@ -82,8 +82,8 @@ The HyperX Alloy Elite keyboard enumerates on USB at 0951:16BE and has three int
 | 0x4B       | Key: F                                    |
 | 0x4C       | Key: C                                    |
 | 0x4D       | Key: Space                                |
-| 0x4E       |                                           |
-| 0x4F       |                                           |
+| 0x4E       | Key: Insert                               |
+| 0x4F       | Key: End                                  |
 | 0x50       |                                           |
 | 0x51       |                                           |
 | 0x52       |                                           |
@@ -98,8 +98,8 @@ The HyperX Alloy Elite keyboard enumerates on USB at 0951:16BE and has three int
 | 0x5B       | Key: G                                    |
 | 0x5C       | Key: V                                    |
 | 0x5D       |                                           |
-| 0x5E       |                                           |
-| 0x5F       |                                           |
+| 0x5E       | Key: Home                                 |
+| 0x5F       | Key: Page Down                            |
 | 0x60       |                                           |
 | 0x61       |                                           |
 | 0x62       |                                           |
@@ -114,7 +114,7 @@ The HyperX Alloy Elite keyboard enumerates on USB at 0951:16BE and has three int
 | 0x6B       | Key: H                                    |
 | 0x6C       | Key: B                                    |
 | 0x6D       |                                           |
-| 0x6E       |                                           |
+| 0x6E       | Key: Page Up                              |
 | 0x6F       | Key: Right Shift                          |
 | 0x70       |                                           |
 | 0x71       |                                           |
