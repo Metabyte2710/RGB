@@ -173,7 +173,7 @@ The RGB strip and media keys are covered by a fourth color packet with color cha
 | 0x07       | 0x00                                      |
 | 0x08       | RGB Strip 0 (Red)                         |
 | 0x09       | RGB Strip 3 (Red)                         |
-| 0x0A       |                                           |
+| 0x0A       | RGB Strip 5 (Red)                         |
 | 0x0B       |                                           |
 | 0x0C       |                                           |
 | 0x0D       |                                           |
@@ -189,7 +189,7 @@ The RGB strip and media keys are covered by a fourth color packet with color cha
 | 0x17       |                                           |
 | 0x18       |                                           |
 | 0x19       | RGB Strip 3 (Green)                       |
-| 0x1A       |                                           |
+| 0x1A       | RGB Strip 5 (Green)                       |
 | 0x1B       |                                           |
 | 0x1C       |                                           |
 | 0x1D       |                                           |
@@ -205,7 +205,7 @@ The RGB strip and media keys are covered by a fourth color packet with color cha
 | 0x27       |                                           |
 | 0x28       | RGB Strip 1 (Green)                       |
 | 0x29       | RGB Strip 0 (Green)                       |
-| 0x2A       |                                           |
+| 0x2A       | RGB Strip 5 (Blue)                        |
 | 0x2B       |                                           |
 | 0x2C       |                                           |
 | 0x2D       |                                           |
@@ -236,15 +236,30 @@ The RGB strip and media keys are covered by a fourth color packet with color cha
 | 0x46       |                                           |
 | 0x47       |                                           |
 | 0x48       | RGB Strip 1 (Red)                         |
+| 0x49       |                                           |
+| 0x4A       |                                           |
+| 0x4B       |                                           |
+| 0x4C       |                                           |
+| 0x4D       |                                           |
+| 0x4E       |                                           |
+| 0x4F       |                                           |
 | 0x68       | RGB Strip 2 (Blue)                        |
 | 0x69       | RGB Strip 4 (Blue)                        |
+| 0x6A       | RGB Strip 6 (Blue)                        |
+| 0x6B       |                                           |
+| 0x6C       |                                           |
+| 0x6D       |                                           |
+| 0x6E       |                                           |
+| 0x6F       |                                           |
 | 0x72       | Key: Media Back (Blue)                    |
 | 0x73       | Key: Media Forward (Blue)                 |
 | 0x78       | RGB Strip 2 (Green)                       |
 | 0x79       | RGB Strip 4 (Green)                       |
+| 0x7A       | RGB Strip 6 (Green)                       |
 | 0x82       | Key: Media Back (Green)                   |
 | 0x83       | Key: Media Forward (Green)                |
 | 0x88       | RGB Strip 2 (Red)                         |
 | 0x89       | RGB Strip 4 (Red)                         |
+| 0x8A       | RGB Strip 6 (Red)                         |
 | 0x92       | Key: Media Back (Red)                     |
 | 0x93       | Key: Media Forward (Red)                  |
