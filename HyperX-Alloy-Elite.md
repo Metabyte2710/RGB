@@ -44,8 +44,28 @@ The HyperX Alloy Elite keyboard enumerates on USB at 0951:16BE and has three int
 | 0x25       |                                           |
 | 0x26       |                                           |
 | 0x27       |                                           |
-| 0x28       |                                           |
-| 0x29       |                                           |
-| 0x2A       |                                           |
-| 0x2B       |                                           |
+| 0x28       | Key: F2                                   |
+| 0x29       | Key: 2                                    |
+| 0x2A       | Key: W                                    |
+| 0x2B       | Key: S                                    |
 | 0x2C       | Key: Z                                    |
+| 0x2D       | Key: Left Alt                             |
+| 0x2E       |                                           |
+| 0x2F       |                                           |
+| 0x30       |                                           |
+| 0x31       |                                           |
+| 0x32       |                                           |
+| 0x33       |                                           |
+| 0x34       |                                           |
+| 0x35       |                                           |
+| 0x36       |                                           |
+| 0x37       |                                           |
+| 0x38       | Key: F3                                   |
+| 0x39       | Key: 3                                    |
+| 0x3A       | Key: E                                    |
+| 0x3B       | Key: D                                    |
+| 0x3C       | Key: X                                    |
+| 0x3D       |                                           |
+| 0x3E       |                                           |
+| 0x3F       |                                           |
+| 0x4D       | Key: Space                                |
