@@ -49,33 +49,48 @@ Early reverse engineering can be seen in this document: [Poseidon.Z.RGB.Reverse.
 | 0x05       | 0x00                                      |
 | 0x06       | 0x00                                      |
 | 0x07       | 0x00                                      |
-| 0x08       | Escape Key                                |
-| 0x09       | `/~ Key                                   |
-| 0x0A       | Tab Key                                   |
-| 0x0B       | Caps Lock Key                             |
-| 0x0C       | Left Shift Key                            |
-| 0x0D       | Left Control Key                          |
-| 0x0E       | Left Arrow Key                            |
-| 0x0F       | Insert Key                                |
-| 0x10       | F1 Key                                    |
-| 0x11       | 1 Key                                     |
-| 0x12       | Q Key                                     |
-| 0x13       | A Key                                     |
+| 0x08       | Key: Escape                               |
+| 0x09       | Key: `/~                                  |
+| 0x0A       | Key: Tab                                  |
+| 0x0B       | Key: Caps Lock                            |
+| 0x0C       | Key: Left Shift                           |
+| 0x0D       | Key: Left Control                         |
+| 0x0E       | Key: Left Arrow                           |
+| 0x0F       | Key: Insert                               |
+| 0x10       | Key: F1                                   |
+| 0x11       | Key: 1                                    |
+| 0x12       | Key: Q                                    |
+| 0x13       | Key: A                                    |
 | 0x14       | Red: 0xFF, Green: 0x00, Blue: 0x11        |
-| 0x15       | Windows Key                               |
-| 0x16       | Down Arrow Key                            |
-| 0x17       | Delete Key                                |
-| 0x18       | F2 Key                                    |
-| 0x19       | 2 Key                                     |
-| 0x1A       | W Key                                     |
-| 0x1B       | S Key                                     |
+| 0x15       | Key: Windows                              |
+| 0x16       | Key: Down Arrow                           |
+| 0x17       | Key: Delete                               |
+| 0x18       | Key: F2                                   |
+| 0x19       | Key: 2                                    |
+| 0x1A       | Key: W                                    |
+| 0x1B       | Key: S                                    |
 | 0x1C       | Red: 0xFF, Green: 0x00, Blue: 0x11        |
-| 0x1D       | Left Alt Key                              |
-| 0x1E       | Right Arrow Key                           |
-| 0x1F       | Home Key                                  |
-| 0x20       | F3 Key                                    |
-| 0x21       | 3 Key                                     |
-| 0x22       | E Key                                     |
-| 0x23       | D Key                                     |
-| 0x24       | Z Key                                     |
+| 0x1D       | Key: Left Alt                             |
+| 0x1E       | Key: Right Arrow                          |
+| 0x1F       | Key: Home                                 |
+| 0x20       | Key: F3                                   |
+| 0x21       | Key: 3                                    |
+| 0x22       | Key: E                                    |
+| 0x23       | Key: D                                    |
+| 0x24       | Key: Z                                    |
 | 0x25       | Red: 0xFF, Green: 0x00, Blue: 0x11        |
+| 0x26       | Key: Up Arrow                             |
+| 0x27       | Key: End                                  |
+| 0x28       | Key: F4                                   |
+| 0x29       | Key: 4                                    |
+| 0x2A       | Key: R                                    |
+| 0x2B       | Key: F                                    |
+| 0x2C       | Key: X                                    |
+| 0x2D       | Key: Space                                |
+| 0x2E       | Key: Number Pad 4                         |
+| 0x2F       | Key: Page Up                              |
+| 0x30       | Key: F5                                   |
+| 0x31       | Key: 5                                    |
+| 0x32       | Key: T                                    |
+| 0x33       | Key: G                                    |
+| 0x34       | Key: C                                    |
