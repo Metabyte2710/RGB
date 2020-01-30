@@ -171,12 +171,57 @@ The RGB strip and media keys are covered by a fourth color packet with color cha
 | 0x05       | 0x00                                      |
 | 0x06       | 0x00                                      |
 | 0x07       | 0x00                                      |
+| 0x08       | RGB Strip 0 (Red)                         |
+| 0x09       |                                           |
+| 0x0A       |                                           |
+| 0x0B       |                                           |
+| 0x0C       |                                           |
+| 0x0D       |                                           |
+| 0x0E       |                                           |
+| 0x0F       |                                           |
+| 0x10       |                                           |
+| 0x11       |                                           |
 | 0x12       | Key: Media Mute (Red)                     |
 | 0x13       | Key: Media Play Pause (Red)               |
+| 0x14       |                                           |
+| 0x15       |                                           |
+| 0x16       |                                           |
+| 0x17       |                                           |
+| 0x18       |                                           |
+| 0x19       |                                           |
+| 0x1A       |                                           |
+| 0x1B       |                                           |
+| 0x1C       |                                           |
+| 0x1D       |                                           |
+| 0x1E       |                                           |
+| 0x1F       |                                           |
+| 0x20       |                                           |
+| 0x21       |                                           |
 | 0x22       | Key: Media Mute (Green)                   |
 | 0x23       | Key: Media Play Pause (Green)             |
+| 0x24       |                                           |
+| 0x25       |                                           |
+| 0x26       |                                           |
+| 0x27       |                                           |
+| 0x28       | RGB Strip 1 (Green)                       |
+| 0x29       | RGB Strip 0 (Green)                       |
+| 0x2A       |                                           |
+| 0x2B       |                                           |
+| 0x2C       |                                           |
+| 0x2D       |                                           |
+| 0x2E       |                                           |
+| 0x2F       |                                           |
+| 0x30       |                                           |
+| 0x31       |                                           |
 | 0x32       | Key: Media Mute (Blue)                    |
 | 0x33       | Key: Media Play Pause (Blue)              |
+| 0x34       |                                           |
+| 0x35       |                                           |
+| 0x36       |                                           |
+| 0x37       |                                           |
+| 0x38       | RGB Strip 1 (Blue)                        |
+| 0x39       | RGB Strip 0 (Blue)                        |
+| 0x48       | RGB Strip 1 (Red)                         |
 | 0x72       | Key: Media Back (Blue)                    |
 | 0x73       | Key: Media Forward (Blue)                 |
 | 0x82       | Key: Media Back (Green)                   |
