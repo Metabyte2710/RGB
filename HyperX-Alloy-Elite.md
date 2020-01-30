@@ -18,7 +18,7 @@ The HyperX Alloy Elite keyboard enumerates on USB at 0951:16BE and has three int
 | 0x0B       | Key: Caps Lock                            |
 | 0x0C       | Key: Left Shift                           |
 | 0x0D       | Key: Left Control                         |
-| 0x0E       |                                           |
+| 0x0E       | Key: F12                                  |
 | 0x0F       |                                           |
 | 0x10       | Key: F9                                   |
 | 0x11       | Key: 9                                    |
@@ -51,12 +51,12 @@ The HyperX Alloy Elite keyboard enumerates on USB at 0951:16BE and has three int
 | 0x2C       | Key: Z                                    |
 | 0x2D       | Key: Left Alt                             |
 | 0x2E       |                                           |
-| 0x2F       |                                           |
-| 0x30       |                                           |
-| 0x31       |                                           |
-| 0x32       |                                           |
-| 0x33       |                                           |
-| 0x34       |                                           |
+| 0x2F       | Key: Backspace                            |
+| 0x30       | Key: F11                                  |
+| 0x31       | Key: -/_                                  |
+| 0x32       | Key: [/{                                  |
+| 0x33       | Key: '/"                                  |
+| 0x34       | Key: //?                                  |
 | 0x35       |                                           |
 | 0x36       |                                           |
 | 0x37       |                                           |
@@ -129,8 +129,8 @@ The HyperX Alloy Elite keyboard enumerates on USB at 0951:16BE and has three int
 | 0x7A       | Key: U                                    |
 | 0x7B       | Key: J                                    |
 | 0x7C       | Key: N                                    |
-| 0x7D       |                                           |
-| 0x7E       |                                           |
+| 0x7D       | Key: Right Alt                            |
+| 0x7E       | Key: ]/}                                  |
 | 0x7F       |                                           |
 | 0x80       |                                           |
 | 0x81       |                                           |
@@ -146,5 +146,5 @@ The HyperX Alloy Elite keyboard enumerates on USB at 0951:16BE and has three int
 | 0x8B       | Key: K                                    |
 | 0x8C       | Key: M                                    |
 | 0x8D       |                                           |
-| 0x8E       |                                           |
+| 0x8E       | Key: \/\|                                 |
 | 0x8F       |                                           |
