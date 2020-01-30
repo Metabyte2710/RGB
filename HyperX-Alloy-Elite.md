@@ -242,9 +242,31 @@ The RGB strip and media keys are covered by a fourth color packet with color cha
 | 0x4C       |                                           |
 | 0x4D       |                                           |
 | 0x4E       |                                           |
-| 0x4F       |                                           |
+| 0x4F       | RGB Strip 17 (Red)                        |
+| 0x50       |                                           |
+| 0x51       |                                           |
+| 0x52       |                                           |
+| 0x53       |                                           |
+| 0x54       |                                           |
+| 0x55       |                                           |
+| 0x56       |                                           |
+| 0x57       |                                           |
+| 0x58       |                                           |
+| 0x59       |                                           |
+| 0x5A       |                                           |
+| 0x5B       |                                           |
+| 0x5C       |                                           |
 | 0x5D       | RGB Strip 15 (Blue)                       |
 | 0x5E       | RGB Strip 14 (Blue)                       |
+| 0x5F       | RGB Strip 17 (Blue)                       |
+| 0x60       |                                           |
+| 0x61       |                                           |
+| 0x62       |                                           |
+| 0x63       |                                           |
+| 0x64       |                                           |
+| 0x65       |                                           |
+| 0x66       |                                           |
+| 0x67       |                                           |
 | 0x68       | RGB Strip 2 (Blue)                        |
 | 0x69       | RGB Strip 4 (Blue)                        |
 | 0x6A       | RGB Strip 6 (Blue)                        |
@@ -252,9 +274,15 @@ The RGB strip and media keys are covered by a fourth color packet with color cha
 | 0x6C       | RGB Strip 10 (Blue)                       |
 | 0x6D       | RGB Strip 12 (Blue)                       |
 | 0x6E       | RGB Strip 14 (Green)                      |
-| 0x6F       |                                           |
+| 0x6F       | RGB Strip 17 (Green)                      |
+| 0x70       |                                           |
+| 0x71       |                                           |
 | 0x72       | Key: Media Back (Blue)                    |
 | 0x73       | Key: Media Forward (Blue)                 |
+| 0x74       |                                           |
+| 0x75       |                                           |
+| 0x76       |                                           |
+| 0x77       |                                           |
 | 0x78       | RGB Strip 2 (Green)                       |
 | 0x79       | RGB Strip 4 (Green)                       |
 | 0x7A       | RGB Strip 6 (Green)                       |
@@ -263,8 +291,14 @@ The RGB strip and media keys are covered by a fourth color packet with color cha
 | 0x7D       | RGB Strip 12 (Green)                      |
 | 0x7E       | RGB Strip 15 (Green)                      |
 | 0x7F       |                                           |
+| 0x80       |                                           |
+| 0x81       |                                           |
 | 0x82       | Key: Media Back (Green)                   |
 | 0x83       | Key: Media Forward (Green)                |
+| 0x84       |                                           |
+| 0x85       |                                           |
+| 0x86       |                                           |
+| 0x87       |                                           |
 | 0x88       | RGB Strip 2 (Red)                         |
 | 0x89       | RGB Strip 4 (Red)                         |
 | 0x8A       | RGB Strip 6 (Red)                         |
