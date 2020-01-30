@@ -221,10 +221,27 @@ The RGB strip and media keys are covered by a fourth color packet with color cha
 | 0x37       |                                           |
 | 0x38       | RGB Strip 1 (Blue)                        |
 | 0x39       | RGB Strip 0 (Blue)                        |
+| 0x3A       |                                           |
+| 0x3B       |                                           |
+| 0x3C       |                                           |
+| 0x3D       |                                           |
+| 0x3E       |                                           |
+| 0x3F       |                                           |
+| 0x40       |                                           |
+| 0x41       |                                           |
+| 0x42       |                                           |
+| 0x43       |                                           |
+| 0x44       |                                           |
+| 0x45       |                                           |
+| 0x46       |                                           |
+| 0x47       |                                           |
 | 0x48       | RGB Strip 1 (Red)                         |
+| 0x68       | RGB Strip 2 (Blue)                        |
 | 0x72       | Key: Media Back (Blue)                    |
 | 0x73       | Key: Media Forward (Blue)                 |
+| 0x78       | RGB Strip 2 (Green)                       |
 | 0x82       | Key: Media Back (Green)                   |
 | 0x83       | Key: Media Forward (Green)                |
+| 0x88       | RGB Strip 2 (Red)                         |
 | 0x92       | Key: Media Back (Red)                     |
 | 0x93       | Key: Media Forward (Red)                  |
