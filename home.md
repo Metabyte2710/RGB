@@ -6,6 +6,8 @@ This project originally focused only on ASUS Aura.  It was spun off of Keyboard 
 
 After getting a solid Aura implementation, the project branched out into other manufacturers and categories of RGB devices.  A major focus was to develop a software API that could reliably represent as many RGB devices as possible, exposing their various modes and describing their LED layouts via zones, that was generic enough to write a user application without specifically targeting any one manufacturer.  To this extent, the generic_rgb_interface_test branch was created which became the foundation of OpenRGB.  The goal of OpenRGB is to both develop new drivers for unsupported devices and integrate existing open source drivers for devices that do have some sort of open support.  The goal is to be the one-stop solution to open source RGB lighting control!
 
+![Capture](uploads/72a1d61d946156455bf53d343bb96257/Capture.PNG)
+
 ## Motherboard RGB Systems
 
 * [ASUS Aura (SMBus Variants)](ASUS-Aura-Overview)
