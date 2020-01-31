@@ -46,7 +46,7 @@ After getting a solid Aura implementation, the project branched out into other m
 
 * [NZXT Hue+](NZXT-Hue-Plus)
 
-* [NZXT Hue 2](NZXT-Hue-2)
+* [NZXT Hue 2](NZXT-Hue-2) and NZXT Smart Device V2
 
 * [Corsair Lighting Node Pro](Corsair-Lighting-Node-Pro)
 
