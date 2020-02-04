@@ -34,9 +34,9 @@ This packet is incomplete
 | 0x05       |                   |
 | 0x06       |                   |
 | 0x07       |                   |
-| 0x08       |                   |
-| 0x09       | 0x01              |
-| 0x0A       |                   |
+| 0x08       | Mode Byte 1       |
+| 0x09       | Mode Byte 2       |
+| 0x0A       | Mode Byte 3       |
 | 0x0B       |                   |
 | 0x0C       |                   |
 | 0x0D       | Direction (0: Right 1: Left 2: Up 3: Down 4: In 5: Out )      |
@@ -80,6 +80,12 @@ This packet is incomplete
 | 0x78       | Color Mode        |
 | 0x79       | Color Mode        |
 | 0x7A       | Color Mode        |
+
+| Mode      | Byte 1 | Byte 2 | Byte 3 |
+| --------- | ------ | ------ | ------ |
+| Static    | 0x00   | 0x01   | 0x01   |
+| Breathing | 0x00   | 0x01   | 0x02   |
+| Wave      | 0x00   | 0x01   | 0x00   |
 
 # Color packet (Main keyboard block)
 
