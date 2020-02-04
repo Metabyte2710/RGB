@@ -17,3 +17,14 @@ Looking through that code, it looks like the AlienFX system is a USB controller 
 ```
 
 The AlienFX controller uses 4 bits per color channel.
+
+# Commands
+
+| Command Value | Command Description  |
+| ------------- | -------------------- |
+| 0x00          | End Storage Block    |
+| 0x01          | Set Morph Color      |
+| 0x02          | Set Blink Color      |
+| 0x03          | Set Color            |
+| 0x04          | Loop Block End       |
+| 0x05          | Transmit and Execute |
