@@ -398,3 +398,13 @@ The RGB strip and media keys are covered by a fourth color packet with color cha
 | 0x91       |                                           |
 | 0x92       | Key: Media Back (Red)                     |
 | 0x93       | Key: Media Forward (Red)                  |
+
+# Direct Lighting
+
+The color channel and color positionw work identically to the static color packets above.
+
+| Byte Index | Value         |
+| ---------- | ------------- |
+| 0x00       | 0x07          |
+| 0x01       | 0x16          |
+| 0x02       | Color Channel |
