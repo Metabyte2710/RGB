@@ -108,7 +108,7 @@ The color channels 1-3 provide color data for the main keyboard block.  The RGB 
 | 0x0C       | Key: Left Shift                           |
 | 0x0D       | Key: Left Control                         |
 | 0x0E       | Key: F12                                  |
-| 0x0F       |                                           |
+| 0x0F       | Key: =/+                                  |
 | 0x10       | Key: F9                                   |
 | 0x11       | Key: 9                                    |
 | 0x12       | Key: O                                    |
