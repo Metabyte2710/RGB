@@ -42,7 +42,7 @@ After getting a solid Aura implementation, the project branched out into other m
 
 * [Patriot Viper RGB](Patriot-Viper-RGB)
 
-## LED Strip Controllers
+## LED Strip and Fan Controllers
 
 * [NZXT Hue+](NZXT-Hue-Plus)
 
@@ -55,6 +55,8 @@ After getting a solid Aura implementation, the project branched out into other m
 * [Keyboard Visualizer Arduino LED strips](Keyboard-Visualizer-LED-Strips)
 
 * [E1.31 Streaming ACN Protocol](E1.31)
+
+* [Thermaltake Riing Plus](Thermaltake-Riing)
 
 ## Fans and Coolers
 
