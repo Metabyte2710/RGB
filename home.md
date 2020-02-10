@@ -68,7 +68,7 @@ After getting a solid Aura implementation, the project branched out into other m
 
 * [TTEsports Poseidon Z RGB](Thermaltake-Poseidon-Z-RGB)
 
-* [Corsair K70 RGB](Corsair-RGB-Keyboards)
+* [Corsair K70 RGB](https://github.com/ckb-next/ckb-next/wiki/Corsair-Protocol)
 
 * [HyperX Alloy Elite](HyperX-Alloy-Elite)
 
