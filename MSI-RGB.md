@@ -14,7 +14,11 @@ The RGB control registers are in bank 0x12.
 | -------- | -------- |
 | 0xE0     | Color channel enable, 0bRGB00000, full on when disabled |
 | 0xE4     | Smooth pulsing |
-| 0xF0     | Red 0 and 1    |
-| 0xF1     | Red 2 and 3    |
-| 0xF2     | Red 4 and 5    |
-| 0xF3     | Red 6 and 7    |
+| 0xF0     | Red 1/0        |
+| 0xF1     | Red 3/2        |
+| 0xF2     | Red 5/4        |
+| 0xF3     | Red 7/6        |
+| 0xF4     | Green 1/0      |
+| 0xF5     | Green 3/2      |
+| 0xF6     | Green 5/4      |
+| 0xF7     | Green 7/6      |
