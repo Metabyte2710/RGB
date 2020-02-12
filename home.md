@@ -50,6 +50,8 @@ OpenRGB is still in its early stages and already supports quite a few products. 
 
 * [Patriot Viper RGB](Patriot-Viper-RGB)
 
+* [Crucial Ballistix RGB](Crucial-Ballistix-RGB)
+
 ## LED Strip and Fan Controllers
 
 * [NZXT Hue+](NZXT-Hue-Plus)
@@ -88,7 +90,6 @@ OpenRGB is still in its early stages and already supports quite a few products. 
 
 ## Under investigation, not yet working:
 
-* [Crucial Ballistix RGB](Crucial-Ballistix-RGB)
 * [OpenRazer on Windows](https://github.com/rsandoz/razer-drivers-win32)
 * Gigabyte Aorus Xtreme GTX1080Ti Waterforce
 * Look into MSI support: https://github.com/nagisa/msi-rgb
