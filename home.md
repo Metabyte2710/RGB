@@ -34,6 +34,7 @@ OpenRGB is still in its early stages and already supports quite a few products. 
 
 * [ASUS Aura Based](ASUS-Aura-Overview)
     * G.Skill Trident Z RGB
+    * G.Skill Trident Z Neo
     * Geil Super Luce
     * Team T-Force Delta RGB
     * OLOy WarHawk RGB
