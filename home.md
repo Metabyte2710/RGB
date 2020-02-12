@@ -21,6 +21,15 @@ OpenRGB is still in its early stages and already supports quite a few products. 
 * [Gigabyte Aorus RGB Fusion 1.0](Gigabyte-RGB-Fusion-1.0)
     * Gigabyte Aorus X370 Gaming 5
 
+* Gigabyte Aorus RGB Fusion 2.0 (USB)
+    * Gigabyte X570 Aorus Extreme
+    * Gigabyte X570 Aorus Master
+    * Gigabyte X570 Aorus Pro
+
+* ASRock Polychrome RGB
+    * ASRock Steel Legend B450M
+    * ASRock Fatal1ty B350 Gaming-ITX/ac
+
 ## RGB RAM Modules
 
 * [ASUS Aura Based](ASUS-Aura-Overview)
@@ -81,5 +90,4 @@ OpenRGB is still in its early stages and already supports quite a few products. 
 * [Crucial Ballistix RGB](Crucial-Ballistix-RGB)
 * [OpenRazer on Windows](https://github.com/rsandoz/razer-drivers-win32)
 * Gigabyte Aorus Xtreme GTX1080Ti Waterforce
-* ASRock Fatal1ty B350 Gaming-ITX/ac ([ASRock Polychrome RGB](ASRock-Polychrome-RGB))
 * Look into MSI support: https://github.com/nagisa/msi-rgb
