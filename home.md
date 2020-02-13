@@ -84,12 +84,13 @@ OpenRGB is still in its early stages and already supports quite a few products. 
 
 ## Other projects integrated
 
-* Razer Chroma SDK (Windows)
-* OpenRazer (Linux)
+* [OpenRazer](https://github.com/openrazer/openrazer)
+    * [OpenRazer-Win32](https://github.com/CalcProgrammer1/openrazer-win32)
+    * Supports most Razer keyboards, mice, headsets, mousemats, and accessories supported by OpenRazer
+
 * Faustus (ASUS TUF Laptop Keyboards) (Linux)
 
 ## Under investigation, not yet working:
 
-* [OpenRazer on Windows](https://github.com/rsandoz/razer-drivers-win32)
 * Gigabyte Aorus Xtreme GTX1080Ti Waterforce
 * Look into MSI support: https://github.com/nagisa/msi-rgb
