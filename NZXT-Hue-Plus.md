@@ -4,16 +4,16 @@ Most of the information on this page was gathered from https://github.com/kusti8
 
 # Main Packet Structure - 125 Bytes
 
-| Byte index | Function   | Description                          |
-| ---------- | ---------- | ------------------------------------ |
-| 0x00       | Fixed 0x4B |                                      |
-| 0x01       | Channel    | 0: Both, 1: Channel 1, 2: Channel 2  |
-| 0x02       | Mode       | See Modes section below              |
-| 0x03       | Options    | Bit 0-2: Number of Strips on Channel |
-|            |            | Bit 3: Option Bit                    |
-|            |            | Bit 4: Direction                     |
-| 0x04       | Speed      | 0: Slowest, 4: Fastest               |
-| 0x05+      | Color Data | 40x (G, R, B) for 120 bytes total    |
+| Byte index | Function   | Description                                                          |
+| ---------- | ---------- | -------------------------------------------------------------------- |
+| 0x00       | Fixed 0x4B |                                                                      |
+| 0x01       | Channel    | 0: Both, 1: Channel 1, 2: Channel 2                                  |
+| 0x02       | Mode       | See Modes section below                                              |
+| 0x03       | Options    | Bit 0-2: Number of Strips on Channel                                 |
+|            |            | Bit 3: Option Bit                                                    |
+|            |            | Bit 4: Direction                                                     |
+| 0x04       | Speed      | Bits 5-7: Mode Color Index, Bits 0-3: Speed (0: Slowest, 4: Fastest) |
+| 0x05+      | Color Data | 40x (G, R, B) for 120 bytes total                                    |
 
 # Modes
 
