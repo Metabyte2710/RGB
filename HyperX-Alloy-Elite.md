@@ -61,9 +61,9 @@ This packet is incomplete
 | 0x20       | Reactive Mode     |
 | 0x21       | Reactive Mode     |
 | 0x22       | Reactive Mode     |
-| 0x23       | 24 bytes of red gradient |
-| 0x3B       | 24 bytes of green gradient |
-| 0x53       | 24 bytes of blue gradient |
+| 0x23       | 24 bytes of red gradient, Index 6 for Single, Index 7 and 8 for Dual |
+| 0x3B       | 24 bytes of green gradient, Index 6 for Single, Index 7 and 8 for Dual |
+| 0x53       | 24 bytes of blue gradient, Index 6 for Single, Index 7 and 8 for Dual |
 | 0x6B       |                   |
 | 0x6C       |                   |
 | 0x6D       |                   |
