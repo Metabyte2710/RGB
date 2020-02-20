@@ -100,4 +100,3 @@ OpenRGB is still in its early stages and already supports quite a few products. 
 ## Under investigation, not yet working:
 
 * Gigabyte Aorus Xtreme GTX1080Ti Waterforce
-* Look into MSI support: https://github.com/nagisa/msi-rgb
