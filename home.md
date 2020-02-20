@@ -53,6 +53,10 @@ OpenRGB is still in its early stages and already supports quite a few products. 
 
 * [Crucial Ballistix RGB](Crucial-Ballistix-RGB)
 
+## Graphics Cards
+
+* ASUS Aura GPUs (Linux only)
+
 ## LED Strip and Fan Controllers
 
 * [NZXT Hue+](NZXT-Hue-Plus)
