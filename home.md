@@ -26,10 +26,12 @@ OpenRGB is still in its early stages and already supports quite a few products. 
     * Gigabyte X570 Aorus Master
     * Gigabyte X570 Aorus Pro
 
-* ASRock Polychrome RGB
+* [ASRock Polychrome RGB](ASRock-Polychrome-RGB)
     * ASRock Steel Legend B450M
     * ASRock Fatal1ty B350 Gaming-ITX/ac
     * ASRock B450M/ac
+
+* MSI-RGB
 
 ## RGB RAM Modules
 
