@@ -15,3 +15,9 @@ Some of Gigabyte's Aorus graphics cards come with a single-zone RGB controller. 
 | 0x01       | Static           |
 | 0x02       | Breathing        |
 | 0x04       | Flashing         |
+| 0x08       | Dual Flashing    |
+| 0x11       | Cycling          |
+
+Speed ranges from 0x00-0x09
+
+Brightness ranges from 0x00-0x63
