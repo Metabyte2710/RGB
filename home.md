@@ -58,7 +58,7 @@ OpenRGB is still in its early stages and already supports quite a few products. 
 
 ## Graphics Cards
 
-* ASUS Aura GPUs (Linux only)
+* [ASUS Aura GPUs](Asus-Aura-GPU) (Linux only)
 
 ## LED Strip and Fan Controllers
 
