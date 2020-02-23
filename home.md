@@ -99,7 +99,3 @@ OpenRGB is still in its early stages and already supports quite a few products. 
     * Supports most Razer keyboards, mice, headsets, mousemats, and accessories supported by OpenRazer
 
 * Faustus (ASUS TUF Laptop Keyboards) (Linux)
-
-## Under investigation, not yet working:
-
-* Gigabyte Aorus Xtreme GTX1080Ti Waterforce
