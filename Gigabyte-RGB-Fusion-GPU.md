@@ -1,4 +1,4 @@
-Some of Gigabyte's Aorus graphics cards come with a single-zone RGB controller.  The Aorus GeForce GTX 1080Ti Xtreme is one such card.  Its RGB controller is attached via the first GPU I2C bus and enumerates at address 0x47.  Writes are done using block transfers.  Invalid I2C operations on the RGB controller cause the controller to lock up, requiring a reboot before it will respond again.
+Some of Gigabyte's Aorus graphics cards come with a single-zone RGB controller.  The Aorus GeForce GTX 1080Ti Xtreme is one such card.  Its RGB controller is attached via the first GPU I2C bus and enumerates at address 0x47.  Reads and writes are done using byte transfers, always 4 bytes at a time.  Invalid I2C operations on the RGB controller cause the controller to lock up, requiring a reboot before it will respond again.
 
 # Registers
 
