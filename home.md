@@ -95,8 +95,32 @@ OpenRGB is still in its early stages and already supports quite a few products. 
 
 ## Other projects integrated
 
-* [OpenRazer](https://github.com/openrazer/openrazer)
-    * [OpenRazer-Win32](https://github.com/CalcProgrammer1/openrazer-win32)
-    * Supports most Razer keyboards, mice, headsets, mousemats, and accessories supported by OpenRazer
+* [OpenRazer](https://github.com/openrazer/openrazer) / [OpenRazer-Win32](https://github.com/CalcProgrammer1/openrazer-win32)
+    * Keyboards
+        * Razer BlackWidow Chroma
+        * Razer BlackWidow Chroma Tournament Edition
+        * Razer Ornata Chroma
+        * Razer Huntsman Elite
+
+    * Mice
+        * Razer Mamba Tournament Edition
+        * Razer Diamondback
+
+    * Laptops
+        * Razer Blade Stealth
+        * Razer Blade Pro (2017)
+
+    * Headsets
+        * Razer Kraken 7.1 Chroma
+        * Razer Kraken V2 Chroma
+
+    * Mousemats
+        * Razer Firefly
+        * Razer Goliathus Extended Chroma
+
+    * Accessories
+        * Razer Mug Holder Chroma
+        * Razer Chroma HDK
+        * Razer Core
 
 * Faustus (ASUS TUF Laptop Keyboards) (Linux)
