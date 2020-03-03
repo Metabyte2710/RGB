@@ -32,6 +32,7 @@ OpenRGB is still in its early stages and already supports quite a few products. 
     * ASRock Steel Legend B450M
     * ASRock Fatal1ty B350 Gaming-ITX/ac
     * ASRock B450M/ac
+    * ASRock X570 Taichi
 
 * MSI-RGB
 
