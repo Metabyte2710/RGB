@@ -95,6 +95,10 @@ OpenRGB is still in its early stages and already supports quite a few products. 
 
 * [HyperX Alloy Elite](HyperX-Alloy-Elite)
 
+## Mousemats
+
+* Corsair MM800 Polaris
+
 ## Other projects integrated
 
 * [OpenRazer](https://github.com/openrazer/openrazer) / [OpenRazer-Win32](https://github.com/CalcProgrammer1/openrazer-win32)
