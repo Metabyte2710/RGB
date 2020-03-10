@@ -60,17 +60,20 @@ The protocol uses USB URB interrupts - URB control packets work on most devices,
 
 ### *`07 05`* - Lighting control
 
-### *`07 05 01`* - Switch to hardware lighting control
+| Index | Byte Value | Description                |
+| ----- | ---------- | -------------------------- |
+| 0x00  | 0x07       | Write Property             |
+| 0x01  | 0x05       | Property: Lighting Control |
+| 0x02  | 0xNN       | Lighting Control Mode      |
+| 0x03  | 0x00       |                            |
+| 0x04  | 0xNN       | Software Control Parameter |
 
-The ckb code says this is meant to enable hardware lighting control, like when the device comes out of reset. However, I can't get anything from it. Perhaps it requires you to set a colour and then switch it into hardware mode?
+| Value | Lighting Control Mode | Description |
+| ----- | --------------------- | ----------- |
+| 0x01  | Hardware Control      | The ckb code says this is meant to enable hardware lighting control, like when the device comes out of reset. However, I can't get anything from it. Perhaps it requires you to set a colour and then switch it into hardware mode? |
+| 0x02  | Software Control      | The ckb code says this is meant to enable software lighting control, like when the device is used by CUE. However, it just turns off all the lights.
 
-### *`07 05 02 00 0X`* - Switch to software lighting control
-
-**This should be your second packet.**
-
-The ckb code says this is meant to enable software lighting control, like when the device is used by CUE. However, it just turns off all the lights.
-
-`X` needs to be `3` on keyboards. For mice, `X` needs to be `1` to enable lighting, and `0` to disable it.
+`Software Control Parameter` needs to be `3` on keyboards. For mice, it needs to be `1` to enable lighting, and `0` to disable it. |
 
 ### `07 13 1X 01 RR GG BB` - Write Xth zone hardware profile colour
 
