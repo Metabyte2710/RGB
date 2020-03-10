@@ -47,13 +47,16 @@ The protocol uses USB URB interrupts - URB control packets work on most devices,
 
 ### `07 04` - Special function control
 
-### `07 04 01` - Special function hardware control
+| Index | Byte Value | Description                        |
+| ----- | ---------- | ---------------------------------- |
+| 0x00  | 0x07       | Write Property                     |
+| 0x01  | 0x04       | Property: Special Function Control |
+| 0x02  | 0xNN       | Special Function Control Mode      |
 
-On mice, this makes the physical DPI and sniper buttons control the DPI settings, and the mouse will report an amplified mouse movement accordingly. On keyboards, this lets the hardware control the M-keys. This is the default in HID mode.
-
-### `07 04 02` - Special function software control
-
-On mice, this makes the physical DPI and sniper buttons generate events, but the mouse will do nothing about them by itself. On keyboards, this generates driver events for the M-keys. This is the default in Corsair mode.  On the Polaris MM800 mousepad, this command must be sent before RGB commands apply.
+| Value | Special Function Control Mode | Description |
+| ----- | ----------------------------- | ----------- |
+| 0x01  | Hardware Control              | On mice, this makes the physical DPI and sniper buttons control the DPI settings, and the mouse will report an amplified mouse movement accordingly. On keyboards, this lets the hardware control the M-keys. This is the default in HID mode. |
+| 0x02  | Software Control              | On mice, this makes the physical DPI and sniper buttons generate events, but the mouse will do nothing about them by itself. On keyboards, this generates driver events for the M-keys. This is the default in Corsair mode.  On the Polaris MM800 mousepad, this command must be sent before RGB commands apply. |
 
 ### *`07 05`* - Lighting control
 
