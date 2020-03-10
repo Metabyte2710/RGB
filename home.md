@@ -71,6 +71,8 @@ OpenRGB is still in its early stages and already supports quite a few products. 
 
 * [NZXT Hue 2](NZXT-Hue-2) and NZXT Smart Device V2
 
+* [Corsair Lighting Node Core](Corsair-Lighting-Node-Pro)
+
 * [Corsair Lighting Node Pro](Corsair-Lighting-Node-Pro)
 
 * [Corsair Commander Pro](Corsair-Lighting-Node-Pro)
