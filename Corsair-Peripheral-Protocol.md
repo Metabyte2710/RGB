@@ -32,21 +32,18 @@ The protocol uses USB URB interrupts - URB control packets work on most devices,
 
 ### `07 02` - Reset
 
-### `07 02 00` - Medium reset
+| Index | Byte Value | Description     |
+| ----- | ---------- | --------------- |
+| 0x00  | 0x07       | Write Property  |
+| 0x01  | 0x02       | Property: Reset |
+| 0x02  | 0xNN       | Reset Type      |
 
-So named because it takes an amount of time in between the fast reset and the slow reset. 
-
-### `07 02 01` - Fast reset
-
-This seems to be a quick-ish reset.
-
-### `07 02 aa` - Reboot to bootloader
-
-This reboots to the built-in bootloader, appearing as a virtual FAT12 device. Don't try to write to the bootloader through this on Linux at least - the device doesn't take write reordering very well.
-
-### `07 02 f0` - Slow reset
-
-This takes about a second to reset. It's sent after firmware updating, for example.
+| Value | Reset Type       | Description |
+| ----- | ---------------- | ----------- |
+| 0x00  | Medium Reset     | So named because it takes an amount of time in between the fast reset and the slow reset. |
+| 0x01  | Fast Reset       | This seems to be a quick-ish reset. |
+| 0xAA  | Bootloader Reset | This reboots to the built-in bootloader, appearing as a virtual FAT12 device. Don't try to write to the bootloader through this on Linux at least - the device doesn't take write reordering very well. |
+| 0xF0  | Slow Reset       | This takes about a second to reset. It's sent after firmware updating, for example. |
 
 ### `07 04` - Special function control
 
