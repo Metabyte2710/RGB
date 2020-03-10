@@ -71,9 +71,7 @@ The protocol uses USB URB interrupts - URB control packets work on most devices,
 | Value | Lighting Control Mode | Description |
 | ----- | --------------------- | ----------- |
 | 0x01  | Hardware Control      | The ckb code says this is meant to enable hardware lighting control, like when the device comes out of reset. However, I can't get anything from it. Perhaps it requires you to set a colour and then switch it into hardware mode? |
-| 0x02  | Software Control      | The ckb code says this is meant to enable software lighting control, like when the device is used by CUE. However, it just turns off all the lights.
-
-`Software Control Parameter` needs to be `3` on keyboards. For mice, it needs to be `1` to enable lighting, and `0` to disable it. |
+| 0x02  | Software Control      | The ckb code says this is meant to enable software lighting control, like when the device is used by CUE. However, it just turns off all the lights. `Software Control Parameter` needs to be `3` on keyboards. For mice, it needs to be `1` to enable lighting, and `0` to disable it. |
 
 ### `07 13 1X 01 RR GG BB` - Write Xth zone hardware profile colour
 
