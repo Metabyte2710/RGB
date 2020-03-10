@@ -1,7 +1,7 @@
 # Corsair NXP Protocol Version 2
 ## This page has been copied from ckb-next, original [here](https://github.com/ckb-next/ckb-next/wiki/Corsair-Protocol)
 
-I (@CalcProgrammer1) have copied this document here to make some additions and corrections as I implement the Corsair protocol in OpenRGB.  Original document is credit to @ZirconiumX on GitHub.
+I (@CalcProgrammer1) have copied this document here to make some additions, corrections, and formatting changes as I implement the Corsair protocol in OpenRGB.  Original document is credit to @ZirconiumX on GitHub.
 
 **If you have a Corsair keyboard or mouse and wish to help with this document, please file an issue mentioning @ZirconiumX and this wiki page.**
 
@@ -18,13 +18,15 @@ The first four bytes of the command are echoed in the response packet.
 The protocol is poll based - the mouse may reply to an `0e` command with an arbitrary amount of `01` events terminated with an `03` event before replying.
 The protocol uses USB URB interrupts - URB control packets work on most devices, but not on the K95 Platinum.
 
-- `01` - Event from device to host.
-- `03` - End of event stack indicator.
-- `07` - Write command from host to device - does not get a reply from the board.
-- `0e` - Read command from host to device - gets a reply from the board.
-- `7f` - Multiple packet stream from host to device - used as a payload in firmware update and colour update.
+| Command | Command Description           |
+| ------- | ----------------------------- |
+| 0x01    | Event from device to host.    |
+| 0x03    | End of event stack indicator. |
+| 0x07    | Write command from host to device - does not get a reply from the board. |
+| 0x0E    | Read command from host to device - gets a reply from the board. |
+| 0x7F    | Multiple packet stream from host to device - used as a payload in firmware update and colour update. |
 
-## Host to device
+# Host to device
 
 ## `07` fields - write property
 
