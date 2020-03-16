@@ -12,5 +12,5 @@ EE - on 01/off 00
 
 SS - Speed: Slow 08/Medium 05/Fast 02
 
-MM - Mode: Wave 00/Static 02/Breathing 04/Rainbow 08
+MM - Mode: Wave 00/Static 02/Breathing 04/Rainbow 08/Flashing 10
 
