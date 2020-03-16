@@ -10,7 +10,7 @@ RR GG BB EE SS MM 00 00
 
 EE - on 01/off 00
 
-SS - Speed: Slow 08/Medium 05/Fast
+SS - Speed: Slow 08/Medium 05/Fast 02
 
 MM - Mode: Static 02/Rainbow 08
 
