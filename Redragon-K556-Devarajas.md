@@ -1,8 +1,22 @@
 USB HID, 64-byte packets
 
-Start: 04 01 00 01
+# Begin Command Set
 
-End: 04 02 00 02
+| Index | Value |
+| ----- | ----- |
+| 0x00  | 0x04  |
+| 0x01  | 0x01  |
+| 0x02  | 0x00  |
+| 0x03  | 0x01  |
+
+# End Command Set
+
+| Index | Value |
+| ----- | ----- |
+| 0x00  | 0x04  |
+| 0x01  | 0x02  |
+| 0x02  | 0x00  |
+| 0x03  | 0x02  |
 
 Custom data: 04 0F 03 06 03 09 00 00 FF FF FF
 
