@@ -1,16 +1,51 @@
-USB protocol, 16 byte packets
+USB protocol, 16 byte USB HID control packets with report ID 0.
 
 02 F3 46 04 02 - Start?
 
+# Apply Settings
 
+| Index | Value | Description |
+| ----- | ----- | ----------- |
+| 0x00  | 0x02  |             |
+| 0x01  | 0xF1  |             |
+| 0x02  | 0x02  |             |
+| 0x03  | 0x04  |             |
 
-02 F3 49 04 06 00 00 00... - Lighting?
+# Lighting Control
 
-RR GG BB EE SS MM 00 00
+| Index | Value | Description              |
+| ----- | ----- | ------------------------ |
+| 0x00  | 0x02  |                          |
+| 0x01  | 0xF3  |                          |
+| 0x02  | 0x49  |                          |
+| 0x03  | 0x04  |                          |
+| 0x04  | 0x06  |                          |
+| 0x05  | 0x00  |                          |
+| 0x06  | 0x00  |                          |
+| 0x07  | 0x00  |                          |
+| 0x08  | 0xRR  | Red channel              |
+| 0x09  | 0xGG  | Green channel            |
+| 0x0A  | 0xBB  | Blue channel             |
+| 0x0B  | 0xEE  | Off (0x00) / On (0x01 )  |
+| 0x0C  | 0xSS  | Speed (See speed values) |
+| 0x0D  | 0xMM  | Mode (See mode values)   |
+| 0x0E  | 0x00  |                          |
+| 0x0F  | 0x00  |                          |
 
-EE - on 01/off 00
+## Speeds
 
-SS - Speed: Slow 08/Medium 05/Fast 02
+| Speed Setting | Speed value |
+| ------------- | ----------- |
+| Slow          | 0x08        |
+| Medium        | 0x05        |
+| Fast          | 0x02        |
 
-MM - Mode: Wave 00/Static 02/Breathing 04/Rainbow 08/Flashing 10
+## Modes
 
+| Mode value | Mode description |
+| ---------- | ---------------- |
+| 0x00       | ??? (Wave?)      |
+| 0x02       | Static           |
+| 0x04       | Breathing        |
+| 0x08       | Rainbow          |
+| 0x10       | Flashing         |
