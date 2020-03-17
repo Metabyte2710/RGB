@@ -22,7 +22,10 @@ The 09 seems to be the offset in bytes - start at 00
 | 0x07  | 0x00  |                    |
 | 0x08+ | 0xXX  | RGB data           |
 
-Polling rate 1000 04 19 00 06 01 0f 00 00 03
+Polling rate 125Hz - 04 16 00 06 01 0f 00 00 00
 
-Polling rate 500 04 18 00 06 01 0f 00 00 02
+Polling rate 250Hz - 04 17 00 06 01 0f 00 00 01
 
+Polling rate 500Hz - 04 18 00 06 01 0f 00 00 02
+
+Polling rate 1000Hz - 04 19 00 06 01 0f 00 00 03
