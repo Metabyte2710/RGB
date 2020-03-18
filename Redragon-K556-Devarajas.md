@@ -1,4 +1,4 @@
-USB HID, 64-byte packets
+USB HID, 64-byte packets.  Every packet should perform both an HID write operation and an HID read operation sequentially.  Do not use feature reports.
 
 # Begin Command Set
 
