@@ -102,6 +102,10 @@ The effects all have very strange names.  I'm pretty sure the people who wrote t
 | 0x02               | 500Hz                |
 | 0x03               | 1000Hz               |
 
+# Unknown Data Command (0x10)
+
+Changing profile sends this command with all zeros, but it seems to follow the same number of bytes and offset format of command 0x11.  Perhaps a direct color mode?  It could be some other per-key data as well.
+
 # Custom Color Data Command (0x11)
 
 | Index | Value | Description        |
