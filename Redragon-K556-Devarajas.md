@@ -31,7 +31,7 @@ The checksum simply adds together all of the bytes in the packet excluding the f
 
 # Unknown Command (0x03)
 
-This is set when changing profiles.  It sets byte index 0x04 to value 0x2C.
+This is set when changing profiles.  It sets byte index 0x04 to value 0x2C.  Possibly a multi-byte data read.  Also sent when opening the app.
 
 # Unknown Command (0x04)
 
@@ -114,19 +114,31 @@ The effects all have very strange names.  I'm pretty sure the people who wrote t
 | 0x02               | 500Hz                |
 | 0x03               | 1000Hz               |
 
+# Unknown Command (0x07)
+
+Sent when opening the app.  Seems to be a multi-packet data stream with size 0x38 per packet.  Perhaps this is the key map?  21 packets total.  Three of them have size 0x2A per packet (6 0x38 size followed by 1 0x2A size, repeat 3 times).  All data bytes are zero.  Possibly a read.
+
 # Unknown Command (0x08)
 
 Sent when changing a key binding.  Seems to be a multi-packet data stream with size 0x38 per packet.  Perhaps this is the key map?  21 packets total.  Three of them have size 0x2A per packet (6 0x38 size followed by 1 0x2A size, repeat 3 times).
+
+# Unknown Command (0x09)
+
+Sent when opening the app.
 
 # Unknown Command (0x0A)
 
 Sent when changing a key binding
 
-# Unknown Data Command (0x10)
+# Unknown Read Data Command (0x0F)
+
+Sent when opening the app.  Seems to be a multi-packet data stream with size 0x38 per packet.  7 packets total, with the last packet having a size of 0x2A instead of 0x38.  All data bytes are zero.  I think this is reading out color data.
+
+# Read Custom Color Data Command? (0x10)
 
 Changing profile sends this command with all zeros, but it seems to follow the same number of bytes and offset format of command 0x11.  Perhaps a direct color mode?  It could be some other per-key data as well.
 
-# Custom Color Data Command (0x11)
+# Write Custom Color Data Command (0x11)
 
 | Index | Value | Description        |
 | ----- | ----- | ------------------ |
