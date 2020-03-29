@@ -1,30 +1,41 @@
 USB HID, 64-byte packets.  Every packet should perform both an HID write operation and an HID read operation sequentially.  Do not use feature reports.
 
-# Begin Command Packet
+Every packet begins with:
 
-| Index | Value |
-| ----- | ----- |
-| 0x00  | 0x04  |
-| 0x01  | 0x01  |
-| 0x02  | 0x00  |
-| 0x03  | 0x01  |
+| Index | Value               |
+| ----- | ------------------- |
+| 0x00  | 0x04                |
+| 0x01  | 16-bit Checksum LSB |
+| 0x02  | 16-bit Checksum MSB |
+| 0x03  | Command Byte        |
 
-# End Command Packet
+The checksum simply adds together all of the bytes in the packet excluding the first three.
 
-| Index | Value |
-| ----- | ----- |
-| 0x00  | 0x04  |
-| 0x01  | 0x02  |
-| 0x02  | 0x00  |
-| 0x03  | 0x02  |
+# Begin Command (0x01)
 
-# Set Parameter Packet
+| Index | Value               |
+| ----- | ------------------- |
+| 0x00  | 0x04                |
+| 0x01  | Checksum LSB (0x01) |
+| 0x02  | Checksum MSB (0x00) |
+| 0x03  | 0x01                |
+
+# End Command (0x02)
+
+| Index | Value               |
+| ----- | ------------------- |
+| 0x00  | 0x04                |
+| 0x01  | Checksum LSB (0x02) |
+| 0x02  | Checksum MSB (0x00) |
+| 0x03  | 0x02                |
+
+# Set Parameter Command (0x06)
 
 | Index | Value | Description            |
 | ----- | ----- | ---------------------- |
 | 0x00  | 0x04  |                        |
-| 0x01  | 0xNN  | Parameter value + 0x08 |
-| 0x02  | 0x00  |                        |
+| 0x01  | 0xNN  | Checksum LSB           |
+| 0x02  | 0xNN  | Checksum MSB           |
 | 0x03  | 0x06  |                        |
 | 0x04  | 0xNN  | Parameter Byte Count   |
 | 0x05  | 0xNN  | Parameter Index        |
@@ -91,13 +102,13 @@ The effects all have very strange names.  I'm pretty sure the people who wrote t
 | 0x02               | 500Hz                |
 | 0x03               | 1000Hz               |
 
-# Custom Color Data Packet
+# Custom Color Data Command (0x11)
 
 | Index | Value | Description        |
 | ----- | ----- | ------------------ |
 | 0x00  | 0x04  |                    |
-| 0x01  | 0x11  | Byte offset + 0x11 |
-| 0x02  | 0x36  | Number of bytes    |
+| 0x01  | 0x11  | Checksum LSB       |
+| 0x02  | 0x36  | Checksum MSB       |
 | 0x03  | 0x11  |                    |
 | 0x04  | 0x36  | Number of bytes    |
 | 0x05  | 0x00  | Byte offset LSB    |
