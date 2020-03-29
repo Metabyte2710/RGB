@@ -114,6 +114,14 @@ The effects all have very strange names.  I'm pretty sure the people who wrote t
 | 0x02               | 500Hz                |
 | 0x03               | 1000Hz               |
 
+# Unknown Command (0x08)
+
+Sent when changing a key binding.  Seems to be a multi-packet data stream with size 0x38 per packet.  Perhaps this is the key map?  21 packets total.  Three of them have size 0x2A per packet (6 0x38 size followed by 1 0x2A size, repeat 3 times).
+
+# Unknown Command (0x0A)
+
+Sent when changing a key binding
+
 # Unknown Data Command (0x10)
 
 Changing profile sends this command with all zeros, but it seems to follow the same number of bytes and offset format of command 0x11.  Perhaps a direct color mode?  It could be some other per-key data as well.
