@@ -28,6 +28,7 @@ OpenRGB is still in its early stages and already supports quite a few products. 
     * Gigabyte X570 Aorus Extreme
     * Gigabyte X570 Aorus Master
     * Gigabyte X570 Aorus Pro
+    * Gigabyte X570 Gaming X
     * Gigabyte X570 I Aorus Pro Wifi
 
 * [ASRock Polychrome RGB](ASRock-Polychrome-RGB)
