@@ -1,6 +1,6 @@
 USB HID, 64-byte packets.  Every packet should perform both an HID write operation and an HID read operation sequentially.  Do not use feature reports.
 
-# Begin Command Set
+# Begin Command Packet
 
 | Index | Value |
 | ----- | ----- |
@@ -9,7 +9,7 @@ USB HID, 64-byte packets.  Every packet should perform both an HID write operati
 | 0x02  | 0x00  |
 | 0x03  | 0x01  |
 
-# End Command Set
+# End Command Packet
 
 | Index | Value |
 | ----- | ----- |
@@ -18,42 +18,36 @@ USB HID, 64-byte packets.  Every packet should perform both an HID write operati
 | 0x02  | 0x00  |
 | 0x03  | 0x02  |
 
-Custom data: 04 0F 03 06 03 09 00 00 FF FF FF
+# Set Parameter Packet
 
-The 03 bytes seem to indicate number of color bytes
+| Index | Value | Description            |
+| ----- | ----- | ---------------------- |
+| 0x00  | 0x04  |                        |
+| 0x01  | 0xNN  | Parameter value + 0x08 |
+| 0x02  | 0x00  |                        |
+| 0x03  | 0x06  |                        |
+| 0x04  | 0xNN  | Parameter Byte Count   |
+| 0x05  | 0xNN  | Parameter Index        |
+| 0x06  | 0x00  |                        |
+| 0x07  | 0x00  |                        |
+| 0x08  | 0xNN  | Parameter Byte 1       |
+| 0x09  | 0xNN  | Parameter Byte 2       |
+| 0x0A  | 0xNN  | Parameter Byte 3       |
 
-The 09 seems to be the offset in bytes - start at 00
+## Parameters
 
-| Index | Value | Description        |
-| ----- | ----- | ------------------ |
-| 0x00  | 0x04  |                    |
-| 0x01  | 0x11  | Byte offset + 0x11 |
-| 0x02  | 0x36  | Number of bytes    |
-| 0x03  | 0x11  |                    |
-| 0x04  | 0x36  | Number of bytes    |
-| 0x05  | 0x00  | Byte offset LSB    |
-| 0x06  | 0x00  | Byte offset MSB    |
-| 0x07  | 0x00  |                    |
-| 0x08+ | 0xXX  | RGB data           |
+| Parameter Index | Parameter Bytes | Parameter Description          |
+| --------------- | --------------- | ------------------------------ |
+| 0x00            | 1               | Mode (See Modes table)         |
+| 0x01            | 1               | Brightness (0-5)               |
+| 0x02            | 1               | Speed (Slow: 5, Fast: 0)       |
+| 0x03            | 1               | Direction (R: 0, L: 1)         |
+| 0x04            | 1               | Random Color Flag (0/1)        |
+| 0x05            | 3               | Mode Color (RGB)               |
+| 0x0F            | 1               | Polling Rate (See table)       |
+| 0x11            | 1               | Surmount mode color (see table)|
 
-# Polling Rates
-
-| Polling Rate Index | Polling Rate Setting |
-| ------------------ | -------------------- |
-| 0x00               | 125Hz                |
-| 0x01               | 250Hz                |
-| 0x02               | 500Hz                |
-| 0x03               | 1000Hz               |
-
-Polling rate 125Hz - 04 16 00 06 01 0f 00 00 00
-
-Polling rate 250Hz - 04 17 00 06 01 0f 00 00 01
-
-Polling rate 500Hz - 04 18 00 06 01 0f 00 00 02
-
-Polling rate 1000Hz - 04 19 00 06 01 0f 00 00 03
-
-# Modes
+## Modes
 
 The effects all have very strange names.  I'm pretty sure the people who wrote the app didn't speak very good English and used some form of translator and/or autocorrect to come up with some of these atrocities.
 
@@ -88,34 +82,28 @@ The effects all have very strange names.  I'm pretty sure the people who wrote t
 | 0x02           | Green          |
 | 0x03           | Blue           |
 
-## Parameters
+## Polling Rates
 
-| Parameter Index | Parameter Bytes | Parameter Description          |
-| --------------- | --------------- | ------------------------------ |
-| 0x00            | 1               | Mode (See Modes table)         |
-| 0x01            | 1               | Brightness (0-5)               |
-| 0x02            | 1               | Speed (Slow: 5, Fast: 0)       |
-| 0x03            | 1               | Direction (R: 0, L: 1)         |
-| 0x04            | 1               | Random Color Flag (0/1)        |
-| 0x05            | 3               | Mode Color (RGB)               |
-| 0x0F            | 1               | Polling Rate (See table)       |
-| 0x11            | 1               | Surmount mode color (see table)|
+| Polling Rate Index | Polling Rate Setting |
+| ------------------ | -------------------- |
+| 0x00               | 125Hz                |
+| 0x01               | 250Hz                |
+| 0x02               | 500Hz                |
+| 0x03               | 1000Hz               |
 
-## Set Parameter
+# Custom Color Data Packet
 
-| Index | Value | Description            |
-| ----- | ----- | ---------------------- |
-| 0x00  | 0x04  |                        |
-| 0x01  | 0xNN  | Parameter value + 0x08 |
-| 0x02  | 0x00  |                        |
-| 0x03  | 0x06  |                        |
-| 0x04  | 0xNN  | Parameter Byte Count   |
-| 0x05  | 0xNN  | Parameter Index        |
-| 0x06  | 0x00  |                        |
-| 0x07  | 0x00  |                        |
-| 0x08  | 0xNN  | Parameter Byte 1       |
-| 0x09  | 0xNN  | Parameter Byte 2       |
-| 0x0A  | 0xNN  | Parameter Byte 3       |
+| Index | Value | Description        |
+| ----- | ----- | ------------------ |
+| 0x00  | 0x04  |                    |
+| 0x01  | 0x11  | Byte offset + 0x11 |
+| 0x02  | 0x36  | Number of bytes    |
+| 0x03  | 0x11  |                    |
+| 0x04  | 0x36  | Number of bytes    |
+| 0x05  | 0x00  | Byte offset LSB    |
+| 0x06  | 0x00  | Byte offset MSB    |
+| 0x07  | 0x00  |                    |
+| 0x08+ | 0xXX  | RGB data           |
 
 # Keymap
 
