@@ -70,19 +70,32 @@ The effects all have very strange names.  I'm pretty sure the people who wrote t
 | Fast and the Furious   | 0x12  | Circular rainbow wave that moves to center          |
 | Coastal                | 0x14  | Per-key control (did they mean "Custom"?)           |
 
-## Set Mode
+## Parameters
 
-| Index | Value | Description       |
-| ----- | ----- | ----------------- |
-| 0x00  | 0x04  |                   |
-| 0x01  | 0xMM  | Mode value + 0x08 |
-| 0x02  | 0x00  |                   |
-| 0x03  | 0x06  |                   |
-| 0x04  | 0x01  |                   |
-| 0x05  | 0x00  |                   |
-| 0x06  | 0x00  |                   |
-| 0x07  | 0x00  |                   |
-| 0x08  | 0xMM  | Mode value        |
+| Parameter Index | Parameter Bytes | Parameter Description   |
+| --------------- | --------------- | ----------------------- |
+| 0x00            | 1               | Mode (See Modes table)  |
+| 0x01            | 1               | Brightness (0-5)        |
+| 0x02            | 1               | Speed (Slow: 5, Fast: 0)|
+| 0x03            | 1               | Direction (R: 0, L: 1)  |
+| 0x04            | 1               | Random Color Flag (0/1) |
+| 0x05            | 3               | Mode Color (RGB)        |
+
+## Set Parameter
+
+| Index | Value | Description            |
+| ----- | ----- | ---------------------- |
+| 0x00  | 0x04  |                        |
+| 0x01  | 0xNN  | Parameter value + 0x08 |
+| 0x02  | 0x00  |                        |
+| 0x03  | 0x06  |                        |
+| 0x04  | 0xNN  | Parameter Byte Count   |
+| 0x05  | 0xNN  | Parameter Index        |
+| 0x06  | 0x00  |                        |
+| 0x07  | 0x00  |                        |
+| 0x08  | 0xNN  | Parameter Byte 1       |
+| 0x09  | 0xNN  | Parameter Byte 2       |
+| 0x0A  | 0xNN  | Parameter Byte 3       |
 
 ## Surmount Modes
 
