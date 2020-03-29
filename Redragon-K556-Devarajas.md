@@ -36,6 +36,15 @@ The 09 seems to be the offset in bytes - start at 00
 | 0x07  | 0x00  |                    |
 | 0x08+ | 0xXX  | RGB data           |
 
+# Polling Rates
+
+| Polling Rate Index | Polling Rate Setting |
+| ------------------ | -------------------- |
+| 0x00               | 125Hz                |
+| 0x01               | 250Hz                |
+| 0x02               | 500Hz                |
+| 0x03               | 1000Hz               |
+
 Polling rate 125Hz - 04 16 00 06 01 0f 00 00 00
 
 Polling rate 250Hz - 04 17 00 06 01 0f 00 00 01
@@ -80,6 +89,7 @@ The effects all have very strange names.  I'm pretty sure the people who wrote t
 | 0x03            | 1               | Direction (R: 0, L: 1)  |
 | 0x04            | 1               | Random Color Flag (0/1) |
 | 0x05            | 3               | Mode Color (RGB)        |
+| 0x0F            | 1               | Polling Rate (See table)|
 
 ## Set Parameter
 
