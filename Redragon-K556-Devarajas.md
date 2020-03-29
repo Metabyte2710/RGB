@@ -74,22 +74,32 @@ The effects all have very strange names.  I'm pretty sure the people who wrote t
 | Hurricane              | 0x0D  | Zigzag lines from center of keyboard                |
 | Accumulate             | 0x0E  | Colors come in from outer edges and group in middle |
 | Digital times          | 0x0F  | A slower version of Swift action (starlight)        |
-| Surmount               |       | Seems to fade between hues of selected color        |
 | Both ways              | 0x10  | Visor effect that scans back and forth              |
+| Surmount               | 0x11  | Seems to fade between hues of selected color        |
 | Fast and the Furious   | 0x12  | Circular rainbow wave that moves to center          |
 | Coastal                | 0x14  | Per-key control (did they mean "Custom"?)           |
 
+## Surmount Mode Colors
+
+| Surmount Index | Surmount Color |
+| -------------- | -------------- |
+| 0x00           | Red            |
+| 0x01           | Yellow         |
+| 0x02           | Green          |
+| 0x03           | Blue           |
+
 ## Parameters
 
-| Parameter Index | Parameter Bytes | Parameter Description   |
-| --------------- | --------------- | ----------------------- |
-| 0x00            | 1               | Mode (See Modes table)  |
-| 0x01            | 1               | Brightness (0-5)        |
-| 0x02            | 1               | Speed (Slow: 5, Fast: 0)|
-| 0x03            | 1               | Direction (R: 0, L: 1)  |
-| 0x04            | 1               | Random Color Flag (0/1) |
-| 0x05            | 3               | Mode Color (RGB)        |
-| 0x0F            | 1               | Polling Rate (See table)|
+| Parameter Index | Parameter Bytes | Parameter Description          |
+| --------------- | --------------- | ------------------------------ |
+| 0x00            | 1               | Mode (See Modes table)         |
+| 0x01            | 1               | Brightness (0-5)               |
+| 0x02            | 1               | Speed (Slow: 5, Fast: 0)       |
+| 0x03            | 1               | Direction (R: 0, L: 1)         |
+| 0x04            | 1               | Random Color Flag (0/1)        |
+| 0x05            | 3               | Mode Color (RGB)               |
+| 0x0F            | 1               | Polling Rate (See table)       |
+| 0x11            | 1               | Surmount mode color (see table)|
 
 ## Set Parameter
 
@@ -106,18 +116,6 @@ The effects all have very strange names.  I'm pretty sure the people who wrote t
 | 0x08  | 0xNN  | Parameter Byte 1       |
 | 0x09  | 0xNN  | Parameter Byte 2       |
 | 0x0A  | 0xNN  | Parameter Byte 3       |
-
-## Surmount Modes
-
-These modes use a slightly different protocol
-
-Effect "Surmount" - Red         - 04 18 00 06 01 11 00 00 00
-
-Effect "Surmount" - Yellow      - 04 19 00 06 01 11 00 00 01
-
-Effect "Surmount" - Green       - 04 1A 00 06 01 11 00 00 02
-
-Effect "Surmount" - Blue        - 04 1B 00 06 01 11 00 00 03
 
 # Keymap
 
