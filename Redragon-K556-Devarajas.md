@@ -29,6 +29,18 @@ The checksum simply adds together all of the bytes in the packet excluding the f
 | 0x02  | Checksum MSB (0x00) |
 | 0x03  | 0x02                |
 
+# Unknown Command (0x03)
+
+This is set when changing profiles.  It sets byte index 0x04 to value 0x2C.
+
+# Unknown Command (0x04)
+
+This is set when changing profiles.  Appears to be a multi-packet data transfer, though is only called once with size 0x2C (if format same as 0x11).
+
+# Unknown Command (0x05)
+
+This is set when changing profiles.  It sets byte index 0x04 to value 0x38.  Appears to be a multi-packet data transfer similar to 0x11.
+
 # Set Parameter Command (0x06)
 
 | Index | Value | Description            |
