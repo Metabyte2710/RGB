@@ -31,3 +31,42 @@ Razer Huntsman Elite keymap:
 | 1       | 4          | Key: 3            |
 | 1       | 5          | Key: 4            |
 | 1       | 6          | Key: 5            |
+| 1       | 7          | Key: 6            |
+| 1       | 8          | Key: 7            |
+| 1       | 9          | Key: 8            |
+| 1       | 10         | Key: 9            |
+| 1       | 11         | Key: 0            |
+| 1       | 12         | Key: -            |
+| 1       | 13         | Key: =            |
+| 1       | 14         | Key: Backspace    |
+| 1       | 15         | Key: Insert       |
+| 1       | 16         | Key: Home         |
+| 1       | 17         | Key: Page Up      |
+| 1       | 18         | Key: Num Lock     |
+| 1       | 19         | Key: Num Pad /    |
+| 1       | 20         | Key: Num Pad *    |
+| 1       | 21         | Key: Num Pad -    |
+| 2       | 0          |                   |
+| 2       | 1          | Key: Tab          |
+| 2       | 2          | Key: Q            |
+| 2       | 3          | Key: W            |
+| 2       | 4          | Key: E            |
+| 2       | 5          | Key: R            |
+| 2       | 6          | Key: T            |
+| 2       | 7          | Key: Y            |
+| 2       | 8          | Key: U            |
+| 2       | 9          | Key: I            |
+| 2       | 10         | Key: O            |
+| 2       | 11         | Key: P            |
+| 2       | 12         | Key: [            |
+| 2       | 13         | Key: ]            |
+| 2       | 14         | Key: \\           |
+| 2       | 15         | Key: Delete       |
+| 2       | 16         | Key: End          |
+| 2       | 17         | Key: Page Down    |
+| 2       | 18         | Key: Num Pad 7    |
+| 2       | 19         | Key: Num Pad 8    |
+| 2       | 20         | Key: Num Pad 9    |
+| 2       | 21         | Key: Num Pad +    |
+| 3       | 0          |                   |
+| 3       | 1          |                   |
