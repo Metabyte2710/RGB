@@ -24,3 +24,10 @@ Razer Huntsman Elite keymap:
 | 0       | 19         | Media Play/Pause  |
 | 0       | 20         | Media Next        |
 | 0       | 21         | Media Volume/Mute |
+| 1       | 0          |                   |
+| 1       | 1          | Key: `            |
+| 1       | 2          | Key: 1            |
+| 1       | 3          | Key: 2            |
+| 1       | 4          | Key: 3            |
+| 1       | 5          | Key: 4            |
+| 1       | 6          | Key: 5            |
