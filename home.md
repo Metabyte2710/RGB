@@ -4,7 +4,7 @@ One of the biggest complaints about RGB is the software ecosystem surrounding it
 
 OpenRGB is still in its early stages and already supports quite a few products.  I'm always on the lookout for good deals on more popular RGB devices to add support for.
 
-![Capture](uploads/72a1d61d946156455bf53d343bb96257/Capture.PNG)
+![OpenRGB_0.11](uploads/2a913ece50cfa1ab2210f63e4846df4f/OpenRGB_0.11.PNG)
 
 ## Motherboard RGB Systems
 
