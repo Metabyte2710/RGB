@@ -69,4 +69,25 @@ Razer Huntsman Elite keymap:
 | 2       | 20         | Key: Num Pad 9    |
 | 2       | 21         | Key: Num Pad +    |
 | 3       | 0          |                   |
-| 3       | 1          |                   |
+| 3       | 1          | Key: Caps Lock    |
+| 3       | 2          | Key: A            |
+| 3       | 3          | Key: S            |
+| 3       | 4          | Key: D            |
+| 3       | 5          | Key: F            |
+| 3       | 6          | Key: G            |
+| 3       | 7          | Key: H            |
+| 3       | 8          | Key: J            |
+| 3       | 9          | Key: K            |
+| 3       | 10         | Key: L            |
+| 3       | 11         | Key: ;            |
+| 3       | 12         | Key: '            |
+| 3       | 13         |                   |
+| 3       | 14         | Key: Enter        |
+| 3       | 15         |                   |
+| 3       | 16         |                   |
+| 3       | 17         |                   |
+| 3       | 18         | Key: Num Pad 4    |
+| 3       | 19         | Key: Num Pad 5    |
+| 3       | 20         | Key: Num Pad 6    |
+| 3       | 21         |                   |
+| 4       | 0          | Key: Left Shift   |
