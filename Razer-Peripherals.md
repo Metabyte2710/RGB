@@ -90,4 +90,18 @@ Razer Huntsman Elite keymap:
 | 3       | 19         | Key: Num Pad 5    |
 | 3       | 20         | Key: Num Pad 6    |
 | 3       | 21         |                   |
-| 4       | 0          | Key: Left Shift   |
+| 4       | 0          |                   |
+| 4       | 1          | Key: Left Shift   |
+| 4       | 2          |                   |
+| 4       | 3          | Key: Z            |
+| 4       | 4          | Key: X            |
+| 4       | 5          | Key: C            |
+| 4       | 6          | Key: V            |
+| 4       | 7          | Key: B            |
+| 4       | 8          | Key: N            |
+| 4       | 9          | Key: M            |
+| 4       | 10         | Key: ,            |
+| 4       | 11         | Key: .            |
+| 4       | 12         | Key: /            |
+| 4       | 13         |                   |
+| 4       | 14         | Key: Right Shift  |
