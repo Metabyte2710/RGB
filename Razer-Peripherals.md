@@ -135,3 +135,87 @@ Razer Huntsman Elite keymap:
 | 5       | 20         | Key: Num Pad .    |
 | 5       | 21         |                   |
 
+Razer Blade Pro (2017):
+
+| LED Row | LED Column | Key                   |
+| ------- | ---------- | --------------------- |
+| 0       | 0          |                       |
+| 0       | 1          |                       |
+| 0       | 2          | Key: Escape           |
+| 0       | 3          | Key: F1               |
+| 0       | 4          | Key: F2               |
+| 0       | 5          | Key: F3               |
+| 0       | 6          | Key: F4               |
+| 0       | 7          | Key: F5               |
+| 0       | 8          | Key: F6               |
+| 0       | 9          | Key: F7               |
+| 0       | 10         | Key: F8               |
+| 0       | 11         | Key: F9               |
+| 0       | 12         | Key: F10              |
+| 0       | 13         | Key: F11              |
+| 0       | 14         | Key: F12              |
+| 0       | 15         | Key: Insert           |
+| 0       | 16         |                       |
+| 0       | 17         | Key: Delete           |
+| 0       | 18         |                       |
+| 0       | 19         | Media Previous        |
+| 0       | 20         | Media Next            |
+| 0       | 21         | Volume Wheel          |
+| 0       | 22         |                       |
+| 0       | 23         | Media Play/Pause      |
+| 0       | 24         | Media Mute            |
+| 1       | 0          |                       |
+| 1       | 1          |                       |
+| 1       | 2          | Key: `                |
+| 1       | 3          | Key: 1                |
+| 1       | 4          | Key: 2                |
+| 1       | 5          | Key: 3                |
+| 1       | 6          | Key: 4                |
+| 1       | 7          | Key: 5                |
+| 1       | 8          | Key: 6                |
+| 1       | 9          | Key: 7                |
+| 1       | 10         | Key: 8                |
+| 1       | 11         | Key: 9                |
+| 1       | 12         | Key: 0                |
+| 1       | 13         | Key: -                |
+| 1       | 14         | Key: =                |
+| 1       | 15         | Key: Backspace        |
+| 1       | 16         |                       |
+| 1       | 17         |                       |
+| 1       | 18         |                       |
+| 1       | 19         | Trackpad Row 0, Col 0 |
+| 1       | 20         | Trackpad Row 0, Col 1 |
+| 1       | 21         | Trackpad Row 0, Col 2 |
+| 1       | 22         | Trackpad Row 0, Col 3 |
+| 1       | 23         | Trackpad Row 0, Col 4 |
+| 1       | 24         | Trackpad Row 0, Col 5 |
+| 2       | 0          |                       |
+| 2       | 1          |                       |
+| 2       | 2          | Key: Tab              |
+| 2       | 3          |                       |
+| 2       | 4          | Key: Q                |
+| 2       | 5          | Key: W                |
+| 2       | 6          | Key: E                |
+| 2       | 7          | Key: R                |
+| 2       | 8          | Key: T                |
+| 2       | 9          | Key: Y                |
+| 2       | 10         | Key: U                |
+| 2       | 11         | Key: I                |
+| 2       | 12         | Key: O                |
+| 2       | 13         | Key: P                |
+| 2       | 14         | Key: [                |
+| 2       | 15         | Key: ]                |
+| 2       | 16         |                       |
+| 2       | 17         | Key: \\               |
+| 2       | 18         |                       |
+| 2       | 19         | Trackpad Row 1, Col 0 |
+| 2       | 20         |                       |
+| 2       | 21         |                       |
+| 2       | 22         |                       |
+| 2       | 23         |                       |
+| 2       | 24         | Trackpad Row 1, Col 5 |
+| 3       | 0          |                       |
+| 3       | 1          | Key: Caps Lock        |
+| 3       | 2          |                       |
+| 3       | 3          |                       |
+| 3       | 4          | Key: A                |
