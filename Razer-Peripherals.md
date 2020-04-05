@@ -1,5 +1,7 @@
 Razer Huntsman Elite keymap:
 
+6 Rows x 22 Columns
+
 | LED Row | LED Column | Key               |
 | ------- | ---------- | ----------------- |
 | 0       | 0          |                   |
@@ -137,6 +139,8 @@ Razer Huntsman Elite keymap:
 
 Razer Blade Pro (2017):
 
+6 Rows x 25 Columns
+
 | LED Row | LED Column | Key                   |
 | ------- | ---------- | --------------------- |
 | 0       | 0          |                       |
@@ -239,3 +243,53 @@ Razer Blade Pro (2017):
 | 3       | 22         |                       |
 | 3       | 23         |                       |
 | 3       | 24         | Trackpad Row 2, Col 5 |
+| 4       | 0          | Key: Left Shift       |
+| 4       | 1          |                       |
+| 4       | 2          |                       |
+| 4       | 3          |                       |
+| 4       | 4          | Key: Z                |
+| 4       | 5          | Key: X                |
+| 4       | 6          | Key: C                |
+| 4       | 7          | Key: V                |
+| 4       | 8          | Key: B                |
+| 4       | 9          | Key: N                |
+| 4       | 10         | Key: M                |
+| 4       | 11         | Key: ,                |
+| 4       | 12         | Key: .                |
+| 4       | 13         | Key: /                |
+| 4       | 14         | Key: Up Arrow         |
+| 4       | 15         |                       |
+| 4       | 16         |                       |
+| 4       | 17         |                       |
+| 4       | 18         | Key: Right Shift      |
+| 4       | 19         | Trackpad Row 3, Col 0 |
+| 4       | 20         |                       |
+| 4       | 21         |                       |
+| 4       | 22         |                       |
+| 4       | 23         |                       |
+| 4       | 24         | Trackpad Row 3, Col 5 |
+| 5       | 0          | Key: Left Control     |
+| 5       | 1          |                       |
+| 5       | 2          | Key: Left Function    |
+| 5       | 3          | Key: Windows          |
+| 5       | 4          |                       |
+| 5       | 5          | Key: Left Alt         |
+| 5       | 6          |                       |
+| 5       | 7          | Key: Space            |
+| 5       | 8          |                       |
+| 5       | 9          |                       |
+| 5       | 10         | Key: Right Alt        |
+| 5       | 11         |                       |
+| 5       | 12         | Key: Right Control    |
+| 5       | 13         | Key: Left Arrow       |
+| 5       | 14         | Key: Down Arrow       |
+| 5       | 15         | Key: Right Arrow      |
+| 5       | 16         | Key: Right Function   |
+| 5       | 17         |                       |
+| 5       | 18         |                       |
+| 5       | 19         | Trackpad Row 4, Col 0 |
+| 5       | 20         | Trackpad Row 4, Col 1 |
+| 5       | 21         | Trackpad Row 4, Col 2 |
+| 5       | 22         | Trackpad Row 4, Col 3 |
+| 5       | 23         | Trackpad Row 4, Col 4 |
+| 5       | 24         | Trackpad Row 4, Col 5 |
