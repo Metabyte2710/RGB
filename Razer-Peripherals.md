@@ -293,3 +293,40 @@ Razer Blade Pro (2017):
 | 5       | 22         | Trackpad Row 4, Col 3 |
 | 5       | 23         | Trackpad Row 4, Col 4 |
 | 5       | 24         | Trackpad Row 4, Col 5 |
+
+Razer Blade Stealth:
+
+| LED Row | LED Column | Key                   |
+| ------- | ---------- | --------------------- |
+| 0       | 0          |                       |
+| 0       | 1          | Key: Escape           |
+| 0       | 2          | Key: F1               |
+| 0       | 3          | Key: F2               |
+| 0       | 4          | Key: F3               |
+| 0       | 5          | Key: F4               |
+| 0       | 6          | Key: F5               |
+| 0       | 7          | Key: F6               |
+| 0       | 8          | Key: F7               |
+| 0       | 9          | Key: F8               |
+| 0       | 10         | Key: F9               |
+| 0       | 11         | Key: F10              |
+| 0       | 12         | Key: F11              |
+| 0       | 13         | Key: F12              |
+| 0       | 14         | Key: Insert           |
+| 0       | 15         | Key: Delete           |
+| 1       | 0          |                       |
+| 1       | 1          | Key: `                |
+| 1       | 2          | Key: 1                |
+| 1       | 3          | Key: 2                |
+| 1       | 4          | Key: 3                |
+| 1       | 5          | Key: 4                |
+| 1       | 6          | Key: 5                |
+| 1       | 7          | Key: 6                |
+| 1       | 8          | Key: 7                |
+| 1       | 9          | Key: 8                |
+| 1       | 10         | Key: 9                |
+| 1       | 11         | Key: 0                |
+| 1       | 12         | Key: -                |
+| 1       | 13         | Key: =                |
+| 1       | 14         | Key: Backspace (Left) |
+| 1       | 15         | Key: Backspace (Right)|
