@@ -90,6 +90,8 @@ OpenRGB is still in its early stages and already supports quite a few products. 
 
 * [AMD Wraith Prism](AMD-Wraith-Prism)
 
+* NZXT Kraken X42/X52/X62/X72
+
 ## Keyboards
 
 * [MSI Steelseries 3-Zone Keyboard](MSI-3-Zone-Keyboard)
