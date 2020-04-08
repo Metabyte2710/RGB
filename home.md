@@ -100,6 +100,14 @@ OpenRGB is still in its early stages and already supports quite a few products. 
 
 * [HyperX Alloy Elite](HyperX-Alloy-Elite)
 
+* [Redragon K556 Devarajas](Redragon-K556-Devarajas)
+
+## Mice
+
+* Corsair M65
+
+* [Redragon M711 Cobra](Redragon-M711-Cobra)
+
 ## Mousemats
 
 * Corsair MM800 Polaris
