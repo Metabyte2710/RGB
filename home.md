@@ -39,6 +39,8 @@ OpenRGB is still in its early stages and already supports quite a few products. 
 
 * MSI-RGB
 
+* MSI Mystic Light
+
 ## RGB RAM Modules
 
 * [ASUS Aura Based](ASUS-Aura-Overview)
