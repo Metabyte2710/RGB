@@ -21,6 +21,8 @@ OpenRGB is still in its early stages and already supports quite a few products. 
     * ASUS ROG Strix Z370-E
     * ASUS TUF B450 Plus Gaming
 
+* ASUS Aura Addressable Headers (USB)
+
 * [Gigabyte Aorus RGB Fusion 1.0](Gigabyte-RGB-Fusion-1.0)
     * Gigabyte Aorus X370 Gaming 5
 
