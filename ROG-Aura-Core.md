@@ -1,4 +1,4 @@
-Asus ROG laptops feature an RGB keyboard sold with the "Aura Core" branding.  These keyboards connect to the laptop motherboard via USB at addresses 0B05:1854, 0B05:1869, and 0B05:1866.  Information documented here was gathered from Will Roberts' rogauracore project (https://github.com/wroberts/rogauracore).  The USB messages are always 17 bytes long.  There are three main packets - color data, set color, and apply.
+Asus ROG laptops feature an RGB keyboard sold with the "Aura Core" branding.  These keyboards connect to the laptop motherboard via USB at addresses 0B05:1854, 0B05:1869, and 0B05:1866.  Information documented here was gathered from Will Roberts' rogauracore project (https://github.com/wroberts/rogauracore).  The USB messages are always 17 bytes long.
 
 # Mode / Color Data
 
