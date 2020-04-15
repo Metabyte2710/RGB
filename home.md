@@ -6,6 +6,10 @@ OpenRGB is still in its early stages and already supports quite a few products. 
 
 ![OpenRGB_0.11](uploads/2a913ece50cfa1ab2210f63e4846df4f/OpenRGB_0.11.PNG)
 
+## Join Our Discord
+
+https://discord.gg/AQwjJPY
+
 ## Motherboard RGB Systems
 
 * [ASUS Aura (SMBus Variants)](ASUS-Aura-Overview)
