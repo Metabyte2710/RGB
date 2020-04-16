@@ -24,7 +24,7 @@ cp /boot/config-file .config
 
 make oldconfig
 
-7.  Make menuconfig to enter a UI menu that you can enable the NCT6775 driver with.  I think it's under Device Drivers > I2C > Hardware or something like that.  Set the NCT6775 driver setting to <M> to build it as a module.
+7.  Make menuconfig to enter a UI menu that you can enable the NCT6775 driver with.  It's under Device Drivers - I2C support - I2C Hardware Bus Support - Nuvoton NCT6775 and compatible SMBus controller.  Set the NCT6775 driver setting to <M> to build it as a module.
 
 make menuconfig
 
