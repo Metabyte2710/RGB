@@ -78,3 +78,11 @@ https://github.com/purpl3F0x/hid_rgb_devices/blob/master/aura_hid.hpp
 | 0x03       | Start LED Index                           |
 | 0x04       | Number of LEDs in this packet             |
 | 0x05+      | LED Data (3 bytes per LED, RGB order)     |
+
+# Apply Direct Mode
+
+| Byte index | Function                                  |
+| ---------- | ----------------------------------------- |
+| 0x00       | 0xEC                                      |
+| 0x01       | 0x40                                      |
+| 0x02       | 0x80 | Channel                            |
