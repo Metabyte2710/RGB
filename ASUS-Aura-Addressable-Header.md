@@ -34,16 +34,18 @@ https://github.com/purpl3F0x/hid_rgb_devices/blob/master/aura_hid.hpp
 | 0x01       | 0x30                                    |
 | 0x03+      | Configuration Table Data (60 bytes)     |
 
-# Message Format
+# Set Channel Effect
 
 | Byte index | Function                                  |
 | ---------- | ----------------------------------------- |
 | 0x00       | 0xEC                                      |
-| 0x01       | Control Mode (Direct: 0x40, Effect: 0x3B) |
-| 0x02       | Device                                    |
-| 0x03       | Start LED                                 |
-| 0x04       | Effect Mode / Number of LEDs              |
-| 0x05 - end | 20 LEDs of color data in RGB order        |
+| 0x01       | 0x3B                                      |
+| 0x02       | Channel                                   |
+| 0x03       | 0x00                                      |
+| 0x04       | Effect Mode                               |
+| 0x05       | Red                                       |
+| 0x06       | Green                                     |
+| 0x07       | Blue                                      |
 
 # Effect Modes
 
