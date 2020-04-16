@@ -2,6 +2,36 @@ Beginning with the AMD X570 chipset generation, Asus has switched from using SMB
 
 There seems to be some overlap between these controllers and the addressable header controllers on X470 era boards (which used both an SMBus controller for motherboard and single-zone RGB headers and a USB controller for addressable headers).
 
+# Request Firmware String
+
+| Byte index | Value |
+| ---------- | ----- |
+| 0x00       | 0xEC  |
+| 0x01       | 0x82  |
+
+## Firmware String Response
+
+| Byte index | Value                                   |
+| ---------- | --------------------------------------- |
+| 0x00       | 0xEC                                    |
+| 0x01       | 0x02                                    |
+| 0x02-0x12  | Firmware string (ex. "AUTA0-S072-0101") |
+
+# Request Configuration Table
+
+| Byte index | Value |
+| ---------- | ----- |
+| 0x00       | 0xEC  |
+| 0x01       | 0xB0  |
+
+## Configuration Table Response
+
+| Byte index | Value                                   |
+| ---------- | --------------------------------------- |
+| 0x00       | 0xEC                                    |
+| 0x01       | 0x30                                    |
+| 0x03+      | Configuration Table Data (60 bytes)     |
+
 # Start of update
 
 | Byte Index | Description |
