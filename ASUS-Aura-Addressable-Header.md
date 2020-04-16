@@ -66,6 +66,7 @@ https://github.com/purpl3F0x/hid_rgb_devices/blob/master/aura_hid.hpp
 | 0x0C       | Rainbow Pulse             |
 | 0x0D       | Random Flicker            |
 | 0x0E       | Music                     |
+| 0xFF       | Direct                    |
 
 # Set LED Colors for Direct Mode
 
