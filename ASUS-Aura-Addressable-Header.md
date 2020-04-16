@@ -1,4 +1,6 @@
-The addressable Aura header is a USB device with address 0B05:1872, 0B05:1867, and possibly others.  The messages are 65 bytes in length.  Information provided by Vinay Dargar and Stavros Avramidis and taken from code here:
+The addressable Aura header is a USB device with address 0B05:1872, 0B05:1867, 0B05:1889, and possibly others.  The ROG Aura Terminal uses this protocol as well.  The messages are 65 bytes in length.  The protocol uses HID write and read operations, though HID feature requests also appear to work on some devices.
+
+Information provided by Vinay Dargar and Stavros Avramidis and taken from code here:
 
 https://github.com/purpl3F0x/hid_rgb_devices/blob/master/aura_hid.hpp
 
