@@ -19,6 +19,21 @@ https://github.com/purpl3F0x/hid_rgb_devices/blob/master/aura_hid.hpp
 | 0x01       | 0x02                                    |
 | 0x02-0x12  | Firmware string (ex. "AUTA0-S072-0101") |
 
+# Request Configuration Table
+
+| Byte index | Value |
+| ---------- | ----- |
+| 0x00       | 0xEC  |
+| 0x01       | 0xB0  |
+
+## Configuration Table Response
+
+| Byte index | Value                                   |
+| ---------- | --------------------------------------- |
+| 0x00       | 0xEC                                    |
+| 0x01       | 0x30                                    |
+| 0x03+      | Configuration Table Data (60 bytes)     |
+
 # Message Format
 
 | Byte index | Function                                  |
