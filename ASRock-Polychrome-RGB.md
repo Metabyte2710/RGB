@@ -8,7 +8,7 @@ Based on this comment: https://gitlab.com/CalcProgrammer1/OpenAuraSDK/issues/35#
 
 https://github.com/RattyDAVE/asrock-leds/blob/master/NOTES.md
 
-# ASR LED (Firmware 1.10)
+# ASR LED (Firmware 1.x and 2.x)
 
 ## Register Addresses
 Register addresses operate as multi-byte values.  Reading one byte from a register address indicates the size, in bytes, of the value it stores.  Reading additional bytes retrieves the data.  To write to a register address, a block transfer of the given size is used.
@@ -32,7 +32,7 @@ To enable a mode, write the mode value to the mode register (0x30).  To set the 
 | 0x17 | Music | 3 | Red, Green, Blue |
 | 0x18 | Wave | 1 | Speed |
 
-# Polychrome RGB (Firmware 2.10(?) and 3.0)
+# Polychrome RGB (3.x)
 
 ## Register Addresses
 Register addresses appear to multi-byte values.  Reading one byte from a register address indicates the size, in bytes, of the value it stores.  Reading additional bytes retrieves the data.  To write to a register address, a block transfer of the given size is used.
