@@ -2,6 +2,21 @@ The addressable Aura header is a USB device with address 0B05:1872, 0B05:1867, a
 
 https://github.com/purpl3F0x/hid_rgb_devices/blob/master/aura_hid.hpp
 
+# Request Firmware String
+
+| Byte index | Value |
+| ---------- | ----- |
+| 0x00       | 0xEC  |
+| 0x01       | 0x82  |
+
+## Firmware String Response
+
+| Byte index | Value                                   |
+| ---------- | --------------------------------------- |
+| 0x00       | 0xEC                                    |
+| 0x01       | 0x02                                    |
+| 0x02-0x12  | Firmware string (ex. "AUTA0-S072-0101") |
+
 # Message Format
 
 | Byte index | Function                                  |
