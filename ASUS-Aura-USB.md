@@ -1,5 +1,7 @@
 Beginning with the AMD X570 chipset generation, Asus has switched from using SMBus controllers to USB controllers for on-board lighting and 12V RGB non-addressable header control.  The Aura USB controller enumerates at 0B05:18F3 and uses HID request messages for control.  Messages are 65 bytes long and zero-filled.
 
+There seems to be some overlap between these controllers and the addressable header controllers on X470 era boards (which used both an SMBus controller for motherboard and single-zone RGB headers and a USB controller for addressable headers).
+
 # Start of update
 
 | Byte Index | Description |
