@@ -47,7 +47,7 @@ https://github.com/purpl3F0x/hid_rgb_devices/blob/master/aura_hid.hpp
 | 0x06       | Green                                     |
 | 0x07       | Blue                                      |
 
-# Effect Modes
+## Effect Modes
 
 | Mode value | Mode description          |
 | ---------- | ------------------------- |
@@ -66,3 +66,14 @@ https://github.com/purpl3F0x/hid_rgb_devices/blob/master/aura_hid.hpp
 | 0x0C       | Rainbow Pulse             |
 | 0x0D       | Random Flicker            |
 | 0x0E       | Music                     |
+
+# Set LED Colors for Direct Mode
+
+| Byte index | Function                                  |
+| ---------- | ----------------------------------------- |
+| 0x00       | 0xEC                                      |
+| 0x01       | 0x40                                      |
+| 0x02       | Channel                                   |
+| 0x03       | Start LED Index                           |
+| 0x04       | Number of LEDs in this packet             |
+| 0x05+      | LED Data (3 bytes per LED, RGB order)     |
