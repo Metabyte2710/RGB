@@ -25,7 +25,7 @@ https://discord.gg/AQwjJPY
     * ASUS ROG Strix Z370-E
     * ASUS TUF B450 Plus Gaming
 
-* ASUS Aura Addressable Headers (USB)
+* [ASUS Aura Addressable Headers (USB)](ASUS-Aura-Addressable-Header)
 
 * [Gigabyte Aorus RGB Fusion 1.0](Gigabyte-RGB-Fusion-1.0)
     * Gigabyte Aorus X370 Gaming 5
@@ -78,6 +78,8 @@ https://discord.gg/AQwjJPY
 * [Gigabyte Aorus RGB Fusion GPUs](Gigabyte-RGB-Fusion-GPU)
 
 ## LED Strip and Fan Controllers
+
+* [ASUS ROG Aura Terminal](ASUS-Aura-Addressable-Header)
 
 * [NZXT Hue+](NZXT-Hue-Plus)
 
