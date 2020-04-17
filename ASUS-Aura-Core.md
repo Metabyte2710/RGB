@@ -22,7 +22,17 @@ Asus ROG laptops feature an RGB keyboard sold with the "Aura Core" branding.  Th
 | 0x02       | Color Cycle      |
 
 
-# Set Color
+# Brightness
+
+| Byte index | Value      |
+| ---------- | ---------- |
+| 0x00       | 0x5A       |
+| 0x01       | 0xBA       |
+| 0x02       | 0xC5       |
+| 0x03       | 0xC4       |
+| 0x04       | Brightness |
+
+# Set
 
 | Byte index | Value  |
 | ---------- | ------ |
@@ -35,5 +45,5 @@ Asus ROG laptops feature an RGB keyboard sold with the "Aura Core" branding.  Th
 | Byte index | Value  |
 | ---------- | ------ |
 | 0x00       | 0x5D   |
-| 0x01       | 0xB6   |
+| 0x01       | 0xB4   |
 | 0x02 - end | 0x00   |
