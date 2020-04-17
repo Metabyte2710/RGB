@@ -36,6 +36,7 @@ https://discord.gg/AQwjJPY
     * Gigabyte X570 Aorus Pro
     * Gigabyte X570 Gaming X
     * Gigabyte X570 I Aorus Pro Wifi
+    * Gigabyte TRX40 Aorus Master
 
 * [ASRock Polychrome RGB](ASRock-Polychrome-RGB)
     * ASRock Steel Legend B450M
