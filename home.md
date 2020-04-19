@@ -137,12 +137,18 @@ https://discord.gg/AQwjJPY
     * Keyboards
         * Razer BlackWidow Chroma
         * Razer BlackWidow Chroma Tournament Edition
+        * Razer BlackWidow X Tournament Edition Chroma
         * Razer Ornata Chroma
         * Razer Huntsman Elite
 
     * Mice
-        * Razer Mamba Tournament Edition
+        * Razer DeathAdder Chroma
+        * Razer DeathAdder Elite
         * Razer Diamondback
+        * Razer Mamba Elite
+        * Razer Mamba Tournament Edition
+        * Razer Naga Chroma
+        * Razer Naga Epic Chroma (*)
 
     * Laptops
         * Razer Blade Stealth
@@ -151,14 +157,22 @@ https://discord.gg/AQwjJPY
     * Headsets
         * Razer Kraken 7.1 Chroma
         * Razer Kraken V2 Chroma
+        * Razer Tiamat 7.1 V2 (*)
 
     * Mousemats
         * Razer Firefly
         * Razer Goliathus Extended Chroma
 
+    * Speakers
+        * Razer Nommo Chroma (*)
+        * Razer Nommo Pro (*)
+
     * Accessories
-        * Razer Mug Holder Chroma
+        * Razer Base Station Chroma
         * Razer Chroma HDK
         * Razer Core
+        * Razer Mug Holder Chroma
+
+(*) - Device not supported in upstream OpenRazer and requires a custom build.
 
 * Faustus (ASUS TUF Laptop Keyboards) (Linux)
