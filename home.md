@@ -111,6 +111,8 @@ https://discord.gg/AQwjJPY
 
 ## Keyboards
 
+* [ASUS ROG Aura Core Laptops](ASUS-Aura-Core)
+
 * [MSI Steelseries 3-Zone Keyboard](MSI-3-Zone-Keyboard)
 
 * [TTEsports Poseidon Z RGB](Thermaltake-Poseidon-Z-RGB)
