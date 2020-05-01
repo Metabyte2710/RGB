@@ -166,8 +166,8 @@ https://discord.gg/AQwjJPY
         * Razer Goliathus Extended Chroma
 
     * Speakers
-        * Razer Nommo Chroma (*)
-        * Razer Nommo Pro (*)
+        * Razer Nommo Chroma
+        * Razer Nommo Pro
 
     * Accessories
         * Razer Base Station Chroma
