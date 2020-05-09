@@ -4,6 +4,8 @@ One of the biggest complaints about RGB is the software ecosystem surrounding it
 
 OpenRGB is still in its early stages and already supports quite a few products.  I'm always on the lookout for good deals on more popular RGB devices to add support for.
 
+OpenRGB provides a software development kit (SDK) that can be used to integrate your RGB setup into other applications and games.  The OpenRGB SDK uses a network server which can be enabled in the OpenRGB application.  Other applications may then connect to OpenRGB and control the lighting.
+
 ## WARNING!
 
 This project provides a tool to probe the SMBus.  This is a potentially dangerous operation if you don't know what you're doing.  Exercise caution when clicking the Detect Devices or Dump Device buttons.  There have been reports of Gigabyte motherboards having serious issues (bricking the RGB or bricking the entire board) when dumping certain devices.  On the same lines, exercise the same caution when using the i2cdump and i2cdetect commands on Linux, as they perform the same functionality.  OpenRGB is not liable for damage caused by improper SMBus access.
