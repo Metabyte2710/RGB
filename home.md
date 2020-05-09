@@ -12,7 +12,9 @@ This project provides a tool to probe the SMBus.  This is a potentially dangerou
 
 As of now, only Gigabyte RGB Fusion 2.0 boards have been reported to have issues.
 
-![OpenRGB_0.11](uploads/2a913ece50cfa1ab2210f63e4846df4f/OpenRGB_0.11.PNG)
+![OpenRGB_0.11_with_SDK_main](uploads/d34be380d9f703b15a443840af20ca42/OpenRGB_0.11_with_SDK_main.PNG)
+
+![OpenRGB_0.11_with_SDK_server](uploads/cedf17f8ae30f8b95703e705c357366a/OpenRGB_0.11_with_SDK_server.PNG)
 
 ## Join Our Discord
 
