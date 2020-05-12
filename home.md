@@ -35,7 +35,9 @@ https://discord.gg/AQwjJPY
     * ASUS ROG Strix Z370-E
     * ASUS TUF B450 Plus Gaming
 
-* [ASUS Aura Addressable Headers (USB)](ASUS-Aura-Addressable-Header)
+* [ASUS Aura (USB Variants)](ASUS Aura USB)
+    * [ASUS Aura Addressable Headers](ASUS-Aura-Addressable-Header)
+    * ASUS X570 Motherboards
 
 * [Gigabyte Aorus RGB Fusion 1.0](Gigabyte-RGB-Fusion-1.0)
     * Gigabyte Aorus X370 Gaming 5
