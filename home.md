@@ -135,9 +135,15 @@ https://discord.gg/AQwjJPY
 
 * [Redragon M711 Cobra](Redragon-M711-Cobra)
 
+* Logitech G203 Prodigy
+
 ## Mousemats
 
 * Corsair MM800 Polaris
+
+## Other
+
+* Corsair ST100 Headset Stand
 
 ## Other projects integrated
 
