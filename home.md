@@ -127,7 +127,13 @@ https://discord.gg/AQwjJPY
 
 * [HyperX Alloy Elite](HyperX-Alloy-Elite)
 
+* Redragon K550 Yama
+
+* Redragon K552 Kumara
+
 * [Redragon K556 Devarajas](Redragon-K556-Devarajas)
+
+* Tecware Phantom Elite
 
 ## Mice
 
