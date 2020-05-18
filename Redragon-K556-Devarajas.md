@@ -237,36 +237,36 @@ Changing profile sends this command with all zeros, but it seems to follow the s
 | 0x4E             |              |
 | 0x4F             |              |
 | 0x50             | Num Pad 4    |
-| 0x50             | Num Pad 5    |
-| 0x51             | Num Pad 6    |
-| 0x52             |              |
-| 0x53             | Left Shift   |
-| 0x54             |              |
-| 0x55             | Z            |
-| 0x56             | X            |
-| 0x57             | C            |
-| 0x58             | V            |
-| 0x59             | B            |
-| 0x5A             | N            |
-| 0x5B             | M            |
-| 0x5C             | ,/<          |
-| 0x5D             | ./>          |
-| 0x5E             | /?           |
-| 0x5F             |              |
-| 0x60             | Right Shift  |
-| 0x61             |              |
-| 0x62             | Up Arrow     |
-| 0x63             |              |
-| 0x64             | Num Pad 1    |
-| 0x65             | Num Pad 2    |
-| 0x66             | Num Pad 3    |
-| 0x67             | Num Pad Enter |
-| 0x68             | Left Control |
-| 0x69             | Windows Key  |
-| 0x6A             | Left Alt     |
-| 0x6B             | Space Bar    |
-| 0x6C             | Right Alt    |
-| 0x6D             | Function     |
+| 0x51             | Num Pad 5    |
+| 0x52             | Num Pad 6    |
+| 0x53             |              |
+| 0x54             | Left Shift   |
+| 0x55             |              |
+| 0x56             | Z            |
+| 0x57             | X            |
+| 0x58             | C            |
+| 0x59             | V            |
+| 0x5A             | B            |
+| 0x5B             | N            |
+| 0x5C             | M            |
+| 0x5D             | ,/<          |
+| 0x5E             | ./>          |
+| 0x5F             | /?           |
+| 0x60             |              |
+| 0x61             | Right Shift  |
+| 0x62             |              |
+| 0x63             | Up Arrow     |
+| 0x64             |              |
+| 0x65             | Num Pad 1    |
+| 0x66             | Num Pad 2    |
+| 0x67             | Num Pad 3    |
+| 0x68             | Num Pad Enter |
+| 0x69             | Left Control |
+| 0x6A             | Windows Key  |
+| 0x6B             | Left Alt     |
+| 0x6C             | Space Bar    |
+| 0x6D             | Right Alt    |
+| 0x6E             | Function     |
 | 0x6F             | Context      |
 | 0x70             |              |
 | 0x71             | Right Control |
