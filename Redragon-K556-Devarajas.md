@@ -198,87 +198,87 @@ Changing profile sends this command with all zeros, but it seems to follow the s
 | 0x27             | Num Pad /    |
 | 0x28             | Num Pad *    |
 | 0x29             | Num Pad -    |
-| 0x30             | Tab          |
-| 0x31             | Q            |
-| 0x32             | W            |
-| 0x33             | E            |
-| 0x34             | R            |
-| 0x35             | T            |
-| 0x36             | Y            |
-| 0x37             | U            |
-| 0x38             | I            |
-| 0x39             | O            |
-| 0x3A             | P            |
-| 0x3B             | [/{          |
-| 0x3C             | ]/}          |
-| 0x3D             | \/|          |
-| 0x3E             | Delete       |
-| 0x3F             | End          |
-| 0x40             | Page Down    |
-| 0x41             | Num Pad 7    |
-| 0x42             | Num Pad 8    |
-| 0x43             | Num Pad 9    |
-| 0x44             | Num Pad +    |
-| 0x45             | Caps Lock    |
-| 0x46             | A            |
-| 0x47             | S            |
-| 0x48             | D            |
-| 0x49             | F            |
-| 0x4A             | G            |
-| 0x4B             | H            |
-| 0x4C             | J            |
-| 0x4D             | K            |
-| 0x4E             | L            |
-| 0x4F             | ;/:          |
-| 0x50             | '/"          |
-| 0x51             |              |
-| 0x52             | Enter        |
-| 0x53             |              |
+| 0x2A             | Tab          |
+| 0x2B             | Q            |
+| 0x2C             | W            |
+| 0x2D             | E            |
+| 0x2E             | R            |
+| 0x2F             | T            |
+| 0x30             | Y            |
+| 0x31             | U            |
+| 0x32             | I            |
+| 0x33             | O            |
+| 0x34             | P            |
+| 0x35             | [/{          |
+| 0x36             | ]/}          |
+| 0x37             | \/|          |
+| 0x38             | Delete       |
+| 0x39             | End          |
+| 0x3A             | Page Down    |
+| 0x3B             | Num Pad 7    |
+| 0x3C             | Num Pad 8    |
+| 0x3D             | Num Pad 9    |
+| 0x3E             | Num Pad +    |
+| 0x3F             | Caps Lock    |
+| 0x40             | A            |
+| 0x41             | S            |
+| 0x42             | D            |
+| 0x43             | F            |
+| 0x44             | G            |
+| 0x45             | H            |
+| 0x46             | J            |
+| 0x47             | K            |
+| 0x48             | L            |
+| 0x49             | ;/:          |
+| 0x4A             | '/"          |
+| 0x4B             |              |
+| 0x4C             | Enter        |
+| 0x4D             |              |
+| 0x4E             |              |
+| 0x4F             |              |
+| 0x50             | Num Pad 4    |
+| 0x50             | Num Pad 5    |
+| 0x51             | Num Pad 6    |
+| 0x52             |              |
+| 0x53             | Left Shift   |
 | 0x54             |              |
-| 0x55             |              |
-| 0x56             | Num Pad 4    |
-| 0x57             | Num Pad 5    |
-| 0x58             | Num Pad 6    |
-| 0x59             |              |
-| 0x5A             | Left Shift   |
-| 0x5B             |              |
-| 0x5C             | Z            |
-| 0x5D             | X            |
-| 0x5E             | C            |
-| 0x5F             | V            |
-| 0x60             | B            |
-| 0x61             | N            |
-| 0x62             | M            |
-| 0x63             | ,/<          |
-| 0x64             | ./>          |
-| 0x65             | /?           |
-| 0x66             |              |
-| 0x67             | Right Shift  |
-| 0x68             |              |
-| 0x69             | Up Arrow     |
-| 0x6A             |              |
-| 0x6B             | Num Pad 1    |
-| 0x6C             | Num Pad 2    |
-| 0x6D             | Num Pad 3    |
-| 0x6E             | Num Pad Enter |
-| 0x6F             | Left Control |
-| 0x70             | Windows Key  |
-| 0x71             | Left Alt     |
-| 0x72             | Space Bar    |
-| 0x73             | Right Alt    |
-| 0x74             | Function     |
-| 0x75             | Context      |
+| 0x55             | Z            |
+| 0x56             | X            |
+| 0x57             | C            |
+| 0x58             | V            |
+| 0x59             | B            |
+| 0x5A             | N            |
+| 0x5B             | M            |
+| 0x5C             | ,/<          |
+| 0x5D             | ./>          |
+| 0x5E             | /?           |
+| 0x5F             |              |
+| 0x60             | Right Shift  |
+| 0x61             |              |
+| 0x62             | Up Arrow     |
+| 0x63             |              |
+| 0x64             | Num Pad 1    |
+| 0x65             | Num Pad 2    |
+| 0x66             | Num Pad 3    |
+| 0x67             | Num Pad Enter |
+| 0x68             | Left Control |
+| 0x69             | Windows Key  |
+| 0x6A             | Left Alt     |
+| 0x6B             | Space Bar    |
+| 0x6C             | Right Alt    |
+| 0x6D             | Function     |
+| 0x6F             | Context      |
+| 0x70             |              |
+| 0x71             | Right Control |
+| 0x72             |              |
+| 0x73             |              |
+| 0x74             |              |
+| 0x75             |              |
 | 0x76             |              |
-| 0x77             | Right Control |
-| 0x78             |              |
-| 0x79             |              |
+| 0x77             | Left Arrow   |
+| 0x78             | Down Arrow   |
+| 0x79             | Right Arrow  |
 | 0x7A             |              |
-| 0x7B             |              |
-| 0x7C             |              |
-| 0x7D             | Left Arrow   |
-| 0x7E             | Down Arrow   |
-| 0x7F             | Right Arrow  |
-| 0x80             |              |
-| 0x81             | Num Pad 0    |
-| 0x82             | Num Pad .    |
-| 0x83             |              |
+| 0x7B             | Num Pad 0    |
+| 0x7C             | Num Pad .    |
+| 0x7D             |              |
