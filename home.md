@@ -143,6 +143,8 @@ https://discord.gg/AQwjJPY
 
 * Logitech G203 Prodigy
 
+* Logitech G403 Prodigy
+
 ## Mousemats
 
 * Corsair MM800 Polaris
