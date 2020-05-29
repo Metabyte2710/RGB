@@ -145,6 +145,8 @@ https://discord.gg/AQwjJPY
 
 * Logitech G403 Prodigy
 
+* SteelSeries Rival 100 and 300 series
+
 ## Mousemats
 
 * Corsair MM800 Polaris
