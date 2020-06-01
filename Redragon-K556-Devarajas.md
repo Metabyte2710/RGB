@@ -85,9 +85,9 @@ Parameter table starting at offset 0x00 is Profile 1's parameter configuration. 
 | 0x06            | 1               | Mode Green Color               |
 | 0x07            | 1               | Mode Blue Color                |
 | 0x08            | 1               |                                |
-| 0x09            | 1               |                                |
-| 0x0A            | 1               |                                |
-| 0x0B            | 1               |                                |
+| 0x09            | 1               | Background Red Color           |
+| 0x0A            | 1               | Background Green Color         |
+| 0x0B            | 1               | Background Blue Color          |
 | 0x0C            | 1               |                                |
 | 0x0D            | 1               |                                |
 | 0x0E            | 1               |                                |
