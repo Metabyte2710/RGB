@@ -20,26 +20,26 @@ The checksum simply adds together all of the bytes in the packet excluding the f
 
 # Commands
 
-| Value | Description             | Total Data Length |
-| ----- | ----------------------- | ----------------- |
-| 0x00  |                         |                   |
-| 0x01  | Begin                   | 0                 |
-| 0x02  | End                     | 0                 |
-| 0x03  | Read Unknown Data       | 0x2C              |
-| 0x04  | Write Unknown Data      | 0x2C              |
-| 0x05  | Read Parameter Data     | 0x8C              |
-| 0x06  | Write Parameter Data    | 0x8C              |
-| 0x07  |                         |                   |
-| 0x08  |                         |                   |
-| 0x09  |                         |                   |
-| 0x0A  |                         |                   |
-| 0x0B  |                         |                   |
-| 0x0C  |                         |                   |
-| 0x0D  |                         |                   |
-| 0x0E  |                         |                   |
-| 0x0F  |                         |                   |
-| 0x10  | Read Custom Color Data  |
-| 0x11  | Write Custom Color Data |
+| Value | R/W   | Description             | Total Data Length |
+| ----- | ----- | ----------------------- | ----------------- |
+| 0x00  |       |                         |                   |
+| 0x01  |       | Begin                   | 0                 |
+| 0x02  |       | End                     | 0                 |
+| 0x03  | Read  | Unknown Data            | 0x2C              |
+| 0x04  | Write | Unknown Data            | 0x2C              |
+| 0x05  | Read  | Parameter Data          | 0x8C              |
+| 0x06  | Write | Parameter Data          | 0x8C              |
+| 0x07  |       |                         |                   |
+| 0x08  |       |                         |                   |
+| 0x09  |       |                         |                   |
+| 0x0A  |       |                         |                   |
+| 0x0B  |       |                         |                   |
+| 0x0C  |       |                         |                   |
+| 0x0D  |       |                         |                   |
+| 0x0E  |       |                         |                   |
+| 0x0F  |       |                         |                   |
+| 0x10  | Read  | Custom Color Data       |                   |
+| 0x11  | Write | Custom Color Data       |                   |
 
 ### Unknown Read (0x03)
 
