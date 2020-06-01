@@ -119,9 +119,9 @@ The effects all have very strange names.  I'm pretty sure the people who wrote t
 | 0x02               | 500Hz                |
 | 0x03               | 1000Hz               |
 
-### Unknown Command (0x07)
+### Unknown Read (0x07)
 
-Sent when opening the app.  Seems to be a multi-packet data stream with size 0x38 per packet.  Perhaps this is the key map?  21 packets total.  Three of them have size 0x2A per packet (6 0x38 size followed by 1 0x2A size, repeat 3 times).  All data bytes are zero.  Possibly a read.
+Sent when opening the app.  Multi-packet read of memory region with total size 0x046E.  Perhaps this is the key map?  21 packets total.  Three of them have size 0x2A per packet (6 0x38 size followed by 1 0x2A size, repeat 3 times).
 
 ### Unknown Command (0x08)
 
