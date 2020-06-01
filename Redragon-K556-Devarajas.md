@@ -25,8 +25,8 @@ The checksum simply adds together all of the bytes in the packet excluding the f
 | 0x00  |                         |                   |
 | 0x01  | Begin                   | 0                 |
 | 0x02  | End                     | 0                 |
-| 0x03  |                         | 0x2C              |
-| 0x04  |                         | 0x2C              |
+| 0x03  | Read Unknown Data       | 0x2C              |
+| 0x04  | Write Unknown Data      | 0x2C              |
 | 0x05  | Read Parameter Data     | 0x8C              |
 | 0x06  | Write Parameter Data    | 0x8C              |
 | 0x07  |                         |                   |
