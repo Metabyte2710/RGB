@@ -38,9 +38,9 @@ The checksum simply adds together all of the bytes in the packet excluding the f
 | 0x02  | Checksum MSB (0x00) |
 | 0x03  | 0x02                |
 
-### Unknown Command (0x03)
+### Unknown Read (0x03)
 
-This is set when changing profiles.  It sets byte index 0x04 to value 0x2C.  Possibly a multi-byte data read.  Also sent when opening the app.
+This is sent when changing profiles.  Number of bytes 0x2C.  Also sent when opening the app.
 
 ### Unknown Command (0x04)
 
