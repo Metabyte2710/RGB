@@ -20,23 +20,26 @@ The checksum simply adds together all of the bytes in the packet excluding the f
 
 # Commands
 
-### Begin Command (0x01)
-
-| Index | Value               |
-| ----- | ------------------- |
-| 0x00  | 0x04                |
-| 0x01  | Checksum LSB (0x01) |
-| 0x02  | Checksum MSB (0x00) |
-| 0x03  | 0x01                |
-
-### End Command (0x02)
-
-| Index | Value               |
-| ----- | ------------------- |
-| 0x00  | 0x04                |
-| 0x01  | Checksum LSB (0x02) |
-| 0x02  | Checksum MSB (0x00) |
-| 0x03  | 0x02                |
+| Value | Description             | Total Data Length |
+| ----- | ----------------------- | ----------------- |
+| 0x00  |                         |                   |
+| 0x01  | Begin                   | 0                 |
+| 0x02  | End                     | 0                 |
+| 0x03  |                         | 0x2C              |
+| 0x04  |                         | 0x2C              |
+| 0x05  | Read Parameter Data     |                   |
+| 0x06  | Write Parameter Data    |                   |
+| 0x07  |                         |                   |
+| 0x08  |                         |                   |
+| 0x09  |                         |                   |
+| 0x0A  |                         |                   |
+| 0x0B  |                         |                   |
+| 0x0C  |                         |                   |
+| 0x0D  |                         |                   |
+| 0x0E  |                         |                   |
+| 0x0F  |                         |                   |
+| 0x10  | Read Custom Color Data  |
+| 0x11  | Write Custom Color Data |
 
 ### Unknown Read (0x03)
 
