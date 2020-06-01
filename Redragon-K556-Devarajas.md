@@ -45,6 +45,8 @@ The checksum simply adds together all of the bytes in the packet excluding the f
 
 This data block is updated when changing profiles.
 
+The data starting at index 0x10 appears to be the list of available modes.  It matches the order of the modes that show in the UI.
+
 | Byte Index | Bytes | Description |
 | ---------- | ----- | ----------- |
 | 0x00       | 1     | 0x55        |
@@ -59,6 +61,14 @@ This data block is updated when changing profiles.
 | 0x09       | 1     | 0x01        |
 | 0x0A       | 1     | Active Profile (0x00-0x03) |
 | 0x0B       | 1     | 0x18        |
+| 0x0C       | 1     | 0x00        |
+| 0x0D       | 1     | 0x00        |
+| 0x0E       | 1     | 0x00        |
+| 0x0F       | 1     | 0x00        |
+| 0x10       | 1     | 0x01        |
+| 0x11       | 1     | 0x02        |
+| 0x12       | 1     | 0x03        |
+| 0x13       | 1     | 0x04        |
 
 # Parameter Data Block (0x05/0x06)
 
