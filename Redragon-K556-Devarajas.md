@@ -72,6 +72,8 @@ The data starting at index 0x10 appears to be the list of available modes.  It m
 
 # Parameter Data Block (0x05/0x06)
 
+Parameter table starting at offset 0x00 is Profile 1's parameter configuration.  Table repeats at offset 0x2A (Profile 2) and 0x54 (Profile 3).
+
 | Byte Index      | Parameter Bytes | Parameter Description          |
 | --------------- | --------------- | ------------------------------ |
 | 0x00            | 1               | Mode (See Modes table)         |
