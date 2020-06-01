@@ -127,9 +127,9 @@ Sent when opening the app.  Multi-packet read of memory region with total size 0
 
 Sent when changing a key binding.  Seems to be a multi-packet data stream with size 0x38 per packet.  Perhaps this is the key map?  21 packets total.  Three of them have size 0x2A per packet (6 0x38 size followed by 1 0x2A size, repeat 3 times).
 
-### Unknown Command (0x09)
+### Unknown Read (0x09)
 
-Sent when opening the app.
+Sent when opening the app.  Number of bytes 0x10.
 
 ### Unknown Command (0x0A)
 
