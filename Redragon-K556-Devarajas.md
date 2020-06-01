@@ -1,17 +1,26 @@
 USB HID, 64-byte packets.  Every packet should perform both an HID write operation and an HID read operation sequentially.  Do not use feature reports.
 
-Every packet begins with:
+# Packet Structure
 
-| Index | Value               |
-| ----- | ------------------- |
-| 0x00  | 0x04                |
-| 0x01  | 16-bit Checksum LSB |
-| 0x02  | 16-bit Checksum MSB |
-| 0x03  | Command Byte        |
+All packets seem to follow this structure.  The command field indicates which data bank to access and whether the command is a read or a write.  The read or write operation uses the data starting at 0x08 in the packet of the given number of bytes and reads/writes it at the given offset.
+
+| Index | Value | Description        |
+| ----- | ----- | ------------------ |
+| 0x00  | 0x04  |                    |
+| 0x01  | 0xCC  | Checksum LSB       |
+| 0x02  | 0xCC  | Checksum MSB       |
+| 0x03  | 0xXX  | Command            |
+| 0x04  | 0xNN  | Number of bytes    |
+| 0x05  | 0xNN  | Byte offset LSB    |
+| 0x06  | 0xNN  | Byte offset MSB    |
+| 0x07  | 0x00  |                    |
+| 0x08+ | 0xXX  | Data bytes         |
 
 The checksum simply adds together all of the bytes in the packet excluding the first three.
 
-# Begin Command (0x01)
+# Commands
+
+### Begin Command (0x01)
 
 | Index | Value               |
 | ----- | ------------------- |
@@ -20,7 +29,7 @@ The checksum simply adds together all of the bytes in the packet excluding the f
 | 0x02  | Checksum MSB (0x00) |
 | 0x03  | 0x01                |
 
-# End Command (0x02)
+### End Command (0x02)
 
 | Index | Value               |
 | ----- | ------------------- |
@@ -29,45 +38,41 @@ The checksum simply adds together all of the bytes in the packet excluding the f
 | 0x02  | Checksum MSB (0x00) |
 | 0x03  | 0x02                |
 
-# Unknown Command (0x03)
+### Unknown Command (0x03)
 
 This is set when changing profiles.  It sets byte index 0x04 to value 0x2C.  Possibly a multi-byte data read.  Also sent when opening the app.
 
-# Unknown Command (0x04)
+### Unknown Command (0x04)
 
 This is set when changing profiles.  Appears to be a multi-packet data transfer, though is only called once with size 0x2C (if format same as 0x11).
 
-# Unknown Command (0x05)
+### Unknown Command (0x05)
 
 This is set when changing profiles.  It sets byte index 0x04 to value 0x38.  Appears to be a multi-packet data transfer similar to 0x11.
 
-# Set Parameter Command (0x06)
+# Set Parameter (0x06)
 
-| Index | Value | Description            |
-| ----- | ----- | ---------------------- |
-| 0x00  | 0x04  |                        |
-| 0x01  | 0xNN  | Checksum LSB           |
-| 0x02  | 0xNN  | Checksum MSB           |
-| 0x03  | 0x06  |                        |
-| 0x04  | 0xNN  | Parameter Byte Count   |
-| 0x05  | 0xNN  | Parameter Index        |
-| 0x06  | 0x00  |                        |
-| 0x07  | 0x00  |                        |
-| 0x08  | 0xNN  | Parameter Byte 1       |
-| 0x09  | 0xNN  | Parameter Byte 2       |
-| 0x0A  | 0xNN  | Parameter Byte 3       |
+## Parameter data structure
 
-## Parameters
-
-| Parameter Index | Parameter Bytes | Parameter Description          |
+| Byte Index      | Parameter Bytes | Parameter Description          |
 | --------------- | --------------- | ------------------------------ |
 | 0x00            | 1               | Mode (See Modes table)         |
 | 0x01            | 1               | Brightness (0-5)               |
 | 0x02            | 1               | Speed (Slow: 5, Fast: 0)       |
 | 0x03            | 1               | Direction (R: 0, L: 1)         |
 | 0x04            | 1               | Random Color Flag (0/1)        |
-| 0x05            | 3               | Mode Color (RGB)               |
+| 0x05            | 1               | Mode Red Color                 |
+| 0x06            | 1               | Mode Green Color               |
+| 0x07            | 1               | Mode Blue Color                |
+| 0x08            | 1               |                                |
+| 0x09            | 1               |                                |
+| 0x0A            | 1               |                                |
+| 0x0B            | 1               |                                |
+| 0x0C            | 1               |                                |
+| 0x0D            | 1               |                                |
+| 0x0E            | 1               |                                |
 | 0x0F            | 1               | Polling Rate (See table)       |
+| 0x10            | 1               |                                |
 | 0x11            | 1               | Surmount mode color (see table)|
 
 ## Modes
@@ -114,45 +119,33 @@ The effects all have very strange names.  I'm pretty sure the people who wrote t
 | 0x02               | 500Hz                |
 | 0x03               | 1000Hz               |
 
-# Unknown Command (0x07)
+### Unknown Command (0x07)
 
 Sent when opening the app.  Seems to be a multi-packet data stream with size 0x38 per packet.  Perhaps this is the key map?  21 packets total.  Three of them have size 0x2A per packet (6 0x38 size followed by 1 0x2A size, repeat 3 times).  All data bytes are zero.  Possibly a read.
 
-# Unknown Command (0x08)
+### Unknown Command (0x08)
 
 Sent when changing a key binding.  Seems to be a multi-packet data stream with size 0x38 per packet.  Perhaps this is the key map?  21 packets total.  Three of them have size 0x2A per packet (6 0x38 size followed by 1 0x2A size, repeat 3 times).
 
-# Unknown Command (0x09)
+### Unknown Command (0x09)
 
 Sent when opening the app.
 
-# Unknown Command (0x0A)
+### Unknown Command (0x0A)
 
 Sent when changing a key binding
 
-# Unknown Read Data Command (0x0F)
+### Unknown Read Data Command (0x0F)
 
 Sent when opening the app.  Seems to be a multi-packet data stream with size 0x38 per packet.  7 packets total, with the last packet having a size of 0x2A instead of 0x38.  All data bytes are zero.  I think this is reading out color data.
 
-# Read Custom Color Data Command? (0x10)
+### Read Custom Color Data (0x10)
 
-Changing profile sends this command with all zeros, but it seems to follow the same number of bytes and offset format of command 0x11.  Perhaps a direct color mode?  It could be some other per-key data as well.
+### Write Custom Color Data (0x11)
 
-# Write Custom Color Data Command (0x11)
+# Custom Color Keymap
 
-| Index | Value | Description        |
-| ----- | ----- | ------------------ |
-| 0x00  | 0x04  |                    |
-| 0x01  | 0x11  | Checksum LSB       |
-| 0x02  | 0x36  | Checksum MSB       |
-| 0x03  | 0x11  |                    |
-| 0x04  | 0x36  | Number of bytes    |
-| 0x05  | 0x00  | Byte offset LSB    |
-| 0x06  | 0x00  | Byte offset MSB    |
-| 0x07  | 0x00  |                    |
-| 0x08+ | 0xXX  | RGB data           |
-
-# Keymap
+Each color data index represents 3 bytes in the color data buffer, RGB format
 
 | Color data index | Key          |
 | ---------------- | ------------ |
