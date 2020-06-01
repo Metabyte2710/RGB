@@ -41,21 +41,26 @@ The checksum simply adds together all of the bytes in the packet excluding the f
 | 0x10  | Read  | Custom Color Data       |                   |
 | 0x11  | Write | Custom Color Data       |                   |
 
-### Unknown Read (0x03)
+# Unknown Data Block (0x03/0x04)
 
-This is sent when changing profiles.  Number of bytes 0x2C.  Also sent when opening the app.
+This data block is updated when changing profiles.
 
-### Unknown Command (0x04)
+| Byte Index | Bytes | Description |
+| ---------- | ----- | ----------- |
+| 0x00       | 1     | 0x55        |
+| 0x01       | 1     | 0xAA        |
+| 0x02       | 1     | 0xFF        |
+| 0x03       | 1     | 0x02        |
+| 0x04       | 1     | 0x45        |
+| 0x05       | 1     | 0x0C        |
+| 0x06       | 1     | 0x04        |
+| 0x07       | 1     | 0x50        |
+| 0x08       | 1     | 0x07        |
+| 0x09       | 1     | 0x01        |
+| 0x0A       | 1     | Active Profile (0x00-0x03) |
+| 0x0B       | 1     | 0x18        |
 
-This is set when changing profiles.  Appears to be a multi-packet data transfer, though is only called once with size 0x2C (if format same as 0x11).
-
-# Parameters
-
-### Read Parameter (0x05)
-
-### Set Parameter (0x06)
-
-## Parameter data structure
+# Parameter Data Block (0x05/0x06)
 
 | Byte Index      | Parameter Bytes | Parameter Description          |
 | --------------- | --------------- | ------------------------------ |
