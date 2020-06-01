@@ -46,11 +46,11 @@ This is sent when changing profiles.  Number of bytes 0x2C.  Also sent when open
 
 This is set when changing profiles.  Appears to be a multi-packet data transfer, though is only called once with size 0x2C (if format same as 0x11).
 
-### Unknown Command (0x05)
+# Parameters
 
-This is set when changing profiles.  It sets byte index 0x04 to value 0x38.  Appears to be a multi-packet data transfer similar to 0x11.
+### Read Parameter (0x05)
 
-# Set Parameter (0x06)
+### Set Parameter (0x06)
 
 ## Parameter data structure
 
