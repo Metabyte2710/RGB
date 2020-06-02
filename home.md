@@ -147,6 +147,8 @@ https://discord.gg/AQwjJPY
 
 * SteelSeries Rival 100 and 300 series
 
+* Glorious Model O
+
 ## Mousemats
 
 * Corsair MM800 Polaris
