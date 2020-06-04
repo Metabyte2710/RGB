@@ -16,6 +16,12 @@ USB protocol, 16 byte USB HID control packets with report ID 0.
 | 0x07  | 0x00  |                          |
 | 0x08+ | 0xXX  | Start of data            |
 
+# Known Addresses
+
+| Address | Size | Description    |
+| ------- | ---- | -------------- |
+| 0x002C  | 2    | Active Profile |
+
 # Apply Settings
 
 | Index | Value | Description |
