@@ -18,9 +18,31 @@ USB protocol, 16 byte USB HID control packets with report ID 0.
 
 # Known Addresses
 
-| Address | Size | Description    |
-| ------- | ---- | -------------- |
-| 0x002C  | 2    | Active Profile |
+Addresses without description have been seen in captures but don't know what they hold.
+
+| Address | Size | Description                            |
+| ------- | ---- | -------------------------------------- |
+| 0x002C  | 2    | Active Profile                         |
+| 0x0032  | 6    | Polling Rate (2 bytes), 2 other values |
+| 0x003E  | 2    |                |
+| 0x0446  | 2    |                |
+| 0x0449  | 6    |                |
+| 0x044F  | 1    |                |
+| 0x0451  | 6    |                |
+| 0x0457  | 1    |                |
+| 0x0459  | 6    |                |
+| 0x045F  | 1    |                |
+| 0x0461  | 6    |                |
+| 0x0471  | 1    |                |
+| 0x0469  | 6    |                |
+| 0x046F  | 1    |                |
+
+## Polling Rate
+
+| Value | Rate   |
+| ----- | ------ |
+| 0x01  | 1000Hz |
+| 0x02  | 500Hz  |
 
 # Apply Settings
 
