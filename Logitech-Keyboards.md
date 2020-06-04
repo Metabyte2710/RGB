@@ -32,3 +32,29 @@ Logitech G213 and G413 do not need a commit packet.
 | 0x01       | 0xFF  |
 | 0x02       | 0x0F  |
 | 0x03       | 0x5D  |
+
+# Set Startup Mode
+
+### Logitech G213, G410, G610, G810, GPro
+
+| Byte Index | Value        |
+| ---------- | ------------ |
+| 0x00       | 0x11         |
+| 0x01       | 0xFF         |
+| 0x02       | 0x0D         |
+| 0x03       | 0x5A         |
+| 0x04       | 0x00         |
+| 0x05       | 0x01         |
+| 0x06       | Startup Mode |
+
+### Logitech G910
+
+| Byte Index | Value        |
+| ---------- | ------------ |
+| 0x00       | 0x11         |
+| 0x01       | 0xFF         |
+| 0x02       | 0x10         |
+| 0x03       | 0x5E         |
+| 0x04       | 0x00         |
+| 0x05       | 0x01         |
+| 0x06       | Startup Mode |
