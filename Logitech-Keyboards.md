@@ -58,3 +58,15 @@ Logitech G213 and G413 do not need a commit packet.
 | 0x04       | 0x00         |
 | 0x05       | 0x01         |
 | 0x06       | Startup Mode |
+
+# Set Onboard Mode
+
+### Logitech G815
+
+| Byte Index | Value        |
+| ---------- | ------------ |
+| 0x00       | 0x11         |
+| 0x01       | 0xFF         |
+| 0x02       | 0x11         |
+| 0x03       | 0x1A         |
+| 0x04       | Onboard Mode |
