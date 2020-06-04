@@ -24,9 +24,9 @@ Addresses without description have been seen in captures but don't know what the
 | ------- | ---- | -------------------------------------- |
 | 0x002C  | 2    | Active Profile                         |
 | 0x0032  | 6    | Polling Rate (2 bytes), 2 other values |
-| 0x003E  | 2    |                |
-| 0x0446  | 2    |                |
-| 0x0449  | 6    |                |
+| 0x003E  | 2    |                                        |
+| 0x0446  | 2    |                                        |
+| 0x0449  | 6    | Lighting Control                       |
 | 0x044F  | 1    |                |
 | 0x0451  | 6    |                |
 | 0x0457  | 1    |                |
@@ -43,6 +43,8 @@ Addresses without description have been seen in captures but don't know what the
 | ----- | ------ |
 | 0x01  | 1000Hz |
 | 0x02  | 500Hz  |
+| 0x04  | 250Hz  |
+| 0x08  | 125Hz  |
 
 # Apply Settings
 
