@@ -2,6 +2,26 @@ USB protocol, 16 byte USB HID control packets with report ID 0.
 
 02 F3 46 04 02 - Start?
 
+# Packet Structure
+
+| Index | Value | Description              |
+| ----- | ----- | ------------------------ |
+| 0x00  | 0x02  |                          |
+| 0x01  | 0xF3  |                          |
+| 0x02  | 0x49  |                          |
+| 0x03  | 0x04  |                          |
+| 0x04  | 0x06  |                          |
+| 0x05  | 0x00  |                          |
+| 0x06  | 0x00  |                          |
+| 0x07  | 0x00  |                          |
+| 0x08  | 0xRR  | Red channel              |
+| 0x09  | 0xGG  | Green channel            |
+| 0x0A  | 0xBB  | Blue channel             |
+| 0x0B  | 0xEE  | Off (0x00) / On (0x01 )  |
+| 0x0C  | 0xSS  | Speed (See speed values) |
+| 0x0D  | 0xMM  | Mode (See mode values)   |
+| 0x0E  | 0x00  |                          |
+| 0x0F  | 0x00  |                          |
 # Apply Settings
 
 | Index | Value | Description |
