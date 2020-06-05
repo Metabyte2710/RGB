@@ -70,3 +70,19 @@ Logitech G213 and G413 do not need a commit packet.
 | 0x02       | 0x11         |
 | 0x03       | 0x1A         |
 | 0x04       | Onboard Mode |
+
+# Set Key Color
+
+### Logitech G815
+
+| Byte Index | Value                                                 |
+| ---------- | ----------------------------------------------------- |
+| 0x00       | 0x11                                                  |
+| 0x01       | 0xFF                                                  |
+| 0x02       | 0x10                                                  |
+| 0x03       | 0x6C                                                  |
+| 0x04       | Red                                                   |
+| 0x05       | Green                                                 |
+| 0x06       | Blue                                                  |
+| 0x07+      | Key Index (up to 13 keys can be specified per packet) |
+
