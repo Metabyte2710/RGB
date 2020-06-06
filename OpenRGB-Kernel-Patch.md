@@ -10,7 +10,7 @@ cd linux
 
 3.  Checkout a version that will work with your system (5.1 is the latest I got to work with nVidia drivers in Debian stable, but the newer drivers in testing work up to 5.4)
 
-git checkout v5.1
+git checkout master
 
 4.  Apply patch
 
