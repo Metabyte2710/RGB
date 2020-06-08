@@ -43,7 +43,20 @@ Response:
 
 ## Set Fan Command - Fixed Percent (0x23)
 
+| Byte Index | Description         |
+| ---------- | ------------------- |
+| 0x00       | 0x23                |
+| 0x01       | Fan Channel (0-5)   |
+| 0x02       | Fan Percent (0-100) |
+
 ## Set Fan Command - Fixed RPM (0x24)
+
+| Byte Index | Description         |
+| ---------- | ------------------- |
+| 0x00       | 0x24                |
+| 0x01       | Fan Channel (0-5)   |
+| 0x02       | Fan RPM MSB         |
+| 0x03       | Fan RPM LSB         |
 
 ## Set Fan Configuration (0x28)
 
