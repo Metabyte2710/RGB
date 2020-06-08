@@ -1,10 +1,16 @@
-The Corsair Lighting Node Pro is an addressable LED strip controller with two channels, each supporting up to 60 LEDs.  It interfaces using USB and enumerates at 1B1C:0C0B.  Packets are 64 bytes long.  The Corsair Commander Pro (1B1C:0C10) shares much of the same functionality but also includes fan control.
+The Corsair Lighting Node devices are a family of addressable LED strip controllers.  Some of the products in this device family also support temperature sensors and fan control.
 
-The Lighting Node Pro appears to reset itself after 20 seconds of inactivity.  I haven't implemented periodic refreshing in OpenRGB, so when you set the colors it will default back to rainbow after 20 seconds.  To fix this, I'll need to add some sort of keep-alive thread to either send the full color data or find some other packet that keeps it from resetting.
+The Lighting Node devices appear to reset from direct control mode after 20 seconds of inactivity.  Sending the apply packet every few seconds is enough to keep it from reverting to the saved hardware effect mode.
 
-It looks like sending the apply packet every few seconds is enough to keep it from reverting to rainbow mode.
+The devices use the USB HID protocol.  A packet transaction consists of a 64-byte write followed by a 16-byte read.  The read may be omitted, but this can throw off future reads so it is recommended to perform both a read and write for every transaction, even if the read data is ignored.
 
-All write packets are 64 bytes long and are zero-filled.  All read packets are 16 bytes.
+# Compatible Devices
+
+| Device                     | USB ID    | LED Channels | Fan Channels |
+| -------------------------- | --------- | ------------ | ------------ |
+| Corsair Lighting Node Core | 1B1C:     | 1            | 0            |
+| Corsair Lighting Node Pro  | 1B1C:0C0B | 2            | 0            |
+| Corsair Commander Pro      | 1B1C:0C10 | 2            | 6            |
 
 # Fan Control (0x2x)
 
