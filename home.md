@@ -83,6 +83,8 @@ https://discord.gg/AQwjJPY
 
 * [Crucial Ballistix RGB](Crucial-Ballistix-RGB)
 
+* [Gigabyte Aorus RGB RAM (Partial support)](Gigabyte-RGB-Fusion-2.0-DRAM)
+
 ## Graphics Cards
 
 * [ASUS Aura GPUs](Asus-Aura-GPU)
