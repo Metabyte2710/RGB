@@ -1,12 +1,49 @@
-The Corsair Lighting Node Pro is an addressable LED strip controller with two channels, each supporting up to 60 LEDs.  It interfaces using USB and enumerates at 1B1C:0C0B.  Packets are 64 bytes long.  The Corsair Commander Pro (1B1C:0C10) shares much of the same functionality.
+The Corsair Lighting Node Pro is an addressable LED strip controller with two channels, each supporting up to 60 LEDs.  It interfaces using USB and enumerates at 1B1C:0C0B.  Packets are 64 bytes long.  The Corsair Commander Pro (1B1C:0C10) shares much of the same functionality but also includes fan control.
 
 The Lighting Node Pro appears to reset itself after 20 seconds of inactivity.  I haven't implemented periodic refreshing in OpenRGB, so when you set the colors it will default back to rainbow after 20 seconds.  To fix this, I'll need to add some sort of keep-alive thread to either send the full color data or find some other packet that keeps it from resetting.
 
 It looks like sending the apply packet every few seconds is enough to keep it from reverting to rainbow mode.
 
-All packets are 64 bytes long and are zero-filled.
+All write packets are 64 bytes long and are zero-filled.  All read packets are 16 bytes.
 
-# Direct Control (0x32)
+# Fan Control (0x2x)
+
+## Get Fan RPM (0x21)
+
+Request:
+
+| Byte Index | Description       |
+| ---------- | ----------------- |
+| 0x00       | 0x21              |
+| 0x01       | Fan Channel (0-5) |
+
+Response:
+
+| Byte Index | Description       |
+| ---------- | ----------------- |
+| 0x00       |                   |
+| 0x01       | Fan RPM MSB       |
+| 0x02       | Fan RPM LSB       |
+
+## Get Fan Command - Fixed Percent (0x22)
+
+Request:
+
+| Byte Index | Description       |
+| ---------- | ----------------- |
+| 0x00       | 0x22              |
+| 0x01       | Fan Channel (0-5) |
+
+Response:
+
+| Byte Index | Description       |
+| ---------- | ----------------- |
+| 0x00       |                   |
+| 0x01       | Fan Command       |
+
+# RGB Control (0x3x)
+
+## Direct Control (0x32)
 
 | Byte Index | Description                                 |
 | ---------- | ------------------------------------------- |
@@ -17,21 +54,21 @@ All packets are 64 bytes long and are zero-filled.
 | 0x04       | Color Channel (0: Red, 1: Green, 2: Blue)   |
 | 0x05-end   | LED channel values equal to Count           |
 
-# Commit (0x33)
+## Commit (0x33)
 
 | Byte Index | Description |
 | ---------- | ----------- |
 | 0x00       | 0x33        |
 | 0x01       | 0xFF        |
 
-# Begin (0x34)
+## Begin (0x34)
 
 | Byte Index | Description |
 | ---------- | ----------- |
 | 0x00       | 0x34        |
 | 0x01       | Channel     |
 
-# Effect Configuration (0x35)
+## Effect Configuration (0x35)
 
 | Byte Index | Description        |
 | ---------- | ------------------ |
@@ -93,16 +130,16 @@ All packets are 64 bytes long and are zero-filled.
 | 0x01        | Medium            |
 | 0x02        | Slow              |
 
-# Temperature (0x36)
+## Temperature (0x36)
 
-# Reset (0x37)
+## Reset (0x37)
 
 | Byte Index | Description |
 | ---------- | ----------- |
 | 0x00       | 0x37        |
 | 0x01       | Channel     |
 
-# Port State (0x38)
+## Port State (0x38)
 
 | Byte Index | Description                             |
 | ---------- | --------------------------------------- |
@@ -110,8 +147,8 @@ All packets are 64 bytes long and are zero-filled.
 | 0x01       | Channel                                 |
 | 0x02       | 1: Hardware Control 2: Software Control |
 
-# Brightness (0x39)
+## Brightness (0x39)
 
-# LED Count (0x3A)
+## LED Count (0x3A)
 
-# Protocol (0x3B)
+## Protocol (0x3B)
