@@ -39,6 +39,18 @@ This 32-byte packet is written to 0x20 using block transfer
 | 0x1E       |                    |
 | 0x1F       |                    |
 
+### Modes
+
+| Mode Value | Mode Description    |
+| ---------- | ------------------- |
+| 0x01       | Static              |
+| 0x02       | Pulse               |
+| 0x03       | Flash               |
+| 0x04       | Color Cycle         |
+| 0x05       | Color Droplet       |
+| 0x06       | Wave / Color Strobe |
+| 0x07       | Cascade             |
+
 # Apply Command
 
 Write 0x0F to 0x28
