@@ -99,11 +99,11 @@ https://discord.gg/AQwjJPY
 
 * [NZXT Hue 2](NZXT-Hue-2) and NZXT Smart Device V2
 
-* [Corsair Lighting Node Core](Corsair-Lighting-Node-Pro)
+* [Corsair Lighting Node Core](Corsair-Lighting-Node-Devices)
 
-* [Corsair Lighting Node Pro](Corsair-Lighting-Node-Pro)
+* [Corsair Lighting Node Pro](Corsair-Lighting-Node-Devices)
 
-* [Corsair Commander Pro](Corsair-Lighting-Node-Pro)
+* [Corsair Commander Pro](Corsair-Lighting-Node-Devices)
 
 * [Keyboard Visualizer Arduino LED strips](Keyboard-Visualizer-LED-Strips)
 
