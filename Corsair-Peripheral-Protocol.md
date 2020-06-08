@@ -3,6 +3,26 @@
 
 I (@CalcProgrammer1) have copied this document here to make some additions, corrections, and formatting changes as I implement the Corsair protocol in OpenRGB.  Original document is credit to @ZirconiumX on GitHub.
 
+## Supported Devices
+
+| Device                    | USB ID    | Type     |
+| ------------------------- | --------- | -------- |
+| Corsair K55 RGB           | 1B1C:1B3D | Keyboard |
+| Corsair K65 RGB           | 1B1C:1B17 | Keyboard |
+| Corsair K65 Lux RGB       | 1B1C:1B37 | Keyboard |
+| Corsair K65 RGB Rapidfire | 1B1C:1B39 | Keyboard |
+| Corsair K68 RGB           | 1B1C:1B4F | Keyboard |
+| Corsair K70 RGB           | 1B1C:1B13 | Keyboard |
+| Corsair K70 Lux RGB       | 1B1C:1B33 | Keyboard |
+| Corsair K70 RGB Rapidfire | 1B1C:1B38 | Keyboard |
+| Corsair K70 RGB MK2       | 1B1C:1B49 | Keyboard |
+| Corsair K70 RGB MK2 SE    | 1B1C:1B6B | Keyboard |
+| Corsair K70 RGB MK2 LP    | 1B1C:1B55 | Keyboard |
+| Corsair K95 RGB           | 1B1C:1B11 | Keyboard |
+| Corsair K95 RGB Platinum  | 1B1C:1B2D | Keyboard |
+| Corsair Strafe            | 1B1C:1B20 | Keyboard |
+| Corsair Strafe MK2        | 1B1C:1B48 | Keyboard |
+
 **If you have a Corsair keyboard or mouse and wish to help with this document, please file an issue mentioning @ZirconiumX and this wiki page.**
 
 ## Guidance
