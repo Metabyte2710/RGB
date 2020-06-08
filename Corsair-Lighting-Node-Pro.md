@@ -41,6 +41,27 @@ Response:
 | 0x00       |                   |
 | 0x01       | Fan Command       |
 
+## Set Fan Command - Fixed Percent (0x23)
+
+## Set Fan Command - Fixed RPM (0x24)
+
+## Set Fan Configuration (0x28)
+
+| Byte Index | Description       |
+| ---------- | ----------------- |
+| 0x00       | 0x28              |
+| 0x01       | 0x02              |
+| 0x02       | Fan Channel (0-5) |
+| 0x23       | Fan Configuration |
+
+### Fan Configuration Values
+
+| Value | Description              |
+| ----- | ------------------------ |
+| 0x00  | Automatic / Disconnected |
+| 0x01  | 3-Pin Fan                |
+| 0x02  | 4-Pin Fan                |
+
 # RGB Control (0x3x)
 
 ## Direct Control (0x32)
