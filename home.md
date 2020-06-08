@@ -20,7 +20,9 @@ As of now, only Gigabyte RGB Fusion 2.0 boards have been reported to have issues
 
 https://discord.gg/AQwjJPY
 
-## Motherboard RGB Systems
+## Supported Devices
+
+### Motherboard RGB Systems
 
 * [ASUS Aura (SMBus Variants)](ASUS-Aura-Overview)
     * ASUS PRIME X370-Pro
@@ -60,7 +62,7 @@ https://discord.gg/AQwjJPY
 
 * MSI Mystic Light
 
-## RGB RAM Modules
+### RGB RAM Modules
 
 * [ASUS Aura Based](ASUS-Aura-Overview)
     * G.Skill Trident Z RGB
@@ -85,13 +87,13 @@ https://discord.gg/AQwjJPY
 
 * [Gigabyte Aorus RGB RAM (Partial support)](Gigabyte-RGB-Fusion-2.0-DRAM)
 
-## Graphics Cards
+### Graphics Cards
 
 * [ASUS Aura GPUs](Asus-Aura-GPU)
 
 * [Gigabyte Aorus RGB Fusion GPUs](Gigabyte-RGB-Fusion-GPU)
 
-## LED Strip and Fan Controllers
+### LED Strip and Fan Controllers
 
 * [ASUS ROG Aura Terminal](ASUS-Aura-Addressable-Header)
 
@@ -111,13 +113,13 @@ https://discord.gg/AQwjJPY
 
 * [Thermaltake Riing Plus](Thermaltake-Riing)
 
-## Fans and Coolers
+### Fans and Coolers
 
 * [AMD Wraith Prism](AMD-Wraith-Prism)
 
 * NZXT Kraken X42/X52/X62/X72
 
-## Keyboards
+### Keyboards
 
 * [ASUS ROG Aura Core Laptops](ASUS-Aura-Core)
 
@@ -137,7 +139,7 @@ https://discord.gg/AQwjJPY
 
 * Tecware Phantom Elite
 
-## Mice
+### Mice
 
 * Corsair M65
 
@@ -151,15 +153,15 @@ https://discord.gg/AQwjJPY
 
 * Glorious Model O
 
-## Mousemats
+### Mousemats
 
 * Corsair MM800 Polaris
 
-## Other
+### Other
 
 * Corsair ST100 Headset Stand
 
-## Other projects integrated
+### Other projects integrated
 
 * [OpenRazer](https://github.com/openrazer/openrazer) / [OpenRazer-Win32](https://github.com/CalcProgrammer1/openrazer-win32)
     * Keyboards
