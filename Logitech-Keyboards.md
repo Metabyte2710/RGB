@@ -84,6 +84,7 @@ Logitech G213 and G413 do not need a commit packet.
 
 | Value | Description |
 | ----- | ----------- |
+| 0x00  | Off         |
 | 0x01  | Static      |
 | 0x02  | Breathing   |
 | 0x03  | Cycle       |
