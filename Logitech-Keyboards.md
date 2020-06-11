@@ -71,9 +71,9 @@ Logitech G213 and G413 do not need a commit packet.
 | 0x03       | 0x3D         |
 | 0x04       | 0x00         |
 | 0x05       | Mode         |
-| 0x06       |              |
-| 0x07       |              |
-| 0x08       |              |
+| 0x06       | Red          |
+| 0x07       | Green        |
+| 0x08       | Blue         |
 | 0x09       |              |
 | 0x0A       |              |
 | 0x0B       | Speed        |
@@ -84,6 +84,8 @@ Logitech G213 and G413 do not need a commit packet.
 
 | Value | Description |
 | ----- | ----------- |
+| 0x01  | Static      |
+| 0x02  | Breathing   |
 | 0x03  | Cycle       |
 | 0x04  | Wave        |
 
