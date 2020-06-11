@@ -77,24 +77,25 @@ Logitech G213 and G413 do not need a commit packet.
 
 64-byte packet
 
-| Byte Index | Value                                                 |
-| ---------- | ----------------------------------------------------- |
-| 0x00       | 0x12                                                  |
-| 0x01       | 0xFF                                                  |
-| 0x02       | 0x0C                                                  |
-| 0x03       | 0x3D                                                  |
-| 0x04       | 0x00                                                  |
-| 0x05       | 0x01                                                  |
-| 0x06       | 0x00                                                  |
-| 0x07       | 0x0C                                                  |
-| 0x08       | Key Index 1                                           |
-| 0x09       | Red 1                                                 |
-| 0x0A       | Green 1                                               |
-| 0x0B       | Blue 1                                                |
-| 0x0C       | Key Index 2                                           |
-| 0x0D       | Red 2                                                 |
-| 0x0E       | Green 2                                               |
-| 0x0F       | Blue 2                                                |
+| Byte Index | Value                                                  |
+| ---------- | ------------------------------------------------------ |
+| 0x00       | 0x12                                                   |
+| 0x01       | 0xFF                                                   |
+| 0x02       | 0x0C                                                   |
+| 0x03       | 0x3D                                                   |
+| 0x04       | 0x00                                                   |
+| 0x05       | 0x01                                                   |
+| 0x06       | 0x00                                                   |
+| 0x07       | 0x0C                                                   |
+| 0x08       | Key Index 1                                            |
+| 0x09       | Red 1                                                  |
+| 0x0A       | Green 1                                                |
+| 0x0B       | Blue 1                                                 |
+| 0x0C       | Key Index 2                                            |
+| 0x0D       | Red 2                                                  |
+| 0x0E       | Green 2                                                |
+| 0x0F       | Blue 2                                                 |
+| ...        | Up to 12 [Key Index, Red, Green, Blue] sets per packet |
 
 ### Logitech G815
 
