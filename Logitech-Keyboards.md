@@ -1,6 +1,6 @@
 Logitech keyboards use a USB HID interface.  Some packets are 20 bytes, others are 64 bytes.  Unless a packet is denoted as a 64 byte packet below, assume it is a 20 byte packet.  Any bytes not shown are zero.
 
-Information for this wiki page was gathered from: https://github.com/MatMoul/g810-led
+Some of the information for this wiki page was gathered from: https://github.com/MatMoul/g810-led and other information was reverse engineered from my own Logitech G810.
 
 # Commit
 
