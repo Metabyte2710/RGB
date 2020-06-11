@@ -89,12 +89,13 @@ Logitech G213 and G413 do not need a commit packet.
 
 ### Wave Direction
 
-| Value | Direction  |
-| ----- | ---------- |
-| 0x01  | Horizontal |
-| 0x02  | Vertical   |
-| 0x03  | Center Out |
-| 0x08  | Center In  |
+| Value | Direction          |
+| ----- | ------------------ |
+| 0x01  | Horizontal         |
+| 0x02  | Vertical           |
+| 0x03  | Center Out         |
+| 0x06  | Reverse Horizontal |
+| 0x08  | Center In          |
 
 ### Logitech G815
 
