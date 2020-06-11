@@ -85,6 +85,7 @@ Logitech G213 and G413 do not need a commit packet.
 | Value | Description |
 | ----- | ----------- |
 | 0x03  | Cycle       |
+| 0x04  | Wave        |
 
 ### Logitech G815
 
