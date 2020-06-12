@@ -131,6 +131,8 @@ https://discord.gg/AQwjJPY
 
 * [HyperX Alloy Elite](HyperX-Alloy-Elite)
 
+* [Logitech G810 Orion Spectrum][Logitech-Keyboards]
+
 * Redragon K550 Yama
 
 * Redragon K552 Kumara
