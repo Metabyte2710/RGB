@@ -2,6 +2,8 @@ Logitech keyboards use a USB HID interface.  Some packets are 20 bytes, others a
 
 Some of the information for this wiki page was gathered from: https://github.com/MatMoul/g810-led and other information was reverse engineered from my own Logitech G810.
 
+Direct mode keymap: [Logitech_G810_Keymap.ods](uploads/47f259696a4ee94116ea4453aaebfc15/Logitech_G810_Keymap.ods)
+
 # Commit
 
 Logitech G213 and G413 do not need a commit packet.
