@@ -208,3 +208,7 @@ https://discord.gg/AQwjJPY
 (*) - Device not supported in upstream OpenRazer and requires a custom build.
 
 * Faustus (ASUS TUF Laptop Keyboards) (Linux)
+
+## History of OpenRGB
+
+OpenRGB is a continuation of OpenAuraSDK, which itself was created out of reverse engineering work done on the Keyboard Visualizer project.  For a complete history of the RGB projects that led to OpenRGB's creation, see the [History page](History-of-OpenRGB).
