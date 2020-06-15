@@ -77,7 +77,41 @@ https://www.youtube.com/watch?v=x-8EzcXE-_E&t=112s
 https://www.youtube.com/watch?v=MD8zr4LKvNA&t=8s
 
 https://www.youtube.com/watch?v=l0UY21WMbas&t=7s
+
 ## 2015 - Keyboard Visualizer
 
 In the summer of 2015, I was contacted by a Razer employee after posting my visualizer on their forums.  He asked if I was willing to develop a more user-friendly version of my visualizer if Razer sent me some free stuff to support.  I said yes, because of course I wanted free Razer gear.  The first version of Keyboard Visualizer was released.
 
+https://www.youtube.com/watch?v=OsxzAOYoaAY&t=136s
+
+## 2016 - Keyboard Visualizer Continues
+
+I added a lot of additional things to Keyboard Visualizer including WS28xx LED strips powered by Arduino and ESP8266 microcontrollers, peripherals from other manufacturers, and Linux support using OpenRazer and some reverse-engineered protocols.
+
+https://www.youtube.com/watch?v=ADjqh90VrvM
+
+https://www.youtube.com/watch?v=AWyUPqIWzsQ
+
+https://www.youtube.com/watch?v=1Hs6YfM7MD8
+
+https://www.youtube.com/watch?v=N-uRcLoebyc
+
+https://www.youtube.com/watch?v=Y6QX3YXD31E
+
+## 2017 - Reverse Engineering ASUS Aura
+
+I upgraded to Ryzen on launch day, and with that came an Aura enabled motherboard and Trident Z RGB RAM.  This led to a huge discussion on GitHub where I and a lot of other users worked to reverse engineer Aura.  We had no clue how to talk to i2c devices in Windows and weren't even sure that i2c was in use, so it took a lot of digging and a lot of aha moments before we knew what we were looking at.  Finally, after hundreds of comments and a few months of research, we had Aura control without the Aura app.  It wasn't until a few months after this that Asus released an SDK for Aura.  If you want to learn about reverse engineering, reading through this thread would probably interest you.
+
+https://gitlab.com/CalcProgrammer1/KeyboardVisualizer/-/issues/85
+
+Support was added to Keyboard Visualizer in a branch, but at the time we didn't have a way to properly detect the presence of an Aura controller, so it was never merged.
+
+https://www.youtube.com/watch?v=346MoRuk1mE
+
+## 2019 - OpenAuraSDK
+
+I didn't do much work on my projects for a year or so, but in 2019 I decided to take what we had reverse engineered and turn it into a functional Aura control panel.  I started working on a program that would properly detect the presence of Aura controllers on i2c as well as Aura compatible RAM.  I figured out how to dump the memory space of an Aura controller, how to get the firmware string, and how to parse the configuration table.  I wrote documentation on the OpenAuraSDK project wiki.  By summer, OpenAuraSDK was mostly functional on both Windows and Linux.  At that point I wanted to keep developing it so I bought some RGB RAM from other vendors and started trying to reverse engineer that.  I ended up writing a tool for sniffing the SMBus data which made reverse engineering much easier than what we had done in 2017.  The first devices reverse engineered were Corsair RGB RAM and HyperX RGB RAM.  Since OpenAuraSDK's user interface was specifically written around the Aura functionality, I ended up making a new branch to develop a generic RGB control interface.  A very simple GUI was made and I added all the devices I already knew how to control - Aura, Corsair RAM, HyperX RAM, Arduino LED strips, Razer Chroma SDK, and a few others.
+
+## 2019-2020 - OpenAuraSDK becomes OpenRGB
+
+By December 2019, I had a growing collection of devices supported by the generic_rgb_interface branch of OpenAuraSDK.  I wanted to make this branch into the focus of the project as it was more useful than just controlling Aura.  I made an improved user interface for the generic RGB interface and decided to rename the project OpenRGB, as keeping the Aura naming would imply it's just for Asus devices.  I officially switched the repo name, updated all the references of OpenAuraSDK to OpenRGB, and pushed the changes to the project.  That basically takes us to here and now, where OpenRGB has grown in both developer contributions and user count especially after a few Reddit posts and the creation of a Discord server.  With the creation of the OpenRGB SDK, I went back and reworked Keyboard Visualizer to use OpenRGB instead of the proprietary SDKs and hacked-together reverse engineered devices it had.
