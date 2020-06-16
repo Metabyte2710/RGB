@@ -44,6 +44,11 @@ https://discord.gg/AQwjJPY
 * [Gigabyte Aorus RGB Fusion 1.0](Gigabyte-RGB-Fusion-1.0)
     * Gigabyte Aorus X370 Gaming 5
 
+* Gigabyte Aorus RGB Fusion 2.0 (SMBus) (EXPERIMENTAL)
+    * Disabled by default because we don't have appropriate detection code yet, and it has an address conflict that could brick Z390 Aorus boards.
+    * Uncomment DetectRGBFusion2SMBusControllers call in OpenRGB.cpp if you wish to use.
+    * ONLY run this on supported motherboards!!!!!
+
 * Gigabyte Aorus RGB Fusion 2.0 (USB)
     * Gigabyte X570 Aorus Extreme
     * Gigabyte X570 Aorus Master
@@ -51,6 +56,7 @@ https://discord.gg/AQwjJPY
     * Gigabyte X570 Gaming X
     * Gigabyte X570 I Aorus Pro Wifi
     * Gigabyte TRX40 Aorus Master
+    * Gigabyte Z390 Aorus Ultra
 
 * [ASRock Polychrome RGB](ASRock-Polychrome-RGB)
     * ASRock Steel Legend B450M
