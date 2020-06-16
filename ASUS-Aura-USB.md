@@ -1,6 +1,8 @@
-Beginning with the AMD X570 chipset generation, Asus has switched from using SMBus controllers to USB controllers for on-board lighting and 12V RGB non-addressable header control.  The Aura USB controller enumerates at 0B05:18F3 and uses HID request messages for control.  Messages are 65 bytes long and zero-filled.
+Some of the documentation provided here comes from @inlart's blog: https://blog.inlart.com/post/openrgb-asus-x570/
 
-There seems to be some overlap between these controllers and the addressable header controllers on X470 era boards (which used both an SMBus controller for motherboard and single-zone RGB headers and a USB controller for addressable headers).
+Beginning with the AMD X70 chipset generation, Asus started using USB-based Aura controllers.  On the X470 generation boards, an Aura SMBus controller drives the on-board lighting and the 12V RGB headers while an Aura USB controller drives the addressable headers.  For the X570 generation, ASUS switched to a single Aura USB controller that controls on-board lighting, 12V RGB non-addressable headers, and addressable headers from a single location.  The protocols of these two types of Aura USB controllers differ but have some overlap.  This page documents the X570-generation Aura USB controller while the [ASUS Aura Addressable Header](ASUS-Aura-Addressable-Header) page documents the X470-generation addressable header controller that also powers the ROG Aura Terminal.
+
+The Aura USB controller enumerates at 0B05:18F3 and uses HID request messages for control.  Messages are 65 bytes long and zero-filled.
 
 # Request Firmware String
 
