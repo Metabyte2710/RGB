@@ -4,6 +4,10 @@
 
 Many RGB RAM vendors use an RGB control chip that is nearly identical to the one found on early ASUS Aura motherboards.  Vendors using this controller include G.Skill, Geil, T-Force, A-DATA, and possibly others.  OpenRGB shows all of these devices as "ASUS Aura DRAM" as they use the same driver as the ASUS Aura motherboards with this chip.
 
+## Not all of my ASUS Aura-compatible DRAM modules are showing.
+
+ASUS Aura DRAM modules sometimes get into a state where they won't be detected.  It's possible they were assigned an address that OpenRGB doesn't check.  If they are not showing after a reboot, you can remove the sticks and install them all in different slots.  This appears to reset the on-board RGB controllers and then OpenRGB will detect them on the next power cycle.
+
 ## I have an ASUS and/or Gigabyte GPU that's not being detected.
 
 OpenRGB has support for ASUS Aura GPUs and Gigabyte RGB Fusion GPUs.  However, because these vendors are always improving their products and putting more and more RGB, it's possible your GPU uses a different ASUS Aura or RGB Fusion control chip than the one that OpenRGB supports.  The two GPU implementations in OpenRGB only support single lighting zone GPUs.  If your GPU has more than one lighting zone, it is likely not supported.  I would be glad to help add support for more GPUs, but unfortunately reverse engineering GPUs is fairly complicated and requires a good deal of technical expertise.  GPUs are the most difficult RGB devices to reverse engineer that we know of.
