@@ -24,6 +24,8 @@ https://discord.gg/AQwjJPY
 
 * [Windows Setup and Usage](OpenRGB-Windows-Setup-and-Usage)
 
+## [Frequently Asked Questions](Frequently-Asked-Questions)
+
 ## Supported Devices
 
 ### Motherboard RGB Systems
