@@ -22,6 +22,24 @@ If you have problems accessing these devices even after running as administrator
 
 If you do not have such an anti-cheat system installed and are still having problems, make sure any other RGB applications (ASUS Aura, Corsair iCUE, Gigabyte RGB Fusion, etc) are disabled or uninstalled.  This includes disabling their background services.  The SMBus only works properly if one application at a time is accessing it, and if two applications try to control the device at the same time, it can confuse the device or put it in an invalid state.  This behavior can result in OpenRGB not detecting devices properly.
 
+### I installed the WinUSB driver for a device and I wish to uninstall it
+
+The WinUSB driver can be removed in Device Manager.  Open Device Manager.  You should have a category called "Universal Serial Bus devices".
+
+![image](uploads/af988bb6b88b10006f0b349373374a5a/image.png)
+
+Right click on the device you want to uninstall.  Click "Uninstall device"
+
+![image](uploads/1deacc1b6e853b6e6d1b731ed58c2d58/image.png)
+
+Check the box that says "Delete the driver software for this device" and then click Uninstall.
+
+![image](uploads/aaa87e3aebde73de87a85ede5f692841/image.png)
+
+Finally, to have Windows re-detect the device with its original driver, click the "Scan for hardware changes" button.
+
+![image](uploads/31e0ec62282b2da0982784c0b92f5a5c/image.png)
+
 # Linux
 
 ### My Razer devices aren't being detected
