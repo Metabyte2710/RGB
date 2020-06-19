@@ -22,6 +22,10 @@ If you have problems accessing these devices even after running as administrator
 
 If you do not have such an anti-cheat system installed and are still having problems, make sure any other RGB applications (ASUS Aura, Corsair iCUE, Gigabyte RGB Fusion, etc) are disabled or uninstalled.  This includes disabling their background services.  The SMBus only works properly if one application at a time is accessing it, and if two applications try to control the device at the same time, it can confuse the device or put it in an invalid state.  This behavior can result in OpenRGB not detecting devices properly.
 
+### I'm missing VCRUNTIME140_1.dll
+
+Download the latest Visual C++ runtime from Microsoft here: https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads
+
 ### I installed the WinUSB driver for a device and I wish to uninstall it
 
 The WinUSB driver can be removed in Device Manager.  Open Device Manager.  You should have a category called "Universal Serial Bus devices".
