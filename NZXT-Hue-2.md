@@ -72,6 +72,22 @@ The Hue 2 uses the USB HID protocol with 64-byte reads and writes.
 | 0x06       | Pulsing          |
 | 0x07       | Breathing        |
 
+# Get Firmware Information
+
+## Request
+| Byte index | Function            | Description                           |
+| ---------- | ------------------- | ------------------------------------- |
+| 0x00       | 0x10                |                                       |
+| 0x01       | 0x01                |                                       |
+| 0x02 - end | 0x00                |                                       |
+
+## Response
+| Byte index | Function            | Description                           |
+| ---------- | ------------------- | ------------------------------------- |
+| 0x11       | Firmware XX         | Display as XX.YY.ZZ                   |
+| 0x12       | Firmware YY         |                                       |
+| 0x13       | Firmware ZZ         |                                       |
+
 # Get Attached Devices
 Device type 0x04 is 10-LED Hue 2 strip.
 
