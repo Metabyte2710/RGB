@@ -1,6 +1,17 @@
-The NZXT Hue 2 is an LED strip controller for PC case lighting. It connects to the motherboard using USB. It enumerates a USB device with VID 1E71, PID 2001. The commands are sent to using USB interrupt transfers.
+NZXT's Hue 2 ecosystem includes several LED and fan controller devices along with a series of ARGB strips and fans which feature an additional detection wire.  Each Hue 2 channel can connect up to 6 devices and automatically detect the sequence of connected devices.  NZXT Hue 2 channels can also connect NZXT Hue 1 devices (i.e. those designed for the Hue Plus) but you cannot mix and match these.  You also cannot mix and match Hue 1 and Hue 2 devices on the same channel.
 
-# Direct Packet Structure - 64 Bytes
+The Hue 2 uses the USB HID protocol with 64-byte reads and writes.
+
+# Devices
+
+| USB VID | USB PID | Hue 2 ARGB Channels | Fan Channels | Device Name               |
+| ------- | ------- | ------------------- | ------------ | ------------------------- |
+| 0x1E71  | 0x2001  | 4                   | 0            | NZXT Hue 2                |
+| 0x1E71  | 0x2002  | 2                   | 0            | NZXT Hue 2 Ambient        |
+| 0x1E71  | 0x2006  | 2                   | 3            | NZXT Smart Device V2      |
+| 0x1E71  | 0x2009  | 2                   | 3            | NZXT RGB & Fan Controller |
+
+# Direct Packet Structure
 
 | Byte index | Function   | Description                           |
 | ---------- | ---------- | ------------------------------------- |
@@ -32,7 +43,7 @@ The NZXT Hue 2 is an LED strip controller for PC case lighting. It connects to t
 | 0x0F       | 0x01        |                                       |
 | 0x10 - end | 0x00        |                                       |
 
-# Effect Packet Structure - 64 Bytes
+# Effect Packet Structure
 
 | Byte index | Function    | Description                           |
 | ---------- | ----------- | ------------------------------------- |
