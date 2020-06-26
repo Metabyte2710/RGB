@@ -113,7 +113,9 @@ https://discord.gg/AQwjJPY
     * Corsair Lighting Node Core
     * Corsair Lighting Node Pro
     * Corsair Commander Pro
-    * Corsair LS100
+    * Corsair LS100 Lighting Kit
+    * Corsair 1000D Obsidian
+    * Corsair SPEC OMEGA RGB
     * [Corsair Lighting Protocol (Arduino)](https://github.com/Legion2/CorsairLightingProtocol)
 * [Keyboard Visualizer Arduino LED strips](Keyboard-Visualizer-LED-Strips)
 * [E1.31 Streaming ACN Protocol](E1.31)
