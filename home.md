@@ -130,7 +130,6 @@ https://discord.gg/AQwjJPY
 
 * [ASUS ROG Aura Core Laptops](ASUS-Aura-Core)
 * [Corsair RGB Keyboards](Corsair-Peripheral-Protocol)
-    * Corsair K55 RGB
     * Corsair K65 RGB
     * Corsair K65 Lux RGB
     * Corsair K65 RGB Rapidfire
