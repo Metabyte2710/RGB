@@ -103,7 +103,11 @@ https://discord.gg/AQwjJPY
 
 * [ASUS ROG Aura Terminal](ASUS-Aura-Addressable-Header)
 * [NZXT Hue+](NZXT-Hue-Plus)
-* [NZXT Hue 2](NZXT-Hue-2) and NZXT Smart Device V2
+* [NZXT Hue 2 Devices](NZXT-Hue-2)
+    * NZXT Hue 2
+    * NZXT Hue 2 Ambient
+    * NZXT Smart Device V2
+    * NZXT RGB & Fan Controller
 * [Corsair Lighting Node Devices](Corsair-Lighting-Node-Devices)
     * Corsair Lighting Node Core
     * Corsair Lighting Node Pro
