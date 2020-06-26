@@ -187,23 +187,58 @@ https://discord.gg/AQwjJPY
 
 * [OpenRazer](https://github.com/openrazer/openrazer) / [OpenRazer-Win32](https://github.com/CalcProgrammer1/openrazer-win32)
     * Keyboards
+        * Razer BlackWidow 2019
         * Razer BlackWidow Chroma
-        * Razer BlackWidow Chroma V2
+        * Razer BlackWidow Chroma Overwatch
         * Razer BlackWidow Chroma Tournament Edition
+        * Razer BlackWidow Chroma V2
+        * Razer BlackWidow Elite
+        * Razer BlackWidow X Chroma
         * Razer BlackWidow X Tournament Edition Chroma
+        * Razer Cynosa Chroma
+        * Razer DeathStalker Chroma
         * Razer Ornata Chroma
+        * Razer Huntsman
         * Razer Huntsman Elite
+        * Razer Huntsman Tournament Edition
     * Mice
+        * Razer Abyssus Elite DVa Edition
+        * Razer Abyssus Essential
+        * Razer Basilisk
         * Razer DeathAdder Chroma
         * Razer DeathAdder Elite
-        * Razer Diamondback
+        * Razer Diamondback Chroma
+        * Razer Lancehead Tournament Edition
+        * Razer Mamba 2012
+        * Razer Mamba Chroma
         * Razer Mamba Elite
         * Razer Mamba Tournament Edition
         * Razer Naga Chroma
         * Razer Naga Epic Chroma (*)
+        * Razer Naga Hex V2
+        * Razer Naga Trinity
+        * Razer Viper Ultimate
     * Laptops
         * Razer Blade Stealth
+        * Razer Blade Stealth (Late 2016)
+        * Razer Blade Stealth (Mid 2017)
+        * Razer Blade Stealth (Late 2017)
+        * Razer Blade Stealth (2019)
+        * Razer Blade Stealth (Late 2019)
+        * Razer Blade (Late 2016)
+        * Razer Blade (QHD)
+        * Razer Blade 15 (2018)
+        * Razer Blade 15 (2018) Mercury
+        * Razer Blade 15 (2018) Base Model
+        * Razer Blade 15 (2019) Advanced
+        * Razer Blade 15 (Mid 2019) Mercury
+        * Razer Blade 15 (Mid 2019) Base Model
+        * Razer Blade 15 Studio Edition (2019)
+        * Razer Blade Pro (Late 2016)
         * Razer Blade Pro (2017)
+        * Razer Blade Pro FullHD (2017)
+        * Razer Blade Pro 17 (2019)
+        * Razer Blade Pro (Late 2019)
     * Headsets
         * Razer Kraken 7.1 Chroma
         * Razer Kraken V2 Chroma
