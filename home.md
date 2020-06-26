@@ -98,6 +98,7 @@ https://discord.gg/AQwjJPY
 
 * [ASUS Aura GPUs](Asus-Aura-GPU)
 * [Gigabyte Aorus RGB Fusion GPUs](Gigabyte-RGB-Fusion-GPU)
+    * Gigabyte Aorus GTX1080Ti Xtreme Waterforce WB
 
 ### LED Strip and Fan Controllers
 
@@ -112,9 +113,11 @@ https://discord.gg/AQwjJPY
     * Corsair Lighting Node Core
     * Corsair Lighting Node Pro
     * Corsair Commander Pro
+    * Corsair LS100
     * [Corsair Lighting Protocol (Arduino)](https://github.com/Legion2/CorsairLightingProtocol)
 * [Keyboard Visualizer Arduino LED strips](Keyboard-Visualizer-LED-Strips)
 * [E1.31 Streaming ACN Protocol](E1.31)
+    * [ESPixelStick](https://github.com/forkineye/ESPixelStick)
 * [Thermaltake Riing Plus](Thermaltake-Riing)
 
 ### Fans and Coolers
@@ -125,26 +128,33 @@ https://discord.gg/AQwjJPY
 ### Keyboards
 
 * [ASUS ROG Aura Core Laptops](ASUS-Aura-Core)
-* [MSI Steelseries 3-Zone Keyboard](MSI-3-Zone-Keyboard)
-* [TTEsports Poseidon Z RGB](Thermaltake-Poseidon-Z-RGB)
-* [Corsair K70 RGB](https://github.com/ckb-next/ckb-next/wiki/Corsair-Protocol)
+* [Corsair RGB Keyboards](Corsair-Peripheral-Protocol)
+    * Corsair K70 RGB
 * [HyperX Alloy Elite](HyperX-Alloy-Elite)
-* [Logitech G810 Orion Spectrum](Logitech-Keyboards)
-* Redragon Compatible
+* [Logitech RGB Keyboards](Logitech-Keyboards)
+    * Logitech G512
+    * Logitech G810 Orion Spectrum
+* [MSI Steelseries 3-Zone Keyboard](MSI-3-Zone-Keyboard)
+* [Redragon Keyboards (and compatibles)](Redragon-K556-Devarajas)
     * Redragon K550 Yama
     * Redragon K552 Kumara
-    * [Redragon K556 Devarajas](Redragon-K556-Devarajas)
+    * Redragon K556 Devarajas
     * Tecware Phantom Elite
     * Warrior Kane TC235
+* [TTEsports Poseidon Z RGB](Thermaltake-Poseidon-Z-RGB)
 
 ### Mice
 
-* Corsair M65
-* [Redragon M711 Cobra](Redragon-M711-Cobra)
-* Logitech G203 Prodigy
-* Logitech G403 Prodigy
-* SteelSeries Rival 100 and 300 series
+* [Corsair Mice](Corsair-Peripheral-Protocol)
+    * Corsair M65 Elite
 * Glorious Model O
+* [Logitech Mice](Logitech-G203)
+    * Logitech G203 Prodigy
+    * Logitech G403 Prodigy
+* [Redragon Mice](Redragon-M711-Cobra)
+    * Redragon M711 Cobra
+    * Redragon M715 Dagger
+* SteelSeries Rival 100 and 300 series
 
 ### Mousemats
 
