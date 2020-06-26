@@ -126,10 +126,12 @@ https://discord.gg/AQwjJPY
 * [Corsair K70 RGB](https://github.com/ckb-next/ckb-next/wiki/Corsair-Protocol)
 * [HyperX Alloy Elite](HyperX-Alloy-Elite)
 * [Logitech G810 Orion Spectrum](Logitech-Keyboards)
-* Redragon K550 Yama
-* Redragon K552 Kumara
-* [Redragon K556 Devarajas](Redragon-K556-Devarajas)
-* Tecware Phantom Elite
+* Redragon Compatible
+    * Redragon K550 Yama
+    * Redragon K552 Kumara
+    * [Redragon K556 Devarajas](Redragon-K556-Devarajas)
+    * Tecware Phantom Elite
+    * Warrior Kane TC235
 
 ### Mice
 
@@ -153,11 +155,11 @@ https://discord.gg/AQwjJPY
 * [OpenRazer](https://github.com/openrazer/openrazer) / [OpenRazer-Win32](https://github.com/CalcProgrammer1/openrazer-win32)
     * Keyboards
         * Razer BlackWidow Chroma
+        * Razer BlackWidow Chroma V2
         * Razer BlackWidow Chroma Tournament Edition
         * Razer BlackWidow X Tournament Edition Chroma
         * Razer Ornata Chroma
         * Razer Huntsman Elite
-
     * Mice
         * Razer DeathAdder Chroma
         * Razer DeathAdder Elite
@@ -166,24 +168,19 @@ https://discord.gg/AQwjJPY
         * Razer Mamba Tournament Edition
         * Razer Naga Chroma
         * Razer Naga Epic Chroma (*)
-
     * Laptops
         * Razer Blade Stealth
         * Razer Blade Pro (2017)
-
     * Headsets
         * Razer Kraken 7.1 Chroma
         * Razer Kraken V2 Chroma
         * Razer Tiamat 7.1 V2 (*)
-
     * Mousemats
         * Razer Firefly
         * Razer Goliathus Extended Chroma
-
     * Speakers
         * Razer Nommo Chroma
         * Razer Nommo Pro
-
     * Accessories
         * Razer Base Station Chroma
         * Razer Chroma HDK
