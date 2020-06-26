@@ -161,7 +161,8 @@ https://discord.gg/AQwjJPY
 ### Mice
 
 * [Corsair Mice](Corsair-Peripheral-Protocol)
-    * Corsair M65 Elite
+    * Corsair M65 RGB PRO
+    * Corsair M65 RGB Elite
 * Glorious Model O
 * [Logitech Mice](Logitech-G203)
     * Logitech G203 Prodigy
