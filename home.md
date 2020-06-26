@@ -50,19 +50,15 @@ https://discord.gg/AQwjJPY
     * ASUS ROG Strix B450-F Gaming
     * ASUS ROG Strix Z370-E
     * ASUS TUF B450 Plus Gaming
-
 * [ASUS Aura (USB Variants)](ASUS Aura USB)
     * [ASUS Aura Addressable Headers](ASUS-Aura-Addressable-Header)
     * ASUS X570 Motherboards
-
 * [Gigabyte Aorus RGB Fusion 1.0](Gigabyte-RGB-Fusion-1.0)
     * Gigabyte Aorus X370 Gaming 5
-
 * Gigabyte Aorus RGB Fusion 2.0 (SMBus) (EXPERIMENTAL)
     * Disabled by default because we don't have appropriate detection code yet, and it has an address conflict that could brick Z390 Aorus boards.
     * Uncomment DetectRGBFusion2SMBusControllers call in OpenRGB.cpp if you wish to use.
     * ONLY run this on supported motherboards!!!!!
-
 * Gigabyte Aorus RGB Fusion 2.0 (USB)
     * Gigabyte X570 Aorus Extreme
     * Gigabyte X570 Aorus Master
@@ -71,15 +67,12 @@ https://discord.gg/AQwjJPY
     * Gigabyte X570 I Aorus Pro Wifi
     * Gigabyte TRX40 Aorus Master
     * Gigabyte Z390 Aorus Ultra
-
 * [ASRock Polychrome RGB](ASRock-Polychrome-RGB)
     * ASRock Steel Legend B450M
     * ASRock Fatal1ty B350 Gaming-ITX/ac
     * ASRock B450M/ac
     * ASRock X570 Taichi
-
 * [MSI-RGB](MSI-RGB)
-
 * MSI Mystic Light
 
 ### RGB RAM Modules
@@ -92,87 +85,59 @@ https://discord.gg/AQwjJPY
     * Team T-Force Delta RGB
     * OLOy WarHawk RGB
     * ADATA SPECTRIX RGB
-
 * [Corsair Vengeance RGB](Corsair-Vengeance-RGB)
-
 * [Corsair Vengeance Pro RGB](Corsair-Vengeance-Pro-RGB)
-
 * [HyperX RGB Memory](HyperX-Predator-RGB)
     * HyperX Predator RGB
     * HyperX Fury RGB
-
 * [Patriot Viper RGB](Patriot-Viper-RGB)
-
 * [Crucial Ballistix RGB](Crucial-Ballistix-RGB)
-
 * [Gigabyte Aorus RGB RAM (Partial support)](Gigabyte-RGB-Fusion-2.0-DRAM)
 
 ### Graphics Cards
 
 * [ASUS Aura GPUs](Asus-Aura-GPU)
-
 * [Gigabyte Aorus RGB Fusion GPUs](Gigabyte-RGB-Fusion-GPU)
 
 ### LED Strip and Fan Controllers
 
 * [ASUS ROG Aura Terminal](ASUS-Aura-Addressable-Header)
-
 * [NZXT Hue+](NZXT-Hue-Plus)
-
 * [NZXT Hue 2](NZXT-Hue-2) and NZXT Smart Device V2
-
-* [Corsair Lighting Node Core](Corsair-Lighting-Node-Devices)
-
-* [Corsair Lighting Node Pro](Corsair-Lighting-Node-Devices)
-
-* [Corsair Commander Pro](Corsair-Lighting-Node-Devices)
-
+* [Corsair Lighting Node Devices](Corsair-Lighting-Node-Devices)
+    * Corsair Lighting Node Core
+    * Corsair Lighting Node Pro
+    * Corsair Commander Pro
+    * [Corsair Lighting Protocol (Arduino)](https://github.com/Legion2/CorsairLightingProtocol)
 * [Keyboard Visualizer Arduino LED strips](Keyboard-Visualizer-LED-Strips)
-
 * [E1.31 Streaming ACN Protocol](E1.31)
-
 * [Thermaltake Riing Plus](Thermaltake-Riing)
 
 ### Fans and Coolers
 
 * [AMD Wraith Prism](AMD-Wraith-Prism)
-
 * NZXT Kraken X42/X52/X62/X72
 
 ### Keyboards
 
 * [ASUS ROG Aura Core Laptops](ASUS-Aura-Core)
-
 * [MSI Steelseries 3-Zone Keyboard](MSI-3-Zone-Keyboard)
-
 * [TTEsports Poseidon Z RGB](Thermaltake-Poseidon-Z-RGB)
-
 * [Corsair K70 RGB](https://github.com/ckb-next/ckb-next/wiki/Corsair-Protocol)
-
 * [HyperX Alloy Elite](HyperX-Alloy-Elite)
-
 * [Logitech G810 Orion Spectrum](Logitech-Keyboards)
-
 * Redragon K550 Yama
-
 * Redragon K552 Kumara
-
 * [Redragon K556 Devarajas](Redragon-K556-Devarajas)
-
 * Tecware Phantom Elite
 
 ### Mice
 
 * Corsair M65
-
 * [Redragon M711 Cobra](Redragon-M711-Cobra)
-
 * Logitech G203 Prodigy
-
 * Logitech G403 Prodigy
-
 * SteelSeries Rival 100 and 300 series
-
 * Glorious Model O
 
 ### Mousemats
