@@ -137,6 +137,13 @@ https://discord.gg/AQwjJPY
     * Corsair K70 RGB
     * Corsair K70 Lux RGB
     * Corsair K70 RGB Rapidfire
+    * Corsair K70 RGB MK.2
+    * Corsair K70 RGB MK.2 SE
+    * Corsair K70 RGB MK.2 Low Profile
+    * Corsair K95 RGB
+    * Corsair K95 RGB Platinum
+    * Corsair Strafe
+    * Corsair Strafe MK.2
 * [HyperX Alloy Elite](HyperX-Alloy-Elite)
 * [Logitech RGB Keyboards](Logitech-Keyboards)
     * Logitech G512
