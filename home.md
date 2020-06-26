@@ -118,6 +118,7 @@ https://discord.gg/AQwjJPY
 * [Keyboard Visualizer Arduino LED strips](Keyboard-Visualizer-LED-Strips)
 * [E1.31 Streaming ACN Protocol](E1.31)
     * [ESPixelStick](https://github.com/forkineye/ESPixelStick)
+    * [WLED](https://github.com/Aircoookie/WLED)
 * [Thermaltake Riing Plus](Thermaltake-Riing)
 
 ### Fans and Coolers
@@ -129,12 +130,20 @@ https://discord.gg/AQwjJPY
 
 * [ASUS ROG Aura Core Laptops](ASUS-Aura-Core)
 * [Corsair RGB Keyboards](Corsair-Peripheral-Protocol)
+    * Corsair K55 RGB
+    * Corsair K65 RGB
+    * Corsair K65 Lux RGB
+    * Corsair K65 RGB Rapidfire
+    * Corsair K68 RGB
     * Corsair K70 RGB
+    * Corsair K70 Lux RGB
+    * Corsair K70 RGB Rapidfire
 * [HyperX Alloy Elite](HyperX-Alloy-Elite)
 * [Logitech RGB Keyboards](Logitech-Keyboards)
     * Logitech G512
     * Logitech G810 Orion Spectrum
 * [MSI Steelseries 3-Zone Keyboard](MSI-3-Zone-Keyboard)
+    * MSI GS63VR
 * [Redragon Keyboards (and compatibles)](Redragon-K556-Devarajas)
     * Redragon K550 Yama
     * Redragon K552 Kumara
