@@ -129,6 +129,7 @@ https://discord.gg/AQwjJPY
 ### Keyboards
 
 * [ASUS ROG Aura Core Laptops](ASUS-Aura-Core)
+    * ASUS ROG Zephyrus M GM501GM
 * [Corsair RGB Keyboards](Corsair-Peripheral-Protocol)
     * Corsair K65 RGB
     * Corsair K65 Lux RGB
