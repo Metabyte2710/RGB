@@ -12,9 +12,19 @@ Some Clevo laptops include a keyboard with per-key RGB lighting.  The device enu
 | 0x05       |              |
 | 0x06       |              |
 
-Brightness: [CC 09 <Brightness> <On = 02, Off = 00?> 00 00 <Sometimes 00 sometimes 0A>]
+# 0x09: Set Brightness:
 
 Brightness steps from official app: 00, 02, 04, 06, 0A
+
+| Byte index | Description                           |
+| ---------- | ------------------------------------- |
+| 0x00       | 0xCC                                  |
+| 0x01       | 0x09                                  |
+| 0x02       | Brightness (0x00 - 0x0A)              |
+| 0x03       | 0x00 if brightness ix 0x00, else 0x02 |
+| 0x04       | 0x00                                  |
+| 0x05       |                                       |
+| 0x06       | 0x00 or 0x0A                          |
 
 Set Key Color: [CC 01 <KeyID> <Red> <Green> <Blue> <unknown, sometimes 00 sometimes 6C>]
 
