@@ -12,7 +12,21 @@ Some Clevo laptops include a keyboard with per-key RGB lighting.  The device enu
 | 0x05       |              |
 | 0x06       |              |
 
-# 0x09: Set Brightness:
+# 0x01: Set Key Color
+
+[CC 01 <KeyID> <Red> <Green> <Blue> <unknown, sometimes 00 sometimes 6C>]
+
+| Byte index | Description                           |
+| ---------- | ------------------------------------- |
+| 0x00       | 0xCC                                  |
+| 0x01       | 0x01                                  |
+| 0x02       | Key ID                                |
+| 0x03       | Red                                   |
+| 0x04       | Green                                 |
+| 0x05       | Blue                                  |
+| 0x06       | 0x00 or 0x6C                          |
+
+# 0x09: Set Brightness
 
 Brightness steps from official app: 00, 02, 04, 06, 0A
 
@@ -25,7 +39,5 @@ Brightness steps from official app: 00, 02, 04, 06, 0A
 | 0x04       | 0x00                                  |
 | 0x05       |                                       |
 | 0x06       | 0x00 or 0x0A                          |
-
-Set Key Color: [CC 01 <KeyID> <Red> <Green> <Blue> <unknown, sometimes 00 sometimes 6C>]
 
 Last byte possibly some kind of CRC?  Or maybe an apply byte?
