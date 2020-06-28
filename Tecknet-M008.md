@@ -1,8 +1,19 @@
 ![image](uploads/6e850e25aea3ba31034275516a243ede/image.png)
 
-The Tecknet M008 RGB mouse enumerates at 04D9:FC05.  RGB control on Interface 2.  Protocol is HID using 16-byte feature reports.
+The Tecknet M008 RGB mouse enumerates at 04D9:FC05.  RGB control on Interface 2.  Protocol is HID using 16-byte feature reports.  Any bytes not shown are zero.
 
-# Packet structure
+# Select Profile Packet
+
+Profiles range from 0 to 4.
+
+| Byte Index | Description      |
+| ---------- | ---------------- |
+| 0x00       | 0x02             |
+| 0x01       | 0x01             |
+| 0x02       | 0x01             |
+| 0x03       | Profile          |
+
+# Set LED Packet
 
 | Byte Index | Description      |
 | ---------- | ---------------- |
@@ -13,15 +24,6 @@ The Tecknet M008 RGB mouse enumerates at 04D9:FC05.  RGB control on Interface 2.
 | 0x04       | Blue (Inverted)  |
 | 0x05       | Brightness       |
 | 0x06       | Breathing Speed  |
-| 0x07       | 0x00             |
-| 0x08       | 0x00             |
-| 0x09       | 0x00             |
-| 0x0A       | 0x00             |
-| 0x0B       | 0x00             |
-| 0x0C       | 0x00             |
-| 0x0D       | 0x00             |
-| 0x0E       | 0x00             |
-| 0x0F       | 0x00             |
 
 ## Brightness
 
