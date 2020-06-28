@@ -25,7 +25,7 @@ Profiles range from 0 to 4.
 | 0x05       | Brightness       |
 | 0x06       | Breathing Speed  |
 
-## Brightness
+### Brightness
 
 | Value | Description |
 | ----- | ----------- |
@@ -34,7 +34,7 @@ Profiles range from 0 to 4.
 | 0x02  | Medium      |
 | 0x03  | High        |
 
-## Breathing Speed
+### Breathing Speed
 
 | Value | Description   |
 | ----- | ------------- |
