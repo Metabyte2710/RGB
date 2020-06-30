@@ -85,6 +85,7 @@ https://discord.gg/AQwjJPY
     * Team T-Force Delta RGB
     * OLOy WarHawk RGB
     * ADATA SPECTRIX RGB
+    * Thermaltake TOUGHRAM RGB
 * [Corsair Vengeance RGB](Corsair-Vengeance-RGB)
 * [Corsair Vengeance Pro RGB](Corsair-Vengeance-Pro-RGB)
 * [HyperX RGB Memory](HyperX-Predator-RGB)
