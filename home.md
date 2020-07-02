@@ -2,9 +2,16 @@
 
 One of the biggest complaints about RGB is the software ecosystem surrounding it.  Every manufacturer has their own app, their own brand, their own style.  If you want to mix and match devices, you end up with a ton of conflicting, functionally identical apps competing for your background resources.  On top of that, these apps are proprietary and Windows-only.  Some even require online accounts.  What if there was a way to control all of your RGB devices from a single app, on both Windows and Linux, without any nonsense?  That is what OpenRGB sets out to achieve.  One app to rule them all.
 
-OpenRGB is still in its early stages and already supports quite a few products.  I'm always on the lookout for good deals on more popular RGB devices to add support for.
+## Features
 
-OpenRGB provides a software development kit (SDK) that can be used to integrate your RGB setup into other applications and games.  The OpenRGB SDK uses a network server which can be enabled in the OpenRGB application.  Other applications may then connect to OpenRGB and control the lighting.
+* Set colors and select effect modes for a wide variety of RGB hardware
+* Save and load profiles
+* Control lighting from third party software using the OpenRGB SDK
+* Command line interface
+* Connect multiple instances of OpenRGB to synchronize lighting across multiple PCs
+* Can operate standalone or in a client/headless server configuration
+* View device information
+* No official/manufacturer software required
 
 ## WARNING!
 
