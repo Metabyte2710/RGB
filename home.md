@@ -43,6 +43,8 @@ https://discord.gg/AQwjJPY
 
 ## Supported Devices
 
+![image](uploads/bf30bed71f782d01334b73caab75a61a/image.png)
+
 ### Motherboard RGB Systems
 
 * [ASUS Aura (SMBus Variants)](ASUS-Aura-Overview)
