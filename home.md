@@ -136,7 +136,7 @@ https://discord.gg/AQwjJPY
 ### Fans and Coolers
 
 * [AMD Wraith Prism](AMD-Wraith-Prism)
-* NZXT Kraken X42/X52/X62/X72
+* [NZXT Kraken X42/X52/X62/X72](NZXT-Kraken)
 
 ### Keyboards
 
