@@ -1,4 +1,10 @@
-The NZXT Kraken line of liquid coolers use the USB HID protocol and enumerate at 1E71:170E.
+The NZXT Kraken series of AIO liquid cooling devices support RGB lighting as well as pump and fan control.  The NZXT Kraken controller uses the USB HID protocol with 65 byte writes and 64 byte reads and enumerates at 1E71:170E.
+
+# Supported Devices
+
+| Device                      | USB ID    |
+| --------------------------- | --------- |
+| NZXT Kraken X42/X52/X62/X72 | 1E71:170E |
 
 # Send Effect
 
