@@ -1,4 +1,4 @@
-The NZXT Kraken series of AIO liquid cooling devices support RGB lighting as well as pump and fan control.  The NZXT Kraken controller uses the USB HID protocol with 65 byte writes and 64 byte reads and enumerates at 1E71:170E.
+The NZXT Kraken series of AIO liquid cooling devices support RGB lighting as well as pump and fan control.  The NZXT Kraken controller uses the USB HID protocol with 65 byte writes and 64 byte reads.
 
 # Supported Devices
 
