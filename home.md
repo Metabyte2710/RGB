@@ -82,7 +82,7 @@ https://discord.gg/AQwjJPY
     * ASRock B450M/ac
     * ASRock X570 Taichi
 * [MSI-RGB](MSI-RGB)
-* MSI Mystic Light
+* [MSI Mystic Light](MSI-Mystic-Light)
 
 ### RGB RAM Modules
 
