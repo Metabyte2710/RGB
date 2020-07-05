@@ -16,7 +16,7 @@ MSI Mystic Light is a marketing name for a line of motherboards with lighting co
 | 0x01       |                  |
 | 0x02       | Firmware Version |
 
-Firmware version is in top 4 bits of 0x02 byte.
+Firmware version high value is most significant 4 bits, low value is least significant 4 bits.  Display as \<high value\>.\<low value\>.
 
 # Request Firmware Version (LDROM)
 
@@ -34,7 +34,7 @@ Firmware version is in top 4 bits of 0x02 byte.
 | 0x01       |                  |
 | 0x02       | Firmware Version |
 
-Firmware version is in top 4 bits of 0x02 byte.
+Firmware version high value is most significant 4 bits, low value is least significant 4 bits.  Display as \<high value\>.\<low value\>.
 
 
 
