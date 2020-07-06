@@ -9,9 +9,9 @@ Ducky keyboard protocol information taken from Aurora code: https://github.com/a
 
 # Setting Colors
 
-The color update cycle on the Ducky keyboard consists of ten packets.  This packet set consists of one initialize packet, eight color packets, and one ending color packet.
+The color update cycle on the Ducky keyboard consists of ten packets.  This packet set consists of one initialize color packet, eight color packets, and one terminate color packet.
 
-## Initialize Packet
+## Initialize Color Packet
 
 | Byte Index | Description |
 | ---------- | ----------- |
@@ -55,16 +55,11 @@ The first (of eight) color packets has additional fixed values:
 | 0x12       | 0xFF        |
 | 0x13       | 0xFF        |
 
-# Color Change Packet
-
-        public static byte[] DuckyInitColourBytes => new byte[] { 0x01, 0x00, 0x00, 0x00, 0x80, 0x01, 0x00, 0xC1, 0x00, 0x00, 0x00, 0x00, 0xFF, 0xFF, 0xFF, 0xFF };
-        public static byte[] DuckyTerminateColourBytes => new byte[] { 0x51, 0x28, 0x00, 0x00, 0xFF };
-
-There are 8 packets in a color change sequence.
+## Terminate Color Packet
 
 | Byte Index | Description |
 | ---------- | ----------- |
-| 0x00       | 0x56        |
-| 0x01       | 0x83        |
-| 0x02       | Packet ID   |
-| 0x03       |             |
+| 0x00       | 0x51        |
+| 0x01       | 0x28        |
+| ...        |             |
+| 0x04       | 0xFF        |
