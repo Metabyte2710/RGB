@@ -34,10 +34,11 @@ The color update cycle on the Ducky keyboard consists of ten packets.  This pack
 
 ## Color Packet
 
-| Byte Index | Description |
-| ---------- | ----------- |
-| 0x00       | 0x56        |
-| 0x01       | 0x83        |
+| Byte Index | Description     |
+| ---------- | --------------- |
+| 0x00       | 0x56            |
+| 0x01       | 0x83            |
+| 0x02       | Packet ID (0-7) |
 
 The first (of eight) color packets has additional fixed values:
 
