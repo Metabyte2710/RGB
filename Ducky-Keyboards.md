@@ -23,7 +23,7 @@ The color update cycle on the Ducky keyboard consists of ten packets.  This pack
 | 0x05       | 0x00        |
 | 0x06       | 0x00        |
 | 0x07       | 0x00        |
-| 0x08       | 0x08        |
+| 0x08       | 0x08 for direct, 0x01 for wave, 0x02 for alpha effect |
 | 0x09       | 0x00        |
 | 0x0A       | 0x00        |
 | 0x0B       | 0x00        |
@@ -67,7 +67,7 @@ The first (of eight) color packets has additional fixed values:
 
 # Setting Effects
 
-Setting an effect uses 5 packets.
+Setting an effect uses 3 packets - an Initialize, a Color Data, and a Terminate.
 
 | Byte Index | Description     |
 | ---------- | --------------- |
