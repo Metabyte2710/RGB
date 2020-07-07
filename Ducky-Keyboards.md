@@ -64,3 +64,30 @@ The first (of eight) color packets has additional fixed values:
 | 0x01       | 0x28        |
 | ...        |             |
 | 0x04       | 0xFF        |
+
+# Setting Effects
+
+Setting an effect uses 5 packets.
+
+| Byte Index | Description     |
+| ---------- | --------------- |
+| 0x00       | 0x56            |
+| 0x01       | 0x83            |
+| ...        |                 |
+| 0x04       | 0x01            |
+| ...        |                 |
+| 0x09       | 0x32            |
+| ...        |                 |
+| 0x0B       | 0xC1            |
+| 0x0C       | 0x09            |
+| ...        |                 |
+| 0x10       | 0xFF            |
+| 0x11       | 0xFF            |
+| 0x12       | 0xFF            |
+| 0x13       | 0xFF            |
+| 0x14       | 0x08            |
+| ...        |                 |
+| 0x16       | 0x0C            |
+| ...        |                 |
+| 0x1B       | 0x40            |
+
