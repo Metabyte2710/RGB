@@ -91,3 +91,9 @@ Setting an effect uses 5 packets.
 | ...        |                 |
 | 0x1B       | 0x40            |
 
+| Byte Index | Description |
+| ---------- | ----------- |
+| 0x00       | 0x51        |
+| 0x01       | 0x28        |
+| ...        |             |
+| 0x04       | 0xFF        |
