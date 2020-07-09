@@ -7,6 +7,13 @@ Ducky keyboard protocol information taken from Aurora code: https://github.com/a
 | 0x04D9  | 0x0348  | Ducky Shine 7, Ducky One 2 RGB |
 | 0x04D9  | 0x0356  | Ducky One 2 RGB TKL            |
 
+# Entering Software Control Mode
+
+| Byte Index | Description |
+| ---------- | ----------- |
+| 0x00       | 0x41        |
+| 0x01       | 0x01        |
+
 # Setting Colors
 
 The color update cycle on the Ducky keyboard consists of ten packets.  This packet set consists of one initialize color packet, eight color packets, and one terminate color packet.
@@ -34,11 +41,15 @@ The color update cycle on the Ducky keyboard consists of ten packets.  This pack
 
 ## Color Packet
 
-| Byte Index | Description     |
-| ---------- | --------------- |
-| 0x00       | 0x56            |
-| 0x01       | 0x83            |
-| 0x02       | Packet ID (0-7) |
+| Byte Index | Description                        |
+| ---------- | ---------------------------------- |
+| 0x00       | 0x56                               |
+| 0x01       | 0x83                               |
+| 0x02       | Packet ID (0-7)                    |
+| ...        |                                    |
+| 0x05-end   | Start of data for non-0 ID packets |
+| ...        |                                    |
+| 0x19-end   | Start of data for 0 ID packet      |
 
 The first (of eight) color packets has additional fixed values:
 
