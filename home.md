@@ -159,6 +159,10 @@ https://discord.gg/AQwjJPY
     * Corsair K95 RGB Platinum
     * Corsair Strafe
     * Corsair Strafe MK.2
+* Ducky Keyboards
+    * Ducky Shine 7
+    * Ducky One 2
+    * Ducky One 2 TKL
 * [HyperX Alloy Elite](HyperX-Alloy-Elite)
 * [Logitech RGB Keyboards](Logitech-Keyboards)
     * Logitech G512
