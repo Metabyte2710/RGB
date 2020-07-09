@@ -1,5 +1,7 @@
 Ducky keyboard protocol information taken from Aurora code: https://github.com/antonpup/Aurora/blob/master/Project-Aurora/Project-Aurora/Devices/Ducky/DuckyDevice.cs
 
+The protocol uses 64-byte HID writes to interface 1.  Report ID is not used, so set to zero if necessary.  No usage page filtering is required for Windows HID usage.
+
 # Supported Devices
 
 | USB VID | USB PID | Device Name                    |
