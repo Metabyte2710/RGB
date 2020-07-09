@@ -159,7 +159,7 @@ https://discord.gg/AQwjJPY
     * Corsair K95 RGB Platinum
     * Corsair Strafe
     * Corsair Strafe MK.2
-* Ducky RGB Keyboards
+* [Ducky RGB Keyboards](Ducky-Keyboards)
     * Ducky Shine 7
     * Ducky One 2
     * Ducky One 2 TKL
