@@ -111,6 +111,7 @@ https://discord.gg/AQwjJPY
 * [ASUS Aura GPUs](Asus-Aura-GPU)
 * [Gigabyte Aorus RGB Fusion GPUs](Gigabyte-RGB-Fusion-GPU)
     * Gigabyte Aorus GTX1080Ti Xtreme Waterforce WB
+    * Gigabyte RTX2070 SUPER GAMING 
 * MSI GPUs
     * MSI RTX2070 ARMOR
     * MSI RTX2070S Gaming X Trio
