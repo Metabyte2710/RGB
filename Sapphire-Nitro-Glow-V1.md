@@ -20,8 +20,8 @@ Sapphire has three different versions of their Nitro Glow RGB system.  The first
 | ---------- | ---------------- |
 | 0x00       | Sapphire Blue    |
 | 0x01       | Rainbow          |
-| 0x02       |                  |
-| 0x03       |                  |
+| 0x02       | PCB Temperature  |
+| 0x03       | Fan Speed        |
 | 0x04       | Custom           |
 | 0x05       | Off              |
 
