@@ -112,6 +112,7 @@ https://discord.gg/AQwjJPY
 * [Gigabyte Aorus RGB Fusion GPUs](Gigabyte-RGB-Fusion-GPU)
     * Gigabyte Aorus GTX1080Ti Xtreme Waterforce WB
 * MSI GPUs
+    * MSI RTX2080 Trio
 * [Sapphire Nitro Glow V1](Sapphire-Nitro-Glow-V1) (Not yet enabled)
     * Sapphire RX580 Nitro+
 
