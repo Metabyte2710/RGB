@@ -109,7 +109,8 @@ https://discord.gg/AQwjJPY
 ### Graphics Cards
 
 * [ASUS Aura GPUs](Asus-Aura-GPU)
-    * ASUS ROG Strix RX580 Gaming
+    * ASUS ROG Strix RX580
+    * ASUS ROG Strix GTX1080Ti
 * [Gigabyte Aorus RGB Fusion GPUs](Gigabyte-RGB-Fusion-GPU)
     * Gigabyte Aorus GTX1080Ti Xtreme Waterforce WB
     * Gigabyte RTX2070 SUPER GAMING 
