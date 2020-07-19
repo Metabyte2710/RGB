@@ -19,14 +19,17 @@ To change modes, click on the Mode selection box and select a different mode fro
 
 ![image](uploads/1ecd831d339094ec97bdb82f9e42065f/image.png)
 
+### Color Configuration
 You can change the color configuration using the three buttons in the Colors: group.  Only the available color configurations for the selected mode will be clickable.
 
 ![image](uploads/2ed2b2b14e64d98e206a78e75d30a394/image.png)
 
+### Speed
 If the mode supports it, you can adjust the speed slider to change the speed of the mode's effect.
 
 ![image](uploads/1a34806625ba9cf6a64c53365fc2ba84/image.png)
 
+### Direction
 If the mode supports it, you can adjust the direction of the mode by selecting a direction from the Direction selection box.
 
 ![image](uploads/938578968a8a65338187d47453b7e4ae/image.png)
