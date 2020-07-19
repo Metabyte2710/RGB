@@ -4,7 +4,7 @@ OpenRGB automatically tries to detect your RGB hardware when you start the appli
 
 # Changing Modes
 
-OpenRGB devices have one or mode modes.  Modes represent different effects built into the RGB device's hardware.  Most devices have at least one mode that allows direct control of individual LEDs from software and one or more built-in effect modes (rainbows, spectrum cycles, etc).  Modes can have four different color configurations:
+OpenRGB devices have one or more modes.  Modes represent different effects built into the RGB device's hardware.  Most devices have at least one mode that allows direct control of individual LEDs from software and one or more built-in effect modes (rainbows, spectrum cycles, etc).  Modes can have four different color configurations:
 
   * Per-LED Color - This color configuration allows you to set a specific color for each LED on the device independently
   * Mode-Specific Color - This color configuration allows you to set one or more colors, but the colors do not apply to individual LEDs.  An example would be a breathing mode that cycle between one or more preset colors.
@@ -22,3 +22,11 @@ To change modes, click on the Mode selection box and select a different mode fro
 You can change the color configuration using the three buttons in the Colors: group.  Only the available color configurations for the selected mode will be clickable.
 
 ![image](uploads/2ed2b2b14e64d98e206a78e75d30a394/image.png)
+
+If the mode supports it, you can adjust the speed slider to change the speed of the mode's effect.
+
+![image](uploads/1a34806625ba9cf6a64c53365fc2ba84/image.png)
+
+If the mode supports it, you can adjust the direction of the mode by selecting a direction from the Direction selection box.
+
+![image](uploads/938578968a8a65338187d47453b7e4ae/image.png)
