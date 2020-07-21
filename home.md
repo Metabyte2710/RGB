@@ -175,6 +175,7 @@ https://discord.gg/AQwjJPY
     * Ducky One 2 TKL
 * [HyperX RGB Keyboards](HyperX-Alloy-Elite)
     * HyperX Alloy Elite
+    * HyperX Alloy Origins
 * [Logitech RGB Keyboards](Logitech-Keyboards)
     * Logitech G512
     * Logitech G810 Orion Spectrum
