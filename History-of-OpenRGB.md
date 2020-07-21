@@ -16,6 +16,8 @@ Controlling the RGB fan with a GUI: https://www.youtube.com/watch?v=4J4vlAMgQDQ
 
 ## 2011 - FanBus Fan Controller
 
+![image](uploads/1f0890928fb9b92be28fd0089ddaec11/image.png)
+
 In the summer of 2010 I built my first real gaming PC.  A year later I decided I wanted RGB lights in it, so I built up three more fan controllers.  I modified the design a bit and came up with a protocol I called "FanBus" which was a half-duplex serial interface with an addressing scheme that could allow multiple fans/LEDs on one serial port.  The addressing scheme was inspired by i2c, which is pretty funny given that a lot of commercially-available RGB devices use i2c now (RAM, motherboards, GPUs).  Again, I wrote an Instructable on it.
 
 https://www.instructables.com/id/FanBus-Digital-Fan-and-LED-Interface-for-PC/
