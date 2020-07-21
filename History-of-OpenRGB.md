@@ -4,6 +4,8 @@ I became interested in RGB control in fall 2009 when I bought my first Arduino a
 
 ## 2009-2010 - RGB Fan Controller
 
+![image](uploads/5d631b230dad2dd2275d9bf8f3136710/image.png)
+
 I decided to design and build a fan controller.  I wrote up a detailed Instructable about it and posted some videos to YouTube.
 
 https://www.instructables.com/id/Color-Changing-Digital-PC-Fan-Controller/
