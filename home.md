@@ -271,6 +271,7 @@ https://discord.gg/AQwjJPY
         * Razer Tiamat 7.1 V2 (*)
     * Mousemats
         * Razer Firefly
+        * Razer Goliathus Chroma
         * Razer Goliathus Extended Chroma
     * Speakers
         * Razer Nommo Chroma
