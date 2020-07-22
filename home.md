@@ -119,6 +119,7 @@ https://discord.gg/AQwjJPY
     * MSI RTX2070S Gaming X Trio
     * MSI RTX2080S Gaming X Trio
     * MSI RTX2080 Ti Sea Hawk EK X
+    * MSI RTX2080 Ti Gaming X Trio
 * [Sapphire Nitro Glow V1](Sapphire-Nitro-Glow-V1) (Not yet enabled)
     * Sapphire RX580 Nitro+
 
