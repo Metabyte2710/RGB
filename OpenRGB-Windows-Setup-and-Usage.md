@@ -24,6 +24,8 @@ When opening OpenRGB.exe for the first time, you must run it as Administrator fo
 
 # It didn't detect my device!  What now?
 
+THIS STEP IS NO LONGER REQUIRED AS OF OPENRGB 0.3!  Please [uninstall WinUSB](https://gitlab.com/CalcProgrammer1/OpenRGB/-/wikis/Frequently-Asked-Questions#i-installed-the-winusb-driver-for-a-device-and-i-wish-to-uninstall-it) if it is installed.
+
 Most USB devices will need a special driver called WinUSB in order to work with OpenRGB.  To install this driver you will need to use a tool called [Zadig](https://zadig.akeo.ie/).
 
 When you open Zadig, the window will be empty.
