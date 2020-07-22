@@ -206,6 +206,7 @@ https://discord.gg/AQwjJPY
 
 ### Mousemats
 
+* [Cooler Master MP750](Cooler-Master-MP750)
 * Corsair MM800 Polaris
 
 ### Other
