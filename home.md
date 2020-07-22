@@ -35,11 +35,8 @@ https://discord.gg/AQwjJPY
 ## Support OpenRGB
 
 * OpenRGB is a project I created to solve a problem I had with the RGB ecosystem.  My goal isn't to make money off of this project.  That said, people have requested to donate, and donations allow me to buy more RGB stuff to reverse engineer.
-
 * [Donate via PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=4VPTFMD3G4QVG&item_name=OpenRGB+Development&currency_code=USD&source=url)
-
 * [Become a Patron](https://www.patreon.com/CalcProgrammer1) (I'm not doing any Patreon-exclusive content, it's purely for donation)
-
 * Donate via Bitcoin: 1N83YPu7btXYadPS1neB9zX7X1QTdpyZQ
 
 ## Supported Devices
