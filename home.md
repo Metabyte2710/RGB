@@ -27,11 +27,10 @@ As of now, only Gigabyte RGB Fusion 2.0 boards have been reported to have issues
 
 https://discord.gg/AQwjJPY
 
-## How-Tos
+## How-Tos and FAQs
 
 * [Windows Setup and Usage](OpenRGB-Windows-Setup-and-Usage)
-
-## [Frequently Asked Questions](Frequently-Asked-Questions)
+* [Frequently Asked Questions](Frequently-Asked-Questions)
 
 ## Support OpenRGB
 
