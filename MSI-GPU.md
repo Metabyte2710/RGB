@@ -4,9 +4,14 @@ MSI's line of GeForce RTX 2xxx series graphics cards include RGB lighting via an
 
 Note: Vendor and Device ID represent the nVidia GPU chipset and will be common to all cards using that chipset, even non-MSI cards.  The sub-vendor and sub-device IDs are MSI specific.
 
-| PCI Vendor ID | PCI Device ID | PCI Sub-Vendor ID | PCI Sub-Device ID | Device Name                             |
-| ------------- | ------------- | ----------------- | ----------------- | --------------------------------------- |
-| 0x10DE        | 0x1F06        | 0x1462            | 0xC752            | MSI GeForce RTX2060 Super Gaming X      |
-| 0x10DE        | 0x1E84        | 0x1462            | 0xC726            | MSI GeForce RTX2070 Super Gaming X Trio |
-| 0x10DE        | 0x1E87        | 0x1462            | 0x3726            | MSI GeForce RTX2080 Gaming X Trio       |
-| 0x10DE        | 0x1E81        | 0x1462            | 0xC724            | MSI GeForce RTX2080 Super Gaming X Trio |
+| PCI Vendor ID | PCI Device ID | PCI Sub-Vendor ID | PCI Sub-Device ID | Device Name                              |
+| ------------- | ------------- | ----------------- | ----------------- | ---------------------------------------- |
+| 0x10DE        | 0x1F06        | 0x1462            | 0xC752            | MSI GeForce RTX 2060 Super Gaming X      |
+| 0x10DE        | 0x1E84        | 0x1462            | 0xC726            | MSI GeForce RTX 2070 Super Gaming X Trio |
+| 0x10DE        | 0x1E87        | 0x1462            | 0x3726            | MSI GeForce RTX 2080 Gaming X Trio       |
+| 0x10DE        | 0x1E81        | 0x1462            | 0xC724            | MSI GeForce RTX 2080 Super Gaming X Trio |
+| 0x10DE        | 0x1E07        | 0x1462            | 0x3715            | MSI GeForce RTX 2080Ti Gaming X Trio     |
+| 0x10DE        | 0x1F08        | 0x1462            | 0x3754            | MSI GeForce RTX 2060 Gaming Z 6G         |
+| 0x10DE        | 0x1F06        | 0x1462            | 0xC754            | MSI GeForce RTX 2060 Super ARMOR OC      |
+| 0x10DE        | 0x1F02        | 0x1462            | 0x3734            | MSI GeForce RTX 2070 ARMOR               |
+| 0x10DE        | 0x1E07        | 0x1462            | 0x3717            | MSI GeForce RTX 2080Ti Sea Hawk EK X     |
