@@ -111,14 +111,15 @@ https://discord.gg/AQwjJPY
     * Gigabyte Aorus GTX1080Ti Xtreme Waterforce WB
     * Gigabyte RTX2070 SUPER GAMING 
 * MSI GPUs
-    * MSI RTX2060S Gaming X
-    * MSI RTX2060 Gaming Z 6G
-    * MSI RTX2070 ARMOR
-    * MSI RTX2070S Gaming X Trio
-    * MSI RTX2080 Gaming X Trio
-    * MSI RTX2080S Gaming X Trio
-    * MSI RTX2080 Ti Sea Hawk EK X
-    * MSI RTX2080 Ti Gaming X Trio
+    * MSI GeForce RTX 2060 Super Gaming X
+    * MSI GeForce RTX 2070 Super Gaming X Trio
+    * MSI GeForce RTX 2080 Gaming X Trio
+    * MSI GeForce RTX 2080 Super Gaming X Trio
+    * MSI GeForce RTX 2080Ti Gaming X Trio
+    * MSI GeForce RTX 2060 Gaming Z 6G
+    * MSI GeForce RTX 2060 Super ARMOR OC
+    * MSI GeForce RTX 2070 ARMOR
+    * MSI GeForce RTX 2080Ti Sea Hawk EK X
 * [Sapphire Nitro Glow V1](Sapphire-Nitro-Glow-V1) (Not yet enabled)
     * Sapphire RX580 Nitro+
 
