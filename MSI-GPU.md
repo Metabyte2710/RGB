@@ -34,3 +34,18 @@ Note: Vendor and Device ID represent the nVidia GPU chipset and will be common t
 | 0x2C             | Blue 3               |
 | 0x22             | Mode                 |
 | 0x3F             | Apply                |
+
+# Modes
+
+| Mode Value | Mode Description |
+| ---------- | ---------------- |
+| 0x01       | Off              |
+| 0x08       | Rainbow          |
+| 0x13       | Static           |
+| 0x1A       | Raindrop         |
+| 0x07       | Magic            |
+| 0x05       | Patrolling       |
+| 0x06       | Streaming        |
+| 0x15       | Lightning        |
+| 0x1F       | Wave             |
+| 0x16       | Meteor           |
