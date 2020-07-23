@@ -15,3 +15,22 @@ Note: Vendor and Device ID represent the nVidia GPU chipset and will be common t
 | 0x10DE        | 0x1F06        | 0x1462            | 0xC754            | MSI GeForce RTX 2060 Super ARMOR OC      |
 | 0x10DE        | 0x1F02        | 0x1462            | 0x3734            | MSI GeForce RTX 2070 ARMOR               |
 | 0x10DE        | 0x1E07        | 0x1462            | 0x3717            | MSI GeForce RTX 2080Ti Sea Hawk EK X     |
+
+# I2C Registers
+
+| Register Address | Register Description |
+| ---------------- | -------------------- |
+| 0x36             | Brightness           |
+| 0x38             | Speed                |
+| 0x26             |                      |
+| 0x30             | Red 1                |
+| 0x31             | Green 1              |
+| 0x32             | Blue 1               |
+| 0x27             | Red 2                |
+| 0x28             | Green 2              |
+| 0x29             | Blue 2               |
+| 0x2A             | Red 3                |
+| 0x2B             | Green 3              |
+| 0x2C             | Blue 3               |
+| 0x22             | Mode                 |
+| 0x3F             | Apply                |
