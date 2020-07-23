@@ -111,8 +111,11 @@ https://discord.gg/AQwjJPY
     * Gigabyte Aorus GTX1080Ti Xtreme Waterforce WB
     * Gigabyte RTX2070 SUPER GAMING 
 * MSI GPUs
+    * MSI RTX2060S Gaming X
+    * MSI RTX2060 Gaming Z 6G
     * MSI RTX2070 ARMOR
     * MSI RTX2070S Gaming X Trio
+    * MSI RTX2080 Gaming X Trio
     * MSI RTX2080S Gaming X Trio
     * MSI RTX2080 Ti Sea Hawk EK X
     * MSI RTX2080 Ti Gaming X Trio
