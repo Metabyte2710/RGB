@@ -49,3 +49,13 @@ Note: Vendor and Device ID represent the nVidia GPU chipset and will be common t
 | 0x15       | Lightning        |
 | 0x1F       | Wave             |
 | 0x16       | Meteor           |
+| 0x0D       | Stack            |
+| 0x0B       | Rhythm           |
+| 0x09       | Flowing          |
+| 0x0F       | Whirling         |
+| 0x11       | Twisting         |
+| 0x1D       | Laminating       |
+| 0x14       | Fade In          |
+| 0x04       | Breathing        |
+| 0x02       | Flashing         |
+| 0x03       | Double Flashing  |
