@@ -110,7 +110,7 @@ https://discord.gg/AQwjJPY
 * [Gigabyte Aorus RGB Fusion GPUs](Gigabyte-RGB-Fusion-GPU)
     * Gigabyte Aorus GTX1080Ti Xtreme Waterforce WB
     * Gigabyte RTX2070 SUPER GAMING 
-* MSI GPUs
+* [MSI GPUs](MSI-GPU)
     * MSI GeForce RTX 2060 Super Gaming X
     * MSI GeForce RTX 2070 Super Gaming X Trio
     * MSI GeForce RTX 2080 Gaming X Trio
