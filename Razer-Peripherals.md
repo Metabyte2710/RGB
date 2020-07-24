@@ -296,37 +296,85 @@ Razer Blade Pro (2017):
 
 Razer Blade Stealth:
 
-| LED Row | LED Column | Key                   |
-| ------- | ---------- | --------------------- |
-| 0       | 0          |                       |
-| 0       | 1          | Key: Escape           |
-| 0       | 2          | Key: F1               |
-| 0       | 3          | Key: F2               |
-| 0       | 4          | Key: F3               |
-| 0       | 5          | Key: F4               |
-| 0       | 6          | Key: F5               |
-| 0       | 7          | Key: F6               |
-| 0       | 8          | Key: F7               |
-| 0       | 9          | Key: F8               |
-| 0       | 10         | Key: F9               |
-| 0       | 11         | Key: F10              |
-| 0       | 12         | Key: F11              |
-| 0       | 13         | Key: F12              |
-| 0       | 14         | Key: Insert           |
-| 0       | 15         | Key: Delete           |
-| 1       | 0          |                       |
-| 1       | 1          | Key: `                |
-| 1       | 2          | Key: 1                |
-| 1       | 3          | Key: 2                |
-| 1       | 4          | Key: 3                |
-| 1       | 5          | Key: 4                |
-| 1       | 6          | Key: 5                |
-| 1       | 7          | Key: 6                |
-| 1       | 8          | Key: 7                |
-| 1       | 9          | Key: 8                |
-| 1       | 10         | Key: 9                |
-| 1       | 11         | Key: 0                |
-| 1       | 12         | Key: -                |
-| 1       | 13         | Key: =                |
-| 1       | 14         | Key: Backspace (Left) |
-| 1       | 15         | Key: Backspace (Right)|
+| LED Row | LED Column | Key                      |
+| ------- | ---------- | ------------------------ |
+| 0       | 0          |                          |
+| 0       | 1          | Key: Escape              |
+| 0       | 2          | Key: F1                  |
+| 0       | 3          | Key: F2                  |
+| 0       | 4          | Key: F3                  |
+| 0       | 5          | Key: F4                  |
+| 0       | 6          | Key: F5                  |
+| 0       | 7          | Key: F6                  |
+| 0       | 8          | Key: F7                  |
+| 0       | 9          | Key: F8                  |
+| 0       | 10         | Key: F9                  |
+| 0       | 11         | Key: F10                 |
+| 0       | 12         | Key: F11                 |
+| 0       | 13         | Key: F12                 |
+| 0       | 14         | Key: Insert              |
+| 0       | 15         | Key: Delete              |
+| 1       | 0          |                          |
+| 1       | 1          | Key: `                   |
+| 1       | 2          | Key: 1                   |
+| 1       | 3          | Key: 2                   |
+| 1       | 4          | Key: 3                   |
+| 1       | 5          | Key: 4                   |
+| 1       | 6          | Key: 5                   |
+| 1       | 7          | Key: 6                   |
+| 1       | 8          | Key: 7                   |
+| 1       | 9          | Key: 8                   |
+| 1       | 10         | Key: 9                   |
+| 1       | 11         | Key: 0                   |
+| 1       | 12         | Key: -                   |
+| 1       | 13         | Key: =                   |
+| 1       | 14         | Key: Backspace (Left)    |
+| 1       | 15         | Key: Backspace (Right)   |
+| 2       | 0          | Key: Tab                 |
+| 2       | 1          |                          |
+| 2       | 2          | Key: Q                   |
+| 2       | 3          | Key: W                   |
+| 2       | 4          | Key: E                   |
+| 2       | 5          | Key: R                   |
+| 2       | 6          | Key: T                   |
+| 2       | 7          | Key: Y                   |
+| 2       | 8          | Key: U                   |
+| 2       | 9          | Key: I                   |
+| 2       | 10         | Key: O                   |
+| 2       | 11         | Key: P                   |
+| 2       | 12         | Key: [                   |
+| 2       | 13         | Key: ]                   |
+| 2       | 14         | Key: \ (Left)            |
+| 2       | 15         | Key: \ (Right)           |
+| 3       | 0          | Key: Caps Lock           |
+| 3       | 1          |                          |
+| 3       | 2          | Key: A                   |
+| 3       | 3          | Key: S                   |
+| 3       | 4          | Key: D                   |
+| 3       | 5          | Key: F                   |
+| 3       | 6          | Key: G                   |
+| 3       | 7          | Key: H                   |
+| 3       | 8          | Key: J                   |
+| 3       | 9          | Key: K                   |
+| 3       | 10         | Key: L                   |
+| 3       | 11         | Key: ;                   |
+| 3       | 12         | Key: '                   |
+| 3       | 13         |                          |
+| 3       | 14         | Key: Enter (Left)        |
+| 3       | 15         | Key: Enter (Right)       |
+| 4       | 0          | Key: Left Shift          |
+| 4       | 1          |                          |
+| 4       | 2          | Key: Z                   |
+| 4       | 3          | Key: X                   |
+| 4       | 4          | Key: C                   |
+| 4       | 5          | Key: V                   |
+| 4       | 6          | Key: B                   |
+| 4       | 7          | Key: N                   |
+| 4       | 8          | Key: M                   |
+| 4       | 9          | Key: ,                   |
+| 4       | 10         | Key: .                   |
+| 4       | 11         | Key: /                   |
+| 4       | 12         | Key: Right Shift (Left)  |
+| 4       | 13         | Key: Right Shift (Mid)   |
+| 4       | 14         | Key: Right Shift (Right) |
+| 4       | 15         |                          |
