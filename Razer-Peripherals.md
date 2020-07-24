@@ -378,3 +378,19 @@ Razer Blade Stealth:
 | 4       | 13         | Key: Right Shift (Mid)   |
 | 4       | 14         | Key: Right Shift (Right) |
 | 4       | 15         |                          |
+| 5       | 0          | Key: Left Control        |
+| 5       | 1          | Key: Left Function       |
+| 5       | 2          | Key: Left Windows        |
+| 5       | 3          | Key: Left Alt            |
+| 5       | 4          |                          |
+| 5       | 5          | Key: Space (Left)        |
+| 5       | 6          | Key: Space (Mid)         |
+| 5       | 7          |                          |
+| 5       | 8          | Key: Space (Right)       |
+| 5       | 9          | Key: Right Alt           |
+| 5       | 10         | Key: Right Function      |
+| 5       | 11         | Key: Right Control       |
+| 5       | 12         | Key: Left Arrow          |
+| 5       | 13         | Key: Up Arrow            |
+| 5       | 14         | Key: Right Arrow         |
+| 5       | 15         | Key: Down Arrow          |
