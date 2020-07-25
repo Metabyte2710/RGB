@@ -188,6 +188,8 @@ https://discord.gg/AQwjJPY
     * Redragon K556 Devarajas
     * Tecware Phantom Elite
     * Warrior Kane TC235
+* SteelSeries Keyboards
+    * SteelSeries Apex 7
 * [TTEsports Poseidon Z RGB](Thermaltake-Poseidon-Z-RGB)
 
 ### Mice
