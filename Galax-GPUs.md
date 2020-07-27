@@ -10,6 +10,9 @@
 
 # Modes
 
-| Mode Name | Mode 1 Value | Mode 2 Value |
-| --------- | ------------ | ------------ |
-| Static    | 0x00         | 0x01         |
+| Mode Name       | Mode 1 Value | Mode 2 Value |
+| --------------- | ------------ | ------------ |
+| Static          | 0x00         | 0x01         |
+| Breathing       | 0x04         | 0x00         |
+| Rainbow         | 0x84         | 0x02         |
+| Cycle Breathing | 0x84         | 0x40         |
