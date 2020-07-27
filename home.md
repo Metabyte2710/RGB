@@ -111,7 +111,7 @@ https://discord.gg/AQwjJPY
 * [ASUS Aura GPUs](Asus-Aura-GPU)
     * ASUS ROG Strix RX580
     * ASUS ROG Strix GTX1080Ti
-* Galax GPUs
+* [Galax GPUs](Galax-GPUs)
     * Galax KFA2 RTX2070
 * [Gigabyte Aorus RGB Fusion GPUs](Gigabyte-RGB-Fusion-GPU)
     * Gigabyte Aorus GTX1080Ti Xtreme Waterforce WB
