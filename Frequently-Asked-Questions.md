@@ -26,6 +26,29 @@ If you do not have such an anti-cheat system installed and are still having prob
 
 Download the latest Visual C++ runtime from Microsoft here: https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads
 
+### Can I have OpenRGB start automatically when I log in?
+
+Yes!  You can create a startup shortcut to OpenRGB and even customize how it starts.  Start by creating a shortcut to OpenRGB.exe:
+
+![image](uploads/90b7cfeda439b66d5697abba49cd1eb6/image.png)
+
+Now you can go into the Properties of your new shortcut to add startup options:
+
+![image](uploads/67636d1fd6ecc7b7d8e2251d51ea2161/image.png)
+
+In the Target: field, you can add startup options:
+
+![image](uploads/0c88aadba0185daf327bb948fc8a5d0d/image.png)
+
+The complete list of startup options is available in the command line interface, but ones that make sense for use in a shortcut are listed below.
+
+| Startup Argument         | Description                                                                                                                            |
+| ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------- |
+| --gui                    | Enables the GUI interface.  This is automatically specified if you start with no options or if you use --startminimized or --i2c-tools |
+| --startminimized         | Start the GUI minimized to the system tray.  The main window will not pop up, but the OpenRGB icon will show in the tray.              |
+| --server                 | Start with the SDK server running.  You will need to specify --gui if you want to use this option and still see the GUI.               |
+| --profile <filename.orp> | Load the specified profile file when OpenRGB starts.  You can specify a full path if the file isn't in the current directory.          |
+
 ### I installed the WinUSB driver for a device and I wish to uninstall it
 
 The WinUSB driver can be removed in Device Manager.  Open Device Manager.  You should have a category called "Universal Serial Bus devices".
