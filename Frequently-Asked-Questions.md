@@ -49,6 +49,16 @@ The complete list of startup options is available in the command line interface,
 | --server                 | Start with the SDK server running.  You will need to specify --gui if you want to use this option and still see the GUI.               |
 | --profile <filename.orp> | Load the specified profile file when OpenRGB starts.  You can specify a full path if the file isn't in the current directory.          |
 
+Now, to make this shortcut run when you log in to Windows, copy the shortcut file to %APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup
+
+![image](uploads/cced9b7abf39d4e410dffdb17f99b745/image.png)
+
+You can rename the shortcut if you want.
+
+![image](uploads/347ddd7955ab2f8abcfdd0afda74f70d/image.png)
+
+Now simply reboot your computer or log out and log back in.  OpenRGB should automatically start with the options you have configured.
+
 ### I installed the WinUSB driver for a device and I wish to uninstall it
 
 The WinUSB driver can be removed in Device Manager.  Open Device Manager.  You should have a category called "Universal Serial Bus devices".
