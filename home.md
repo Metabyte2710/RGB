@@ -29,7 +29,7 @@ There have been two instances of hardware damage in OpenRGB's development and we
 
 ## Join Our Discord
 
-https://discord.gg/AQwjJPY
+* https://discord.gg/AQwjJPY
 
 ## How-Tos and FAQs
 
@@ -42,6 +42,10 @@ https://discord.gg/AQwjJPY
 * [Donate via PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=4VPTFMD3G4QVG&item_name=OpenRGB+Development&currency_code=USD&source=url)
 * [Become a Patron](https://www.patreon.com/CalcProgrammer1) (I'm not doing any Patreon-exclusive content, it's purely for donation)
 * Donate via Bitcoin: 1N83YPu7btXYadPS1neB9zX7X1QTdpyZQ
+
+## History of OpenRGB
+
+* OpenRGB is a continuation of OpenAuraSDK, which itself was created out of reverse engineering work done on the Keyboard Visualizer project.  For a complete history of the RGB projects that led to OpenRGB's creation, see the [History page](History-of-OpenRGB).
 
 ## Supported Devices
 
@@ -297,7 +301,3 @@ https://discord.gg/AQwjJPY
 (*) - Device not supported in upstream OpenRazer and requires a custom build.
 
 * Faustus (ASUS TUF Laptop Keyboards) (Linux)
-
-## History of OpenRGB
-
-OpenRGB is a continuation of OpenAuraSDK, which itself was created out of reverse engineering work done on the Keyboard Visualizer project.  For a complete history of the RGB projects that led to OpenRGB's creation, see the [History page](History-of-OpenRGB).
