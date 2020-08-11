@@ -23,6 +23,8 @@ There have been two instances of hardware damage in OpenRGB's development and we
 * There were reports of bricked Gigabyte Aorus Z390 motherboards caused by dumping SMBus address 0x68 in an attempt to reverse engineer the RGB. Due to this, the SMBus Tools page on OpenRGB is hidden by default now as it has no real use to non-developers. Additionally, the RGB Fusion 2 SMBus code is disabled by default because, although it works on boards it is meant for, probing this address (0x68) could damage Gigabyte Z390 boards.
 * To enable the MSI Mystic Light or Gigabyte RGB Fusion 2 SMBus code, you must uncomment the functions in main.cpp and recompile.
 
+## Screenshots
+
 ![OpenRGB_new_icons](uploads/0ef8eb3936fe715217e7e3430c0aae18/OpenRGB_new_icons.PNG)
 
 ![OpenRGB_0.11_with_SDK_server](uploads/cedf17f8ae30f8b95703e705c357366a/OpenRGB_0.11_with_SDK_server.PNG)
