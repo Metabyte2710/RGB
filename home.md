@@ -49,6 +49,10 @@ There have been two instances of hardware damage in OpenRGB's development and we
 
 * OpenRGB is a continuation of OpenAuraSDK, which itself was created out of reverse engineering work done on the Keyboard Visualizer project.  For a complete history of the RGB projects that led to OpenRGB's creation, see the [History page](History-of-OpenRGB).
 
+## Contributing
+
+* Want to contribute support for a new device?  Check out the [RGBController API](The-RGBController-API) page for documentation of how OpenRGB implements device control.
+
 ## Supported Devices
 
 ![image](uploads/bf30bed71f782d01334b73caab75a61a/image.png)
