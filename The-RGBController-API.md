@@ -9,7 +9,12 @@ A device's Controller class is a free-form class that provides whatever function
 
 # Detector
 
-A device's Detector function scans the attached devices to see if a particular device (Controller/RGBController) exists.  At the moment, two types of detectors exist - I2C and non-I2C.  Detectors for I2C devices are passed a vector of I2C bus pointers to scan while non-I2C detectors are not passed anything extra, usually relying on hidapi to detect USB devices.  The REGISTER_DETECTOR macro is used to register a detector function with the OpenRGB Resource Manager which is responsible for calling detector functions at detection time.
+A device's Detector function scans the attached devices to see if a particular device (Controller/RGBController) exists.  At the moment, two types of detectors exist - I2C and non-I2C.  Both detector types are passed (by reference) a vector of RGBController pointers in which to add newly detected controllers.  Detectors for I2C devices are also passed a vector of I2C bus pointers to scan.  Non-I2C detectors rely on other methods of detection, usually hidapi to scan for USB devices.  The REGISTER_DETECTOR macros are used to register a detector function with the OpenRGB Resource Manager which is responsible for calling detector functions at detection time.
+
+```
+REGISTER_DETECTOR("Detector Name", DetectDevicesFunction);
+REGISTER_I2C_DETECTOR("I2C Detector Name", DetectI2CDevicesFunction);
+```
 
 # RGBController
 
