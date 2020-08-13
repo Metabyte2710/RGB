@@ -20,6 +20,20 @@ REGISTER_I2C_DETECTOR("I2C Detector Name", DetectI2CDevicesFunction);
 
 OpenRGB uses an internal API called RGBController to standardize the interface to RGB devices from multiple vendors and classes.  This API uses vectors to describe each device.
 
+The RGBController specification contains the following:
+  * Device Name
+  * Device Type - enum of pre-defined device types
+    * Motherboard
+    * DRAM
+    * GPU
+  * Device Description
+  * Device Version
+  * Device Location
+  * Device Serial
+  * Vector of Modes
+  * Vector of LEDs
+  * Vector of Colors
+
 Devices contain modes, zones, and LEDs.  Devices also have a name and a type.  The type is an enum value which indicates whether the device is a motherboard, DRAM, keyboard, mouse, or one of several other types of common RGB devices.  The RGBController class also contains a vector called `colors` which contains 32-bit color values (0x00BBGGRR) for each LED on the device.
 
 Modes represent internal effects and have a name field that describes the effect.  The mode's index in the vector is its ID.
