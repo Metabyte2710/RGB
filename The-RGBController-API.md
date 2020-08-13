@@ -1,3 +1,18 @@
+Device support in OpenRGB can be broken down into three major components.
+  * Controller
+  * Detector
+  * RGBController
+
+# Controller
+
+A device's Controller class is a free-form class that provides whatever functionality is necessary to communicate with a device.  This class should implement functions to send control packets to a device and receive information packets from a device.  It should provide the capability to set device colors and modes.  The Controller header file should provide defined constants for mode, speed, and other control values specific to the device's protocol.  If possible, this class should provide the capability to retrieve firmware version and serial number information from the device.  This class can also provide additional device protocol functionality even if it goes unused in OpenRGB currently.  For instance, you may provide functions for controlling mouse DPI, polling rate, fan speed, or any other device-specific capability you want.  If OpenRGB ever implements these extra functions in the future, having them implemented already in the Controller will make that easier.
+
+# Detector
+
+A device's Detector function scans the attached devices to see if a particular device (Controller/RGBController) exists.  At the moment, two types of detectors exist - I2C and non-I2C.  Detectors for I2C devices are passed a vector of I2C bus pointers to scan while non-I2C detectors are not passed anything extra, usually relying on hidapi to detect USB devices.  The REGISTER_DETECTOR macro is used to register a detector function with the OpenRGB Resource Manager which is responsible for calling detector functions at detection time.
+
+# RGBController
+
 OpenRGB uses an internal API called RGBController to standardize the interface to RGB devices from multiple vendors and classes.  This API uses vectors to describe each device.
 
 Devices contain modes, zones, and LEDs.  Devices also have a name and a type.  The type is an enum value which indicates whether the device is a motherboard, DRAM, keyboard, mouse, or one of several other types of common RGB devices.  The RGBController class also contains a vector called `colors` which contains 32-bit color values (0x00BBGGRR) for each LED on the device.
