@@ -111,7 +111,34 @@ The height and width determine the size of the map data.  The map data pointer s
 
 ## Modes
 
-Modes represent internal effects and have a name field that describes the effect.  The mode's index in the vector is its ID.
+Modes represent internal effects and have a name field that describes the effect.  The mode's index in the vector is its ID.  The Active Mode variable in the RGBController class specifies which mode is currently selected.  A mode contains the following:
+
+  * Mode Name
+  * Mode Value
+  * Mode Flags
+  * Minimum Speed
+  * Maximum Speed
+  * Minimum number of colors
+  * Maximum number of colors
+  * Speed Value
+  * Direction
+  * Color Mode
+  * Colors Vector
+
+The mode value is field is provided to hold an implementation-defined mode value.  This is usually the mode's value in the hardware protocol.
+
+The mode flags field is a bitfield that contains information about what features a mode has.
+
+| Mode Flags Bit | Description                                      |
+| -------------- | ------------------------------------------------ |
+| 0              | Mode has speed parameter                         |
+| 1              | Mode has left/right direction parameter          |
+| 2              | Mode has up/down direction parameter             |
+| 3              | Mode has horizontal/vertical direction parameter |
+| 4              | Mode has brightness parameter                    |
+| 5              | Mode has per-LED color settings                  |
+| 6              | Mode has mode specific color settings            |
+| 7              | Mode has random color option                     |
 
 ## Functions
 
