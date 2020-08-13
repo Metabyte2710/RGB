@@ -23,10 +23,6 @@ If you have a project or product that is compatible with OpenRGB, you may use th
     * ASUS X570 Motherboards
 * [Gigabyte Aorus RGB Fusion 1.0](Gigabyte-RGB-Fusion-1.0)
     * Gigabyte Aorus X370 Gaming 5
-* Gigabyte Aorus RGB Fusion 2.0 (SMBus) (EXPERIMENTAL)
-    * Disabled by default because we don't have appropriate detection code yet, and it has an address conflict that could brick Z390 Aorus boards.
-    * Uncomment DetectRGBFusion2SMBusControllers call in OpenRGB.cpp if you wish to use.
-    * ONLY run this on supported motherboards!!!!!
 * Gigabyte Aorus RGB Fusion 2.0 (USB)
     * Gigabyte X570 Aorus Extreme
     * Gigabyte X570 Aorus Master
@@ -41,7 +37,6 @@ If you have a project or product that is compatible with OpenRGB, you may use th
     * ASRock B450M/ac
     * ASRock X570 Taichi
 * [MSI-RGB](MSI-RGB)
-* [MSI Mystic Light](MSI-Mystic-Light)
 
 ### RGB RAM Modules
 
@@ -61,7 +56,6 @@ If you have a project or product that is compatible with OpenRGB, you may use th
     * HyperX Fury RGB
 * [Patriot Viper RGB](Patriot-Viper-RGB)
 * [Crucial Ballistix RGB](Crucial-Ballistix-RGB)
-* [Gigabyte Aorus RGB RAM (Partial support)](Gigabyte-RGB-Fusion-2.0-DRAM)
 
 ### Graphics Cards
 
@@ -254,3 +248,19 @@ If you have a project or product that is compatible with OpenRGB, you may use th
 (*) - Device not supported in upstream OpenRazer and requires a custom build.
 
 * Faustus (ASUS TUF Laptop Keyboards) (Linux)
+
+### Disabled Devices
+
+The following devices have support in OpenRGB but this support is currently disabled due to unimplemented detection or bricking risk.
+
+### Motherboard RGB Systems
+
+* [MSI Mystic Light](MSI-Mystic-Light)
+* Gigabyte Aorus RGB Fusion 2.0 (SMBus) (EXPERIMENTAL)
+    * Disabled by default because we don't have appropriate detection code yet, and it has an address conflict that could brick Z390 Aorus boards.
+    * Uncomment DetectRGBFusion2SMBusControllers call in OpenRGB.cpp if you wish to use.
+    * ONLY run this on supported motherboards!!!!!
+
+### RGB RAM Modules
+
+* [Gigabyte Aorus RGB RAM (Partial support)](Gigabyte-RGB-Fusion-2.0-DRAM)
