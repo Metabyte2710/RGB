@@ -22,18 +22,28 @@ The Detector files are kept in the Controllers/ folder.
 
 # RGBController
 
-OpenRGB uses an internal API called RGBController to standardize the interface to RGB devices from multiple vendors and classes.  This API uses vectors to describe each device.
+OpenRGB uses an internal API called RGBController to standardize the interface to RGB devices from multiple vendors and categories.  This API uses vectors to describe each device.  This API is implemented as an RGBController class that is inherited by each implementation, for example the RGBController_CorsairPeripheral is defined like so:
 
-The RGBController specification contains the following:
+```
+#include "RGBController.h"
+
+class RGBController_CorsairPeripheral : public RGBController
+{
+```
+
+The RGBController class specification contains the following:
+
   * Device Name
-  * Device Type (enum)
   * Device Description
   * Device Version
-  * Device Location
   * Device Serial
-  * Vector of Modes
+  * Device Location
   * Vector of LEDs
+  * Vector of Zones
+  * Vector of Modes
   * Vector of Colors (32-bit 0x00BBGGRR format)
+  * Device Type (enum)
+  * Active mode index
 
 ### Device Types
 
