@@ -68,7 +68,6 @@ The LED structure contains information about an LED.
   * LED Value
 
 The Value has no defined functionality in the RGBController API and is provided for implementation-specific use.  You can use this field to associate implementation-specific data with an LED.
-### Device Types
 
 ## Zones
 
