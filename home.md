@@ -52,7 +52,3 @@ There have been two instances of hardware damage in OpenRGB's development and we
 ## Contributing
 
 * Want to contribute support for a new device?  Check out the [RGBController API](The-RGBController-API) page for documentation of how OpenRGB implements device control.
-
-## Supported Devices
-
-* The supported devices list was getting long and has moved to its own page: [Supported Devices](Supported-Devices)
