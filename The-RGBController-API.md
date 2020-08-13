@@ -140,6 +140,17 @@ The mode flags field is a bitfield that contains information about what features
 | 6              | Mode has mode specific color settings            |
 | 7              | Mode has random color option                     |
 
+The mode minimum and maximum speed fields should be set to the implementation-specific minimum and maximum speed values for the given mode if the mode supports speed control.  The mode speed value field will be set between the minimum and maximum value, inclusively.  The minimum speed may be a greater numerical value than the maximum speed if your device's speed adjustment is inverted (usually because the device takes a delay period rather than a speed value).
+
+The mode minimum and maximum number of colors fields should be used if the mode supports mode-specific color settings.  These determine the size range of the mode's Colors vector.  If the mode has a fixed number of colors, the minimum and maximum should be equal.  Mode-specific colors are used when a mode has one or more configurable colors but these colors do not apply directly to individual LEDs.  Example would be a breathing mode that cycles between one or more colors each breath pulse.  A mode may have multiple color options available, for instance a breathing mode that can either use one or more defined colors or just cycle through random colors.  The available color modes for a given mode are set with the flags.  The selected color mode is set using the color mode field, which can be one of the following values.
+
+| Color Mode Value | Description                                                                                       |
+| ---------------- | ------------------------------------------------------------------------------------------------- |
+| 0                | None - this mode does not have configurable colors                                                |
+| 1                | Per-LED - this mode uses the RGBController's colors vector to set each LED to its specified color |
+| 2                | Mode Specific - this mode has one or more configurable colors, but not individual LED control     |
+| 3                | Random - this mode can be switched to a random or cycling color palette                           |
+
 ## Functions
 
 ### `int GetMode()`
