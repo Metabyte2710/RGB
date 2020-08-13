@@ -97,6 +97,18 @@ The zone type enum defines the zone type.  This describes the physical layout of
 | 1               | Linear (1D) |
 | 2               | Matrix (2D) |
 
+### Matrix Map
+
+Each zone has a matrix map pointer which allows an optional matrix map to be associated with the zone.  The matrix map is used to provide positioning information about LEDs in a 2D grid.  If a matrix map is not provided for a zone, the zone's matrix map pointer must be set to NULL.
+
+A matrix map has the following:
+
+  * Height
+  * Width
+  * Map data pointer
+
+The height and width determine the size of the map data.  The map data pointer should point to a data block of (Height * Width) unsigned 32-bit integers.  This data can be accessed as if it were a Map[Y][X] 2D array.  The values of the map are LED index values in the zone (so offset by Start Index from the RGBController's LEDs vector).  If a spot in the matrix is unused and does not map to an LED, it should be set to 0xFFFFFFFF.
+
 ## Modes
 
 Modes represent internal effects and have a name field that describes the effect.  The mode's index in the vector is its ID.
