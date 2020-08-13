@@ -45,7 +45,7 @@ The RGBController class specification contains the following:
   * Device Type (enum)
   * Active mode index
 
-### Device Types
+### Device Type Values
 
 | Device Type Value | Description   |
 | ----------------- | ------------- |
@@ -60,11 +60,47 @@ The RGBController class specification contains the following:
 | 8                 | Headset       |
 | 9                 | Headset Stand |
 
+## LEDs
+
+The LED structure contains information about an LED.
+
+  * LED Name
+  * LED Value
+
+The Value has no defined functionality in the RGBController API and is provided for implementation-specific use.  You can use this field to associate implementation-specific data with an LED.
+### Device Types
+
+## Zones
+
+The Zone structure contains information about a zone.  A zone is a logical grouping of LEDs defined by the RGBController implementation.  LEDs in a zone must be contiguous in the RGBController's LEDs/Colors vectors.
+
+  * Zone Name
+  * Zone Type
+  * LED pointer
+  * Color pointer
+  * Start Index
+  * LED Count
+  * Minimum number of LEDs
+  * Maximum number of LEDs
+  * Matrix map pointer
+
+The LED pointer and Color pointer point to the first LED/Color in the RGBController's LEDs/Colors vector associated with this zone.  The Start Index is the index to the same LED/Color in the vectors.
+
+The LED count is the number of LEDs in the zone.  For zones with a fixed number of LEDs, the count, min, and max values should all be equal.  For zones with a user-adjustable number of LEDs, the count should be between the min and max values, inclusively.  User-adjustable zones are most commonly used to represent addressable RGB (ARGB) controllers as the number of LEDs depends on what strips/devices are attached to the ARGB headers.  The ResizeZone function in the RGBController API is used to resize the number of LEDs in the zone.
+
+### Zone Types
+
+The zone type enum defines the zone type.  This describes the physical layout of the zone and can be used by software to generate appropriate effects for the zone.
+
+| Zone Type Value | Description |
+| --------------- | ----------- |
+| 0               | Single      |
+| 1               | Linear (1D) |
+| 2               | Matrix (2D) |
+
+## Modes
+
 Modes represent internal effects and have a name field that describes the effect.  The mode's index in the vector is its ID.
-
-Zones describe a group of LEDs.  Zones have one of three types - single, linear, and matrix.  Single zones are zones which only have one controllable LED channel and are thus all one color.  Linear zones represent rows or strips of LEDs where each LED can be its own color.  Matrix zones represent grids of LEDs.  Each zone contains a zone map which is a vector of vectors.  This represents rows and columns, with the data points in the vector being LED indices.
-
-LEDs each have a name and their index in the LEDs vector matches with the index used in the zone map.
 
 ## Functions
 
