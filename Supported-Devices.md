@@ -77,8 +77,6 @@ If you have a project or product that is compatible with OpenRGB, you may use th
     * MSI GeForce RTX 2060 Super ARMOR OC
     * MSI GeForce RTX 2070 ARMOR
     * MSI GeForce RTX 2080Ti Sea Hawk EK X
-* [Sapphire Nitro Glow V1](Sapphire-Nitro-Glow-V1) (Not yet enabled)
-    * Sapphire RX580 Nitro+
 
 ### LED Strip and Fan Controllers
 
@@ -249,7 +247,7 @@ If you have a project or product that is compatible with OpenRGB, you may use th
 
 * Faustus (ASUS TUF Laptop Keyboards) (Linux)
 
-### Disabled Devices
+# Disabled Devices
 
 The following devices have support in OpenRGB but this support is currently disabled due to unimplemented detection or bricking risk.
 
@@ -264,3 +262,8 @@ The following devices have support in OpenRGB but this support is currently disa
 ### RGB RAM Modules
 
 * [Gigabyte Aorus RGB RAM (Partial support)](Gigabyte-RGB-Fusion-2.0-DRAM)
+
+### Graphics Cards
+
+* [Sapphire Nitro Glow V1](Sapphire-Nitro-Glow-V1) (Not yet enabled)
+    * Sapphire RX580 Nitro+
