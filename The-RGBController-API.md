@@ -28,22 +28,22 @@ Zones describe a group of LEDs.  Zones have one of three types - single, linear,
 
 LEDs each have a name and their index in the LEDs vector matches with the index used in the zone map.
 
-# Functions
+## Functions
 
-## `int GetMode()`
+### `int GetMode()`
 Returns the currently enabled mode of the device.  The returned int should line up with the Modes vector.
 
-## `void SetMode(int mode)`
+### `void SetMode(int mode)`
 Sets the mode of the device.  The mode should be the index in the Modes vector of the mode you wish to set.
 
-## `void SetCustomMode()`
+### `void SetCustomMode()`
 When called, the device should be put into its software-controlled mode.  This differs between devices, but generally devices have a direct control or static effect mode.  Ideally, this mode should not save to the device's internal Flash.  This function sets up a device for software effect control.
 
-## `void UpdateLEDs()`
+### `void UpdateLEDs()`
 Update all LEDs based on the device's `colors` vector.
 
-## `void UpdateZoneLEDs(int zone)`
+### `void UpdateZoneLEDs(int zone)`
 Update all LEDs in the given zone based on the device's `colors` vector.
 
-## `void UpdateSingleLED(int led)`
+### `void UpdateSingleLED(int led)`
 Update a single LED based on the device's `colors` vector.
