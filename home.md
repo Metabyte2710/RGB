@@ -13,6 +13,10 @@ One of the biggest complaints about RGB is the software ecosystem surrounding it
 * View device information
 * No official/manufacturer software required
 
+## Supported Devices
+
+* The supported devices list was getting long and has moved to its own page: [Supported Devices](Supported-Devices)
+
 ## WARNING!
 
 This project interacts directly with hardware using reverse engineered protocols. While we do our best to make sure we're sending the right data, there is always some risk in sending data to hardware when we don't understand exactly how that hardware works.
