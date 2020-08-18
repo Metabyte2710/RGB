@@ -104,6 +104,8 @@ If you have a project or product that is compatible with OpenRGB, you may use th
 ### Fans and Coolers
 
 * [AMD Wraith Prism](AMD-Wraith-Prism)
+* [Corsair Hydro Series](Corsair-Hydro-Series)
+  * Corsair H100i PRO RGB
 * [NZXT Kraken X42/X52/X62/X72](NZXT-Kraken)
 
 ### Keyboards
