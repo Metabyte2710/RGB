@@ -5,6 +5,7 @@ Corsair Hydro Series is a line of all-in-one water cooling devices sold by Corsa
 | USB VID | USB PID | Device Name           |
 | ------- | ------- | --------------------- |
 | 0x1B1C  | 0x0C15  | Corsair H100i PRO RGB |
+| 0x1B1C  | 0x0C13  | Corsair H115i PRO RGB |
 
 # Protocol
 
