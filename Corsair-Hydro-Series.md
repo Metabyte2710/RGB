@@ -9,7 +9,14 @@ Corsair Hydro Series is a line of all-in-one water cooling devices sold by Corsa
 
 # Protocol
 
-The protocol uses USB bulk transfers.
+The protocol uses USB bulk transfers, but before any bulk operations can be performed it must be initialized using a control transfer.
+
+## Initialization
+
+```
+    libusb_control_transfer( dev, 0x40, 0x00, 0xffff, 0x0000, NULL, 0, 0 );
+    libusb_control_transfer( dev, 0x40, 0x02, 0x0002, 0x0000, NULL, 0, 0 );
+```
 
 ## Firmware Request
 
