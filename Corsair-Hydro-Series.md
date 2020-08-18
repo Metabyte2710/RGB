@@ -31,3 +31,42 @@ Response size: 7 bytes
 | 0x06       | Z     |
 
 Firmware string should be formatted as W.X.Y.Z
+
+## RGB Control - Set Rainbow Mode
+
+Request size: 2 bytes
+
+| Byte Index | Value        |
+| ---------- | ------------ |
+| 0x00       | 0x53         |
+| 0x01       | Effect Speed |
+
+Effect speeds
+
+| Value | Description |
+| ----- | ----------- |
+| 0x30  | Slow        |
+| 0x18  | Medium      |
+| 0x0C  | Fast        |
+
+Response size: 3 bytes
+
+## RGB Control - Set Shift Mode
+
+## RGB Control - Set Pulse Mode
+
+## RGB Control - Set Blinking Mode
+
+## RGB Control - Set Fixed Mode
+
+Request size: 2 + (3 * [Color count])
+
+| Byte Index | Value        |
+| ---------- | ------------ |
+| 0x00       | 0x56         |
+| 0x01       | Color count  |
+| 0x02       | Red          |
+| 0x03       | Green        |
+| 0x04       | Blue         |
+
+Response size: 3 bytes
