@@ -29,9 +29,7 @@ There have been two instances of hardware damage in OpenRGB's development and we
 
 ## Screenshots
 
-![OpenRGB_new_icons](uploads/0ef8eb3936fe715217e7e3430c0aae18/OpenRGB_new_icons.PNG)
-
-![OpenRGB_0.11_with_SDK_server](uploads/cedf17f8ae30f8b95703e705c357366a/OpenRGB_0.11_with_SDK_server.PNG)
+![OpenRGB_0.31_Device_View](uploads/e1d8d4603ecdd04f1acbcf6b2314fc66/OpenRGB_0.31_Device_View.PNG)
 
 ## Join Our Discord
 
