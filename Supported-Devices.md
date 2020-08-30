@@ -32,7 +32,8 @@ If you have a project or product that is compatible with OpenRGB, you may use th
     * Gigabyte TRX40 Aorus Master
     * Gigabyte Z390 Aorus Ultra
 * [ASRock Polychrome RGB](ASRock-Polychrome-RGB)
-    * ASRock Steel Legend B450M
+    * ASRock B450 Steel Legend
+    * ASRock B450M Steel Legend
     * ASRock Fatal1ty B350 Gaming-ITX/ac
     * ASRock B450M/ac
     * ASRock X570 Taichi
