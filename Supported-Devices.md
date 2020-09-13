@@ -166,11 +166,30 @@ If you have a project or product that is compatible with OpenRGB, you may use th
 * Glorious Model O
 * [Logitech Mice](Logitech-G203)
     * Logitech G203 Prodigy
+    * Logitech G203 Lightsync
     * Logitech G403 Prodigy
+    * Logitech G403 Hero
+    * Logitech G502 Proteus Spectrum
+    * Logitech G502 Hero
+    * Logitech G Lightspeed Wireless Gaming Mouse
+    * Logitech G Pro Wireless Gaming Mouse (Wired)
+    * Logitech G Powerplay Mousepad with Lightspeed"
 * [Redragon Mice](Redragon-M711-Cobra)
     * Redragon M711 Cobra
     * Redragon M715 Dagger
-* SteelSeries Rival 100 and 300 series
+* SteelSeries Mice
+    * SteelSeries Rival 100
+    * SteelSeries Rival 100 DotA 2 Edition
+    * SteelSeries Rival 105
+    * SteelSeries Rival 110
+    * SteelSeries Rival 300
+    * Acer Predator Gaming Mouse (Rival 300)
+    * SteelSeries Rival 300 CS:GO Fade Edition
+    * SteelSeries Rival 300 CS:GO Fade Edition (stm32)
+    * SteelSeries Rival 300 CS:GO Hyperbeast Edition
+    * SteelSeries Rival 300 DotA 2 Edition
+    * SteelSeries Rival 300 HP Omen Edition
+    * SteelSeries Rival 300 Black Ops Edition
 
 ### Mousemats
 
