@@ -63,6 +63,8 @@ If you have a project or product that is compatible with OpenRGB, you may use th
 * [ASUS Aura GPUs](Asus-Aura-GPU)
     * ASUS ROG Strix RX580
     * ASUS ROG Strix GTX1080Ti
+* [EVGA GPUs](EVGA-GPU)
+    * EVGA GeForce GTX 1070 FTW
 * [Galax GPUs](Galax-GPUs)
     * Galax KFA2 RTX2070
 * [Gigabyte Aorus RGB Fusion GPUs](Gigabyte-RGB-Fusion-GPU)
