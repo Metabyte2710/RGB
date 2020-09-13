@@ -151,7 +151,11 @@ If you have a project or product that is compatible with OpenRGB, you may use th
     * Tecware Phantom Elite
     * Warrior Kane TC235
 * SteelSeries Keyboards
+    * SteelSeries Apex 5
     * SteelSeries Apex 7
+    * SteelSeries Apex 7 TKL
+    * SteelSeries Apex Pro
+    * SteelSeries Apex Pro TKL
 * [TTEsports Poseidon Z RGB](Thermaltake-Poseidon-Z-RGB)
 
 ### Mice
