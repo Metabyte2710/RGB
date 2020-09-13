@@ -1,6 +1,8 @@
-Some EVGA graphics cards have an RGB controller that enumerates on the GPU I2C bus at address 0x49.  This controller uses basic chip addressing and exposes registers for RGB control.
+Some EVGA graphics cards have an RGB controller that enumerates on the GPU I2C bus at address 0x49.  This controller uses basic chip addressing and exposes registers for RGB control.  There are multiple generations of EVGA controller with different register layouts.
 
-# Registers
+# EVGA RGB v1 (Pascal)
+
+## Registers
 
 | Register Address | Description |
 | ---------------- | ----------- |
@@ -9,7 +11,7 @@ Some EVGA graphics cards have an RGB controller that enumerates on the GPU I2C b
 | 0x0B             | Blue        |
 | 0x0C             | Mode        |
 
-# Modes
+## Modes
 
 | Mode Value | Description |
 | ---------- | ----------- |
@@ -17,3 +19,5 @@ Some EVGA graphics cards have an RGB controller that enumerates on the GPU I2C b
 | 0x01       | Static      |
 | 0x02       | Rainbow     |
 | 0x05       | Breathing   |
+
+# EVGA RGB v2 (Turing)
