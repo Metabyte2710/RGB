@@ -2,6 +2,12 @@ Some EVGA graphics cards have an RGB controller that enumerates on the GPU I2C b
 
 # EVGA RGB v1 (Pascal)
 
+## Supported Cards
+
+| PCI Vendor | PCI Device | PCI Sub-Vendor | PCI Sub-Device | Card Name                 |
+| ---------- | ---------- | -------------- | -------------- | ------------------------- |
+| 0x10DE     | 0x1B81     | 0x3842         | 0x6276         | EVGA GeForce GTX 1070 FTW |
+
 ## Registers
 
 | Register Address | Description |
@@ -21,6 +27,12 @@ Some EVGA graphics cards have an RGB controller that enumerates on the GPU I2C b
 | 0x05       | Breathing   |
 
 # EVGA RGB v2 (Turing)
+
+## Supported Cards
+
+| PCI Vendor | PCI Device | PCI Sub-Vendor | PCI Sub-Device | Card Name                       |
+| ---------- | ---------- | -------------- | -------------- | ------------------------------- |
+| 0x10DE     | 0x1E87     | 0x3842         | 0x2182         | EVGA GeForce RTX 2080 XC GAMING |
 
 ## Registers
 
