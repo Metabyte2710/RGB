@@ -7,3 +7,17 @@ Since Windows does not provide useful SMBus drivers, we need to provide our own 
 Some chipsets (such as the AMD X370) have multiple SMBus interfaces.  During our reverse engineering efforts, we discovered that there were two identical register sets at 0x0B00 and 0x0B20 on the X370, with the RAM SMBus on 0x0B00 and the motherboard RGB controller attached to the secondary SMBus on 0x0B20.  The Linux driver didn't see this second bus but a quick kernel change later and it was working.  Luckily on our user-space Windows driver we can just edit the base register address to talk to both buses.
 
 Intel chipsets appear to only have a single SMBus interface.  This interface is used to communicate with the RAM on all motherboards.  In Asus' case, they decided to use the SMBus controller built into the Nuvoton Super I/O chip for the motherboard Aura controller.  Unfortunately, Linux does not provide drivers for the SMBus interface on the Super IO controller, so I wrote a new driver from scratch using information from the datasheet.  This driver works on Windows and is provided as a kernel patch for Linux.
+
+# Known SMBus Topologies
+
+## ASUS (without ARGB), ASRock AMD Motherboards
+
+![image](uploads/e337ba9e2b3de9c0a2216ebb06fbbcca/image.png)
+
+## ASUS (without ARGB) Intel Motherboards
+
+![image](uploads/91c3bb3b690b290fae2a26a2d78ecf1a/image.png)
+
+## Gigabyte AMD Motherboards
+
+![image](uploads/feaa3efb97fde27236baacd5ab3cf127/image.png)
