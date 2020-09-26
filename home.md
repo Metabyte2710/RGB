@@ -35,6 +35,10 @@ There have been two instances of hardware damage in OpenRGB's development and we
 
 * https://discord.gg/AQwjJPY
 
+## Visit Our Subreddit
+
+* https://www.reddit.com/r/OpenRGB
+
 ## How-Tos and FAQs
 
 * [Windows Setup and Usage](OpenRGB-Windows-Setup-and-Usage)
