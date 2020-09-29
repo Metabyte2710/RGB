@@ -31,6 +31,8 @@ class RGBController_CorsairPeripheral : public RGBController
 {
 ```
 
+The RGBController files for a controller implementation are kept in the Controllers/ folder alongside the Controller and Detector files.
+
 The RGBController class specification contains the following:
 
   * Device Name
