@@ -15,6 +15,7 @@ If you have a project or product that is compatible with OpenRGB, you may use th
     * ASUS PRIME Z370-A
     * ASUS ROG Crosshair VI Hero
     * ASUS ROG STRIX X399-E Gaming
+    * ASUS ROG Strix B350-F Gaming
     * ASUS ROG Strix B450-F Gaming
     * ASUS ROG Strix Z370-E
     * ASUS TUF B450 Plus Gaming
