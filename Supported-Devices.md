@@ -141,6 +141,7 @@ If you have a project or product that is compatible with OpenRGB, you may use th
     * HyperX Alloy Elite
     * HyperX Alloy Origins
 * [Logitech RGB Keyboards](Logitech-Keyboards)
+    * Logitech G213
     * Logitech G512
     * Logitech G810 Orion Spectrum
 * [MSI Steelseries 3-Zone Keyboard](MSI-3-Zone-Keyboard)
