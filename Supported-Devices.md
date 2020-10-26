@@ -200,6 +200,7 @@ If you have a project or product that is compatible with OpenRGB, you may use th
 
 * [Cooler Master MP750](Cooler-Master-MP750)
 * Corsair MM800 Polaris
+* HyperX Fury Ultra
 
 ### Game Controlers
 
