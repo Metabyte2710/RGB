@@ -164,7 +164,9 @@ If you have a project or product that is compatible with OpenRGB, you may use th
 ### Mice
 
 * ASUS Mice
+    * ROG Gladius II
     * ROG Gladius II Core
+    * ROG Gladius II Origin
 * [Corsair Mice](Corsair-Peripheral-Protocol)
     * Corsair M65 RGB PRO
     * Corsair M65 RGB Elite
