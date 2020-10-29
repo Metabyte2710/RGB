@@ -84,6 +84,8 @@ If you have a project or product that is compatible with OpenRGB, you may use th
     * MSI GeForce RTX 2080Ti Sea Hawk EK X
 * [Sapphire Nitro Glow V1](Sapphire-Nitro-Glow-V1)
     * Sapphire RX580 Nitro+
+* [Sapphire Nitro Glow V2](Sapphire-Nitro-Glow-V2)
+* [Sapphire Nitro Glow V3](Sapphire-Nitro-Glow-V3)
 
 ### LED Strip and Fan Controllers
 
