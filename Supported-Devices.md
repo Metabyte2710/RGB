@@ -110,6 +110,12 @@ If you have a project or product that is compatible with OpenRGB, you may use th
     * [WLED](https://github.com/Aircoookie/WLED)
 * [Thermaltake Riing Plus](Thermaltake-Riing)
 
+### Lights
+
+* Philips Hue (WIP, philips_hue_development branch)
+* Philips Wiz
+* Espurna (https://github.com/xoseperez/espurna)
+
 ### Fans and Coolers
 
 * [AMD Wraith Prism](AMD-Wraith-Prism)
