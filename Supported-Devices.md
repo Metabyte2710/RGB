@@ -153,6 +153,7 @@ If you have a project or product that is compatible with OpenRGB, you may use th
 * [Logitech RGB Keyboards](Logitech-Keyboards)
     * Logitech G213
     * Logitech G512
+    * Logitech G610
     * Logitech G810 Orion Spectrum
 * [MSI Steelseries 3-Zone Keyboard](MSI-3-Zone-Keyboard)
     * MSI GS63VR
