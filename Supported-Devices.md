@@ -194,6 +194,8 @@ If you have a project or product that is compatible with OpenRGB, you may use th
 * [Redragon Mice](Redragon-M711-Cobra)
     * Redragon M711 Cobra
     * Redragon M715 Dagger
+* Roccat Mice
+    * Roccat Kone Aimo
 * SteelSeries Mice
     * SteelSeries Rival 100
     * SteelSeries Rival 100 DotA 2 Edition
