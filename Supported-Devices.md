@@ -26,6 +26,7 @@ If you have a project or product that is compatible with OpenRGB, you may use th
     * ASUS X570 Motherboards
 * [Gigabyte Aorus RGB Fusion 1.0](Gigabyte-RGB-Fusion-1.0)
     * Gigabyte Aorus X370 Gaming 5
+* Gigabyte Aorus RGB Fusion 2.0 (SMBus)
 * Gigabyte Aorus RGB Fusion 2.0 (USB)
     * Gigabyte X570 Aorus Extreme
     * Gigabyte X570 Aorus Master
@@ -104,6 +105,7 @@ If you have a project or product that is compatible with OpenRGB, you may use th
     * Corsair LS100 Lighting Kit
     * Corsair 1000D Obsidian
     * Corsair SPEC OMEGA RGB
+    * Corsair LT100
     * [Corsair Lighting Protocol (Arduino)](https://github.com/Legion2/CorsairLightingProtocol)
 * [Keyboard Visualizer Arduino LED strips](Keyboard-Visualizer-LED-Strips)
 * [E1.31 Streaming ACN Protocol](E1.31)
@@ -122,7 +124,8 @@ If you have a project or product that is compatible with OpenRGB, you may use th
 * [AMD Wraith Prism](AMD-Wraith-Prism)
 * [Corsair Hydro Series](Corsair-Hydro-Series)
   * Corsair H100i PRO RGB
-* [NZXT Kraken X42/X52/X62/X72](NZXT-Kraken)
+* [NZXT Kraken Xx2](NZXT-Kraken)
+* [NZXT Kraken Xx3](NZXT-Hue-2)
 
 ### Keyboards
 
@@ -308,10 +311,6 @@ The following devices have support in OpenRGB but this support is currently disa
 ### Motherboard RGB Systems
 
 * [MSI Mystic Light](MSI-Mystic-Light)
-* Gigabyte Aorus RGB Fusion 2.0 (SMBus) (EXPERIMENTAL)
-    * Disabled by default because we don't have appropriate detection code yet, and it has an address conflict that could brick Z390 Aorus boards.
-    * Uncomment DetectRGBFusion2SMBusControllers call in OpenRGB.cpp if you wish to use.
-    * ONLY run this on supported motherboards!!!!!
 
 ### RGB RAM Modules
 
