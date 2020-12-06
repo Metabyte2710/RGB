@@ -96,3 +96,21 @@ sudo udevadm trigger
 GPU support in OpenRGB is already limited to a handful of ASUS and Gigabyte cards, but Linux poses an additional problem for AMD GPU users.  AMD's drivers do not expose the GPU's on-board i2c bus, only those for the display connectors.  GitHub user [twifty](https://github.com/twifty) has been working on a driver for the AMD GPU i2c bus.  It appears to work on Polaris cards but not Vega or Navi cards at the moment.  It requires patching your kernel.  I have not tested it personally, but I know other users have had it working with OpenRGB for certain ASUS Aura enabled GPUs.
 
 https://github.com/twifty/aura-gpu
+
+### Can I set up OpenRGB as a systemd service?
+
+Yes, use this configuration file, provided in https://gitlab.com/CalcProgrammer1/OpenRGB/-/issues/202:
+
+```
+[Unit]
+Description=OpenRGB control
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/openrgb -c 080808 -m Direct
+User=nobody
+Group=i2c
+
+[Install]
+WantedBy=multi-user.target
+```
