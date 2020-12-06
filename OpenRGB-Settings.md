@@ -53,8 +53,8 @@ Example:
 ### `E131Devices` - E1.31 Device Configuration
 * `devices` - List of device definitions.  See [E1.31 wiki page](E1.31) for details.
 
-### `LEDStripDevices`
-* `devices` - List of device definitions.
+### `LEDStripDevices` - Serial LED Strip Controller Configuration
+* `devices` - List of device definitions.  See [LED Strip wiki page](Keyboard-Visualizer-LED-Strips) for details.
 
 ### `EspurnaDevices` - Espurna Device Configuration
 * `devices` - List of device definitions.
