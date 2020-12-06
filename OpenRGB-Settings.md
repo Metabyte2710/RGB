@@ -50,5 +50,5 @@ Example:
 }
 ```
 
-### `E131Devices` [(E1.31 Device Configuration)](E1.31)
-* `devices` - List of device definitions.  See E1.31 wiki page for details.
+### `E131Devices` - E1.31 Device Configuration
+* `devices` - List of device definitions.  See [E1.31 wiki page](E1.31) for details.
