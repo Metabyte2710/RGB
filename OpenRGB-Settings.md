@@ -57,7 +57,7 @@ Example:
 * `devices` - List of device definitions.  See [LED Strip wiki page](Keyboard-Visualizer-LED-Strips) for details.
 
 ### `EspurnaDevices` - Espurna Device Configuration
-* `devices` - List of device definitions.
+* `devices` - List of device definitions.  See [Espurna wiki page](Espurna) for details.
 
 ### `PhilipsWizDevices` - Philips Wiz Device Configuration
 * `devices` - List of device definitions.  See [Philips Wiz wiki page](Philips-Wiz) for details.
