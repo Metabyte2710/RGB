@@ -50,7 +50,5 @@ Example:
 }
 ```
 
-### `E131Devices` [E1.31](E1.31)
-* `devices` - List of device definitions
-  * `name` - String, name of device
-  * `num_leds` - Number, number of RGB LEDs on device
+### `E131Devices` [(E1.31 Device Configuration)](E1.31)
+* `devices` - List of device definitions.  See E1.31 wiki page for details.
