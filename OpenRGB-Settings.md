@@ -60,4 +60,4 @@ Example:
 * `devices` - List of device definitions.
 
 ### `PhilipsWizDevices` - Philips Wiz Device Configuration
-* `devices` - List of device definitions.
+* `devices` - List of device definitions.  See [Philips Wiz wiki page](Philips-Wiz) for details.
