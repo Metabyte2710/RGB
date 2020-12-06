@@ -184,6 +184,8 @@ If you have a project or product that is compatible with OpenRGB, you may use th
     * Corsair M65 RGB PRO
     * Corsair M65 RGB Elite
 * Glorious Model O
+* HyperX Mice
+    * HyperX Pulsefire Surge
 * [Logitech Mice](Logitech-G203)
     * Logitech G203 Prodigy
     * Logitech G203 Lightsync
