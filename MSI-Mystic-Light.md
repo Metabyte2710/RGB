@@ -2,7 +2,13 @@ MSI Mystic Light is a marketing name for a line of motherboards with lighting co
 
 There appears to be multiple variations/generations of this system.  All of the Mystic Light implementations are based around Nuvoton microcontrollers.  The different variations use different length packets for the main configuration data.
 
+# !WARNING!
+
+Mystic Light controllers are fairly easy to brick!  A malformed configuration packet will save an invalid configuration to the controller's non-volatile memory.  This invalid configuration can cause the controller to fail to initialize the USB interface on its next power cycle, which means the rest of the system is unable to control it.  Luckily, MSI exposed the controller's debug interface on the JT1 header.  You can recover the bricked controller by erasing the Data Storage region using an external programming adapter (Nuvoton Nu-Link with NuMicro Programmer software).
+
 # Common Packets
+
+These packets are 64 bytes in size and use HID reads and writes.
 
 ## Request Firmware Version (APROM)
 
@@ -42,6 +48,8 @@ Firmware version high value is most significant 4 bits, low value is least signi
 
 # Configuration Packet V1 (162 Byte)
 
+This packet is 162 bytes in size and uses feature report get/set.
+
 This packet contains data for all the motherboard headers and zones.
 
 | Byte Count | Description                        |
@@ -66,6 +74,8 @@ This packet contains data for all the motherboard headers and zones.
 | 1          | Save Data Flag                     |
 
 # Configuration Packet V2 (185 Byte)
+
+This packet is 185 bytes in size and uses feature report get/set.
 
 This packet contains data for all the motherboard headers and zones.
 
