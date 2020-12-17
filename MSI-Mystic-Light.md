@@ -145,10 +145,24 @@ This sub-packet represents a Corsair zone
 | 0x08       | Padding (0x00)   |
 | 0x09       | Is Individual?   |
 
+# Flags
 
+## Speed/Brightness Flags
 
+Speed ranges from 0-2, Brightness ranges from 0-10.
 
+This is an 8-bit flag value with the following format:
 
+| Bit | Description      |
+| --- | ---------------- |
+| 0   | Speed Bit 0      |
+| 1   | Speed Bit 1      |
+| 2   | Brightness Bit 0 |
+| 3   | Brightness Bit 1 |
+| 4   | Brightness Bit 2 |
+| 5   | Brightness Bit 3 |
+| 6   |                  |
+| 7   |                  |
 
 MSI Mystic Light enabled motherboards (MSI MEG X570 described here) use a USB HID based controller that enumerates at 1462:7c35.  The protocol uses set reports with length of 265 bytes each.
 
