@@ -1,6 +1,10 @@
 MSI Mystic Light is a marketing name for a line of motherboards with lighting controllers from MSI.  These boards use a USB controller with VID 1462.
 
-# Request Firmware Version (APROM)
+There appears to be multiple variations/generations of this system.  All of the Mystic Light implementations are based around Nuvoton microcontrollers.  The different variations use different length packets for the main configuration data.
+
+# Common Packets
+
+## Request Firmware Version (APROM)
 
 | Byte Index | Description |
 | ---------- | ----------- |
@@ -8,7 +12,7 @@ MSI Mystic Light is a marketing name for a line of motherboards with lighting co
 | 0x01       | 0xB0        |
 | 0x02-0x61  | 0xCC        |
 
-## Response
+### Response
 
 | Byte Index | Description      |
 | ---------- | ---------------- |
@@ -18,7 +22,7 @@ MSI Mystic Light is a marketing name for a line of motherboards with lighting co
 
 Firmware version high value is most significant 4 bits, low value is least significant 4 bits.  Display as \<high value\>.\<low value\>.
 
-# Request Firmware Version (LDROM)
+## Request Firmware Version (LDROM)
 
 | Byte Index | Description |
 | ---------- | ----------- |
@@ -26,7 +30,7 @@ Firmware version high value is most significant 4 bits, low value is least signi
 | 0x01       | 0xB6        |
 | 0x02-0x61  | 0xCC        |
 
-## Response
+### Response
 
 | Byte Index | Description      |
 | ---------- | ---------------- |
@@ -36,7 +40,32 @@ Firmware version high value is most significant 4 bits, low value is least signi
 
 Firmware version high value is most significant 4 bits, low value is least significant 4 bits.  Display as \<high value\>.\<low value\>.
 
-# Main Feature Packet
+# Configuration Packet V1 (162 Byte)
+
+This packet contains data for all the motherboard headers and zones.
+
+| Byte Count | Description                        |
+| ---------- | ---------------------------------- |
+| 1          | Report ID, 0x52                    |
+| 10         | Zone Data for J_RGB_1              |
+| 10         | Zone Data for J_RAINBOW_1          |
+| 10         | Zone Data for J_CORSAIR            |
+| 10         | Zone Data for J_CORSAIR_OUTERLL120 |
+| 10         | Zone Data for On-Board LED 0       |
+| 10         | Zone Data for On-Board LED 1       |
+| 10         | Zone Data for On-Board LED 2       |
+| 10         | Zone Data for On-Board LED 3       |
+| 10         | Zone Data for On-Board LED 4       |
+| 10         | Zone Data for On-Board LED 5       |
+| 10         | Zone Data for On-Board LED 6       |
+| 10         | Zone Data for On-Board LED 7       |
+| 10         | Zone Data for On-Board LED 8       |
+| 10         | Zone Data for On-Board LED 9       |
+| 10         | Zone Data for On-Board LED 10      |
+| 10         | Zone Data for J_RGB_2              |
+| 1          | Save Data Flag                     |
+
+# Configuration Packet V2 (185 Byte)
 
 This packet contains data for all the motherboard headers and zones.
 
