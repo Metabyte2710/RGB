@@ -4,6 +4,8 @@ For users that suspend their PC and have devices that *don't* have a flash to re
 
 Detailed below are copy and pastable instructions for Windows and linux systemd based distributions.
 
+[[_TOC_]]
+
 ## Adding the Task
 
 ### Adding to Linux
