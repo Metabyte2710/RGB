@@ -11,6 +11,7 @@ There are several effects that are pretty common across many brands and vendors 
 | Direct            | Direct mode is a mode that allows setting individual LEDs to static colors that does not fade or flicker upon color changes and does not save the updated colors to device memory.  Used for effect engine software to rapidly update the LEDs for PC software driven effects.  Some devices require a continuous packet stream to remain in direct mode, otherwise they revert to built-in effects. | |
 | Custom            | Custom mode is a mode that allows setting individual LEDs to static colors, but does not meet the criteria for being a Direct mode.  This means it either flickers, fades, or saves to device memory.  Generally unsuitable for effect engine software. | |
 | Static            | Static mode is a mode that sets the entire device or device zones, but not individual LEDs, to a static color.  This mode may fade or flicker and may save to device memory. | |
-| Breathing         | |
-| Spectrum Cycle    | |
-| Rainbow Wave      | |
+| Breathing         | Light gradually fades from fully off to fully on over some period of time and then gradually fades back to fully off. | |
+| Flashing          | Light abruptly changes from fully off to fully on instantly, then instantly turns back off after a period of time. | |
+| Spectrum Cycle    | Light gradually cycles through the entire color spectrum.  All lights on the device are the same color. | |
+| Rainbow Wave      | Light gradually cycles through the entire color spectrum.  Lights are staggered as to produce a rainbow pattern that moves. | |
