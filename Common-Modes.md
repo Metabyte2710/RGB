@@ -15,3 +15,4 @@ There are several effects that are pretty common across many brands and vendors 
 | Flashing          | Light abruptly changes from fully off to fully on instantly, then instantly turns back off after a period of time. | |
 | Spectrum Cycle    | Light gradually cycles through the entire color spectrum.  All lights on the device are the same color. | |
 | Rainbow Wave      | Light gradually cycles through the entire color spectrum.  Lights are staggered as to produce a rainbow pattern that moves. | |
+| Reactive          | Generally only available on input devices, this is a mode that lights one or more LEDs when an input (key, mouse button, etc) is pressed. | |
