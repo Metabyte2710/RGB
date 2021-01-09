@@ -14,6 +14,8 @@ The following support tables use the following symbols to indicate levels of sup
 | :warning:          | YES                      | NO/PARTIAL                |
 | :x:                | NO                       | NO                        |
 
+# Supported Device List
+
 ### Motherboard RGB Systems
 
 | Device                                                   | Verified Products                                                                                                                                                                                                                                                                                                                                                                                             | Direct Mode        | Effect Modes       |
