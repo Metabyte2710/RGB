@@ -96,45 +96,16 @@ The following support tables use the following symbols to indicate levels of sup
 
 ### Mice
 
-* ASUS Mice
-    * ROG Gladius II
-    * ROG Gladius II Core
-    * ROG Gladius II Origin
-* [Corsair Mice](Corsair-Peripheral-Protocol)
-    * Corsair M65 RGB PRO
-    * Corsair M65 RGB Elite
-* Glorious Model O
-* HyperX Mice
-    * HyperX Pulsefire FPS Pro
-    * HyperX Pulsefire Surge
-* [Logitech Mice](Logitech-G203)
-    * Logitech G203 Prodigy
-    * Logitech G203 Lightsync
-    * Logitech G403 Prodigy
-    * Logitech G403 Hero
-    * Logitech G502 Proteus Spectrum
-    * Logitech G502 Hero
-    * Logitech G Lightspeed Wireless Gaming Mouse
-    * Logitech G Pro Wireless Gaming Mouse (Wired)
-    * Logitech G Powerplay Mousepad with Lightspeed"
-* [Redragon Mice](Redragon-M711-Cobra)
-    * Redragon M711 Cobra
-    * Redragon M715 Dagger
-* Roccat Mice
-    * Roccat Kone Aimo
-* SteelSeries Mice
-    * SteelSeries Rival 100
-    * SteelSeries Rival 100 DotA 2 Edition
-    * SteelSeries Rival 105
-    * SteelSeries Rival 110
-    * SteelSeries Rival 300
-    * Acer Predator Gaming Mouse (Rival 300)
-    * SteelSeries Rival 300 CS:GO Fade Edition
-    * SteelSeries Rival 300 CS:GO Fade Edition (stm32)
-    * SteelSeries Rival 300 CS:GO Hyperbeast Edition
-    * SteelSeries Rival 300 DotA 2 Edition
-    * SteelSeries Rival 300 HP Omen Edition
-    * SteelSeries Rival 300 Black Ops Edition
+| Device                                                                   | Verified Products                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Direct Mode        | Effect Modes       |
+| ------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ | ------------------ |
+| ASUS Mice                                                                | * ROG Gladius II<br>* ROG Gladius II Core<br>* ROG Gladius II Origin                                                                                                                                                                                                                                                                                                                                                                                                                     | :white_check_mark: | :white_check_mark: |
+| [Corsair Mice](Corsair-Peripheral-Protocol)                              | * Corsair M65 RGB PRO<br>* Corsair M65 RGB Elite                                                                                                                                                                                                                                                                                                                                                                                                                                         | :white_check_mark: | :warning:          |
+| Glorious Model O                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | :warning:          | :white_check_mark: |
+| HyperX Mice                                                              | * HyperX Pulsefire FPS Pro<br>* HyperX Pulsefire Surge                                                                                                                                                                                                                                                                                                                                                                                                                                   | :white_check_mark: | :warning:          |
+| [Logitech Mice](Logitech-G203)                                           | * Logitech G203 Prodigy<br>* Logitech G203 Lightsync<br>* Logitech G403 Prodigy<br>* Logitech G403 Hero<br>* Logitech G502 Proteus Spectrum<br>* Logitech G502 Hero<br>* Logitech G Lightspeed Wireless Gaming Mouse<br>* Logitech G Pro Wireless Gaming Mouse (Wired)<br>* Logitech G Powerplay Mousepad with Lightspeed                                                                                                                                                                | :warning:          | :white_check_mark: |
+| [Redragon Mice](Redragon-M711-Cobra)                                     | * Redragon M711 Cobra<br>* Redragon M715 Dagger                                                                                                                                                                                                                                                                                                                                                                                                                                          | :x:                | :white_check_mark: |
+| Roccat Mice                                                              | * Roccat Kone Aimo                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | :white_check_mark: |                    |
+| SteelSeries Mice                                                         | * SteelSeries Rival 100<br>* SteelSeries Rival 100 DotA 2 Edition<br>* SteelSeries Rival 105<br>* SteelSeries Rival 110<br>* SteelSeries Rival 300<br>* Acer Predator Gaming Mouse (Rival 300)<br>* SteelSeries Rival 300 CS:GO Fade Edition<br>* SteelSeries Rival 300 CS:GO Fade Edition (stm32)<br>* SteelSeries Rival 300 CS:GO Hyperbeast Edition<br>* SteelSeries Rival 300 DotA 2 Edition<br>* SteelSeries Rival 300 HP Omen Edition<br>* SteelSeries Rival 300 Black Ops Edition |                    |                    |
 
 ### Mousemats
 
