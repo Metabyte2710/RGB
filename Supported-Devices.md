@@ -6,42 +6,15 @@ If you have a project or product that is compatible with OpenRGB, you may use th
 
 ### Motherboard RGB Systems
 
-* [ASUS Aura (SMBus Variants)](ASUS-Aura-Overview)
-    * ASUS PRIME X370-Pro
-    * ASUS PRIME X470-Pro
-    * ASUS PRIME X399-A
-    * ASUS PRIME B450M-Gaming
-    * ASUS PRIME Z270-A
-    * ASUS PRIME Z370-A
-    * ASUS ROG Crosshair VI Hero
-    * ASUS ROG STRIX X399-E Gaming
-    * ASUS ROG Strix B350-F Gaming
-    * ASUS ROG Strix B450-F Gaming
-    * ASUS ROG Strix Z270-E
-    * ASUS ROG Strix Z370-E
-    * ASUS ROG Strix Z490-E Gaming
-    * ASUS TUF B450 Plus Gaming
-* [ASUS Aura (USB Variants)](ASUS Aura USB)
-    * [ASUS Aura Addressable Headers](ASUS-Aura-Addressable-Header)
-    * ASUS X570 Motherboards
-* [Gigabyte Aorus RGB Fusion 1.0](Gigabyte-RGB-Fusion-1.0)
-    * Gigabyte Aorus X370 Gaming 5
-* Gigabyte Aorus RGB Fusion 2.0 (SMBus)
-* Gigabyte Aorus RGB Fusion 2.0 (USB)
-    * Gigabyte X570 Aorus Extreme
-    * Gigabyte X570 Aorus Master
-    * Gigabyte X570 Aorus Pro
-    * Gigabyte X570 Gaming X
-    * Gigabyte X570 I Aorus Pro Wifi
-    * Gigabyte TRX40 Aorus Master
-    * Gigabyte Z390 Aorus Ultra
-* [ASRock Polychrome RGB](ASRock-Polychrome-RGB)
-    * ASRock B450 Steel Legend
-    * ASRock B450M Steel Legend
-    * ASRock Fatal1ty B350 Gaming-ITX/ac
-    * ASRock B450M/ac
-    * ASRock X570 Taichi
-* [MSI-RGB](MSI-RGB)
+| Device                                                   | Verified Products                                                                                                                                                                                                                                                                                                                                                                                             | Direct Mode        | Effect Modes       |
+| -------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ | ------------------ |
+| [ASUS Aura (SMBus Variants)](ASUS-Aura-Overview)         | * ASUS PRIME X370-Pro<br>* ASUS PRIME X470-Pro<br>* ASUS PRIME X399-A<br>* ASUS PRIME B450M-Gaming<br>* ASUS PRIME Z270-A<br>* ASUS PRIME Z370-A<br>* ASUS ROG Crosshair VI Hero<br>* ASUS ROG STRIX X399-E Gaming<br>* ASUS ROG Strix B350-F Gaming<br>* ASUS ROG Strix B450-F Gaming<br>* ASUS ROG Strix Z270-E<br>* ASUS ROG Strix Z370-E<br>* ASUS ROG Strix Z490-E Gaming<br>* ASUS TUF B450 Plus Gaming | :white_check_mark: | :white_check_mark: |
+| [ASUS Aura (USB Variants)](ASUS Aura USB)                | * [ASUS Aura Addressable Headers](ASUS-Aura-Addressable-Header)<br>* ASUS X570 Motherboards                                                                                                                                                                                                                                                                                                                   | :white_check_mark: | :white_check_mark: |
+| [Gigabyte Aorus RGB Fusion 1.0](Gigabyte-RGB-Fusion-1.0) | * Gigabyte Aorus X370 Gaming 5                                                                                                                                                                                                                                                                                                                                                                                | :white_check_mark: | :white_check_mark: |
+| Gigabyte Aorus RGB Fusion 2.0 (SMBus)                    |                                                                                                                                                                                                                                                                                                                                                                                                               | :warning:          | :white_check_mark: |
+| Gigabyte Aorus RGB Fusion 2.0 (USB)                      | * Gigabyte X570 Aorus Extreme<br>* Gigabyte X570 Aorus Master<br>* Gigabyte X570 Aorus Pro<br>* Gigabyte X570 Gaming X<br>* Gigabyte X570 I Aorus Pro Wifi<br>* Gigabyte TRX40 Aorus Master<br>* Gigabyte Z390 Aorus Ultra                                                                                                                                                                                    | :white_check_mark: | :white_check_mark: |
+| [ASRock Polychrome RGB](ASRock-Polychrome-RGB)           | * ASRock B450 Steel Legend<br>* ASRock B450M Steel Legend<br>* ASRock Fatal1ty B350 Gaming-ITX/ac<br>* ASRock B450M/ac<br>* ASRock X570 Taichi                                                                                                                                                                                                                                                                | :x:                | :white_check_mark: |
+| [MSI-RGB](MSI-RGB)                                       |                                                                                                                                                                                                                                                                                                                                                                                                               | :white_check_mark: | :warning:          |
 
 ### RGB RAM Modules
 
