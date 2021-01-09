@@ -52,9 +52,11 @@ If you have a project or product that is compatible with OpenRGB, you may use th
 
 ### Lights
 
-* Philips Hue (WIP, philips_hue_development branch)
-* Philips Wiz
-* Espurna (https://github.com/xoseperez/espurna)
+| Device                                                                   | Verified Products                                                                                                                                                                                                                                                                                                                                                                                             | Direct Mode        | Effect Modes       |
+| ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ | ------------------ |
+| Philips Hue (WIP, philips_hue_development branch)                        | * Philips Hue Bridge V1<br>* Philips Hue Bridge V2<br>                                                                                                                                                                                                                                                                                                                                                        | :white_check_mark: | :warning:          |
+| Philips Wiz                                                              |                                                                                                                                                                                                                                                                                                                                                                                                               | :white_check_mark: | :warning:          |
+| Espurna (https://github.com/xoseperez/espurna)                           | * Ai-Thinker AiLight with Espurna                                                                                                                                                                                                                                                                                                                                                                             | :white_check_mark: | :x:                |
 
 ### Fans and Coolers
 
