@@ -18,22 +18,14 @@ If you have a project or product that is compatible with OpenRGB, you may use th
 
 ### RGB RAM Modules
 
-* [ASUS Aura Based](ASUS-Aura-Overview)
-    * G.Skill Trident Z RGB
-    * G.Skill Trident Z Neo
-    * G.Skill Trident Z Royal
-    * Geil Super Luce
-    * Team T-Force Delta RGB
-    * OLOy WarHawk RGB
-    * ADATA SPECTRIX RGB
-    * Thermaltake TOUGHRAM RGB
-* [Corsair Vengeance RGB](Corsair-Vengeance-RGB)
-* [Corsair Vengeance Pro RGB](Corsair-Vengeance-Pro-RGB)
-* [HyperX RGB Memory](HyperX-Predator-RGB)
-    * HyperX Predator RGB
-    * HyperX Fury RGB
-* [Patriot Viper RGB](Patriot-Viper-RGB)
-* [Crucial Ballistix RGB](Crucial-Ballistix-RGB)
+| Device                                                   | Verified Products                                                                                                                                                                                                                                                                                                                                                                                             | Direct Mode        | Effect Modes       |
+| -------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ | ------------------ |
+| [ASUS Aura Based](ASUS-Aura-Overview)                    | * G.Skill Trident Z RGB<br>* G.Skill Trident Z Neo<br>* G.Skill Trident Z Royal<br>* Geil Super Luce<br>* Team T-Force Delta RGB<br>* OLOy WarHawk RGB<br>* ADATA SPECTRIX RGB<br>* Thermaltake TOUGHRAM RGB                                                                                                                                                                                                  | :white_check_mark: | :white_check_mark: |
+| [Corsair Vengeance RGB](Corsair-Vengeance-RGB)           |                                                                                                                                                                                                                                                                                                                                                                                                               | :white_check_mark: | :white_check_mark: |
+| [Corsair Vengeance Pro RGB](Corsair-Vengeance-Pro-RGB)   |                                                                                                                                                                                                                                                                                                                                                                                                               | :white_check_mark: | :white_check_mark: |
+| [HyperX RGB Memory](HyperX-Predator-RGB)                 | * HyperX Predator RGB<br>* HyperX Fury RGB                                                                                                                                                                                                                                                                                                                                                                    | :white_check_mark: | :white_check_mark: |
+| [Patriot Viper RGB](Patriot-Viper-RGB)                   |                                                                                                                                                                                                                                                                                                                                                                                                               | :white_check_mark: | :white_check_mark: |
+| [Crucial Ballistix RGB](Crucial-Ballistix-RGB)           |                                                                                                                                                                                                                                                                                                                                                                                                               | :white_check_mark: | :white_check_mark: |
 
 ### Graphics Cards
 
