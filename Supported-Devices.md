@@ -44,7 +44,7 @@ If you have a project or product that is compatible with OpenRGB, you may use th
 | ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ | ------------------ |
 | [ASUS ROG Aura Terminal](ASUS-Aura-Addressable-Header)                   |                                                                                                                                                                                                                                                                                                                                                                                                               | :white_check_mark: | :white_check_mark: |
 | [NZXT Hue+](NZXT-Hue-Plus)                                               |                                                                                                                                                                                                                                                                                                                                                                                                               | :white_check_mark: | :white_check_mark: |
-| [NZXT Hue 2 Devices](NZXT-Hue-2)                                         | * NZXT Hue 2<br>* NZXT Hue 2 Ambient<br>* NZXT Smart Device V2<br>* NZXT RGB & Fan Controller<br>* NZXT Kraken X3                                                                                                                                                                                                                                                                                             | :white_check_mark: | :white_check_mark: |
+| [NZXT Hue 2 Devices](NZXT-Hue-2)                                         | * NZXT Hue 2<br>* NZXT Hue 2 Ambient<br>* NZXT Smart Device V2<br>* NZXT RGB & Fan Controller                                                                                                                                                                                                                                                                                                                 | :white_check_mark: | :white_check_mark: |
 | [Corsair Lighting Node Devices](Corsair-Lighting-Node-Devices)           | * Corsair Lighting Node Core<br>* Corsair Lighting Node Pro<br>* Corsair Commander Pro<br>* Corsair LS100 Lighting Kit<br>* Corsair 1000D Obsidian<br>* Corsair SPEC OMEGA RGB<br>* Corsair LT100<br>* [Corsair Lighting Protocol (Arduino)](https://github.com/Legion2/CorsairLightingProtocol)                                                                                                              | :white_check_mark: | :white_check_mark: |
 | [Keyboard Visualizer Arduino LED strips](Keyboard-Visualizer-LED-Strips) |                                                                                                                                                                                                                                                                                                                                                                                                               | :white_check_mark: | :x:                |
 | [E1.31 Streaming ACN Protocol](E1.31)                                    | * [ESPixelStick](https://github.com/forkineye/ESPixelStick)<br>* [WLED](https://github.com/Aircoookie/WLED)                                                                                                                                                                                                                                                                                                   | :white_check_mark: | :x:                |
@@ -60,58 +60,27 @@ If you have a project or product that is compatible with OpenRGB, you may use th
 
 ### Fans and Coolers
 
-* [AMD Wraith Prism](AMD-Wraith-Prism)
-* [Corsair Hydro Series](Corsair-Hydro-Series)
-  * Corsair H100i PRO RGB
-* [NZXT Kraken Xx2](NZXT-Kraken)
-* [NZXT Kraken Xx3](NZXT-Hue-2)
+| Device                                                                   | Verified Products                                                                                                                                                                                                                                                                                                                                                                                             | Direct Mode        | Effect Modes       |
+| ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ | ------------------ |
+| [AMD Wraith Prism](AMD-Wraith-Prism)                                     |                                                                                                                                                                                                                                                                                                                                                                                                               | :white_check_mark: | :white_check_mark: |
+| [Corsair Hydro Series](Corsair-Hydro-Series)                             | * Corsair H100i PRO RGB                                                                                                                                                                                                                                                                                                                                                                                       | :white_check_mark: | :white_check_mark: |
+| [NZXT Kraken Xx2](NZXT-Kraken)                                           |                                                                                                                                                                                                                                                                                                                                                                                                               | :white_check_mark: | :white_check_mark: |
+| [NZXT Kraken Xx3](NZXT-Hue-2)                                            |                                                                                                                                                                                                                                                                                                                                                                                                               | :white_check_mark: | :warning:          |
+| [Thermaltake Riing Plus](Thermaltake-Riing)                              |                                                                                                                                                                                                                                                                                                                                                                                                               | :white_check_mark: | :white_check_mark: |
 
 ### Keyboards
 
-* [ASUS ROG Aura Core Laptops](ASUS-Aura-Core)
-    * ASUS ROG Zephyrus M GM501GM
-* [Corsair RGB Keyboards](Corsair-Peripheral-Protocol)
-    * Corsair K65 RGB
-    * Corsair K65 Lux RGB
-    * Corsair K65 RGB Rapidfire
-    * Corsair K68 RGB
-    * Corsair K70 RGB
-    * Corsair K70 Lux RGB
-    * Corsair K70 RGB Rapidfire
-    * Corsair K70 RGB MK.2
-    * Corsair K70 RGB MK.2 SE
-    * Corsair K70 RGB MK.2 Low Profile
-    * Corsair K95 RGB
-    * Corsair K95 RGB Platinum
-    * Corsair Strafe
-    * Corsair Strafe MK.2
-* [Ducky RGB Keyboards](Ducky-Keyboards)
-    * Ducky Shine 7
-    * Ducky One 2
-    * Ducky One 2 TKL
-* [HyperX RGB Keyboards](HyperX-Alloy-Elite)
-    * HyperX Alloy Elite
-    * HyperX Alloy Origins
-* [Logitech RGB Keyboards](Logitech-Keyboards)
-    * Logitech G213
-    * Logitech G512
-    * Logitech G610
-    * Logitech G810 Orion Spectrum
-* [MSI Steelseries 3-Zone Keyboard](MSI-3-Zone-Keyboard)
-    * MSI GS63VR
-* [Redragon Keyboards (and compatibles)](Redragon-K556-Devarajas)
-    * Redragon K550 Yama
-    * Redragon K552 Kumara
-    * Redragon K556 Devarajas
-    * Tecware Phantom Elite
-    * Warrior Kane TC235
-* SteelSeries Keyboards
-    * SteelSeries Apex 5
-    * SteelSeries Apex 7
-    * SteelSeries Apex 7 TKL
-    * SteelSeries Apex Pro
-    * SteelSeries Apex Pro TKL
-* [TTEsports Poseidon Z RGB](Thermaltake-Poseidon-Z-RGB)
+| Device                                                                   | Verified Products                                                                                                                                                                                                                                                                                                                                                                                             | Direct Mode        | Effect Modes       |
+| ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ | ------------------ |
+| [ASUS ROG Aura Core Laptops](ASUS-Aura-Core)                             | * ASUS ROG Zephyrus M GM501GM                                                                                                                                                                                                                                                                                                                                                                                 | :warning:          | :white_check_mark: |
+| [Corsair RGB Keyboards](Corsair-Peripheral-Protocol)                     | * Corsair K65 RGB<br>* Corsair K65 Lux RGB<br>* Corsair K65 RGB Rapidfire<br>* Corsair K68 RGB<br>* Corsair K70 RGB<br>* Corsair K70 Lux RGB<br>* Corsair K70 RGB Rapidfire<br>* Corsair K70 RGB MK.2<br>* Corsair K70 RGB MK.2 SE<br>* Corsair K70 RGB MK.2 Low Profile<br>* Corsair K95 RGB<br>* Corsair K95 RGB Platinum<br>* Corsair Strafe<br>* Corsair Strafe MK.2                                      | :white_check_mark: | :warning:          |
+| [Ducky RGB Keyboards](Ducky-Keyboards)                                   | * Ducky Shine 7<br>* Ducky One 2<br>* Ducky One 2 TKL                                                                                                                                                                                                                                                                                                                                                         | :white_check_mark: | :warning:          |
+| [HyperX RGB Keyboards](HyperX-Alloy-Elite)                               | * HyperX Alloy Elite<br>* HyperX Alloy Origins                                                                                                                                                                                                                                                                                                                                                                | :white_check_mark: | :warning:          |
+| [Logitech RGB Keyboards](Logitech-Keyboards)                             | * Logitech G213<br>* Logitech G512<br>* Logitech G610<br>* Logitech G810 Orion Spectrum                                                                                                                                                                                                                                                                                                                       | :white_check_mark: | :white_check_mark: |
+| [MSI Steelseries 3-Zone Keyboard](MSI-3-Zone-Keyboard)                   | * MSI GS63VR                                                                                                                                                                                                                                                                                                                                                                                                  | :white_check_mark: | :warning:          |
+| [Redragon Keyboards (and compatibles)](Redragon-K556-Devarajas)          | * Redragon K550 Yama<br>* Redragon K552 Kumara<br>* Redragon K556 Devarajas<br>* Tecware Phantom Elite<br>* Warrior Kane TC235                                                                                                                                                                                                                                                                                | :x:                | :white_check_mark: |
+| SteelSeries Keyboards                                                    | * SteelSeries Apex 5<br>* SteelSeries Apex 7<br>* SteelSeries Apex 7 TKL<br>* SteelSeries Apex Pro<br>* SteelSeries Apex Pro TKL                                                                                                                                                                                                                                                                              |                    |                    |
+| [TTEsports Poseidon Z RGB](Thermaltake-Poseidon-Z-RGB)                   |                                                                                                                                                                                                                                                                                                                                                                                                               | :white_check_mark: | :white_check_mark: |
 
 ### Mice
 
