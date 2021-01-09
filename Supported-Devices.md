@@ -4,6 +4,16 @@ The device categories listed below have OpenRGB support and the specific devices
 
 If you have a project or product that is compatible with OpenRGB, you may use the above OpenRGB Compatible badge on your project/product page.
 
+# Mode Support
+
+The following support tables use the following symbols to indicate levels of support for the given device.
+
+| Symbol             | Device supports function | OpenRGB supports function |
+| ------------------ | ------------------------ | ------------------------- |
+| :white_check_mark: | YES                      | YES                       |
+| :warning:          | YES                      | NO/PARTIAL                |
+| :x:                | NO                       | NO                        |
+
 ### Motherboard RGB Systems
 
 | Device                                                   | Verified Products                                                                                                                                                                                                                                                                                                                                                                                             | Direct Mode        | Effect Modes       |
