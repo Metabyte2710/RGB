@@ -40,27 +40,15 @@ If you have a project or product that is compatible with OpenRGB, you may use th
 
 ### LED Strip and Fan Controllers
 
-* [ASUS ROG Aura Terminal](ASUS-Aura-Addressable-Header)
-* [NZXT Hue+](NZXT-Hue-Plus)
-* [NZXT Hue 2 Devices](NZXT-Hue-2)
-    * NZXT Hue 2
-    * NZXT Hue 2 Ambient
-    * NZXT Smart Device V2
-    * NZXT RGB & Fan Controller
-* [Corsair Lighting Node Devices](Corsair-Lighting-Node-Devices)
-    * Corsair Lighting Node Core
-    * Corsair Lighting Node Pro
-    * Corsair Commander Pro
-    * Corsair LS100 Lighting Kit
-    * Corsair 1000D Obsidian
-    * Corsair SPEC OMEGA RGB
-    * Corsair LT100
-    * [Corsair Lighting Protocol (Arduino)](https://github.com/Legion2/CorsairLightingProtocol)
-* [Keyboard Visualizer Arduino LED strips](Keyboard-Visualizer-LED-Strips)
-* [E1.31 Streaming ACN Protocol](E1.31)
-    * [ESPixelStick](https://github.com/forkineye/ESPixelStick)
-    * [WLED](https://github.com/Aircoookie/WLED)
-* [Thermaltake Riing Plus](Thermaltake-Riing)
+| Device                                                                   | Verified Products                                                                                                                                                                                                                                                                                                                                                                                             | Direct Mode        | Effect Modes       |
+| ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ | ------------------ |
+| [ASUS ROG Aura Terminal](ASUS-Aura-Addressable-Header)                   |                                                                                                                                                                                                                                                                                                                                                                                                               | :white_check_mark: | :white_check_mark: |
+| [NZXT Hue+](NZXT-Hue-Plus)                                               |                                                                                                                                                                                                                                                                                                                                                                                                               | :white_check_mark: | :white_check_mark: |
+| [NZXT Hue 2 Devices](NZXT-Hue-2)                                         | * NZXT Hue 2<br>* NZXT Hue 2 Ambient<br>* NZXT Smart Device V2<br>* NZXT RGB & Fan Controller<br>* NZXT Kraken X3                                                                                                                                                                                                                                                                                             | :white_check_mark: | :white_check_mark: |
+| [Corsair Lighting Node Devices](Corsair-Lighting-Node-Devices)           | * Corsair Lighting Node Core<br>* Corsair Lighting Node Pro<br>* Corsair Commander Pro<br>* Corsair LS100 Lighting Kit<br>* Corsair 1000D Obsidian<br>* Corsair SPEC OMEGA RGB<br>* Corsair LT100<br>* [Corsair Lighting Protocol (Arduino)](https://github.com/Legion2/CorsairLightingProtocol)                                                                                                              | :white_check_mark: | :white_check_mark: |
+| [Keyboard Visualizer Arduino LED strips](Keyboard-Visualizer-LED-Strips) |                                                                                                                                                                                                                                                                                                                                                                                                               | :white_check_mark: | :x:                |
+| [E1.31 Streaming ACN Protocol](E1.31)                                    | * [ESPixelStick](https://github.com/forkineye/ESPixelStick)<br>* [WLED](https://github.com/Aircoookie/WLED)                                                                                                                                                                                                                                                                                                   | :white_check_mark: | :x:                |
+| [Thermaltake Riing Plus](Thermaltake-Riing)                              |                                                                                                                                                                                                                                                                                                                                                                                                               | :white_check_mark: | :white_check_mark: |
 
 ### Lights
 
