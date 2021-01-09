@@ -29,30 +29,14 @@ If you have a project or product that is compatible with OpenRGB, you may use th
 
 ### Graphics Cards
 
-* [ASUS Aura GPUs](Asus-Aura-GPU)
-    * ASUS ROG Strix RX580
-    * ASUS ROG Strix GTX1080Ti
-* [EVGA GPUs](EVGA-GPU)
-    * EVGA GeForce GTX 1070 FTW
-* [Galax GPUs](Galax-GPUs)
-    * Galax KFA2 RTX2070
-* [Gigabyte Aorus RGB Fusion GPUs](Gigabyte-RGB-Fusion-GPU)
-    * Gigabyte Aorus GTX1080Ti Xtreme Waterforce WB
-    * Gigabyte RTX2070 SUPER GAMING 
-* [MSI GPUs](MSI-GPU)
-    * MSI GeForce RTX 2060 Super Gaming X
-    * MSI GeForce RTX 2070 Super Gaming X Trio
-    * MSI GeForce RTX 2080 Gaming X Trio
-    * MSI GeForce RTX 2080 Super Gaming X Trio
-    * MSI GeForce RTX 2080Ti Gaming X Trio
-    * MSI GeForce RTX 2060 Gaming Z 6G
-    * MSI GeForce RTX 2060 Super ARMOR OC
-    * MSI GeForce RTX 2070 ARMOR
-    * MSI GeForce RTX 2080Ti Sea Hawk EK X
-* [Sapphire Nitro Glow V1](Sapphire-Nitro-Glow-V1)
-    * Sapphire RX580 Nitro+
-* [Sapphire Nitro Glow V2](Sapphire-Nitro-Glow-V2)
-* [Sapphire Nitro Glow V3](Sapphire-Nitro-Glow-V3)
+| Device                                                    | Verified Products                                                                                                                                                                                                                                                                                                                                                                                             | Direct Mode        | Effect Modes       |
+| --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ | ------------------ |
+| [ASUS Aura GPUs](Asus-Aura-GPU)                           | * ASUS ROG Strix RX580<br>* ASUS ROG Strix GTX1080Ti                                                                                                                                                                                                                                                                                                                                                          | :white_check_mark: | :white_check_mark: |
+| [EVGA V1 GPUs](EVGA-GPU)                                  | * EVGA GeForce GTX 1070 FTW                                                                                                                                                                                                                                                                                                                                                                                   | :white_check_mark: | :white_check_mark: |
+| [Galax GPUs](Galax-GPUs)                                  | * Galax KFA2 RTX2070                                                                                                                                                                                                                                                                                                                                                                                          |                    |                    |
+| [Gigabyte Aorus RGB Fusion GPUs](Gigabyte-RGB-Fusion-GPU) | * Gigabyte Aorus GTX1080Ti Xtreme Waterforce WB<br>* Gigabyte RTX2070 SUPER GAMING                                                                                                                                                                                                                                                                                                                            | :white_check_mark: | :white_check_mark: |
+| [MSI GPUs](MSI-GPU)                                       | * MSI GeForce RTX 2060 Super Gaming X<br>* MSI GeForce RTX 2070 Super Gaming X Trio<br>* MSI GeForce RTX 2080 Gaming X Trio<br>* MSI GeForce RTX 2080 Super Gaming X Trio<br>* MSI GeForce RTX 2080Ti Gaming X Trio<br>* MSI GeForce RTX 2060 Gaming Z 6G<br>* MSI GeForce RTX 2060 Super ARMOR OC<br>* MSI GeForce RTX 2070 ARMOR<br>* MSI GeForce RTX 2080Ti Sea Hawk EK X                                  | :warning:          | :white_check_mark: |
+| [Sapphire Nitro Glow V1](Sapphire-Nitro-Glow-V1)          | * Sapphire RX580 Nitro+                                                                                                                                                                                                                                                                                                                                                                                       | :x:                | :white_check_mark: |
 
 ### LED Strip and Fan Controllers
 
@@ -283,3 +267,10 @@ The following devices have support in OpenRGB but this support is currently disa
 ### RGB RAM Modules
 
 * [Gigabyte Aorus RGB RAM (Partial support)](Gigabyte-RGB-Fusion-2.0-DRAM)
+
+# Documented but Unsupported
+
+The following devices have documentation written but do not have driver code in OpenRGB.
+
+* [Sapphire Nitro Glow V2](Sapphire-Nitro-Glow-V2)
+* [Sapphire Nitro Glow V3](Sapphire-Nitro-Glow-V3)
