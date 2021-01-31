@@ -52,16 +52,16 @@
 
 ### Modes
 
-| Mode Value | Mode Description | Color 1 | Color 2 | Color 3 |
-| ---------- | ---------------- | ------- | ------- | ------- |
-| 0x00       | Rainbow Wave     | No      | No      | No      |
-| 0x01       | Color Shift      | Yes     | Yes     | No      |
-| 0x02       | Color Pulse      | Yes     | Yes     | No      |
-| 0x03       | Color Wave       | Yes     | Yes     | No      |
-| 0x04       | Static           | Yes     | No      | No      |
-| 0x05       | Temperature      | Yes     | Yes     | Yes     |
-| 0x06       | Visor            | Yes     | Yes     | No      |
-| 0x07       | Marquee          | Yes     | No      | No      |
-| 0x08       | Blink            | Yes     | Yes     | No      |
-| 0x09       | Sequential       | Yes     | No      | No      |
-| 0x0A       | Rainbow          | No      | No      | No      |
+| Mode Value | Mode Description | Color 1 | Color 2 | Color 3 | Speed |
+| ---------- | ---------------- | ------- | ------- | ------- | ----- |
+| 0x00       | Rainbow Wave     | No      | No      | No      | Yes   |
+| 0x01       | Color Shift      | Yes     | Yes     | No      | Yes   |
+| 0x02       | Color Pulse      | Yes     | Yes     | No      | Yes   |
+| 0x03       | Color Wave       | Yes     | Yes     | No      | Yes   |
+| 0x04       | Static           | Yes     | No      | No      | No    |
+| 0x05       | Temperature      | Yes     | Yes     | Yes     | No    |
+| 0x06       | Visor            | Yes     | Yes     | No      | Yes   |
+| 0x07       | Marquee          | Yes     | No      | No      | Yes   |
+| 0x08       | Blink            | Yes     | Yes     | No      | Yes   |
+| 0x09       | Sequential       | Yes     | No      | No      | Yes   |
+| 0x0A       | Rainbow          | No      | No      | No      | Yes   |
