@@ -1,3 +1,5 @@
+This thing is literally just a clone of the Lighting Node devices by Corsair.  The protocol is exactly the same: https://gitlab.com/CalcProgrammer1/OpenRGB/-/wikis/Corsair-Lighting-Node-Devices
+
 ## Packet IDs
 
 | ID   | Packet Description   |
