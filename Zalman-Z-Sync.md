@@ -29,15 +29,15 @@
 
 ## 0x35: Configure channel
 
-| Byte | Description   |
-| ---- | ------------- |
-| 0x00 | 0x35          |
-| 0x01 | Channel (0-7) |
-| 0x02 | 0x00          |
-| 0x03 | LED Count     |
-| 0x04 | Mode          |
+| Byte | Description                         |
+| ---- | ----------------------------------- |
+| 0x00 | 0x35                                |
+| 0x01 | Channel (0-7)                       |
+| 0x02 | 0x00                                |
+| 0x03 | LED Count                           |
+| 0x04 | Mode (See table below)              |
 | 0x05 | Speed (0: Fast, 1: Medium, 2: Slow) |
-| 0x06 | 0x00          |
+| 0x06 | Direction (0: Forward, 1: Reverse)  |
 | 0x07 | 0x00          |
 | 0x08 | 0x00          |
 | 0x09 | Color 1       |
