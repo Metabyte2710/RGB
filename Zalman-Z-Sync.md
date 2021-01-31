@@ -35,4 +35,33 @@
 | 0x01 | Channel (0-7) |
 | 0x02 | 0x00          |
 | 0x03 | LED Count     |
-| 0x04 | 0x00          |
+| 0x04 | Mode          |
+| 0x05 | 0x01          |
+| 0x06 | 0x00          |
+| 0x07 | 0x00          |
+| 0x08 | 0x00          |
+| 0x09 | Color 1       |
+| 0x0A | Color 1       |
+| 0x0B | Color 1       |
+| 0x0C | Color 2       |
+| 0x0D | Color 2       |
+| 0x0E | Color 2       |
+| 0x0F | Color 3       |
+| 0x10 | Color 3       |
+| 0x11 | Color 3       |
+
+### Modes
+
+| Mode Value | Mode Description | Color 1 | Color 2 | Color 3 |
+| ---------- | ---------------- | ------- | ------- | ------- |
+| 0x00       | Rainbow Wave     | No      | No      | No      |
+| 0x01       | Color Shift      | Yes     | Yes     | No      |
+| 0x02       | Color Pulse      | Yes     | Yes     | No      |
+| 0x03       | Color Wave       | Yes     | Yes     | No      |
+| 0x04       | Static           | Yes     | No      | No      |
+| 0x05       | Temperature      | Yes     | Yes     | Yes     |
+| 0x06       | Visor            | Yes     | Yes     | No      |
+| 0x07       | Marquee          | Yes     | No      | No      |
+| 0x08       | Blink            | Yes     | Yes     | No      |
+| 0x09       | Sequential       | Yes     | No      | No      |
+| 0x0A       | Rainbow          | No      | No      | No      |
