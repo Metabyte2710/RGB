@@ -2,7 +2,7 @@ There are several serial protocols for controlling LED strips.  These protocols 
 
 | Protocol            | Description                                                                                                                     |
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| keyboard_visualizer | Arduino sketches from my old Keyboard Visualizer project                                                                        |
+| keyboard_visualizer | From my old Keyboard Visualizer project [Arduino Sketches](https://gitlab.com/CalcProgrammer1/KeyboardVisualizer/-/tree/KeyboardVisualizer_3.x)                                                                        |
 | adalight            | Adalight protocol [Arduino Sketch](https://www.electronoobs.com/eng_arduino_tut29_code2.php)                                    |
 | tpm2                | TPM2 protocol [Info](https://gist.github.com/jblang/89e24e2655be6c463c56), [Arduino Sketches](https://github.com/rstephan/TPM2) |
 
