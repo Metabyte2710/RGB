@@ -47,7 +47,7 @@ The complete list of startup options is available in the command line interface,
 | --gui                    | Enables the GUI interface.  This is automatically specified if you start with no options or if you use --startminimized or --i2c-tools |
 | --startminimized         | Start the GUI minimized to the system tray.  The main window will not pop up, but the OpenRGB icon will show in the tray.              |
 | --server                 | Start with the SDK server running.  You will need to specify --gui if you want to use this option and still see the GUI.               |
-| --profile <filename.orp> | Load the specified profile file when OpenRGB starts.  You can specify a full path if the file isn't in the current directory.          |
+| --profile <filename>     | Load the specified profile file when OpenRGB starts.                                                                                   |
 
 Now, to make this shortcut run when you log in to Windows, copy the shortcut file to %APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup
 
